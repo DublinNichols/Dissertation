@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="121.99653mm"
+   height="171.91458mm"
+   viewBox="0 0 121.99653 171.91458"
+   version="1.1"
+   id="svg7962"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="FC capacitance measurement.svg">
+  <defs
+     id="defs7956">
+    <clipPath
+       id="clip0">
+      <rect
+         id="rect8507"
+         height="649"
+         width="482"
+         y="12"
+         x="371" />
+    </clipPath>
+    <linearGradient
+       id="fill1"
+       spreadMethod="reflect"
+       gradientUnits="userSpaceOnUse"
+       y2="92.500099"
+       x2="508.5"
+       y1="73.500099"
+       x1="508.5">
+      <stop
+         id="stop8510"
+         stop-color="#FAFAFA"
+         offset="0" />
+      <stop
+         id="stop8512"
+         stop-color="#D7D7D7"
+         offset="0.74" />
+      <stop
+         id="stop8514"
+         stop-color="#D7D7D7"
+         offset="0.83" />
+      <stop
+         id="stop8516"
+         stop-color="#E4E4E4"
+         offset="1" />
+    </linearGradient>
+    <clipPath
+       id="clip2">
+      <rect
+         id="rect8519"
+         height="790575"
+         width="523875"
+         y="0"
+         x="-2.32831e-10" />
+    </clipPath>
+    <image
+       id="img3"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAABTCAMAAAAMYG84AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB7UExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL14HLAAAAAodFJOUwABAgMJCgsNExwdHiEjLjRDREZnbHGJjZCfoKeorbDP297f8PHy9P56HBIgAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAApElEQVRYR+3Qyw6CMBCF4VLBoiioIOAN8IZ9/yd0M4sWRpomLjQ534ZJZv6EVABYZJIlkmYfUa3riGYf6HjoeOh46HjoeOh46HjoeI5OVRde0+muoXmoUiJuX59o+o61sVDl2V+p6G//iAzdAro1rR9Pl/uSbk2rm9N1Qbem+c4tpNufEMyGuGccS4u9rUhpMy3vta3PaTNtczjZjlvaAMAXCfEGFMk3icVi5FgAAAAASUVORK5CYII="
+       height="100"
+       width="66" />
+    <clipPath
+       id="clip4">
+      <rect
+         id="rect8523"
+         height="790575"
+         width="521780"
+         y="0"
+         x="0" />
+    </clipPath>
+    <image
+       id="img5"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKcAAAAiCAMAAAANtTm1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFEUExURQAAABgYGCAgICgoKCAgICgoKCYmJh0dHSAgIB4eHiUlJSYmJigoKCkpKSwsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD8/P0BAQENDQ0ZGRklJSUpKSnh4eHl5eYKCgpKSkpSUlJaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enqioqKqqqrOzs7a2tre3t7i4uLy8vL29vcDAwMLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy83NzdDQ0NHR0dPT09fX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy8vPz8/T09Pr6+v39/f7+/v///zqIfucAAAAJdFJOUwAgICBAQF9gYM5LplsAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEqSURBVFhH7dTZU0FxGMZxLbQv6Ogkoh0R7UrZUiqOKMnSKlr0/9+n8avJ++RMN6YZ834unuvv1aNhjDHGWIfr+bvuthNNv9AOGSRJMplM9W02AYzAQOnBOBqjRhtGBnpFFdIalhxOl9vj9a2vAR/wUqvAQ7nBCnB9WhxW6ZQcW/7dQDAaO6Ji4JCKgggIUyEQbNiwt+7U2Zz+QPj4NJnOZC6+ZKg0OAcpSgFJKvHT2c5sv6hCOptrL3KSyt2UK9XnKqhQT6CMHqkHcA/ubqNzfaIK6ezu/bhSenmtvf+XmvCWWFDptCxvbh/ElWy+UCzVFUGByoNrkANXKNvsMjSv0jmol2Wz2WKdAVZgoaaBGU1RMphsMLbu/P558bSqutpORDHGGGOsI2k0H1SxHnzzyAKBAAAAAElFTkSuQmCC"
+       height="34"
+       width="167" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="316.36802"
+     inkscape:cy="297.61614"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g8711"
+     showgrid="false"
+     fit-margin-top="0.1"
+     fit-margin-left="0.1"
+     fit-margin-right="0.1"
+     fit-margin-bottom="0.1"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7959">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-43.323166,-29.614138)">
+    <g
+       id="g8711"
+       transform="matrix(0.26458333,0,0,0.26458333,-55.751486,26.539138)"
+       clip-path="url(#clip0)">
+      <text
+         id="text8529"
+         font-size="21"
+         font-weight="400"
+         style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif"
+         x="550.33789"
+         y="469.14285">-</text>
+      <text
+         id="text8531"
+         font-size="21"
+         font-weight="400"
+         style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif"
+         x="558.00488"
+         y="469.14285">&gt; Center gap = 0.688</text>
+      <text
+         id="text8533"
+         font-size="21"
+         font-weight="400"
+         style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif"
+         x="795.76642"
+         y="467.5">µm</text>
+      <rect
+         id="rect8535"
+         stroke-miterlimit="8"
+         height="646"
+         width="457"
+         y="13.5001"
+         x="376.5"
+         style="fill:none;stroke:#000000;stroke-width:3.33332992;stroke-miterlimit:8" />
+      <rect
+         id="rect8665"
+         stroke-miterlimit="8"
+         height="2"
+         width="11"
+         y="334.5"
+         x="464.5"
+         style="fill:#f2f2f2;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8" />
+      <path
+         id="path8667"
+         stroke-miterlimit="8"
+         d="m 494.494,334.5 h 10.272 v 19.56 h 18.858 V 334.5 h 10.272 v 19.56 H 555.5 v 7.44 h -172 v -7.44 h 19.181 v -19.33 h 10.272 v 19.33 h 18.858 v -19.33 h 10.272 v 19.33 h 22.281 v -12.834 h 10.272 v 12.834 h 19.858 z"
+         inkscape:connector-curvature="0"
+         style="fill:#a6a6a6;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8" />
+      <use
+         id="use8669"
+         transform="translate(382,314)"
+         xlink:href="#img5"
+         height="100%"
+         width="100%"
+         style="fill:none"
+         x="0"
+         y="0" />
+      <rect
+         id="rect8671"
+         stroke-miterlimit="8"
+         height="2"
+         width="11"
+         y="339.5"
+         x="464.5"
+         style="fill:#f2f2f2;stroke:#4472c4;stroke-width:1.33333004;stroke-miterlimit:8" />
+      <text
+         id="text8673"
+         transform="translate(422.484,318)"
+         font-size="21"
+         font-weight="400"
+         style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif">No force</text>
+      <path
+         id="path8675"
+         d="m 402,420.5 v 30.735 h -3 V 420.5 Z m 3,29.235 -4.5,9 -4.5,-9 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path8677"
+         d="m 537,420.5 v 30.735 h -3 V 420.5 Z m 3,29.235 -4.5,9 -4.5,-9 z"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect8679"
+         stroke-miterlimit="8"
+         height="2"
+         width="11"
+         y="465.5"
+         x="464.5"
+         style="fill:#f2f2f2;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8" />
+      <path
+         id="path8681"
+         stroke-miterlimit="8"
+         d="m 494.494,465.5 h 10.272 v 19.56 h 18.858 V 465.5 h 10.272 v 19.56 H 555.5 v 7.44 h -172 v -7.44 h 19.181 v -19.33 h 10.272 v 19.33 h 18.858 v -19.33 h 10.272 v 19.33 h 22.281 v -12.834 h 10.272 v 12.834 h 19.858 z"
+         inkscape:connector-curvature="0"
+         style="fill:#a6a6a6;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8" />
+      <use
+         id="use8683"
+         transform="translate(382,445)"
+         xlink:href="#img5"
+         height="100%"
+         width="100%"
+         style="fill:none"
+         x="0"
+         y="0" />
+      <rect
+         id="rect8685"
+         stroke-miterlimit="8"
+         height="2"
+         width="10"
+         y="470.5"
+         x="464.5"
+         style="fill:#f2f2f2;stroke:#4472c4;stroke-width:1.33333004;stroke-miterlimit:8" />
+      <text
+         id="text8687"
+         transform="translate(410.609,444)"
+         font-size="21"
+         font-weight="400"
+         style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif">Edge force</text>
+      <path
+         id="path8689"
+         d="m 471,560.5 v 28.158 h -3 V 560.5 Z m 3,26.658 -4.5,9 -4.5,-9 z"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect8691"
+         stroke-miterlimit="8"
+         height="2"
+         width="11"
+         y="606.5"
+         x="464.5"
+         style="fill:#f2f2f2;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8" />
+      <path
+         id="path8693"
+         stroke-miterlimit="8"
+         d="m 494.494,606.5 h 10.272 v 18.835 h 18.858 V 606.5 h 10.272 v 18.835 H 555.5 v 7.165 h -172 v -7.165 h 19.181 v -18.614 h 10.272 v 18.614 h 18.858 v -18.614 h 10.272 v 18.614 h 22.281 v -12.358 h 10.272 v 12.358 h 19.858 z"
+         inkscape:connector-curvature="0"
+         style="fill:#a6a6a6;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8" />
+      <use
+         id="use8695"
+         transform="translate(382,586)"
+         xlink:href="#img5"
+         height="100%"
+         width="100%"
+         style="fill:none"
+         x="0"
+         y="0" />
+      <rect
+         id="rect8697"
+         stroke-miterlimit="8"
+         height="2"
+         width="11"
+         y="611.5"
+         x="464.5"
+         style="fill:#f2f2f2;stroke:#4472c4;stroke-width:1.33333004;stroke-miterlimit:8" />
+      <text
+         id="text8699"
+         transform="translate(401.068,551)"
+         font-size="21"
+         font-weight="400"
+         style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif">Center force</text>
+      <g
+         id="g8826"
+         transform="translate(-2)">
+        <text
+           y="343"
+           x="556.3067"
+           style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="21"
+           id="text8701">-</text>
+        <text
+           y="343"
+           x="563.97369"
+           style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="21"
+           id="text8703">&gt; Center gap = 1.33 µm</text>
+      </g>
+      <text
+         id="text8705"
+         font-size="21"
+         font-weight="400"
+         style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif"
+         x="551.81299"
+         y="611">-</text>
+      <text
+         id="text8707"
+         font-size="21"
+         font-weight="400"
+         style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif"
+         x="559.47998"
+         y="611">&gt; Center gap = 0 µm</text>
+      <text
+         id="text8709"
+         font-size="21"
+         font-weight="400"
+         style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif"
+         x="601.64697"
+         y="637">(short-circuit)</text>
+      <g
+         id="g1875"
+         transform="translate(46,-12)">
+        <rect
+           style="fill:#a6a6a6;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="404.5"
+           y="134.5"
+           width="208"
+           height="72"
+           stroke-miterlimit="8"
+           id="rect8537" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="479.5"
+           y="146.5"
+           width="4"
+           height="4"
+           stroke-miterlimit="8"
+           id="rect8539" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="489.5"
+           y="146.5"
+           width="5"
+           height="4"
+           stroke-miterlimit="8"
+           id="rect8541" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="500.5"
+           y="146.5"
+           width="5"
+           height="4"
+           stroke-miterlimit="8"
+           id="rect8543" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="511.5"
+           y="146.5"
+           width="4"
+           height="4"
+           stroke-miterlimit="8"
+           id="rect8545" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="521.5"
+           y="146.5"
+           width="5"
+           height="4"
+           stroke-miterlimit="8"
+           id="rect8547" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="532.5"
+           y="146.5"
+           width="5"
+           height="4"
+           stroke-miterlimit="8"
+           id="rect8549" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="479.5"
+           y="154.5"
+           width="4"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8551" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="489.5"
+           y="154.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8553" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="500.5"
+           y="154.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8555" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="511.5"
+           y="154.5"
+           width="4"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8557" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="521.5"
+           y="154.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8559" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="532.5"
+           y="154.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8561" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="479.5"
+           y="180.5"
+           width="4"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8563" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="489.5"
+           y="180.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8565" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="500.5"
+           y="180.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8567" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="511.5"
+           y="180.5"
+           width="4"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8569" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="521.5"
+           y="180.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8571" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="532.5"
+           y="180.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8573" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="479.5"
+           y="189.5"
+           width="4"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8575" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="489.5"
+           y="189.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8577" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="500.5"
+           y="189.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8579" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="511.5"
+           y="189.5"
+           width="4"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8581" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="521.5"
+           y="189.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8583" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="532.5"
+           y="189.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8585" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="479.5"
+           y="198.5"
+           width="4"
+           height="4"
+           stroke-miterlimit="8"
+           id="rect8587" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="489.5"
+           y="198.5"
+           width="5"
+           height="4"
+           stroke-miterlimit="8"
+           id="rect8589" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="500.5"
+           y="198.5"
+           width="5"
+           height="4"
+           stroke-miterlimit="8"
+           id="rect8591" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="511.5"
+           y="198.5"
+           width="4"
+           height="4"
+           stroke-miterlimit="8"
+           id="rect8593" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="521.5"
+           y="198.5"
+           width="5"
+           height="4"
+           stroke-miterlimit="8"
+           id="rect8595" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="532.5"
+           y="198.5"
+           width="5"
+           height="4"
+           stroke-miterlimit="8"
+           id="rect8597" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="479.5"
+           y="137.5"
+           width="4"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8599" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="489.5"
+           y="137.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8601" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="500.5"
+           y="137.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8603" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="511.5"
+           y="137.5"
+           width="4"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8605" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="521.5"
+           y="137.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8607" />
+        <rect
+           style="fill:#f2f2f2;stroke:#ed7d31;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="532.5"
+           y="137.5"
+           width="5"
+           height="5"
+           stroke-miterlimit="8"
+           id="rect8609" />
+        <rect
+           style="fill:#f2f2f2;stroke:#4472c4;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="404.5"
+           y="134.5"
+           width="13"
+           height="72"
+           stroke-miterlimit="8"
+           id="rect8611" />
+        <rect
+           style="fill:#f2f2f2;stroke:#4472c4;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="599.5"
+           y="134.5"
+           width="13"
+           height="72"
+           stroke-miterlimit="8"
+           id="rect8613" />
+        <rect
+           style="fill:#f2f2f2;stroke:#4472c4;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="417.5"
+           y="169.5"
+           width="182"
+           height="1"
+           stroke-miterlimit="8"
+           id="rect8615" />
+        <rect
+           style="fill:#f2f2f2;stroke:#4472c4;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="501.5"
+           y="163.5"
+           width="13"
+           height="14"
+           stroke-miterlimit="8"
+           id="rect8617" />
+        <rect
+           style="fill:#b4c7e7;fill-opacity:0.16078401;stroke:#7f7f7f;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="471.5"
+           y="73.5"
+           width="74"
+           height="195"
+           stroke-miterlimit="8"
+           id="rect8619" />
+        <rect
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="471.5"
+           y="73.500099"
+           width="73"
+           height="13"
+           stroke-miterlimit="8"
+           id="rect8621" />
+        <rect
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="471.5"
+           y="256.5"
+           width="74"
+           height="13"
+           stroke-miterlimit="8"
+           id="rect8623" />
+        <rect
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:0.66666698;stroke-miterlimit:8"
+           x="507.5"
+           y="86.5"
+           width="1"
+           height="170"
+           stroke-miterlimit="8"
+           id="rect8625" />
+        <rect
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="501.5"
+           y="164.5"
+           width="14"
+           height="13"
+           stroke-miterlimit="8"
+           id="rect8627" />
+        <path
+           style="fill:#ed7d31;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+           inkscape:connector-curvature="0"
+           d="m 466.5,149 c 0,-5.247 2.239,-9.5 5,-9.5 2.761,0 5,4.253 5,9.5 0,5.247 -2.239,9.5 -5,9.5 -2.761,0 -5,-4.253 -5,-9.5 z"
+           stroke-miterlimit="8"
+           id="path8629" />
+        <path
+           style="fill:#ed7d31;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+           inkscape:connector-curvature="0"
+           d="m 466.5,193.5 c 0,-4.971 2.239,-9 5,-9 2.761,0 5,4.029 5,9 0,4.971 -2.239,9 -5,9 -2.761,0 -5,-4.029 -5,-9 z"
+           stroke-miterlimit="8"
+           id="path8631" />
+        <path
+           style="fill:#ed7d31;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+           inkscape:connector-curvature="0"
+           d="m 542.5,150.5 c 0,-4.971 2.463,-9 5.5,-9 3.038,0 5.5,4.029 5.5,9 0,4.971 -2.462,9 -5.5,9 -3.037,0 -5.5,-4.029 -5.5,-9 z"
+           stroke-miterlimit="8"
+           id="path8633" />
+        <path
+           style="fill:#ed7d31;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+           inkscape:connector-curvature="0"
+           d="m 542.5,195 c 0,-5.247 2.463,-9.5 5.5,-9.5 3.038,0 5.5,4.253 5.5,9.5 0,5.247 -2.462,9.5 -5.5,9.5 -3.037,0 -5.5,-4.253 -5.5,-9.5 z"
+           stroke-miterlimit="8"
+           id="path8635" />
+        <rect
+           style="fill:url(#fill1);stroke:#2f528f;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="471.5"
+           y="73.500099"
+           width="74"
+           height="19"
+           stroke-miterlimit="8"
+           id="rect8637" />
+        <rect
+           style="fill:#ffffff;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="638.5"
+           y="144.5"
+           width="91"
+           height="58"
+           stroke-miterlimit="8"
+           id="rect8639" />
+        <text
+           transform="translate(663.45,168)"
+           style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="21"
+           id="text8641">200</text>
+        <text
+           transform="translate(670.117,194)"
+           style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="21"
+           id="text8643">Hz</text>
+        <path
+           transform="matrix(1,0,0,-1,656,123.09)"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-miterlimit:8"
+           inkscape:connector-curvature="0"
+           d="M 0,0 34.4233,0.0895538"
+           stroke-miterlimit="8"
+           id="path8645" />
+        <path
+           transform="matrix(-1,0,0,1,656.016,97)"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-miterlimit:8"
+           inkscape:connector-curvature="0"
+           d="M 0,0 0.0155381,25.6636"
+           stroke-miterlimit="8"
+           id="path8647" />
+        <path
+           transform="matrix(1,0,0,-1,545,79)"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-miterlimit:8"
+           inkscape:connector-curvature="0"
+           d="M 0,0 30.1706,1.04987e-4"
+           stroke-miterlimit="8"
+           id="path8655" />
+        <path
+           transform="matrix(1,0,0,-1,612,179.192)"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-miterlimit:8"
+           inkscape:connector-curvature="0"
+           d="M 0,0 25.2698,0.191916"
+           stroke-miterlimit="8"
+           id="path8657" />
+        <rect
+           style="fill:#ffffff;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+           x="572.5"
+           y="47.500099"
+           width="95"
+           height="50"
+           stroke-miterlimit="8"
+           id="rect8659" />
+        <text
+           style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="21"
+           transform="translate(584.888,79)"
+           id="text8661">SR580</text>
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-miterlimit:8"
+           inkscape:connector-curvature="0"
+           d="m 656,120 v 24.102"
+           stroke-miterlimit="8"
+           id="path8663" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-miterlimit:8"
+           inkscape:connector-curvature="0"
+           d="m 691.37516,140.01815 -0.0896,-34.4233"
+           stroke-miterlimit="8"
+           id="path8645-7" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.95753503;stroke-miterlimit:8"
+           inkscape:connector-curvature="0"
+           d="m 697.39639,133.99322 -0.13206,-22.37344"
+           stroke-miterlimit="8"
+           id="path8645-7-6" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.88960457;stroke-miterlimit:8"
+           inkscape:connector-curvature="0"
+           d="m 703.43036,129.68974 -0.2,-13.76648"
+           stroke-miterlimit="8"
+           id="path8645-7-6-6" />
+      </g>
+      <text
+         y="51.767902"
+         x="387.09207"
+         style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;stroke-width:0.99999994"
+         font-weight="400"
+         font-size="21"
+         id="text6340">(a)</text>
+      <text
+         y="284.75775"
+         x="387.09204"
+         style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;stroke-width:0.99999994"
+         font-weight="400"
+         font-size="21"
+         id="text6340-3">(b)</text>
+    </g>
+  </g>
+</svg>

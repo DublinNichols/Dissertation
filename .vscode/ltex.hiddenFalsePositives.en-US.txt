@@ -1,0 +1,15 @@
+{"rule":"CD_NN","sentence":"^\\QSF6: 14.0 sccm CHF3: 35.0 100 W RF power Chamber pressure = 10 torr\\E$"}
+{"rule":"A_INFINITIVE","sentence":"^\\QThis Cr would serve as an etch mask\\E$"}
+{"rule":"A_INFINITIVE","sentence":"^\\QThis Cr serves as an etch mask for the deep RIE.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QSimilarly, harsh etching chemicals can introduce impurities and dopants to the surface, affecting electron mobility \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QIn 2010, the 2D materials revolution was launched when Geim and Novoselov won the Nobel prize for their experiments on exfoliated graphene \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe two most widely used tapes are Scotch® Magic™ Tape (“Scotch Tape”) and Nitto Denko SWT20+ wafer tape, (“blue tape”).\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QCross-sectional SEM image showing bilayer resist process with undercut length \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q 0.4 .\\E$"}
+{"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QIn 2010, the 2D materials revolution was launched when Geim and Novoselov won the Nobel Prize for their experiments on exfoliated graphene \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QImmediately prior to gluing the chips together, I cleaned both chips by submerging them in acetone and rubbing for 20 seconds with a Rubystick T-21 swab to remove any dust \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIncident wavelength is scanned and plotted against the power meter using a Labview-controlled monochromator.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QCorrected measured reflectance of a Si-PMMA-quartz stack compared to the Filmetrics reflectance calculation.\\E$"}
+{"rule":"THE_SUPERLATIVE","sentence":"^\\QIf a piece of dust comes between the two surfaces, a series of concentric rings will be visible around the dust, curving towards the point of smallest spacing (Fig.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFor example, a motorized stage inside a cryostat could be used with a capacitance measurement\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFal'ko et al. found that, in the absence of a magnetic field,\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QMore recently, SAWs have emerged as a new way to probe 2D materials\\E$"}
