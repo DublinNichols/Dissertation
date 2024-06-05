@@ -54,14 +54,16 @@
 
 \subsection{Quantum pumps}
 
+
+
 \subsection{Probing and controlling charge carriers in quantum materials}
 
 Surface acoustic waves enable novel probes into phenomena in quantum systems which can not be measured using conventional transport techniques. For example, SAWs were recently used to prove that current-induced modifications of bubble and stripe phases in 2D electron systems are a local phenomenon \cite{friess_current_2018}. Prior transport-based studies into these phases were inconclusive, as they indirectly probed the phenomenon using the voltage drop on the edges of the 2DEs. The direct measurement of this phenomenon accomplished in Ref. \cite{friess_current_2018} was only possible using a global probe with a fixed length scale, which is precisely what a SAW provides. In another work, new insight into the stripe phase at filling factor 9/2 was gained using a combination of SAWs, microwave excitation, and optical detection \cite{kukushkin_collective_2011}. By employing SAWs with a wavelength of \SI{60}{\nano\meter}, the authors were able to probe commensurability effects between the SAW superlattice and quantum Hall stripes. Earlier SAW-based studies provided new insight into the quantum Hall and fractional quantum Hall effect \cite{wixforth_quantum_1986,esslinger_acoustoelectric_1992,esslinger_ultrasonic_1994,kukushkin_collective_2011,willett_experimental_1993} and Wigner crystallization \cite{paalanen_rf_1992} in 2DEs. These works emphasize the incredible strength of SAWs for probing length-scale dependent phenomena in quantum systems. Building on these successes, researchers have begun to explore the potential of interfacing SAWs in the rapidly evolving field of 2D materials.
 
 
-In 2018, interest in engineered 2D superlattices exploded with the discovery of unconventional superconductivity in twisted bilayer graphene \cite{cao_unconventional_2018}. The birth of the field of "twistronics" added a new knob to turn in the already massive parameter space available for creating bespoke 2D devices. By tuning the twist angle between two sheets of graphene (and thus the periodicity of the moiré superlattice), bilayer graphene can not only exhibit superconductivity, but also correlation-induced insulating states, magnetism, quantized anomalous Hall states, and many more \cite{andrei_graphene_2020}. In 2D semiconductors, which exhibit exciton dynamics that are of great interest for next-generation electronics, tuning the moiré superlattice provides even more control over the spin and valley degrees of freedom \cite{ciarrocchi_excitonic_2022}. While graphene has a lattice periodicity on the order of \SI{0.15}{\nano\meter}, the moiré superlattices in twisted devices have much longer periods, reaching from tens to even hundreds of nm (on the order of nominal SAW wavelengths). Making quality electrical contacts to 2D semiconductors for transport measurements is notoriously difficult \cite{miao_recent_2022}, and contactless probing using SAWs could circumvent these difficulties. Hence, SAWs are an ideal tool for contactlessly probing and controlling quantum phenomena in 2D materials.
+In 2018, interest in engineered 2D superlattices exploded with the discovery of unconventional superconductivity in twisted bilayer graphene \cite{cao_unconventional_2018}. The birth of the field of "twistronics" added a new knob to turn in the already massive parameter space available for creating bespoke 2D devices. By tuning the twist angle between two sheets of graphene (and thus the periodicity of the moiré superlattice), bilayer graphene can not only exhibit superconductivity, but also correlation-induced insulating states, magnetism, quantized anomalous Hall states, and many more \cite{andrei_graphene_2020}. In 2D semiconductors, which exhibit exciton dynamics that are of great interest for next-generation electronics, tuning the moiré superlattice provides even more control over the spin and valley degrees of freedom \cite{ciarrocchi_excitonic_2022}. While graphene has a lattice periodicity on the order of \SI{0.15}{\nano\meter}, the moiré superlattices in twisted devices have much longer periods, reaching from tens to even hundreds of nm (on the order of nominal SAW wavelengths). Contactless probing using SAWs could also circumvent the challenges of making quality electrical contacts to 2D semiconductors for transport measurements \cite{miao_recent_2022}. Hence, SAWs are an ideal tool for contactlessly probing and controlling quantum phenomena in 2D materials.
 
-Recent works have combined SAWs and 2D materials to great effect. For instance, one work employed SAWs to transport interlayer excitons over long distances in a 2D semiconductor \cite{peng_long-range_2022}. These excitons, which consist of electrons and holes separated in different 2D layers, are difficult to manipulate because they are charge neutral and exhibit no net force under a uniform electric field. However, the spatially- and temporally-periodic electric field of a SAW transports both electrons and holes in the same direction (*****see sec.*****), enabling long-range transport of these interlayer excitons. In another work, SAWs were used as a contactless probe of measuring wave-vector dependent conductivity in ultraclean graphene, establishing the viability of SAW resonant cavities as a probe for quantum transport in graphene \cite{fang_quantum_2023}. These studies have only scratched the surface of what is possible by interfacing SAWs with 2D materials. Many other SAW-induced phenomena in 2D materials have been predicted, but not achieved experimentally \cite{nie_surface_2023}. Therefore, it is imperative to further develop the methods of interfacing SAWs with 2D materials.
+Recent works have combined SAWs and 2D materials to great effect. For instance, one work employed SAWs to transport interlayer excitons over long distances in a 2D semiconductor \cite{peng_long-range_2022}. These excitons, which consist of electrons and holes separated in different 2D layers, are difficult to manipulate because they are charge neutral and exhibit no net force under a uniform electric field. However, a SAW transports both electrons and holes in the same direction (*****see sec.*****), enabling long-range transport of these interlayer excitons. In another work, SAWs were used as a contactless probe of measuring wave-vector dependent conductivity in ultraclean graphene, establishing the viability of SAW resonant cavities as a probe for quantum transport in graphene \cite{fang_quantum_2023}. These studies have only scratched the surface of what is possible by interfacing SAWs with 2D materials. Many other SAW-induced phenomena in 2D materials have been predicted, but not achieved experimentally \cite{nie_surface_2023}. Therefore, it is imperative to further develop the methods of interfacing SAWs with 2D materials.
 
 
 
@@ -228,7 +230,7 @@ Using Eqs. \ref{velocity from plane wave} and \ref{attenuation from plane wave},
 \end{equation}
 and
 \begin{equation}
-    \Gamma = K^2 \frac{\pi}{\lambda}(\frac{(\omega_c/\omega)}{1+(\omega_c/\omega)^2}). \label{gamma_bulk}
+    \Gamma = K^2 \frac{\pi}{\lambda}\left(\frac{(\omega_c/\omega)}{1+(\omega_c/\omega)^2}\right). \label{gamma_bulk}
 \end{equation}
 Figure \ref{gamma_and_v} shows Eqs. \ref{v_bulk} and \ref{gamma_bulk} plotted with respect to  $\omega_c/\omega$. From this, we can see that the SAW is maximally attenuated at $\omega = \omega_c$ and maximal velocity shift is achieved at $\omega \gg \omega_c$.
 
@@ -252,10 +254,10 @@ Equation 2.28 is fundamental to our investigations into acoustoelectric charge p
     \label{SAW in thin film}
 \end{figure}
 
-This can be imagined as compressing the current-carrying region from thickness $1/k$ into a thin layer of thickness $d$ and sheet conductivity $\sigma_{2D} = \sigma d$, where $d \ll 1/k$. Reducing the thickness of the current-carrying region from $1/k$ to $d$ reduces its conductance by a factor of $1/kd$. Therefore, in the 2D case, the dielectric relaxation frequency is also reduced by a factor of $1/kd$, giving $\omega_c = \sigma_{2D}k/\epsilon$. Then, we have
+This can be imagined as compressing the current-carrying region from thickness $1/k$ into a thin layer of thickness $d$ and sheet conductivity $\sigma_{2D} = \sigma d$, where $d \ll 1/k$. Reducing the thickness of the current-carrying region from $1/k$ to $d$ reduces its conductance by a factor of $1/kd$. Hence, in the 2D case, the dielectric relaxation frequency is also reduced by a factor of $1/kd$, giving $\omega_c = \sigma_{2D}k/\epsilon$. Then, we have
  
 \begin{equation}
-    \frac{\omega_c}{\omega} = \frac{\sigma_{2D}k}{\epsilon}\frac{1}{\omega} = \sigma_{2D}\frac{k}{\omega \epsilon} = \frac{\sigma_{2D}}{\sigma_M},
+    \frac{\omega_c}{\omega} = \frac{k\sigma_{2D}}{\epsilon}\frac{1}{\omega} = \sigma_{2D}\frac{k}{\omega \epsilon} = \frac{\sigma_{2D}}{\sigma_M},
 \end{equation}
 where $\sigma_M = v \epsilon$ is defined as the "characteristic conductivity" of the dielectric environment around the 2D material. Finally, Eqs. \ref{v_bulk} and \ref{gamma_bulk} become
 
@@ -264,9 +266,9 @@ where $\sigma_M = v \epsilon$ is defined as the "characteristic conductivity" of
 \end{equation}
 and
 \begin{equation}
-    \Gamma = K^2 \frac{\pi}{\lambda}(\frac{(\sigma_{2D}/\sigma_M)}{1+(\sigma_{2D}/\sigma_M)^2}). \label{gamma_2D}
+    \Gamma = K^2 \frac{\pi}{\lambda}\left(\frac{(\sigma_{2D}/\sigma_M)}{1+(\sigma_{2D}/\sigma_M)^2}\right). \label{gamma_2D}
 \end{equation}
-Similarly to the bulk case (Eqs. \ref{v_bulk} and \ref{gamma_bulk}), the SAW is dispersing and losing energy as it propagates through this conductive 2D material. However, the attenuation and dispersion is frequency-independent, and depends only on the ratio $\sigma_{2D}/\sigma_M$. This leads us an important question: Where does the lost energy of the SAW go? It turns out that this lost energy drives a DC acoustoelectric current that is proportional to Eq. \ref{gamma_2D}.
+Similarly to the bulk case (Eqs. \ref{v_bulk} and \ref{gamma_bulk}), the SAW is dispersing and losing energy as it propagates through this conductive 2D material. However, the attenuation and dispersion is frequency-independent, and depends only on the ratio $\sigma_{2D}/\sigma_M$. This leads us an important question: Where does the lost SAW energy go? 
 
 
 \subsection{The 2D acoustoelectric effect}
@@ -287,7 +289,7 @@ From Ohm's law, $E(x,t)$ creates a local oscillating current density
 \begin{equation}
     j(x,t) = \sigma E(x,t), \label{2D AE ohm's law}
 \end{equation}
-where $\sigma$ is the conductivity of the thin film. This local current density causes  electrons to coalesce in the wells of the SAW potential, as shown in Fig. \ref{AE current toy model}. Assuming that the amplitude of the perturbation in carrier density caused by the SAW (denoted by $\Delta n$) is much smaller than the average carrier density in the thin film (denoted by $n_0$), the periodic carrier density in the SAW takes the form \footnote{If $\Delta n \geq n_0$, the perturbation in $n$ can not be approximated as local, leading to the nonlinear acoustoelectric effect, discussed further in Sec. \ref{nonlinear acoustoelectric effect}.}
+where $\sigma$ is the conductivity of the thin film. This local current density causes  electrons to coalesce in the wells of the SAW potential, as shown in Fig. \ref{AE current toy model}. Assuming that the amplitude of the perturbation in carrier density caused by the SAW (denoted by $\Delta n$) is much smaller than the average carrier density in the thin film (denoted by $n_0$), the periodic carrier density in the SAW takes the form \footnote{If $\Delta n \geq n_0$, the perturbation in $n$ can not be approximated as local, leading to the nonlinear acoustoelectric effect. I discuss this further in Sec. \ref{nonlinear acoustoelectric effect}.}
 
 \begin{equation}
     n(x,t) = n_0 + \Delta n \mathrm{e}^{i(kx - \omega t)}. 
@@ -318,7 +320,7 @@ One might initially consider the notion of an oscillating $E$-field creating a D
 Finally, we need to relate Eq. \ref{j time averaged} to $\Gamma$. Remembering that $\Gamma$ describes the loss in SAW intensity per unit length, the SAW intensity can be written in the form
 
 \begin{equation}
-    I(x,t) = I_0 \mathrm{e}^{(-\Gamma x)}\mathrm{e}^{(-i\omega t)}.
+    I(x) = I_0 \mathrm{e}^{(-\Gamma x)}.
 \end{equation}
 Rearranging and differentiating $I$ with respect to $x$, $\Gamma$ takes the form
 
@@ -334,7 +336,7 @@ Then, combining Eqs. \ref{j time averaged} and \ref{gamma time averaged}, the DC
     \label{J_2D}
 \end{equation}
 
-Equations \ref{v_2D}, \ref{gamma_2D}, and \ref{J_2D} are central to interactions between SAWs and quantum materials. In Sec. \ref{AE paper discussion}, we modify this classical relaxation model, which assumes charge carriers of a single type (Eq. \ref{jdiff}), to describe mixed-carrier transport in graphene.
+Equations \ref{v_2D}, \ref{gamma_2D}, and \ref{J_2D} are central to interactions between SAWs and quantum materials. In Sec. \ref{AE paper discussion}, we modify this classical relaxation model, which assumes charge carriers of a single type, to describe mixed-carrier transport in graphene.
 
 
 \section{Surface acoustic wave generation}
