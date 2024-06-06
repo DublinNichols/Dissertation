@@ -5,11 +5,6 @@ A.~Wixforth, J.~Scriba, M.~Wassermeier, J.~P. Kotthaus, G.~Weimann, and W.~Schla
 \newblock Surface acoustic waves on {GaAs}/{AlGaAs} heterostructures.
 \newblock {\em Physical Review B}, 40(11):7874--7887, October 1989.
 
-\bibitem{fang_quantum_2023}
-Yawen Fang, Yang Xu, Kaifei Kang, Benyamin Davaji, Kenji Watanabe, Takashi Taniguchi, Amit Lal, Kin~Fai Mak, Jie Shan, and B. J. Ramshaw.
-\newblock Quantum {Oscillations} in {Graphene} {Using} {Surface} {Acoustic} {Wave} {Resonators}.
-\newblock {\em Physical Review Letters}, 130(24):246201, June 2023.
-
 \bibitem{beukman_noninvasive_2015}
 Arjan J.~A. Beukman, Fanming Qu, Ken~W. West, Loren~N. Pfeiffer, and Leo~P. Kouwenhoven.
 \newblock A {Noninvasive} {Method} for {Nanoscale} {Electrostatic} {Gating} of {Pristine} {Materials}.
@@ -73,10 +68,36 @@ Jialei Miao, Xiaowei Zhang, Ye~Tian, and Yuda Zhao.
 \newblock Recent {Progress} in {Contact} {Engineering} of {Field}-{Effect} {Transistor} {Based} on {Two}-{Dimensional} {Materials}.
 \newblock {\em Nanomaterials}, 12(21):3845, October 2022.
 
+\bibitem{tran_evidence_2019}
+Kha Tran, Galan Moody, Fengcheng Wu, Xiaobo Lu, Junho Choi, Kyounghwan Kim, Amritesh Rai, Daniel~A. Sanchez, Jiamin Quan, Akshay Singh, Jacob Embley, André Zepeda, Marshall Campbell, Travis Autry, Takashi Taniguchi, Kenji Watanabe, Nanshu Lu, Sanjay~K. Banerjee, Kevin~L. Silverman, Suenne Kim, Emanuel Tutuc, Li~Yang, Allan~H. MacDonald, and Xiaoqin Li.
+\newblock Evidence for moiré excitons in van der {Waals} heterostructures.
+\newblock {\em Nature}, 567(7746):71--75, March 2019.
+
+\bibitem{jauregui_electrical_2019}
+Luis~A. Jauregui, Andrew~Y. Joe, Kateryna Pistunova, Dominik~S. Wild, Alexander~A. High, You Zhou, Giovanni Scuri, Kristiaan De~Greve, Andrey Sushko, Che-Hang Yu, Takashi Taniguchi, Kenji Watanabe, Daniel~J. Needleman, Mikhail~D. Lukin, Hongkun Park, and Philip Kim.
+\newblock Electrical control of interlayer exciton dynamics in atomically thin heterostructures.
+\newblock {\em Science (New York, N.Y.)}, 366(6467):870--875, November 2019.
+
+\bibitem{unuchek_room-temperature_2018}
+Dmitrii Unuchek, Alberto Ciarrocchi, Ahmet Avsar, Kenji Watanabe, Takashi Taniguchi, and Andras Kis.
+\newblock Room-temperature electrical control of exciton flux in a van der {Waals} heterostructure.
+\newblock {\em Nature}, 560(7718):340--344, August 2018.
+
 \bibitem{peng_long-range_2022}
 Ruoming Peng, Adina Ripin, Yusen Ye, Jiayi Zhu, Changming Wu, Seokhyeong Lee, Huan Li, Takashi Taniguchi, Kenji Watanabe, Ting Cao, Xiaodong Xu, and Mo~Li.
 \newblock Long-range transport of {2D} excitons with acoustic waves.
 \newblock {\em Nature Communications}, 13(1):1334, March 2022.
+
+\bibitem{liu_electrically_2020}
+Yuanda Liu, Kévin Dini, Qinghai Tan, Timothy Liew, Kostya~S. Novoselov, and Weibo Gao.
+\newblock Electrically controllable router of interlayer excitons.
+\newblock {\em Science Advances}, 6(41):eaba1830, October 2020.
+\newblock Publisher: American Association for the Advancement of Science.
+
+\bibitem{fang_quantum_2023}
+Yawen Fang, Yang Xu, Kaifei Kang, Benyamin Davaji, Kenji Watanabe, Takashi Taniguchi, Amit Lal, Kin~Fai Mak, Jie Shan, and B. J. Ramshaw.
+\newblock Quantum {Oscillations} in {Graphene} {Using} {Surface} {Acoustic} {Wave} {Resonators}.
+\newblock {\em Physical Review Letters}, 130(24):246201, June 2023.
 
 \bibitem{nie_surface_2023}
 Xuchen Nie, Xiaoyue Wu, Yang Wang, Siyuan Ban, Zhihao Lei, Jiabao Yi, Ying Liu, and Yanpeng Liu.

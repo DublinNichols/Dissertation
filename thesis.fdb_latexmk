@@ -1,14 +1,13 @@
 # Fdb version 4
-["bibtex thesis"] 1717469583.69024 "thesis.aux" "thesis.bbl" "thesis" 1717526397.25519 0
-  "./thesis.bib" 1717459314 451414 603584fd32b82e40767a0d307f34475d ""
+["bibtex thesis"] 1717637281.32768 "thesis.aux" "thesis.bbl" "thesis" 1717637414.23772 0
+  "./thesis.bib" 1717615483 458599 50ca05fffebbdcbc43be854fa98d5f4e ""
   "c:/texlive/2024/texmf-dist/bibtex/bst/base/unsrt.bst" 1714436372 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "thesis.aux" 1717526396 19589 c26758e4f706d37b8e95dc12fea26c41 "pdflatex"
+  "thesis.aux" 1717637413 19145 40560f97db3238e4b1b17a5fab9ad549 "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1717526391.01239 "c:/Users/Dublin/Box/Minot Group Documents/Dublin/Documents/Dissertation/thesis.tex" "thesis.pdf" "thesis" 1717526397.25858 0
-  "Figures/AE current toy model.pdf" 1717277043 26929 267aa209e23f79211505ae4d12878f3f ""
+["pdflatex"] 1717637408.24053 "c:/Users/Dublin/Box/Minot Group Documents/Dublin/Documents/Dissertation/thesis.tex" "thesis.pdf" "thesis" 1717637414.24608 0
   "Figures/FC capacitance measurement.pdf" 1715541841 16434 9597613bbed686032b277ede7c107213 ""
   "Figures/FCCap during alignment.pdf" 1715311531 253508 4827934b027cd9e72f720bf5de44349c ""
   "Figures/First Vg PL sweeps.pdf" 1715622414 249896 e22b96e2668a3681514133cfb99dd034 ""
@@ -34,7 +33,7 @@
   "Figures/quartz bending.pdf" 1716575678 14002 6fbf15c190d09c0bbeeae8e3954b6944 ""
   "Figures/qzPMMAsi stack spec.PNG" 1715388703 114734 39d71be755ce81ebeafe045410ceb83f ""
   "beavtex.cls" 1715566275 23974 ca226695b4ab452aab1457c2f4cc6721 ""
-  "c:/Users/Dublin/Box/Minot Group Documents/Dublin/Documents/Dissertation/thesis.tex" 1717526302 65401 46b61a22ed0db5038080e2e8f1c2e24b ""
+  "c:/Users/Dublin/Box/Minot Group Documents/Dublin/Documents/Dissertation/thesis.tex" 1717637405 66243 7fb9d38a682d6bda29b84faf325fe18b ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1714436930 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1714438313 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1714437762 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -149,15 +148,15 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1714444348 5519690 e09118fec6abf69c470b6301e764561a ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1714444472 8222514 aca1e01dc1a7676a04d4c6ffdc52b739 ""
   "c:/texlive/2024/texmf.cnf" 1714444332 713 e69b156964470283e0530f5060668171 ""
-  "thesis.aux" 1717526396 19589 c26758e4f706d37b8e95dc12fea26c41 "pdflatex"
-  "thesis.bbl" 1717469584 10214 85f83dbebc499885a5a2c5da0e402bbd "bibtex thesis"
-  "thesis.loaf" 1717526396 801 b7de63c549c3b8bd1872151304010774 "pdflatex"
-  "thesis.loap" 1717526392 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "thesis.loat" 1717526396 80 8ef3760424b18d5315040b0f3a94f59e "pdflatex"
-  "thesis.lof" 1717526396 5256 296885fd6fd204d4f01801cdb0f3febd "pdflatex"
-  "thesis.lot" 1717526396 120 4b5392bf4295ae9f4473a7a4fff7fdc5 "pdflatex"
-  "thesis.tex" 1717526302 65401 46b61a22ed0db5038080e2e8f1c2e24b ""
-  "thesis.toc" 1717526396 3605 02d0ba29e3f9d494f85e0a890cab884d "pdflatex"
+  "thesis.aux" 1717637413 19145 40560f97db3238e4b1b17a5fab9ad549 "pdflatex"
+  "thesis.bbl" 1717637281 11832 f23027a81d951b8e13cc8e68f6f6fe53 "bibtex thesis"
+  "thesis.loaf" 1717637413 801 30c24d0e0a316643b39f3967c434e5b2 "pdflatex"
+  "thesis.loap" 1717637409 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "thesis.loat" 1717637413 80 8ef3760424b18d5315040b0f3a94f59e "pdflatex"
+  "thesis.lof" 1717637413 4734 d255161b708060cbe9a23ebdc8ef1d16 "pdflatex"
+  "thesis.lot" 1717637413 120 4b5392bf4295ae9f4473a7a4fff7fdc5 "pdflatex"
+  "thesis.tex" 1717637405 66243 7fb9d38a682d6bda29b84faf325fe18b ""
+  "thesis.toc" 1717637413 3599 ede1396b57dc596c7d551493f4e351e2 "pdflatex"
   (generated)
   "thesis.aux"
   "thesis.loaf"
