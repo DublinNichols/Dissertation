@@ -6,45 +6,45 @@ Database file #1: thesis.bib
 Warning--empty publisher in pozar_microwave_2012
 Warning--empty journal in lane_integrating_nodate
 Warning--empty year in lane_integrating_nodate
-You've used 42 entries,
+You've used 45 entries,
             1791 wiz_defined-function locations,
-            711 strings with 13461 characters,
-and the built_in function-call counts, 11703 in all, are:
-= -- 878
-> -- 852
+            727 strings with 14317 characters,
+and the built_in function-call counts, 12679 in all, are:
+= -- 943
+> -- 945
 < -- 1
-+ -- 300
-- -- 258
-* -- 1157
-:= -- 1989
-add.period$ -- 124
-call.type$ -- 42
-change.case$ -- 42
++ -- 332
+- -- 287
+* -- 1263
+:= -- 2165
+add.period$ -- 134
+call.type$ -- 45
+change.case$ -- 45
 chr.to.int$ -- 0
-cite$ -- 45
-duplicate$ -- 378
-empty$ -- 965
-format.name$ -- 258
-if$ -- 2395
+cite$ -- 48
+duplicate$ -- 405
+empty$ -- 1032
+format.name$ -- 287
+if$ -- 2587
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 41
-newline$ -- 210
-num.names$ -- 42
-pop$ -- 66
+int.to.str$ -- 45
+missing$ -- 44
+newline$ -- 226
+num.names$ -- 45
+pop$ -- 68
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 142
+skip$ -- 151
 stack$ -- 0
-substring$ -- 824
-swap$ -- 46
+substring$ -- 880
+swap$ -- 49
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 104
-width$ -- 44
-write$ -- 453
+while$ -- 112
+width$ -- 47
+write$ -- 488
 (There were 3 warnings)

@@ -232,6 +232,11 @@ INPUT ./Figures/graphene layer comparison.png
 INPUT ./Figures/graphene layer comparison.png
 INPUT ./Figures/graphene layer comparison.png
 INPUT ./Figures/graphene layer comparison.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT ./Figures/stamp making diagram.pdf
+INPUT ./Figures/stamp making diagram.pdf
+INPUT ./Figures/stamp making diagram.pdf
+INPUT ./Figures/stamp making diagram.pdf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT ./Figures/hBn lifted off.png
 INPUT ./Figures/hBn lifted off.png
@@ -292,7 +297,6 @@ INPUT ./Figures/quartz bending.pdf
 INPUT ./thesis.bbl
 INPUT ./thesis.bbl
 INPUT thesis.bbl
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT ./Figures/photoresist flip-chips.png
 INPUT ./Figures/photoresist flip-chips.png
 INPUT ./Figures/photoresist flip-chips.png

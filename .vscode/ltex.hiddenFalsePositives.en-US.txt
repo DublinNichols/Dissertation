@@ -13,3 +13,4 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFor example, a motorized stage inside a cryostat could be used with a capacitance measurement\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFal'ko et al. found that, in the absence of a magnetic field,\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QMore recently, SAWs have emerged as a new way to probe 2D materials\\E$"}
+{"rule":"ADJECTIVE_IN_ATTRIBUTE","sentence":"^\\QThen, I put this scotch tape down onto the dried PC film, ensuring that the area in the tape hole is clean and uniform in color.\\E$"}
