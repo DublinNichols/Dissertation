@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex thesis"] 1717697699.78112 "thesis.aux" "thesis.bbl" "thesis" 1717697706.56416 0
+["bibtex thesis"] 1717725036.50618 "thesis.aux" "thesis.bbl" "thesis" 1717725043.09032 0
   "./thesis.bib" 1717645549 461544 d73a9943dd3af9b85e2b8c62eb6eb1b9 ""
   "c:/texlive/2024/texmf-dist/bibtex/bst/base/unsrt.bst" 1714436372 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "thesis.aux" 1717697705 19600 ef7c0144d66ccfa1ebc99cfb93d8d79a "pdflatex"
+  "thesis.aux" 1717725041 20136 4e7e64b6905c9c36eb75da56f4e9fe61 "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1717697700.33911 "c:/Users/Dublin/Box/Minot Group Documents/Dublin/Documents/Dissertation/thesis.tex" "thesis.pdf" "thesis" 1717697706.5679 0
+["pdflatex"] 1717725037.01848 "c:/Users/Dublin/Box/Minot Group Documents/Dublin/Documents/Dissertation/thesis.tex" "thesis.pdf" "thesis" 1717725043.09373 0
   "Figures/FC capacitance measurement.pdf" 1715541841 16434 9597613bbed686032b277ede7c107213 ""
   "Figures/FCCap during alignment.pdf" 1715311531 253508 4827934b027cd9e72f720bf5de44349c ""
   "Figures/First Vg PL sweeps.pdf" 1715622414 249896 e22b96e2668a3681514133cfb99dd034 ""
@@ -30,11 +30,12 @@
   "Figures/interference sandwich image and spectrum.pdf" 1716225525 206885 0c4768b7a116212114e11cf84a73018c ""
   "Figures/newtonsrings.png" 1715390327 358470 e802a1bdba442639675acb731e7390f9 ""
   "Figures/photoresist flip-chips.png" 1715388013 1286961 196c91dfa84c27538037fb7f6cba9621 ""
+  "Figures/piezoelectric field and delta n edited.pdf" 1717724923 29722 18e6a7549d51dba121a5ed81d10f47d6 ""
   "Figures/quartz bending.pdf" 1716575678 14002 6fbf15c190d09c0bbeeae8e3954b6944 ""
   "Figures/qzPMMAsi stack spec.PNG" 1715388703 114734 39d71be755ce81ebeafe045410ceb83f ""
   "Figures/stamp making diagram.pdf" 1717697595 27044 3ccc0c2244877de80123b6a10514b1d4 ""
   "beavtex.cls" 1715566275 23974 ca226695b4ab452aab1457c2f4cc6721 ""
-  "c:/Users/Dublin/Box/Minot Group Documents/Dublin/Documents/Dissertation/thesis.tex" 1717697696 70658 56f9f208e34293b88e0433f62272a378 ""
+  "c:/Users/Dublin/Box/Minot Group Documents/Dublin/Documents/Dissertation/thesis.tex" 1717725024 72920 62b2ddf2ea1fdd5b29f883084f1d81ad ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1714436930 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1714438313 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1714437762 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -149,15 +150,15 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1714444348 5519690 e09118fec6abf69c470b6301e764561a ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1714444472 8222514 aca1e01dc1a7676a04d4c6ffdc52b739 ""
   "c:/texlive/2024/texmf.cnf" 1714444332 713 e69b156964470283e0530f5060668171 ""
-  "thesis.aux" 1717697705 19600 ef7c0144d66ccfa1ebc99cfb93d8d79a "pdflatex"
-  "thesis.bbl" 1717697700 12812 036374c83879f7aa2b55a969131f5c4e "bibtex thesis"
-  "thesis.loaf" 1717697705 801 9b6607af3f495090b90bb4ce6727b067 "pdflatex"
-  "thesis.loap" 1717697701 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "thesis.loat" 1717697705 80 8ef3760424b18d5315040b0f3a94f59e "pdflatex"
-  "thesis.lof" 1717697705 4865 d050f8f1b1495863236064b5a3a4e153 "pdflatex"
-  "thesis.lot" 1717697705 120 4b5392bf4295ae9f4473a7a4fff7fdc5 "pdflatex"
-  "thesis.tex" 1717697696 70658 56f9f208e34293b88e0433f62272a378 ""
-  "thesis.toc" 1717697705 3599 0684116f2d7c0a2b01cdf153196f7b9d "pdflatex"
+  "thesis.aux" 1717725041 20136 4e7e64b6905c9c36eb75da56f4e9fe61 "pdflatex"
+  "thesis.bbl" 1717725036 12812 036374c83879f7aa2b55a969131f5c4e "bibtex thesis"
+  "thesis.loaf" 1717725041 801 6f3ef042c26bb9d3e1a374cbee80a0f3 "pdflatex"
+  "thesis.loap" 1717725038 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "thesis.loat" 1717725041 80 8ef3760424b18d5315040b0f3a94f59e "pdflatex"
+  "thesis.lof" 1717725041 5166 188e7e860366098c74764e72d233bfc9 "pdflatex"
+  "thesis.lot" 1717725041 120 4b5392bf4295ae9f4473a7a4fff7fdc5 "pdflatex"
+  "thesis.tex" 1717725024 72920 62b2ddf2ea1fdd5b29f883084f1d81ad ""
+  "thesis.toc" 1717725041 3614 a17602db80c560bcc747b7ff4dc46bea "pdflatex"
   (generated)
   "thesis.aux"
   "thesis.loaf"

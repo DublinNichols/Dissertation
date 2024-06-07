@@ -221,13 +221,16 @@ INPUT ./Figures/gamma_and_v.pdf
 INPUT ./Figures/gamma_and_v.pdf
 INPUT ./Figures/gamma_and_v.pdf
 INPUT ./Figures/gamma_and_v.pdf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./Figures/SAW in thin film.pdf
 INPUT ./Figures/SAW in thin film.pdf
 INPUT ./Figures/SAW in thin film.pdf
 INPUT ./Figures/SAW in thin film.pdf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT ./Figures/piezoelectric field and delta n edited.pdf
+INPUT ./Figures/piezoelectric field and delta n edited.pdf
+INPUT ./Figures/piezoelectric field and delta n edited.pdf
+INPUT ./Figures/piezoelectric field and delta n edited.pdf
 INPUT ./Figures/graphene layer comparison.png
 INPUT ./Figures/graphene layer comparison.png
 INPUT ./Figures/graphene layer comparison.png
@@ -250,6 +253,7 @@ INPUT ./Figures/LOR cross section.png
 INPUT ./Figures/LOR cross section.png
 INPUT ./Figures/LOR cross section.png
 INPUT ./Figures/LOR cross section.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./Figures/Flip-chip design from Ref 1.png
 INPUT ./Figures/Flip-chip design from Ref 1.png
 INPUT ./Figures/Flip-chip design from Ref 1.png

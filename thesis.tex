@@ -242,12 +242,10 @@ Figure \ref{gamma_and_v} shows Eqs. \ref{v_bulk} and \ref{gamma_bulk} plotted wi
 \end{figure}
 Equations \ref{v_bulk} and \ref{gamma_bulk} are known as the "classical relaxation model" for the acoustoelectric effect. Equation \ref{v_bulk} describes relaxation dispersion, which is common in other acoustic systems \cite{hutson_elastic_1962, rudenko_dispersive_2022} and can be understood as follows: First, the SAW strains the piezoelectric, perturbing the material from its equilibrium state. Then, the piezoelectric relaxes to equilibrium, returning energy to the SAW after a time $1/\omega_c$. However, depending on the time delay between stimulus ($1/\omega$) and response ($1/\omega_c$), this energy returns to the SAW with a phase delay, leading to dispersion and attenuation. In our case, the relaxation time (and thus, $\omega_c$) depends on the conductivity of the piezoelectric semiconductor. 
 
-Equation \ref{ae current density} is fundamental to our investigations into acoustoelectric charge pumping (Sec. \ref{AE charge pumping paper}). However, Eqs. \ref{v_bulk} and \ref{gamma_bulk} describe a bulk material. How do these relations change in the 2D limit? 
-
 \subsection{SAWs propagating in 2D materials}
 
 Equation 2.28 is fundamental to our investigations into acoustoelectric charge pumping
-(Ch. 4). However, Eqs. \ref{v_bulk} and \ref{gamma_bulk} describe a bulk piezoelectric material. How do these relations change when the conductivity is located in a thin film on an insulating piezoelectric material? Figure \ref{SAW in thin film} (a) shows the bulk case described by Eqs. \ref{gamma_bulk} and \ref{v_bulk}, in which the SAW's energy and the induced current is contained within a depth $1/k$ of the surface. Therefore, the conductance of the region of the bulk material in which the SAW is propagating is $\sigma' = \sigma/k$. Fig. \ref{SAW in thin film} (b) illustrates a SAW propagating in a material with permittivity $\epsilon$ which is capped by a 2D material of thickness $d$. 
+(Ch. \ref{AE charge pumping paper}). However, Eqs. \ref{v_bulk} and \ref{gamma_bulk} describe a bulk piezoelectric material. How do these relations change when the conductivity is located in a thin film on an insulating piezoelectric material? Figure \ref{SAW in thin film} (a) shows the bulk case described by Eqs. \ref{gamma_bulk} and \ref{v_bulk}, in which the SAW's energy and the induced current is contained within a depth $1/k$ of the surface. Therefore, the conductance of the region of the bulk material in which the SAW is propagating is $\sigma' = \sigma/k$. Fig. \ref{SAW in thin film} (b) illustrates a SAW propagating in a material with permittivity $\epsilon$ which is capped by a 2D material of thickness $d$. 
 
 \begin{figure}
     \includegraphics[width = 0.75\textwidth]{SAW in thin film.pdf}
@@ -258,7 +256,7 @@ Equation 2.28 is fundamental to our investigations into acoustoelectric charge p
 This can be imagined as compressing the current-carrying region from thickness $1/k$ into a thin layer of thickness $d$ and sheet conductivity $\sigma_{2D} = \sigma d$, where $d \ll 1/k$. Reducing the thickness of the current-carrying region from $1/k$ to $d$ reduces its conductance by a factor of $1/kd$. Hence, in the 2D case, the dielectric relaxation frequency is also reduced by a factor of $1/kd$, giving $\omega_c = \sigma_{2D}k/\epsilon$. Then, we have
  
 \begin{equation}
-    \frac{\omega_c}{\omega} = \frac{k\sigma_{2D}}{\epsilon}\frac{1}{\omega} = \sigma_{2D}\frac{k}{\omega \epsilon} = \frac{\sigma_{2D}}{\sigma_M},
+    \frac{\omega_c}{\omega} = \frac{k\sigma_{2D}}{\epsilon}\frac{1}{\omega} = \sigma_{2D}\frac{k}{\omega \epsilon} = \frac{\sigma_{2D}}{\sigma_M}, \label{omega_c div omega}
 \end{equation}
 where $\sigma_M = v \epsilon$ is defined as the "characteristic conductivity" of the dielectric environment around the 2D material. Finally, Eqs. \ref{v_bulk} and \ref{gamma_bulk} become
 
@@ -269,10 +267,10 @@ and
 \begin{equation}
     \Gamma = K^2 \frac{\pi}{\lambda}\left(\frac{(\sigma_{2D}/\sigma_M)}{1+(\sigma_{2D}/\sigma_M)^2}\right). \label{gamma_2D}
 \end{equation}
-Similarly to the bulk case (Eqs. \ref{v_bulk} and \ref{gamma_bulk}), the SAW is dispersing and losing energy as it propagates through this conductive 2D material. However, the attenuation and dispersion is frequency-independent, and depends only on the ratio $\sigma_{2D}/\sigma_M$. This leads to an important question: Where does the lost SAW energy go? 
+Similarly to the bulk case (Eqs. \ref{v_bulk} and \ref{gamma_bulk}), the SAW is dispersing and losing energy as it interacts with this conductive 2D material. However, the attenuation and dispersion is frequency-independent, and depends only on the ratio $\sigma_{2D}/\sigma_M$. This leads to an important question: Where does the lost SAW energy go? 
 
 
-\subsection{The 2D acoustoelectric effect}
+\subsection{The 2D acoustoelectric charge pumping effect}
 
 % \begin{figure}
 %     \includegraphics[width = 1\textwidth]{AE current toy model.pdf}
@@ -280,45 +278,62 @@ Similarly to the bulk case (Eqs. \ref{v_bulk} and \ref{gamma_bulk}), the SAW is 
 %     \label{AE current toy model}
 % \end{figure}
 
-Fal'ko and Iordanskii found that the oscillating electric field that co-propagates with the SAW imparts an effective force on charge carriers, driving a DC current that is proportional to the attenuation $\Gamma$ \cite{falko_acoustoelectric_1993}. In this section, I present the sketch of Fal'ko and Iordanskii's model given in Ref. \cite{esslinger_ultrasonic_1994}, as I found their presentation easier to follow. Figure \ref{AE current toy model} shows a simplified illustration of a SAW propagating through a thin film. As previously discussed, a SAW is accompanied by a co-propagating electric field of the form
+Fal'ko and Iordanskii found that the oscillating electric field that co-propagates with the SAW imparts an effective force on charge carriers. When this electric field passes through a thin film, it drives a DC sheet current that is proportional to the attenuation $\Gamma$ \cite{falko_acoustoelectric_1993}. In this section, I present the sketch of Fal'ko and Iordanskii's model given in Ref. \cite{esslinger_ultrasonic_1994}, which is more accessible than the original derivation in Ref. \cite{falko_acoustoelectric_1993}. As previously discussed, a SAW is accompanied by a co-propagating piezoelectric field of the form \footnote{Note that when a quantity such as $E(x,t)$ or $j(x,t)$ is complex, the physical observable is given by the real part.}
 
 \begin{equation}
-    E(x, t) = E_0 \mathrm{e}^{i(kx - \omega t)}. \label{SAW plane wave}
+    E_p(x, t) = E_0 \mathrm{e}^{i(kx - \omega t)}. \label{SAW plane wave}
 \end{equation}
-From Ohm's law, $E(x,t)$ creates a local oscillating current density
+The mobile carriers in the thin film screen this field based on the local conductivity $\sigma$, resulting in an effective field
 
 \begin{equation}
-    j(x,t) = \sigma E(x,t), \label{2D AE ohm's law}
+    E_{eff}(x,t) = E_p(x,t) + E_{ind}(x,t) = \frac{E_p(x,t)}{1+i(\sigma_{2D}/\sigma_M)}, \label{E eff}
 \end{equation}
-where $\sigma$ is the conductivity of the thin film. This local current density causes  electrons to coalesce in the wells of the SAW potential, as shown in Fig. \ref{AE current toy model}. Assuming that the amplitude of the perturbation in carrier density caused by the SAW (denoted by $\Delta n$) is much smaller than the average carrier density in the thin film (denoted by $n_0$), the periodic carrier density in the SAW takes the form \footnote{If $\Delta n \geq n_0$, the perturbation in $n$ can not be approximated as local, leading to the nonlinear acoustoelectric effect. I discuss this further in Sec. \ref{nonlinear acoustoelectric effect}.}
+where $E_{ind}$ is the induced screening field, and $E_{ind}$ is phase-shifted with respect to $E_p(x,t)$ by $\phi = \mathrm{arctan}(\sigma_{2D}/\sigma_M)$.
+
+This effective electric field creates a local oscillating current density
 
 \begin{equation}
-    n(x,t) = n_0 + \Delta n \mathrm{e}^{i(kx - \omega t)}. 
+    j(x,t) = \sigma_{2D} E(x,t), \label{2D AE ohm's law}
+\end{equation}
+where $\sigma_{2D}$ is the sheet conductivity of the thin film, and $j(x,t)$ is a sheet current with dimensions of current/length. Assuming that the amplitude of the perturbation in carrier density caused by the SAW (denoted by $\Delta n$) is much smaller than the average carrier density in the thin film (denoted by $n_0$), the periodic carrier density in the SAW takes the form \footnote{If $\Delta n \geq n_0$, the perturbation in $n$ can not be approximated as local, leading to the nonlinear acoustoelectric effect. I discuss this further in Sec. \ref{nonlinear acoustoelectric effect}.}
+
+\begin{equation}
+    n(x,t) = n_0 + \Delta n(x,t). 
 \end{equation}
 Using the continuity equation $\pdv*{J}{x} = q \pdv*{n}{t}$, $\Delta n$ can be written in terms of $E(x,t)$, giving
 
 \begin{equation}
-    \Delta n(x,t) = -\frac{\sigma}{q} \frac{k}{\omega} E(x,t) = -\frac{\sigma}{q} \frac{1}{v}E(x,t) \label{delta n modified}
+    \Delta n(x,t) = -\frac{\sigma_{2D}}{q} \frac{k}{\omega} E_{eff}(x,t) = -\frac{\sigma_{2D}}{q} \frac{1}{v}E(x,t). \label{delta n modified}
 \end{equation}
-Next, with $\Delta n \ll n_0$, and remembering that $\sigma = q n \mu$, $\sigma$ can be expanded in terms of $\Delta_n$, taking the form
+At this point, from Eqs. \ref{delta n modified} and \ref{E eff}, we can predict how the pumped acoustoelectric current will depend on the ratio $\sigma_{2D}/\sigma_M$. Figure \ref{piezoelectric field and delta n} shows $n(x,0)$, $E_p(x,0)$ for different values of $\sigma_{2D}/\sigma_M$. If $\sigma_{2D} \gg \sigma_M$ (the film is a perfect conductor), $E_{ind}(x,t)$ = $-E_p(x,t)$, giving $E_{eff}(x,t)$ = 0. This makes sense, as a perfect conductor can completely screen out the piezoelectric fields $E_p(x,t)$. If $\sigma_{2D} \ll \sigma_M$
+
+\begin{figure}
+    \includegraphics{piezoelectric field and delta n edited.pdf}
+    \caption{$E_p$ (left axis) and $\Delta n$ (right axis) plotted for the case of (a) $\sigma_{2D} \gg \sigma_M$ (very high sheet conductivity), (b) $\sigma_{2D} = \sigma_M$, and (c) $\sigma_{2D} \ll \sigma_M$ (very low sheet conductivity).}
+    \label{piezoelectric field and delta n}
+\end{figure}
+This oscillating local carrier density will modulate the sheet conductivity. With $\Delta n \ll n_0$, and remembering that $\sigma_{2D} = q n \mu$, we can find the time-varying  sheet conductivity $\sigma(x,t)$ in terms of $\Delta_n$, which takes the form
 
 \begin{equation}
-    \sigma(x,t) = \sigma_0 + \pdv{\sigma}{n} \Delta n \mathrm{e}^{i(kx - \omega t)} . \label{sigma modified}
+    \begin{split}
+        \sigma(x,t) = \sigma_0 + \pdv{\sigma_{2D}}{n} \Delta n(x,t) = \sigma_0 + (q \mu)(\frac{-\sigma_{2D}}{q} \frac{1}{v}E(x,t)) \\
+        = \sigma_0 - \frac{\mu \sigma_{2D}}{v}E(x,t).
+    \end{split}
+    \label{sigma modified}
 \end{equation}
 Now, we can find the DC acoustoelectric current by plugging Eqs. \ref{sigma modified} and \ref{delta n modified} into \ref{2D AE ohm's law} and taking the time average, giving
 
 \begin{equation}
     \begin{split}
-        j(x) = \left\langle j(x,t) \right\rangle = \left\langle \left( \sigma_0 + \pdv{\sigma}{n}\Delta n \mathrm{e}^{i(kx - \omega t)} \right) E(x,t) \right\rangle \\
-        = \left\langle \left( \sigma_0 - \pdv{\sigma}{n}\frac{\sigma}{q} \frac{1}{v}E(x,t) \mathrm{e}^{i(kx - \omega t)} \right) E(x,t)  \right\rangle \\
-        = \left\langle \sigma_0 E(x,t) - \mu  \frac{\sigma}{v} \mathrm{e}^{i(kx - \omega t)}E(x,t)^2 \right\rangle \\
-        = - \frac{\mu}{v}\left\langle\sigma E(x,t)^2\right\rangle. 
+        j(x) = \left\langle j(x,t) \right\rangle = \left\langle \sigma(x,t) E_{eff}(x,t) \right\rangle \\
+        = \left\langle \left( \sigma_0 - \frac{\mu \sigma_{2D}}{v}E_{eff}(x,t) \right) E_{eff}(x,t)  \right\rangle \\
+        = - \frac{\mu}{v}\left\langle\sigma_{2D} E(x,t)^2\right\rangle. 
     \end{split}
     \label{j time averaged}
 \end{equation}
-One might initially consider the notion of an oscillating $E$-field creating a DC current to be counter-intuitive. However, we can now see that, though $\left\langle E(x,t) \right\rangle = 0$, a DC current arises from the cross-term $\left\langle \sigma E(x,t)^2 \right\rangle$, which corresponds to the time-averaged Ohmic power dissipated by the charge carriers in the thin film. So far, this model considers a local perturbation in $n$ from the SAW; therefore, this cross-term can be thought of as the local dissipation of SAW power by charge carriers in response to the co-propagating electric field. 
+One might initially consider the notion of an oscillating $E$-field creating a DC current to be counter-intuitive. However, we can now see that, though $\left\langle E_{eff}(x,t) \right\rangle = 0$, a DC current arises from the cross-term $\left\langle \sigma E_{eff}(x,t) ^2 \right\rangle$, which corresponds to the time-averaged Ohmic power dissipated by the charge carriers in the thin film. So far, this model considers a local perturbation in $n$ from the SAW; therefore, this cross-term can be thought of as the local dissipation of SAW power by charge carriers in response to the co-propagating electric field. 
 
-Finally, we need to relate Eq. \ref{j time averaged} to $\Gamma$. Remembering that $\Gamma$ describes the loss in SAW intensity per unit length, the SAW intensity can be written in the form
+Finally, we need to relate Eq. \ref{j time averaged} to $\Gamma$. Remembering that $\Gamma$ describes the loss in SAW intensity per unit length, the SAW intensity $I$ can be written in the form
 
 \begin{equation}
     I(x) = I_0 \mathrm{e}^{(-\Gamma x)}.
@@ -359,10 +374,11 @@ In 2010, the 2D materials revolution was launched when Geim and Novoselov won th
 
 While some groups are investigating large-area 2D growth for use in the next generation of electronics \cite{quellmalz_large-area_2021}, the best devices with the lowest electrostatic disorder are still made using mechanical exfoliation \cite{xin_giant_2023}. Using sticky tape, layered crystals are cleaved 5-10 times, then transferred onto clean SiO2. Flake thicknesses can be determined using optical contrast and verified using atomic-force microscopy (AFM), as shown in \ref*{fig:graphenelayer}.
 
+%TODO: Check exact thicknesses here
 \begin{figure}[ht!]
     \centering
     \includegraphics[width = 9cm]{graphene layer comparison.png}
-    \caption{Scale bar = 10 $\mathrm{\mu\ m}$}
+    \caption{Scale bar = \SI{10}{\micro\meter}}
     \label{fig:graphenelayer}
     
 \end{figure}
