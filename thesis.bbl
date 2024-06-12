@@ -115,6 +115,11 @@ A.~H. Castro~Neto, F.~Guinea, N.~M.~R. Peres, K.~S. Novoselov, and A.~K. Geim.
 \newblock The electronic properties of graphene.
 \newblock {\em Reviews of Modern Physics}, 81(1):109--162, January 2009.
 
+\bibitem{xin_giant_2023}
+Na~Xin, James Lourembam, Piranavan Kumaravadivel, A.~E. Kazantsev, Zefei Wu, Ciaran Mullan, Julien Barrier, Alexandra~A. Geim, I.~V. Grigorieva, A.~Mishchenko, A.~Principi, V.~I. Fal’ko, L.~A. Ponomarenko, A.~K. Geim, and Alexey~I. Berdyugin.
+\newblock Giant magnetoresistance of {Dirac} plasma in high-mobility graphene.
+\newblock {\em Nature}, 616(7956):270--274, April 2023.
+
 \bibitem{rayleigh_waves_1885}
 Lord Rayleigh.
 \newblock On {Waves} {Propagated} along the {Plane} {Surface} of an {Elastic} {Solid}.
@@ -170,11 +175,6 @@ K.~S. Novoselov, A.~K. Geim, S.~V. Morozov, D.~Jiang, Y.~Zhang, S.~V. Dubonos, I
 Arne Quellmalz, Xiaojing Wang, Simon Sawallich, Burkay Uzlu, Martin Otto, Stefan Wagner, Zhenxing Wang, Maximilian Prechtl, Oliver Hartwig, Siwei Luo, Georg~S. Duesberg, Max~C. Lemme, Kristinn~B. Gylfason, Niclas Roxhed, Göran Stemme, and Frank Niklaus.
 \newblock Large-area integration of two-dimensional materials and their heterostructures by wafer bonding.
 \newblock {\em Nature Communications}, 12(1):917, February 2021.
-
-\bibitem{xin_giant_2023}
-Na~Xin, James Lourembam, Piranavan Kumaravadivel, A.~E. Kazantsev, Zefei Wu, Ciaran Mullan, Julien Barrier, Alexandra~A. Geim, I.~V. Grigorieva, A.~Mishchenko, A.~Principi, V.~I. Fal’ko, L.~A. Ponomarenko, A.~K. Geim, and Alexey~I. Berdyugin.
-\newblock Giant magnetoresistance of {Dirac} plasma in high-mobility graphene.
-\newblock {\em Nature}, 616(7956):270--274, April 2023.
 
 \bibitem{dean_boron_2010}
 C.~R. Dean, A.~F. Young, I.~Meric, C.~Lee, L.~Wang, S.~Sorgenfrei, K.~Watanabe, T.~Taniguchi, P.~Kim, K.~L. Shepard, and J.~Hone.
