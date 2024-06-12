@@ -74,9 +74,45 @@ One phenomenon of interest is interlayer excitons in 2D semiconductor heterostru
 
 \chapter{Theory}
 
-\section{Introduction to graphene}
+\section{The electronic structure of graphene}
 
-\section{Surface acoustic waves}
+\subsection{Graphene's unique band structure}
+
+Graphene consists of a single layer of carbon atoms in a hexagonal lattice. The band structure of graphene is well-described by a tight binding model, where only hopping energy between nearest neighbor atoms is considered \cite{wallace_band_1947}. From the tight binding model, the dispersion relation of graphene is 
+
+\begin{equation}
+    E(k_x, k_y) = \pm t  \left(3 + 2\mathrm{cos}(\sqrt{3}k_x a) + 4\mathrm{cos}(\frac{3}{2}k_y a)\mathrm{cos}(\frac{\sqrt{3}}{2}k_x a)\right)^{1/2}, \label{graphene dispersion}
+\end{equation}
+where $\vectorarrow{k} = (k_x, k_y)$ is the momentum vector of charge carriers in the graphene, $t = 2.8 \; eV$ is the nearest-neighbor hopping energy, and $a = 1.42 \SIUnitSymbolAngstrom$ is the distance between the two nearest neighbor atoms. Figure \ref{graphene dispersion plot} (a) shows a plot of the band structure given by Eq. \ref{graphene dispersion}.
+
+\begin{figure}
+    \includegraphics{Graphene band structure 3D.pdf}
+    \caption{(a) A plot of graphene's dispersion relation given by Eq. \ref{graphene dispersion}. (b) Near the Dirac points, the energy of charge carriers in graphene are approximately linear with respect to momentum. (c) The momentum-space lattice of graphene, with Dirac points labelled.}
+    \label{graphene dispersion plot}
+\end{figure}
+In charge-neutral graphene, the Fermi energy $E_F$ (the energy of the highest filled state at zero temperature) intersects the bands at symmetry points called the $\vec{K}$ and $\vec{K'}$ points, also known as the Dirac points, located at $\vec{K}(k_x, k_y) = (2\pi/3a, 2\pi/3\sqrt{3}a)$ and $\vec{K'}(k_x, k_y) = (2\pi/3a, -2\pi/3\sqrt{3}a)$ (Figure \ref{graphene dispersion plot} (c)). Near the Dirac points, graphene's dispersion is linear, and can be approximated as
+
+\begin{equation}
+    E(\vec{k}) \approx \pm \hbar v_f \abs{\vec{k}}, \label{linear dispersion of graphene}
+\end{equation}
+where $\hbar$ is the reduced Planck's constant and $v_f = 3ta/2  \approx 10^6$ is the Fermi velocity. Figure \ref{graphene dispersion plot} (b) shows a zoomed-in plot of graphene's band structure near a Dirac point (the "Dirac cone").
+
+In conventional semiconductors and metals, we expect an approximately parabolic energy-momentum relation of $E(\vec{k}) = k^2/2m$, giving a velocity of $v = \sqrt{2E/m}$. Instead, charge carriers in graphene's linear band structure travel at a velocity $v_F$ which does not depend on energy or momentum. Like massless relativistic particles, charge carriers in graphene are described by the relativistic Dirac equation instead of the more common non-relativistic Schrödinger equation, leading to many unique electronic properties \cite{castro_neto_electronic_2009}. For this dissertation, the most relevant consequence of graphene's relativistic charge carriers is electron-hole symmetry, which becomes relevant in the next section where I derive the density of states in graphene.
+
+%TODO fix the above sentence
+
+\subsection{Density of states in graphene and electrostatic disorder}
+Consider a sheet of graphene in which we have tuned the Fermi energy $E_F$ (for example, through electrostatic gating) to lie above the Dirac point (Figure \ref{density of states graphic} (a)). Figure \ref{density of states graphic} (b) illustrates the $k$-plane slice at $E = E_F$, where the momentum at which $E_F$ intersects the Dirac cone is defined as $\vec{k_0}$. How many states exist inside this circle of radius $|k_0|$? 
+
+\begin{figure}
+    \caption{}
+    \label{density of states graphic}
+\end{figure}
+The graphene lattice is periodic, so the spatial part of the electron wavefunction must also be periodic. Consider a square of graphene with dimensions $L \times L$. Then, the wavelength 
+
+
+\section{Surface acoustic waves and acoustoelectric charge pumping}
+
 
 A surface acoustic wave (SAW) is an elastic wave that propagates along the surface of a material, with its energy confined to a depth of around one wavelength below the surface \cite{rayleigh_waves_1885}. When a SAW propagates in a piezoelectric substrate, it mechanically stresses the piezoelectric, generating electric fields. In turn, these electric fields generate strain in the substrate. If we coat this piezoelectric surface with a thin film, the SAW feels and responds to electronic and mechanical properties of the film (in this dissertation the thin film of interest is graphene). This interplay between a SAW and its propagation environment make SAWs interesting for both probing phenomena in quantum materials, such as *insert stuff from intro*, and using quantum materials to probe the environment, such as in gas sensors, humidity sensors.
 

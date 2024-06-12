@@ -6,42 +6,44 @@
 \contentsline {subsection}{\numberline {1.2.3}Surface acoustic wave sensors}{4}{}%
 \contentsline {section}{\numberline {1.3}Outline}{4}{}%
 \contentsline {chapter}{\numberline {2}Theory}{5}{}%
-\contentsline {section}{\numberline {2.1}Introduction to graphene}{5}{}%
-\contentsline {section}{\numberline {2.2}Surface acoustic waves}{5}{}%
-\contentsline {subsection}{\numberline {2.2.1}Elastic waves in non-piezoelectric materials}{6}{}%
-\contentsline {subsection}{\numberline {2.2.2}Waves in bulk piezoelectric materials}{9}{}%
-\contentsline {subsection}{\numberline {2.2.3}SAWs propagating in 2D materials}{15}{}%
-\contentsline {subsection}{\numberline {2.2.4}The 2D acoustoelectric charge pumping effect}{18}{}%
-\contentsline {section}{\numberline {2.3}Surface acoustic wave generation}{22}{}%
-\contentsline {chapter}{\numberline {3}Methods for fabricating 2D devices}{23}{}%
-\contentsline {section}{\numberline {3.1}Exfoliation of 2D crystals}{23}{}%
-\contentsline {section}{\numberline {3.2}Stacking 2D materials: The dry transfer method}{25}{}%
-\contentsline {subsection}{\numberline {3.2.1}PCL cleaning}{29}{}%
-\contentsline {section}{\numberline {3.3}Contacts to 2D materials}{29}{}%
-\contentsline {subsection}{\numberline {3.3.1}Photolithography}{29}{}%
-\contentsline {section}{\numberline {3.4}Electron-beam lithography}{34}{}%
-\contentsline {chapter}{\numberline {4}Acoustoelectric charge pumping in ultra-clean graphene using surface acoustic waves}{35}{}%
-\contentsline {section}{\numberline {4.1}Abstract}{35}{}%
-\contentsline {section}{\numberline {4.2}Introduction}{35}{}%
-\contentsline {section}{\numberline {4.3}Background}{35}{}%
-\contentsline {section}{\numberline {4.4}Experiment design}{35}{}%
-\contentsline {section}{\numberline {4.5}Results}{35}{}%
-\contentsline {section}{\numberline {4.6}Discussion}{35}{}%
-\contentsline {section}{\numberline {4.7}Conclusion}{35}{}%
-\contentsline {section}{\numberline {4.8}Supplementary Material}{35}{}%
-\contentsline {section}{\numberline {4.9}Nonlinear acoustoelectric effect in graphene}{35}{}%
-\contentsline {chapter}{\numberline {5}Flip-chip design for non-invasive gating of pristine quantum materials}{36}{}%
-\contentsline {section}{\numberline {5.1}Introduction}{36}{}%
-\contentsline {section}{\numberline {5.2}Measuring flip-chip spacing using interference spectroscopy}{37}{}%
-\contentsline {section}{\numberline {5.3}Flip-chips with no spacers}{40}{}%
-\contentsline {subsection}{\numberline {5.3.1}Smallest achievable air gap}{41}{}%
-\contentsline {section}{\numberline {5.4}Flip-chip capacitor with deep RIE-etched Si spacers}{42}{}%
-\contentsline {section}{\numberline {5.5}Flip-chip air gap measurement with capacitance}{48}{}%
-\contentsline {section}{\numberline {5.6}Conclusions}{49}{}%
-\contentsline {chapter}{\numberline {6}Conclusion}{54}{}%
-\contentsline {chapter}{Bibliography}{55}{}%
-\contentsline {chapter}{Appendices}{60}{}%
-\contentsline {app}{\numberline {A}Fabrication recipes}{61}{}%
-\contentsline {app}{\numberline {B}Additional flip-chip tests}{63}{}%
-\contentsline {app}{\numberline {C}Transferred contacts for high-quality contact to 2D semiconductors}{65}{}%
-\contentsline {app}{\numberline {D}Gate-tunable photoluminescence in hBN-encapsulated MoS2}{66}{}%
+\contentsline {section}{\numberline {2.1}The electronic structure of graphene}{5}{}%
+\contentsline {subsection}{\numberline {2.1.1}Graphene's unique band structure}{5}{}%
+\contentsline {subsection}{\numberline {2.1.2}Density of states in graphene and electrostatic disorder}{7}{}%
+\contentsline {section}{\numberline {2.2}Surface acoustic waves and acoustoelectric charge pumping}{7}{}%
+\contentsline {subsection}{\numberline {2.2.1}Elastic waves in non-piezoelectric materials}{9}{}%
+\contentsline {subsection}{\numberline {2.2.2}Waves in bulk piezoelectric materials}{11}{}%
+\contentsline {subsection}{\numberline {2.2.3}SAWs propagating in 2D materials}{18}{}%
+\contentsline {subsection}{\numberline {2.2.4}The 2D acoustoelectric charge pumping effect}{20}{}%
+\contentsline {section}{\numberline {2.3}Surface acoustic wave generation}{25}{}%
+\contentsline {chapter}{\numberline {3}Methods for fabricating 2D devices}{26}{}%
+\contentsline {section}{\numberline {3.1}Exfoliation of 2D crystals}{26}{}%
+\contentsline {section}{\numberline {3.2}Stacking 2D materials: The dry transfer method}{28}{}%
+\contentsline {subsection}{\numberline {3.2.1}PCL cleaning}{32}{}%
+\contentsline {section}{\numberline {3.3}Contacts to 2D materials}{32}{}%
+\contentsline {subsection}{\numberline {3.3.1}Photolithography}{32}{}%
+\contentsline {section}{\numberline {3.4}Electron-beam lithography}{37}{}%
+\contentsline {chapter}{\numberline {4}Acoustoelectric charge pumping in ultra-clean graphene using surface acoustic waves}{38}{}%
+\contentsline {section}{\numberline {4.1}Abstract}{38}{}%
+\contentsline {section}{\numberline {4.2}Introduction}{38}{}%
+\contentsline {section}{\numberline {4.3}Background}{38}{}%
+\contentsline {section}{\numberline {4.4}Experiment design}{38}{}%
+\contentsline {section}{\numberline {4.5}Results}{38}{}%
+\contentsline {section}{\numberline {4.6}Discussion}{38}{}%
+\contentsline {section}{\numberline {4.7}Conclusion}{38}{}%
+\contentsline {section}{\numberline {4.8}Supplementary Material}{38}{}%
+\contentsline {section}{\numberline {4.9}Nonlinear acoustoelectric effect in graphene}{38}{}%
+\contentsline {chapter}{\numberline {5}Flip-chip design for non-invasive gating of pristine quantum materials}{39}{}%
+\contentsline {section}{\numberline {5.1}Introduction}{39}{}%
+\contentsline {section}{\numberline {5.2}Measuring flip-chip spacing using interference spectroscopy}{40}{}%
+\contentsline {section}{\numberline {5.3}Flip-chips with no spacers}{43}{}%
+\contentsline {subsection}{\numberline {5.3.1}Smallest achievable air gap}{44}{}%
+\contentsline {section}{\numberline {5.4}Flip-chip capacitor with deep RIE-etched Si spacers}{45}{}%
+\contentsline {section}{\numberline {5.5}Flip-chip air gap measurement with capacitance}{51}{}%
+\contentsline {section}{\numberline {5.6}Conclusions}{52}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{57}{}%
+\contentsline {chapter}{Bibliography}{58}{}%
+\contentsline {chapter}{Appendices}{63}{}%
+\contentsline {app}{\numberline {A}Fabrication recipes}{64}{}%
+\contentsline {app}{\numberline {B}Additional flip-chip tests}{66}{}%
+\contentsline {app}{\numberline {C}Transferred contacts for high-quality contact to 2D semiconductors}{68}{}%
+\contentsline {app}{\numberline {D}Gate-tunable photoluminescence in hBN-encapsulated MoS2}{69}{}%

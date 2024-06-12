@@ -209,6 +209,13 @@ INPUT ./thesis.loat
 INPUT ./thesis.loat
 INPUT thesis.loat
 OUTPUT thesis.loat
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
+INPUT ./Figures/Graphene band structure 3D.pdf
+INPUT ./Figures/Graphene band structure 3D.pdf
+INPUT ./Figures/Graphene band structure 3D.pdf
+INPUT ./Figures/Graphene band structure 3D.pdf
 INPUT ./Figures/displacement field.pdf
 INPUT ./Figures/displacement field.pdf
 INPUT ./Figures/displacement field.pdf
@@ -227,6 +234,9 @@ INPUT ./Figures/SAW in thin film.pdf
 INPUT ./Figures/SAW in thin film.pdf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT ./Figures/piezoelectric field and delta n edited.pdf
 INPUT ./Figures/piezoelectric field and delta n edited.pdf
 INPUT ./Figures/piezoelectric field and delta n edited.pdf
@@ -253,7 +263,6 @@ INPUT ./Figures/LOR cross section.png
 INPUT ./Figures/LOR cross section.png
 INPUT ./Figures/LOR cross section.png
 INPUT ./Figures/LOR cross section.png
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./Figures/Flip-chip design from Ref 1.png
 INPUT ./Figures/Flip-chip design from Ref 1.png
 INPUT ./Figures/Flip-chip design from Ref 1.png
