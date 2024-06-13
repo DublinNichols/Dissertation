@@ -115,6 +115,21 @@ A.~H. Castro~Neto, F.~Guinea, N.~M.~R. Peres, K.~S. Novoselov, and A.~K. Geim.
 \newblock The electronic properties of graphene.
 \newblock {\em Reviews of Modern Physics}, 81(1):109--162, January 2009.
 
+\bibitem{novoselov_electronic_2007}
+K.~S. Novoselov, S.~V. Morozov, T.~M.~G. Mohinddin, L.~A. Ponomarenko, D.~C. Elias, R.~Yang, I.~I. Barbolina, P.~Blake, T.~J. Booth, D.~Jiang, J.~Giesbers, E.~W. Hill, and A.~K. Geim.
+\newblock Electronic properties of graphene.
+\newblock {\em physica status solidi (b)}, 244(11):4106--4111, November 2007.
+
+\bibitem{martin_observation_2008}
+J.~Martin, N.~Akerman, G.~Ulbricht, T.~Lohmann, J.~H. Smet, K.~Von~Klitzing, and A.~Yacoby.
+\newblock Observation of electron–hole puddles in graphene using a scanning single-electron transistor.
+\newblock {\em Nature Physics}, 4(2):144--148, February 2008.
+
+\bibitem{dean_boron_2010}
+C.~R. Dean, A.~F. Young, I.~Meric, C.~Lee, L.~Wang, S.~Sorgenfrei, K.~Watanabe, T.~Taniguchi, P.~Kim, K.~L. Shepard, and J.~Hone.
+\newblock Boron nitride substrates for high-quality graphene electronics.
+\newblock {\em Nature Nanotechnology}, 5(10):722--726, October 2010.
+
 \bibitem{xin_giant_2023}
 Na~Xin, James Lourembam, Piranavan Kumaravadivel, A.~E. Kazantsev, Zefei Wu, Ciaran Mullan, Julien Barrier, Alexandra~A. Geim, I.~V. Grigorieva, A.~Mishchenko, A.~Principi, V.~I. Fal’ko, L.~A. Ponomarenko, A.~K. Geim, and Alexey~I. Berdyugin.
 \newblock Giant magnetoresistance of {Dirac} plasma in high-mobility graphene.
@@ -175,11 +190,6 @@ K.~S. Novoselov, A.~K. Geim, S.~V. Morozov, D.~Jiang, Y.~Zhang, S.~V. Dubonos, I
 Arne Quellmalz, Xiaojing Wang, Simon Sawallich, Burkay Uzlu, Martin Otto, Stefan Wagner, Zhenxing Wang, Maximilian Prechtl, Oliver Hartwig, Siwei Luo, Georg~S. Duesberg, Max~C. Lemme, Kristinn~B. Gylfason, Niclas Roxhed, Göran Stemme, and Frank Niklaus.
 \newblock Large-area integration of two-dimensional materials and their heterostructures by wafer bonding.
 \newblock {\em Nature Communications}, 12(1):917, February 2021.
-
-\bibitem{dean_boron_2010}
-C.~R. Dean, A.~F. Young, I.~Meric, C.~Lee, L.~Wang, S.~Sorgenfrei, K.~Watanabe, T.~Taniguchi, P.~Kim, K.~L. Shepard, and J.~Hone.
-\newblock Boron nitride substrates for high-quality graphene electronics.
-\newblock {\em Nature Nanotechnology}, 5(10):722--726, October 2010.
 
 \bibitem{castellanos-gomez_van_2022}
 Andres Castellanos-Gomez, Xiangfeng Duan, Zhe Fei, Humberto~Rodriguez Gutierrez, Yuan Huang, Xinyu Huang, Jorge Quereda, Qi~Qian, Eli Sutter, and Peter Sutter.

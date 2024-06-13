@@ -74,8 +74,8 @@ One phenomenon of interest is interlayer excitons in 2D semiconductor heterostru
 
 \chapter{Theory}
 
-\section{The electronic structure of graphene}
-In this section, I discuss the linear band structure of graphene and derive the density of states. I then use the density of states to calculate the thermally excited electron and hole densities in graphene, which we use in Ch. \ref{AE charge pumping paper} to compare the carrier density in our graphene sample with the lowest achievable carrier density at room temperature.
+\section{The electronic properties of graphene}
+In this section, I delve into the linear band structure of graphene and derive its density of states. Using the density of states, I calculate the thermally excited electron and hole densities in graphene. We use this calculation in Ch. \ref{AE charge pumping paper} to compare the carrier density in our graphene samples with the lowest achievable carrier density at room temperature.
 
 \subsection{Graphene's unique band structure}
 
@@ -84,33 +84,44 @@ Graphene consists of a single layer of carbon atoms in a hexagonal lattice. The 
 \begin{equation}
     E(k_x, k_y) = \pm t  \left(3 + 2\mathrm{cos}(\sqrt{3}k_x a) + 4\mathrm{cos}(\frac{3}{2}k_y a)\mathrm{cos}(\frac{\sqrt{3}}{2}k_x a)\right)^{1/2}, \label{graphene dispersion}
 \end{equation}
-where $\vectorarrow{k} = (k_x, k_y)$ is the momentum vector of charge carriers in the graphene, $t = 2.8 \; eV$ is the nearest-neighbor hopping energy, and $a = 1.42 \SIUnitSymbolAngstrom$ is the distance between the two nearest neighbor atoms. Figure \ref{graphene dispersion plot} (a) shows a plot of the band structure given by Eq. \ref{graphene dispersion}.
+where $k = (k_x, k_y)$ is the momentum vector of electrons in the graphene, $t = 2.8 \; eV$ is the nearest-neighbor hopping energy, and $a = 1.42 \;\SIUnitSymbolAngstrom$ is the distance between the two nearest neighbor atoms. Figure \ref{graphene dispersion plot} (a) shows a plot of the band structure given by Eq. \ref{graphene dispersion}.
 
 \begin{figure}
-    \includegraphics{Graphene band structure 3D.pdf}
-    \caption{(a) A plot of graphene's dispersion relation given by Eq. \ref{graphene dispersion}. (b) Near the Dirac points, the energy of charge carriers in graphene are approximately linear with respect to momentum. (c) The momentum-space lattice of graphene, with Dirac points labelled.}
+    \includegraphics[width = 1\textwidth]{Graphene band structure 3D.pdf}
+    \caption{(a) A plot of graphene's dispersion relation given by Eq. \ref{graphene dispersion}. (b) Near the Dirac points, the energy of electronic states in graphene is approximately linear with respect to momentum. (c) The momentum-space lattice of graphene, with Dirac points labelled.}
     \label{graphene dispersion plot}
 \end{figure}
-In charge-neutral graphene, the Fermi energy $E_F$ (the energy of the highest filled state at zero temperature) intersects the bands at symmetry points called the $K$ and $K'$ points, also known as the Dirac points (Figure \ref{graphene dispersion plot} (c)). Near the Dirac points, graphene's dispersion is linear, and can be approximated as
+In charge-neutral graphene, the Fermi energy $E_F$ (the energy of the highest filled state at zero temperature) intersects the bands at symmetry points called the $K$ and $K'$ points, also known as the Dirac points (Figure \ref{graphene dispersion plot} (c)). Near the Dirac points, graphene's dispersion relation is linear, and can be approximated as
+
+%TODO: Look through uses of "approx" and make sure there is appropriate space between the approx symbol and the number after it 
 
 \begin{equation}
     E(k) \approx \pm \hbar v_f \abs{k}, \label{linear dispersion of graphene}
 \end{equation}
-where $\hbar$ is the reduced Planck's constant and $v_f = 3ta/2  \approx $\SI{e6}{\meter/\second} is the Fermi velocity. Figure \ref{graphene dispersion plot} (b) shows a zoomed-in plot of graphene's band structure near a Dirac point (the "Dirac cone").
+where $\hbar$ is the reduced Planck's constant and $v_f = 3ta/2  \approx \; $\SI{e6}{\meter/\second} is the Fermi velocity. Figure \ref{graphene dispersion plot} (b) offers a magnified view of graphene's band structure near a Dirac point, showing its characteristic shape commonly referred to as the "Dirac cone". In conventional semiconductors and metals, we expect a parabolic energy-momentum relation of $E(k) = k^2/2m$, which gives a velocity of $v = \sqrt{2E/m}$. However, in the case of graphene, electrons near a Dirac point move at a velocity $v_F$ which is independent of both energy and momentum, leading to many unique electronic properties \cite{castro_neto_electronic_2009}. For example, electrons and holes in graphene behave almost identically, in contrast to other materials \cite{novoselov_electronic_2007,castro_neto_electronic_2009}. In the context of this dissertation, electron-hole symmetry is the most pertinent consequence of graphene’s unique band structure.
 
-In conventional semiconductors and metals, we expect an approximately parabolic energy-momentum relation of $E(k) = k^2/2m$, giving a velocity of $v = \sqrt{2E/m}$. Instead, charge carriers in graphene's linear band structure travel at a velocity $v_F$ which does not depend on energy or momentum. Graphene's band structure is symmetric around the dirac point, leading to electrons and holes behaving almost identically in graphene \cite{castro_neto_electronic_2009}. In most materials, the mobility of electrons is much greater than the mobility of holes. However, in graphene, the mobilities are nearly equal. For this dissertation, electron-hole symmetry is the most relevant consequence of graphene's unique band structure. In Ch. \ref{AE charge pumping paper}, our acoustoelectric signal reverses sign between hole-doped and electron-doped graphene, and thermal excitation of electrons and holes limits the minimum carrier density that we can achieve. To quantify the thermally excited electron and hole densities, I will next derive the density of states in graphene.
+In graphene, we can tune the Fermi energy using an electric field, which in turn tunes the charge carrier density.\footnote{The term "charge carrier" is commonly used to refer to both electrons and holes, and I use it in this context throughout this dissertation.} Figure \ref{graphene bands at 0 T} illustrates graphene's band structure at zero temperature for $E_F < 0$, $E_F = 0$, and $E_F < 0$. When $E_F$ lies above the Dirac point ($E_F > 0$), states in the conduction band are filled with electrons up to $E_F$ (Fig. \ref{graphene bands at 0 T} (a)). Conversely, when $E_F < 0$, the valence band is depleted of electrons down to $E_F$ (Fig. \ref{graphene bands at 0 T} (c)). These vacant electronic states, referred to as "holes", act as positively-charged quasiparticles. Similar to electrons in the conduction band, holes in the valence band are free from the graphene lattice and can move in response to an electric field. In the case of charge neutral graphene ($E_F$ = 0) at zero temperature, the conduction band is entirely empty, and the valence band is completely occupied, so no charge carriers should be present to conduct current (Fig. \ref{graphene bands at 0 T} (b)). However, in real graphene samples, charge carriers can still be present when $E_F = 0$, leading to finite conductivity when $E_F$ is tuned to the charge neutrality point.
 
-%TODO fix the above sentence
+In real-world graphene samples, extrinsic sources of charge, referred to as electrostatic disorder, can be present. For instance, substrates like SiO\textsubscript{2} contain charge traps which induce spatially-varying charge carrier concentrations in graphene \cite{martin_observation_2008}. This substrate-induced disorder can be minimized by encapsulating graphene in hexagonal boron nitride (hBN) \cite{dean_boron_2010}. However, .even the most pristine encapsulated graphene samples exhibit some DC conductivity at the charge neutrality point \cite{xin_giant_2023} due to thermally-excited electrons and holes. To quantify the densities of these thermally excited electrons and holes, I will proceed to derive the density of states in graphene.
 
-\subsection{Density of states in graphene}
-Consider a sheet of graphene at zero temperature in which we have tuned the Fermi energy $E_F$ (for example, through electrostatic gating) to lie above the Dirac point, filling the states in the conduction band with electrons to an energy $E_F$ (Figure \ref{density of states graphic} (a)). Figure \ref{density of states graphic} (b) illustrates the $k$-plane slice at $E = E_F$, where the momentum at which $E_F$ intersects the Dirac cone is defined as $k_F$. To find the density of states, I begin by counting the number of states that lie inside this circle (states with momentum $0 < k < k_F$).
 
 \begin{figure}
-    \includegraphics{density of states graphic.pdf}
-    \caption{}
+    \includegraphics{graphene theory 0}
+    \caption{Filling of electronic states in graphene at zero temperature for (a) $E_F >0$, (b) $E_F = 0$, and (c) $E_F < 0$. The colors indicate filled electronic states (blue, electrons) and vacant electronic states (red, holes).}
+    \label{graphene bands at 0 T}
+\end{figure}
+
+\subsection{Density of states in graphene}
+The density of states helps us understand how many states are available for electrons to occupy at a certain energy level.
+
+Consider a sheet of graphene at zero temperature in which we have tuned the Fermi energy $E_F$ to lie above the Dirac point, filling the states in the conduction band with electrons to an energy $E_F$. Figure \ref{density of states graphic} (b) illustrates the $k$-plane slice at $E = E_F$, where the momentum at which $E_F$ intersects the Dirac cone is defined as $k_F$. To find the density of states, we can count the number of states that lie inside this circle (states with momentum $0 < k < k_F$), and divide this number by the area of a single state in momentum space.
+
+\begin{figure}
+    \includegraphics[width = 0.75\textwidth]{density of states graphic.pdf}
+    \caption{(a) Graphene band diagram with the Fermi energy indicated by $E_F$. (b) The $k_x$ - $k_y$ plane at $E = E_F$. The intersection of the Dirac cone with this plane forms a circle with radius $|k_F|$.}
     \label{density of states graphic}
 \end{figure}
-The graphene lattice is periodic, so the spatial part of the electron wavefunction must also be periodic. If the graphene real space periodicity is $L$ (or, the unit cell has area $L^2$ in real space), then the allowable momenta are integer multiples of $(k_x, k_y) = (2\pi/L, 2\pi/L)$. Thus, a single occupied state takes up an area of $(2\pi/L)^2$ in momentum space, and the total number of states with $k < k_F$ is given by the area of our circle of radius $k_F$ divided by the area of a single state,
+The graphene lattice is periodic, so the spatial part of the electron wavefunction must also be periodic. If the graphene real space periodicity is $L$ (or, the unit cell has area $L^2$ in real space), then the allowable momenta are integer multiples of $(k_x, k_y) = (2\pi/L, 2\pi/L)$. Thus, a single occupied state takes up an area of $(2\pi/L)^2$ in momentum space. The total number of states with $k < k_F$ is given by the area of our circle of radius $k_F$ divided by the area of a single state,
 
 \begin{equation}
     N = \frac{\pi k_F^2}{(2\pi/L)^2} = \frac{k_F^2 L^2}{4\pi}. 
@@ -120,24 +131,47 @@ Then, the density of states is given by
 \begin{equation}
     D(E_F) = \frac{4}{L^2} \derivative{N}{k_F} = 4\frac{(2k_F)}{4 \pi} = \frac{2\abs{E_F}}{\pi \hbar^2 v_F^2}, \label{graphene DOS}
 \end{equation}
-where the factor of 4 comes from two valleys ($K$ and $K'$) and two spins for electrons to occupy. 
-
-Equation \ref{graphene DOS} is valid whether $E_F$ is greater or less than zero (for both electrons and holes). When $E_F > 0$, we have filled the conduction band with electrons up to $E_F$. These electrons in the conduction band have  In charge neutral graphene ($E_F$ = 0) at zero temperature, there are no available states to be occupied, and the graphene should have infinite resistance. However, even the cleanest graphene samples have some resistance at the charge neutrality point \cite{xin_giant_2023}. How can that be?
+where the factor of 4 originates from graphene's four-fold degeneracy of two valleys ($K$ and $K'$) and two spins (spin up and spin down), and the absolute value ensures that $D(E)$ is a positive quantity. Equation \ref{graphene DOS} elucidates why graphene is a semimetal — though graphene has no band gap, the density of states is zero at the Fermi energy in charge-neutral graphene. However, thermal energy can excite charge carriers to occupy states that are not at the Fermi energy.
 
 \subsection{Thermally excited charge carriers in graphene at finite temperature}
-At finite temperatures, electrons will be thermally excited into the conduction band, leaving holes in the valence band. These thermally excited electrons and holes can contribute to conduction, and limit the lowest achievable carrier density in graphene at finite temperature. The electron and hole densities $n$ and $p$ are given by
+At finite temperatures, electrons will be thermally excited into the conduction band, leaving holes in the valence band. These thermally excited electrons and holes can contribute to conduction, and limit the lowest achievable carrier density (and lowest achievable conductance) in charge-neutral graphene at finite temperature. The thermally excited electron and hole densities $n$ and $p$ are given by
 
 \begin{gather}
-        n = \int_{0}^{\infty}f(E) D(E)\mathrm{d}E, \\
-        p = \int_{-\infty}^{0}(1- f(E)) D(E)\mathrm{d}E,
+        n = \int_{0}^{\infty}f(E) D(E)\mathrm{d}E, \label{n integral} \\ 
+        p = \int_{-\infty}^{0}(1- f(E)) D(E)\mathrm{d}E, \label{p integral}
 \end{gather}
 
 where $f(E)$ is the Fermi occupation function, which takes the form
 
 \begin{equation}
-    f(E) = \frac{1}{1+\exp((E-E_F)/k_B T)},
+    f(E) = \frac{1}{1+\mathrm{e}^{E/k_B T}},
 \end{equation}
-where $k_B$ is Boltzmann's constant, and $T$ is temperature.
+where $k_B$ is Boltzmann's constant and $T$ is temperature. I take $E_F = 0$ to reflect charge neutral graphene.
+
+Equations \ref{n integral} and \ref{p integral} can be solved analytically as follows:
+
+\begin{equation}
+    \begin{split}
+        n = \int_{0}^{\infty}f(E) D(E)\mathrm{d}E 
+        = \int_{0}^{\infty}\frac{1}{1+\mathrm{e}^{((E)/k_B T)}} \frac{2\abs{E}}{\pi \hbar^2 v_F^2}\mathrm{d}E \\
+        = \frac{2(k_B T)^2}{\pi \hbar^2 v_F^2}\int_{0}^{\infty}\frac{x}{1+\mathrm{e}^{x}}\mathrm{d}E \\
+        = \frac{2(k_B T)^2}{\pi\hbar^2 v_F^2} \frac{\pi^2}{12}, \label{n density}
+    \end{split}
+\end{equation}
+
+
+\begin{equation}
+    \begin{split}
+        p = \int_{-\infty}^{0}(1-f(E)) D(E)\mathrm{d}E 
+        = \int_{-\infty}^{0}\left( 1 -\frac{1}{1+\mathrm{e}^{((E)/k_B T)}} \right) \frac{2\abs{E}}{\pi \hbar^2 v_F^2}\mathrm{d}E \\
+        = \frac{2(k_B T)^2}{\pi \hbar^2 v_F^2}\int_{-\infty}^{0}\left(x - \frac{x}{1+\mathrm{e}^{x}}\right)\mathrm{d}E \\
+        = \frac{2(k_B T)^2}{\pi\hbar^2 v_F^2} \frac{\pi^2}{12}, \label{p density}
+    \end{split}
+\end{equation}
+where I use the substitution $x = E/(k_B T)$ to evaluate the integral. Both $n$ and $p$ yield identical expressions, which is consistent with the symmetry of graphene's band structure above and below $E = 0$ near the Dirac point. From Eqs. \ref{n density} and \ref{p density}, I calculate the minimum achievable carrier density at $T = $ \SI{300}{\kelvin} to be \SI{0.16e12}{\centi\meter^{-2}}.
+
+
+
 
 \section{Surface acoustic waves and acoustoelectric charge pumping}
 
