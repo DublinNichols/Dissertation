@@ -223,6 +223,10 @@ INPUT ./Figures/density of states graphic.pdf
 INPUT ./Figures/density of states graphic.pdf
 INPUT ./Figures/density of states graphic.pdf
 INPUT ./Figures/density of states graphic.pdf
+INPUT ./Figures/graphene theory 3.pdf
+INPUT ./Figures/graphene theory 3.pdf
+INPUT ./Figures/graphene theory 3.pdf
+INPUT ./Figures/graphene theory 3.pdf
 INPUT ./Figures/displacement field.pdf
 INPUT ./Figures/displacement field.pdf
 INPUT ./Figures/displacement field.pdf
@@ -243,6 +247,7 @@ INPUT ./Figures/piezoelectric field and delta n edited.pdf
 INPUT ./Figures/piezoelectric field and delta n edited.pdf
 INPUT ./Figures/piezoelectric field and delta n edited.pdf
 INPUT ./Figures/piezoelectric field and delta n edited.pdf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./Figures/graphene layer comparison.png
 INPUT ./Figures/graphene layer comparison.png
 INPUT ./Figures/graphene layer comparison.png
@@ -265,7 +270,6 @@ INPUT ./Figures/LOR cross section.png
 INPUT ./Figures/LOR cross section.png
 INPUT ./Figures/LOR cross section.png
 INPUT ./Figures/LOR cross section.png
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./Figures/Flip-chip design from Ref 1.png
 INPUT ./Figures/Flip-chip design from Ref 1.png
 INPUT ./Figures/Flip-chip design from Ref 1.png

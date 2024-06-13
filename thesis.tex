@@ -107,7 +107,7 @@ In real-world graphene samples, extrinsic sources of charge, referred to as elec
 
 \begin{figure}
     \includegraphics{graphene theory 0}
-    \caption{Filling of electronic states in graphene at zero temperature for (a) $E_F >0$, (b) $E_F = 0$, and (c) $E_F < 0$. The colors indicate filled electronic states (blue, electrons) and vacant electronic states (red, holes).}
+    \caption{Filling of electronic states in graphene at zero temperature for (a) $E_F >0$, (b) $E_F = 0$, and (c) $E_F < 0$. Filled electronic states are indicated in blue. Unfilled electronic states in the valence band (holes) are indicated in red.}
     \label{graphene bands at 0 T}
 \end{figure}
 
@@ -146,14 +146,22 @@ where $f(E)$ is the Fermi occupation function, which takes the form
 \begin{equation}
     f(E) = \frac{1}{1+\mathrm{e}^{E/k_B T}},
 \end{equation}
-where $k_B$ is Boltzmann's constant and $T$ is temperature. I take $E_F = 0$ to reflect charge neutral graphene.
+where $k_B$ is Boltzmann's constant and $T$ is temperature. I take $E_F = 0$ to reflect charge neutral graphene. Figure \ref{graphene at elevated T plot} illustrates
+
+
+
+\begin{figure}
+    \includegraphics{graphene theory 3.pdf}
+    \caption{A plot of $f(|E|)D(|E|)$ with respect to energy $E$ for graphene at elevated temperature (left) next to graphene's dispersion relation (right). The colors represent free electrons (blue) and free holes (red). The color intensity represents the magnitude of $f(E)$ (for electrons) and ($1-f(E)$) (for holes).}
+    \label{graphene at elevated T plot}
+\end{figure}
 
 Equations \ref{n integral} and \ref{p integral} can be solved analytically as follows:
 
 \begin{equation}
     \begin{split}
         n = \int_{0}^{\infty}f(E) D(E)\mathrm{d}E 
-        = \int_{0}^{\infty}\frac{1}{1+\mathrm{e}^{((E)/k_B T)}} \frac{2\abs{E}}{\pi \hbar^2 v_F^2}\mathrm{d}E \\
+        = \int_{0}^{\infty}\frac{1}{1+\mathrm{e}^{(E/k_B T)}} \frac{2E}{\pi \hbar^2 v_F^2}\mathrm{d}E \\
         = \frac{2(k_B T)^2}{\pi \hbar^2 v_F^2}\int_{0}^{\infty}\frac{x}{1+\mathrm{e}^{x}}\mathrm{d}E \\
         = \frac{2(k_B T)^2}{\pi\hbar^2 v_F^2} \frac{\pi^2}{12}, \label{n density}
     \end{split}
@@ -163,12 +171,17 @@ Equations \ref{n integral} and \ref{p integral} can be solved analytically as fo
 \begin{equation}
     \begin{split}
         p = \int_{-\infty}^{0}(1-f(E)) D(E)\mathrm{d}E 
-        = \int_{-\infty}^{0}\left( 1 -\frac{1}{1+\mathrm{e}^{((E)/k_B T)}} \right) \frac{2\abs{E}}{\pi \hbar^2 v_F^2}\mathrm{d}E \\
+        = \int_{-\infty}^{0}\left( 1 -\frac{1}{1+\mathrm{e}^{(E/k_B T)}} \right) \frac{-2E}{\pi \hbar^2 v_F^2}\mathrm{d}E \\
         = \frac{2(k_B T)^2}{\pi \hbar^2 v_F^2}\int_{-\infty}^{0}\left(x - \frac{x}{1+\mathrm{e}^{x}}\right)\mathrm{d}E \\
         = \frac{2(k_B T)^2}{\pi\hbar^2 v_F^2} \frac{\pi^2}{12}, \label{p density}
     \end{split}
 \end{equation}
-where I use the substitution $x = E/(k_B T)$ to evaluate the integral. Both $n$ and $p$ yield identical expressions, which is consistent with the symmetry of graphene's band structure above and below $E = 0$ near the Dirac point. From Eqs. \ref{n density} and \ref{p density}, I calculate the minimum achievable carrier density at $T = $ \SI{300}{\kelvin} to be \SI{0.16e12}{\centi\meter^{-2}}.
+where I use the substitution $x = E/(k_B T)$ to evaluate the integral. Both $n$ and $p$ yield identical expressions, which is consistent with the symmetry of graphene's band structure above and below $E = 0$ near the Dirac point. From Eqs. \ref{n density} and \ref{p density}, I calculate the minimum achievable carrier densities at $T = $ \SI{300}{\kelvin} to be $n = p = $\SI{0.08e12}{\centi\meter^{-2}}. Therefore, the total free carrier density in graphene at $T = $ \SI{300}{\kelvin} is \SI{0.16e12}{\centi\meter^{-2}}. This result is used in Ch. \ref{AE charge pumping paper} to quantify the minimum carrier density achievable in our graphene sample, and is integral to understanding the behavior of our graphene device at the charge neutrality point.
+
+Electrons and holes have equal and opposite charge, and thus move in opposite directions under a DC electric field (for example, when an external voltage bias is applied). Whether graphene is populated by electrons or holes, conventional current will flow in the same direction under an applied DC electric field (the sign of conventional current is the same whether an electron is moving left or a hole is moving right). Therefore, thermally excited electrons and holes cause a nonzero current to flow in a graphene device at the charge neutrality point (see *AE CHARGE PUMPING PAPER DC RESULTS*). However, the same is not true for acoustoelectric current. In an acoustoelectric device, the sign of current reverses between electron transport and hole transport (see AE CHARGE PUMPING PAPER AE RESULT). 
+
+In the following section, I introduce the theory of surface acoustic waves propagating through semiconducting piezoelectric materials and how they generate oscillating electric fields. I continue by exploring the interaction of these waves with thin films, and how the conductivity of a thin film influences its interaction with a surface acoustic wave. Lastly, I derive the expression for acoustoelectric current in a thin film, demonstrating that surface acoustic waves push both electrons and holes in the same direction.
+
 
 
 
@@ -395,6 +408,7 @@ This effective electric field creates a local oscillating current density
 \end{equation}
 where $\sigma_{2D}$ is the sheet conductivity of the thin film, and $j(x,t)$ is a sheet current with dimensions of current/length. Assuming that the amplitude of the perturbation in carrier density caused by the SAW (denoted by $\Delta n$) is much smaller than the average carrier density in the thin film (denoted by $n_0$), the periodic carrier density in the SAW takes the form \footnote{If $\Delta n \geq n_0$, the perturbation in $n$ can not be approximated as local, leading to the nonlinear acoustoelectric effect. I discuss this further in Sec. \ref{nonlinear acoustoelectric effect}.}
 
+%TODO: change above to electron density
 \begin{equation}
     n(x,t) = n_0 + \Delta n(x,t). 
 \end{equation}
@@ -445,12 +459,28 @@ Then, combining Eqs. \ref{j time averaged} and \ref{gamma time averaged}, the DC
 
 \begin{equation}
     \begin{split}
-        j = - \frac{\mu}{v}\left\langle\sigma E(x,t)^2\right\rangle = - \frac{\mu}{v} I\Gamma = - \frac{\mu I}{v} \frac{K^2}{2\lambda}(\frac{(\sigma_{2D}/\sigma_M)}{1+(\sigma_{2D}/\sigma_M)}). 
+        j = - \frac{\mu}{v}\left\langle\sigma E(x,t)^2\right\rangle = - \frac{\mu}{v} I\Gamma = - \frac{\mu I}{v} \frac{K^2}{2\lambda}(\frac{(\sigma_{2D}/\sigma_M)}{1+(\sigma_{2D}/\sigma_M)}). \
     \end{split}
-    \label{J_2D}
+    \label{DC AEC electron case}
 \end{equation}
+If the charge carrier is a hole instead of an electron, the continuity equation is instead $\pdv*{J}{x} = -q \pdv*{n}{t}$. Thus, the sign of Eq. \ref{delta n modified} is reversed, giving
 
-Equations \ref{v_2D}, \ref{gamma_2D}, and \ref{J_2D} are central to interactions between SAWs and quantum materials. In Sec. \ref{AE paper discussion}, we modify this classical relaxation model, which assumes charge carriers of a single type, to describe mixed-carrier transport in graphene.
+\begin{equation}
+    \Delta p(x,t) = \frac{\sigma_{2D}}{q} \frac{1}{v}E(x,t)
+\end{equation}
+for the local oscillating hole density. The conductivity is still given by $\sigma_{2D} = q p \mu$ (does not flip sign), resulting in
+
+\begin{equation}
+    \sigma(x,t)= \sigma_0 + \frac{\mu \sigma_{2D}}{v}E(x,t)
+\end{equation}
+for the time-varying sheet conductivity in the hole-transport case. Finally, the DC acoustoelectric current density becomes
+
+\begin{equation}
+    j = \frac{\mu I}{v} \frac{K^2}{2\lambda}(\frac{(\sigma_{2D}/\sigma_M)}{1+(\sigma_{2D}/\sigma_M)}). \label{DC AEC hole case}
+\end{equation}
+Comparing Eqs. \ref{DC AEC electron case} and \ref{DC AEC hole case}, they are identical, but have opposite sign. Therefore, the SAW pushes both electrons and holes in the same direction. This is in stark contrast to ordinary DC current, where electrons and holes move in opposite directions under a DC electric field, resulting in the same sign of conventional current for electron and hole transport.
+
+Equations \ref{v_2D}, \ref{gamma_2D}, and \ref{DC AEC hole case} are central to interactions between SAWs and quantum materials. In Sec. \ref{AE paper discussion}, we modify this classical relaxation model, which assumes charge carriers of a single type, to describe mixed-carrier transport in graphene.
 
 
 \section{Surface acoustic wave generation}
@@ -542,7 +572,7 @@ The development rate of the LOR can be tuned by varying the bake temperature. A 
     \label{fig:cross-section SEM}
 \end{figure}
 
-\section{Electron-beam lithography}
+\section{Cleaning electrodes with contact-mode AFM}
 
 \chapter{Acoustoelectric charge pumping in ultra-clean graphene using surface acoustic waves} \label{AE charge pumping paper}
 
