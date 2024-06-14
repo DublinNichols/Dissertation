@@ -210,6 +210,16 @@ Gerald Lopez, Glen De~Villafranca, Grant Shao, Meiyue Zhang, and Andrew Thompson
 \newblock Charge dissipation by use of a novel aqueous based quaternary ammonium compound for use in electron beam lithography on non-conductive substrates.
 \newblock In Roel Gronheid and Daniel~P. Sanders, editors, {\em Advances in {Patterning} {Materials} and {Processes} {XXXVI}}, page~79, San Jose, United States, March 2019. SPIE.
 
+\bibitem{goossens_mechanical_2012}
+A.~M. Goossens, V.~E. Calado, A.~Barreiro, K.~Watanabe, T.~Taniguchi, and L.~M.~K. Vandersypen.
+\newblock Mechanical cleaning of graphene.
+\newblock {\em Applied Physics Letters}, 100(7):073110, February 2012.
+
+\bibitem{chen_tip-based_2021}
+Sihan Chen, Jangyup Son, Siyuan Huang, Kenji Watanabe, Takashi Taniguchi, Rashid Bashir, Arend~M. Van Der~Zande, and William~P. King.
+\newblock Tip-{Based} {Cleaning} and {Smoothing} {Improves} {Performance} in {Monolayer} {MoS} $_{\textrm{2}}$ {Devices}.
+\newblock {\em ACS Omega}, 6(5):4013--4021, February 2021.
+
 \bibitem{fink_electron-beam-induced_1990}
 T.~Fink, D.D. Smith, and W.D. Braddock.
 \newblock Electron-beam-induced damage study in {GaAs}-{AlGaAs} heterostructures as determined by magnetotransport characterization.
