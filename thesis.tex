@@ -44,11 +44,48 @@
 
 \chapter{Introduction}
 
+Why do quantum materials matter? Is there a point to studying them? Are all of these new physics phenomena just toys, or can they be useful? Relate this to the first quantum revolution
+
+
+Interest in the transformative potential of the second quantum revolution has reached the mainstream. Not a week goes by without a thousand popular science articles promising that some new material, with some "weird quantum property", will enable scalable quantum computers that revolutionize your computer, car, refrigerator, and more. Central to these claims are quantum materials, or those whose properties go beyond silicon. In quantum materials, electrons are strongly interacting, quantum interference effects arise, new quantum degrees of freedom can be harnessed, and topological states of matter challenge our understanding of physics. But, can these materials revolutionize anything, or are they just curiosities that will never leave the lab?
+
+Few classes of materials have captivated researchers' interest as profoundly as two-dimensional (2D) materials, a subset of quantum materials. Nearly two decades since the Nobel Prize was awarded for electronic measurements of atomically-thin carbon films known as graphene, the family of 2D materials has expanded to include a plethora of 2D semiconductors and magnets with surprising new phenomena. 
+
+2D materials are very tunable.
+
+https://www-nature-com.oregonstate.idm.oclc.org/articles/nature22391
+
+2D magnets are approaching room-temperature applications
+
+
+
+
+Electrons are strongly interacting
+Quantum interference effects
+New quantum degrees of freedom (e.g. valley degree of freedom)
+Topological physics
+
+
+
+Quantum materials command a central focus in today’s research landscape. Excitement about quantum information science 
+
+
+Quantum materials . These materials, which encompass a diverse family of two-dimensional (2D) semiconductors, hold the potential to revolutionize our understanding of the quantum world and herald the next generation of computing. 
+
+
+
+
+Few classes of materials have captivated researchers' interest as profoundly as two-dimensional (2D) materials. Nearly two decades since the Nobel Prize was awarded for measurements of atomically-thin carbon films known as graphene, the family of 2D materials has expanded to include a plethora of 2D semiconductors and magnets
+
+
+a plethora of two-dimensional (2D) materials 
+
+has promised to revolutionize physics, thanks to its unique properties. Its extraordinary thermal conductivity, mechanical strength, and, most importantly, its unusual electronic band structure have opened new avenues for exploring quantum phenomena. This dissertation embarks on a journey to probe these quantum phenomena using surface acoustic waves (SAWs), an innovative approach that marries the macroscopic world of acoustics with the microscopic realm of quantum mechanics. As we delve into the heart of 2D materials with the rhythm of SAWs, we stand on the brink of uncovering new physics, promising not only to enrich our understanding of the universe but also to propel us into a future where the quantum world is within our grasp. This is not just a study—it’s an exploration of the quantum frontier.
 
 
 \section{Objective}
 
-\newpage
+
 \section{Background and Motivation}
 \subsection{Probing and controlling phenomena in quantum materials}
 
@@ -98,11 +135,11 @@ In charge-neutral graphene, the Fermi energy $E_F$ (the energy of the highest fi
 \begin{equation}
     E(k) \approx \pm \hbar v_f \abs{k}, \label{linear dispersion of graphene}
 \end{equation}
-where $\hbar$ is the reduced Planck's constant and $v_f = 3ta/2  \approx \; $\SI{e6}{\meter/\second} is the Fermi velocity. Figure \ref{graphene dispersion plot} (b) offers a magnified view of graphene's band structure near a Dirac point, showing its characteristic shape commonly referred to as the "Dirac cone". In conventional semiconductors and metals, we expect a parabolic energy-momentum relation of $E(k) = k^2/2m$, which gives a velocity of $v = \sqrt{2E/m}$. However, in the case of graphene, electrons near a Dirac point move at a velocity $v_F$ which is independent of both energy and momentum, leading to many unique electronic properties \cite{castro_neto_electronic_2009}. For example, electrons and holes in graphene behave almost identically, in contrast to other materials \cite{novoselov_electronic_2007,castro_neto_electronic_2009}. In the context of this dissertation, electron-hole symmetry is the most pertinent consequence of graphene’s unique band structure.
+where $\hbar$ is the reduced Planck's constant and $v_f = 3ta/2  \approx \SI{e6}{\meter/\second}$ is the Fermi velocity. Figure \ref{graphene dispersion plot} (b) offers a magnified view of graphene's band structure near a Dirac point, showing its characteristic shape commonly referred to as the "Dirac cone". In conventional semiconductors and metals, we expect a parabolic energy-momentum relation of $E(k) = k^2/2m$, which gives a velocity of $v = \sqrt{2E/m}$. However, in the case of graphene, electrons near a Dirac point move at a velocity $v_F$ which is independent of both energy and momentum, leading to many unique electronic properties \cite{castro_neto_electronic_2009}. For example, electrons and holes in graphene behave almost identically, in contrast to other materials \cite{novoselov_electronic_2007,castro_neto_electronic_2009}. In the context of this dissertation, electron-hole symmetry is the most pertinent consequence of graphene’s unique band structure.
 
 In graphene, we can tune the Fermi energy using an electric field, which in turn tunes the charge carrier density.\footnote{The term "charge carrier" is commonly used to refer to both electrons and holes, and I use it in this context throughout this dissertation.} Figure \ref{graphene bands at 0 T} illustrates graphene's band structure at zero temperature for $E_F < 0$, $E_F = 0$, and $E_F < 0$. When $E_F$ lies above the Dirac point ($E_F > 0$), states in the conduction band are filled with electrons up to $E_F$ (Fig. \ref{graphene bands at 0 T} (a)). Conversely, when $E_F < 0$, the valence band is depleted of electrons down to $E_F$ (Fig. \ref{graphene bands at 0 T} (c)). These vacant electronic states, referred to as "holes", act as positively-charged quasiparticles. Similar to electrons in the conduction band, holes in the valence band are free from the graphene lattice and can move in response to an electric field. In the case of charge neutral graphene ($E_F$ = 0) at zero temperature, the conduction band is entirely empty, and the valence band is completely occupied, so no charge carriers should be present to conduct current (Fig. \ref{graphene bands at 0 T} (b)). However, in real graphene samples, charge carriers can still be present when $E_F = 0$, leading to finite conductivity when $E_F$ is tuned to the charge neutrality point.
 
-In real-world graphene samples, extrinsic sources of charge, referred to as electrostatic disorder, can be present. For instance, substrates like SiO\textsubscript{2} contain charge traps which induce spatially-varying charge carrier concentrations in graphene \cite{martin_observation_2008}. This substrate-induced disorder can be minimized by encapsulating graphene in hexagonal boron nitride (hBN) \cite{dean_boron_2010}. However, .even the most pristine encapsulated graphene samples exhibit some DC conductivity at the charge neutrality point \cite{xin_giant_2023} due to thermally-excited electrons and holes. To quantify the densities of these thermally excited electrons and holes, I will proceed to derive the density of states in graphene.
+In real-world graphene samples, extrinsic sources of charge, referred to as electrostatic disorder, can be present. For instance, substrates like SiO\textsubscript{2} contain charge traps which induce spatially-varying charge carrier concentrations in graphene \cite{martin_observation_2008}. This substrate-induced disorder can be minimized by encapsulating graphene in hexagonal boron nitride (h-BN) \cite{dean_boron_2010}. However, even the most pristine encapsulated graphene samples exhibit some DC conductivity at the charge neutrality point \cite{xin_giant_2023} due to thermally-excited electrons and holes. To quantify the densities of these thermally excited electrons and holes, I will proceed to derive the density of states in graphene.
 
 
 \begin{figure}
@@ -134,7 +171,7 @@ Then, the density of states is given by
 where the factor of 4 originates from graphene's four-fold degeneracy of two valleys ($K$ and $K'$) and two spins (spin up and spin down), and the absolute value ensures that $D(E)$ is a positive quantity. Equation \ref{graphene DOS} elucidates why graphene is a semimetal — though graphene has no band gap, the density of states is zero at the Fermi energy in charge-neutral graphene. However, thermal energy can excite charge carriers to occupy states that are not at the Fermi energy.
 
 \subsection{Thermally excited charge carriers in graphene at finite temperature}
-At finite temperatures, electrons will be thermally excited into the conduction band, leaving holes in the valence band. These thermally excited electrons and holes can contribute to conduction, and limit the lowest achievable carrier density (and lowest achievable conductance) in charge-neutral graphene at finite temperature. The thermally excited electron and hole densities $n$ and $p$ are given by
+At finite temperatures, electrons will be thermally excited into the conduction band, leaving holes in the valence band. These thermally excited electrons and holes can contribute to conduction, and limit the lowest achievable carrier density (and lowest achievable conductance) in charge-neutral graphene at finite temperature. Figure \ref{graphene at elevated T plot} illustrates the thermally-excited electron and hole populations near the Fermi energy. The thermally excited electron and hole densities $n$ and $p$ are given by
 
 \begin{gather}
         n = \int_{0}^{\infty}f(E) D(E)\mathrm{d}E, \label{n integral} \\ 
@@ -146,7 +183,7 @@ where $f(E)$ is the Fermi occupation function, which takes the form
 \begin{equation}
     f(E) = \frac{1}{1+\mathrm{e}^{E/k_B T}},
 \end{equation}
-where $k_B$ is Boltzmann's constant and $T$ is temperature. I take $E_F = 0$ to reflect charge neutral graphene. Figure \ref{graphene at elevated T plot} illustrates
+where $k_B$ is Boltzmann's constant and $T$ is temperature. I take $E_F = 0$ to reflect charge neutral graphene. 
 
 
 
@@ -155,14 +192,13 @@ where $k_B$ is Boltzmann's constant and $T$ is temperature. I take $E_F = 0$ to 
     \caption{A plot of $f(|E|)D(|E|)$ with respect to energy $E$ for graphene at elevated temperature (left) next to graphene's dispersion relation (right). The colors represent free electrons (blue) and free holes (red). The color intensity represents the magnitude of $f(E)$ (for electrons) and ($1-f(E)$) (for holes).}
     \label{graphene at elevated T plot}
 \end{figure}
-
 Equations \ref{n integral} and \ref{p integral} can be solved analytically as follows:
 
 \begin{equation}
     \begin{split}
         n = \int_{0}^{\infty}f(E) D(E)\mathrm{d}E 
         = \int_{0}^{\infty}\frac{1}{1+\mathrm{e}^{(E/k_B T)}} \frac{2E}{\pi \hbar^2 v_F^2}\mathrm{d}E \\
-        = \frac{2(k_B T)^2}{\pi \hbar^2 v_F^2}\int_{0}^{\infty}\frac{x}{1+\mathrm{e}^{x}}\mathrm{d}E \\
+        = \frac{2(k_B T)^2}{\pi \hbar^2 v_F^2}\int_{0}^{\infty}\frac{x}{1+\mathrm{e}^{x}}\mathrm{d}x \\
         = \frac{2(k_B T)^2}{\pi\hbar^2 v_F^2} \frac{\pi^2}{12}, \label{n density}
     \end{split}
 \end{equation}
@@ -172,7 +208,7 @@ Equations \ref{n integral} and \ref{p integral} can be solved analytically as fo
     \begin{split}
         p = \int_{-\infty}^{0}(1-f(E)) D(E)\mathrm{d}E 
         = \int_{-\infty}^{0}\left( 1 -\frac{1}{1+\mathrm{e}^{(E/k_B T)}} \right) \frac{-2E}{\pi \hbar^2 v_F^2}\mathrm{d}E \\
-        = \frac{2(k_B T)^2}{\pi \hbar^2 v_F^2}\int_{-\infty}^{0}\left(x - \frac{x}{1+\mathrm{e}^{x}}\right)\mathrm{d}E \\
+        = \frac{2(k_B T)^2}{\pi \hbar^2 v_F^2}\int_{-\infty}^{0}\left(x - \frac{x}{1+\mathrm{e}^{x}}\right)\mathrm{d}x \\
         = \frac{2(k_B T)^2}{\pi\hbar^2 v_F^2} \frac{\pi^2}{12}, \label{p density}
     \end{split}
 \end{equation}
@@ -473,7 +509,7 @@ for the local oscillating hole density. The conductivity is still given by $\sig
 \begin{equation}
     \sigma(x,t)= \sigma_0 + \frac{\mu \sigma_{2D}}{v}E(x,t)
 \end{equation}
-for the time-varying sheet conductivity in the hole-transport case. Finally, the DC acoustoelectric current density becomes
+for the time-varying sheet conductivity in the hole-transport case. Finally, the DC acoustoelectric current density for hole transport becomes
 
 \begin{equation}
     j = \frac{\mu I}{v} \frac{K^2}{2\lambda}(\frac{(\sigma_{2D}/\sigma_M)}{1+(\sigma_{2D}/\sigma_M)}). \label{DC AEC hole case}
@@ -500,27 +536,56 @@ In 2010, the 2D materials revolution was launched when Geim and Novoselov won th
 
 \section{Exfoliation of 2D crystals}
 
-While some groups are investigating large-area 2D growth for use in the next generation of electronics \cite{quellmalz_large-area_2021}, the best devices with the lowest electrostatic disorder are still made using mechanical exfoliation \cite{xin_giant_2023}. Using sticky tape, layered crystals are cleaved 5-10 times, then transferred onto clean SiO2. Flake thicknesses can be determined using optical contrast and verified using atomic-force microscopy (AFM), as shown in \ref*{fig:graphenelayer}.
+While some groups are investigating large-area 2D growth for use in the next generation of electronics \cite{quellmalz_large-area_2021}, the best devices with the lowest electrostatic disorder are still made using mechanical exfoliation \cite{xin_giant_2023}. Using sticky tape, layered crystals are cleaved 5-10 times, then transferred onto clean SiO\textsubscript{2}. Exfoliation is a simple process, but getting consistent results can be challenging due to the vast array of variables that affect the process. Different research groups, and even different members in the same group, can have vastly differing opinions on the best methods for exfoliation. Furthermore, every 2D material has different mechanical properties, so the best recipe varies widely between materials. I gained substantial knowledge on 2D material exfoliation from my visit to the Xu group at University of Washington in 2017. Since then, I have developed my best practices through trial and error. In this section, I briefly describe my best practices for exfoliating graphene and h-BN using sticky tape. At the end of this section, I collect some tips and tricks that I have learned from performing many exfoliations. For a review of exfoliation techniques and a model of the complex physics behind mechanical exfoliation, see Ref. \cite{islam_exfoliation_2022}.
 
-%TODO: Check exact thicknesses here
-\begin{figure}[ht!]
-    \centering
-    \includegraphics[width = 9cm]{graphene layer comparison.png}
-    \caption{Scale bar = \SI{10}{\micro\meter}}
-    \label{fig:graphenelayer}
-    
+
+
+Exfoliation begins with selecting the tape. The two most widely used tapes are Scotch® Magic™ Tape (“Scotch Tape”) and Nitto Denko SWT20+ wafer tape, (“blue tape”). The main differences between the two are as follows: Scotch tape is stickier and leaves more residue, and blue tape is less sticky and leaves less residue. While blue tape might seem like the obvious choice for the cleanest samples, in a discussion with members of the Yankowitz group at University of Washington, I learned that they still prefer Scotch tape for graphene, as they feel it gives the largest monolayer flakes. In my experience, I find that Scotch tape does work best for graphene, giving larger-area flakes than blue tape. For h-BN, I prefer to use blue tape, as the residue left by scotch tape is similar in color to the h-BN flakes.
+
+Figure \ref{exfoliation diagram} shows a general overview of the exfoliation process. The details are as follows: First, I place a bulk layered crystal (such as graphite or boron nitride) onto sticky tape. Then, the tape is folded over and peeled back, cleaving the bulk crystal 8-10 times for graphene and 3-5 times for h-BN. While cleaving the bulk crystal, I plasma-clean a \SI{300}{\nano\meter} SiO\textsubscript{2}/Si substrate\footnote{Different SiO\textsubscript{2} thicknesses provide better optical contrast for different materials. \SI{300}{\nano\meter} works well for graphene and h-BN.} using a PE-50 plasma etcher with O\textsubscript{2} plasma at \SI{50}{\watt} for 1 minute. Then, I place the tape with cleaved crystals onto the plasma-cleaned SiO\textsubscript{2} substrate and rub the top of the tape with a semi-hard instrument, such as the back of a pen or an eraser, to ensure that the tape is in good contact with the substrate. Next, I heat the substrate with tape at \SI{90}{\celsius} for 5 minutes, which helps adhere the 2D flakes to the SiO\textsubscript{2} (see Fig. 3 D of \cite{islam_exfoliation_2022}). Finally, I peel the tape from the SiO\textsubscript{2} slowly at a low angle, cleaving flakes from the tape onto the SiO\textsubscript{2}. 
+
+
+%TODO: add image of graphene on tape
+\begin{figure}
+    \includegraphics{exfoliation diagram.pdf}
+    \caption{}
+    \label{exfoliation diagram}
 \end{figure}
+This exfoliation process results in flakes of a variety of sizes and thicknesses, from single-layer to thousands of layers (see inset of Fig. \ref{exfoliation diagram} (d)). The number of layers can be determined by examining the optical contrast between the 2D flakes and the surface, and confirmed with AFM. Figure \ref{fig:graphenelayer} shows a tapping-mode AFM image (a) and optical image (b) of an exfoliated graphene flake.
 
-Exfoliation is a simple process, but getting consistent results can be extremely challenging due to the vast array of variables that affect the process. Different research groups, and even different members in the same group, can have vastly differing opinions on the best methods for exfoliation. These often don’t appear in literature, only being gleaned through personal conversations. Furthermore, every 2D material has different mechanical properties, so the best recipe varies widely between materials. I gained substantial knowledge from my visits to the Xu group at University of Washington in 2017. Since then, I have developed my best practices through trial and error. In this section, I give my recommended practices for exfoliating graphene, hBN, and MoS\textsubscript{2}.
 
-Exfoliation begins with selecting the tape. The two most widely used tapes are Scotch® Magic™ Tape (“Scotch Tape”) and Nitto Denko SWT20+ wafer tape, (“blue tape”). The main differences between the two are as follows: Scotch tape is stickier and leaves more residue, and blue tape is less sticky and leaves less residue. While blue tape might seem like the obvious choice for the cleanest samples, in a discussion with members of the Yankowitz group at University of Washington, I learned that they still prefer Scotch tape for graphene, as they feel it gives the largest monolayer flakes. In my experience, I find that Scotch tape does work best for graphene, giving larger-area flakes than blue tape. For hBN, I prefer to use blue tape, as the residue left by scotch tape is similar in color to the hBN flakes, as shown in *this figure*.
 
-\section{Stacking 2D materials: The dry transfer method}
-The ability to isolate single layers of 2D crystals opened wide the possibility of stacking different atomic layers to create designer heterostructures. In 2010, Dean et al. demonstrated that the mobility and electronic disorder of graphene can be vastly improved by encapsulating the graphene in insulating hexagonal boron nitride (hBN) \cite{dean_boron_2010}. Since then, techniques for assembling stacks of 2D materials have improved, allowing for sub-micron lateral precision and sub-degree rotational alignment between layers \cite{castellanos-gomez_van_2022}. Heterostructure fabrication techniques fall into two main categories: wet-transfer methods, which use sacrificial polymer layers to place down each 2D crystal, and dry-transfer methods, which only require dissolving the polymer stamp once the entire structure is completed. In general, dry transfer methods are preferred as they reduce contamination between layers, and it is the method I use to create the devices discussed in this dissertation. Therefore, I will only describe the dry transfer method here. Similarly to exfoliation techniques, many researchers have different opinions on the best tricks for 2D transfer. For an overview of different 2D transfer methods, see the review by Castellanos-Gomez \textit{et al.} \cite{castellanos-gomez_van_2022}. The methods I present in the subsequent sections were initially learned through discussions with researchers at the University of Washington, then modified based on my own trial and error.
+\begin{figure}
+    \centering
+    \includegraphics[width = 9cm]{graphene layer comparison.pdf}
+    \caption{(a) AFM scan and (b) optical image of exfoliated graphene on SiO\textsubscript{2}. The AFM scan region is indicated by a gray dotted box. Scale bar = \SI{10}{\micro\meter}.}
+    \label{fig:graphenelayer}
+\end{figure}
+Accurately measuring the number of layers of a graphene sample with AFM is difficult due to interactions between the AFM tip and graphene and water layers on substrates prepared in atmospheric conditions \cite{shearer_accurate_2016}. These difficulties can be reduced by using tapping-mode AFM; however, if monolayer graphene is necessary for an experiment, it is better to use Raman microscopy, which can distinguish between monolayer and multilayer graphene. In the graphene devices described in this dissertation, having monolayer graphene is not imperative, so I used AFM to determine the layer number of my graphene samples.
 
-Figure xx shows a generalized version of the dry transfer process that I use to build the devices in this dissertation.  A sticky polymer stamp is mounted onto a micromanipulator stage underneath a long-focal length microscope. The stamp is brought into contact with a chip containing exfoliated 2D flakes. The temperature of the stage is increased to make the polymer stamp stickier. Then, the contact area of the stamp on the chip is increased by lowering the stamp. Once the entire 2D flake is covered with polymer, the stage is slowly retracted to pick up the 2D flake. This process is repeated to build the desired heterostructure top-down, using the previous layer to pick up the next. Finally, the stamp is melted at a high temperature and dissolved in a solvent. This method of heating up a polymer stamp to build 2D heterostructures is called the "hot pick up technique" \cite{pizzocchero_hot_2016}.
+Here is a summary of my tips and tricks for exfoliation:
 
-Figure \ref{stamp diagram} shows the viscoelastic stamp, which is mounted onto a micromanipulator stage and used to pick up and place the 2D crystals. The stamp consists of a polydimethylsiloxane (PDMS) layer mounted on a glass slide, with a thin poly(bisphenol A carbonate) (PC) polymer layer on top (some groups use polypropylene carbonate, referred to as PPC). The PDMS acts as a base for the stamp, while the PC layer becomes sticky at elevated temperatures.
+
+\begin{itemize}
+    \item Use scotch tape for graphene, and blue tape for h-BN
+    \item Cleave 6-8 times on tape for graphene
+    \item Cleave 3-5 times on tape for h-BN
+    \item When peeling tape, peel at a low angle. The conventional wisdom is that this results in larger-area flakes.
+    \item When placing h-BN bulk crystals onto tape, use tweezers to "smear" them flat onto the tape. h-BN crystals are thick, and need to be pressed flat to ensure good contact with the tape.
+    \item In the final step, anneal tape on SiO\textsubscript{2} at \SI{90}{\celsius} for 5 minutes for all materials, then cool completely (2 minutes) before peeling tape from SiO\textsubscript{2}.
+    \item Clean SiO\textsubscript{2} with O\textsubscript{2} plasma for 1 minute immediately before transferring crystals from tape onto SiO\textsubscript{2}
+\end{itemize}
+
+\section{Stacking 2D materials to create heterostructure devices}
+
+The ability to isolate single layers of 2D crystals with mechanical exfoliation opened wide the possibility of stacking different atomic layers to create designer heterostructures. In 2010, Dean et al. demonstrated that the mobility and electronic disorder of graphene can be vastly improved by encapsulating the graphene in insulating hexagonal boron nitride (h-BN) \cite{dean_boron_2010}. Since then, techniques for assembling stacks of 2D materials have improved, allowing for sub-micron lateral precision and sub-degree rotational alignment between layers \cite{castellanos-gomez_van_2022}. Heterostructure fabrication techniques fall into two main categories: wet-transfer methods, which use sacrificial polymer layers to place down each 2D crystal, and dry-transfer methods, which only require dissolving the polymer stamp once the entire structure is completed. In general, dry transfer methods are preferred as they reduce contamination between layers, and it is the method I use to create the devices discussed in this dissertation. Therefore, I will only describe the dry transfer method here. Similarly to exfoliation techniques, many researchers have different opinions on the best tricks for 2D transfer. For an overview of different 2D transfer methods, see the review by Castellanos-Gomez \textit{et al.} \cite{castellanos-gomez_van_2022}. The methods I present in the subsequent sections were initially learned through discussions with researchers at the University of Washington, then modified based on my own trial and error.
+
+Figure \ref{hot pickup diagram} shows a generalized version of the dry transfer process that I use to build the devices in this dissertation.  A sticky polymer stamp is mounted onto a micromanipulator stage underneath a long-focal length microscope. The stamp is brought into contact with a chip containing exfoliated 2D flakes. The temperature of the stage is increased to make the polymer stamp stickier. Then, the contact area of the stamp on the chip is increased by lowering the stamp. Once the entire 2D flake is covered with polymer, the stage is slowly retracted to pick up the 2D flake. This process is repeated to build the desired heterostructure top-down, using the previous layer to pick up the next. Finally, the stamp is melted at a high temperature and dissolved in a solvent. This method of heating up a polymer stamp to build 2D heterostructures is called the "hot pick up technique" \cite{pizzocchero_hot_2016}.
+
+
+\subsection{Making the viscoelastic stamp}
+
+Figure \ref{stamp diagram} shows the viscoelastic stamp that I use, which is used to pick up and place 2D flakes. The stamp consists of a polydimethylsiloxane (PDMS) layer mounted on a glass slide, with a thin poly(bisphenol A carbonate) (PC) polymer layer on top (some groups use polypropylene carbonate, referred to as PPC). The PDMS acts as a base for the stamp, while the PC layer becomes sticky at elevated temperatures.
 
 
 \begin{figure}
@@ -530,61 +595,76 @@ Figure \ref{stamp diagram} shows the viscoelastic stamp, which is mounted onto a
 \end{figure}
 
 
-I build the stamp as follows: First, I prepare the PC film (Fig. \ref{stamp diagram} (a)) I begin by making a solution of 6\% PC in chloroform (mass percent). The PC takes 24-48 hours of stirring at medium speed to fully dissolve. Then, I clean two glass slides and place them next to each other in a fume hood. I pipette $\approx$ \SI{2}{\milli\liter} of PC solution in a line on one glass slide, then flip the other slide on top. Using light pressure, I slide the two glass slides apart, leaving a film of PC on one side of each slide. Finally, I let the slides dry for at least \SI{1}{\minute} before continuing \footnote{The chloroform evaporates very quickly, but I usually let it dry while preparing the rest of the stamp.}.
+I build the stamp as follows: First, I prepare the PC film (Fig. \ref{stamp diagram} (a)) I begin by making a solution of 6\% PC in chloroform (mass percent). The PC takes 24-48 hours of stirring at medium speed to fully dissolve. Then, I clean two glass slides and place them next to each other in a fume hood. I pipette $\approx \SI{2}{\milli\liter}$ of PC solution in a line on one glass slide, then flip the other slide on top. Using light pressure, I slide the two glass slides apart, leaving a film of PC on one side of each slide. Finally, I let the slides dry for at least \SI{1}{\minute} before continuing \footnote{The chloroform evaporates very quickly, but I usually let it dry while preparing the rest of the stamp.}.
 
-To prepare the slide that composes the base of the stamp, I use a leather punch to punch a hole in a piece of double-sided polyimide tape (Kapton). Then, I place this piece of tape on a fresh glass slide, and cut a channel in one side of the tape (Fig. \ref{stamp diagram} (b)). This channel allows for air to escape when placing down the PC film in the next step. Without the channel, air gets trapped between the PDMS and PC layers. Next, I take pre-made PDMS sheets (Gel-Pak) that are 17 mil (\SI{0.4318}{\milli\meter}) thick. These Gel-Pak sheets have a hard backing on one side, and a soft backing on the other side. I place a strip of double-sided polyimide tape (Kapton) into a plastic dish and place a $\approx$ 2 $\times$ \SI{2}{\centi\meter} piece of Gel-Pak sheet onto the dish, hard backing-side down. The choice to put the hard backing side down makes picking up small pieces of PDMS easier. Then, I use a clean razor blade to cut the PDMS into 2 $\times$ \SI{2}{mm} squares. Using tweezers, I grab one of these squares and place it into the hole in the center of the mounted Kapton tape (Fig. \ref{stamp diagram} (b), green square).
+To prepare the slide that composes the base of the stamp, I use a leather punch to punch a hole in a piece of double-sided polyimide tape (Kapton). Then, I place this piece of tape on a fresh glass slide, and cut a channel in one side of the tape (Fig. \ref{stamp diagram} (b)). This channel allows for air to escape when placing down the PC film in the next step. Without the channel, air gets trapped between the PDMS and PC layers. Next, I take pre-made PDMS sheets (Gel-Pak) that are 17 mil (\SI{0.432}{\milli\meter}) thick. These Gel-Pak sheets have a hard backing on one side, and a soft backing on the other side. I place a strip of double-sided polyimide tape (Kapton) into a plastic dish and place a $\approx 2 \times \SI{2}{\centi\meter}$ piece of Gel-Pak sheet onto the dish, hard backing-side down. The choice to put the hard backing side down makes picking up small pieces of PDMS easier. Then, I use a clean razor blade to cut the PDMS into 2 $\times$ \SI{2}{mm} squares. Using tweezers, I grab one of these squares and place it into the hole in the center of the mounted Kapton tape (Fig. \ref{stamp diagram} (b), green square).
 
-Next, I use a leather punch to make a hole in a piece of scotch tape. Then, I put this scotch tape down onto the dried PC film, ensuring that the area in the tape hole is clean and uniform (Fig. \ref{stamp diagram} (c)). I cut the PC on the edge of the scotch tape using a razor blade and pick up the PC film. Lastly, I place the PC film onto the prepared slide base, aligning the hole in the scotch tape with the hole in the Kapton tape, and press the edges of the hole to ensure good adhesion between the scotch and Kapton tapes. Figure \ref{stamp diagram} (d) shows a completed viscoelastic stamp. Before using a stamp to transfer 2D flakes, I inspect it in an optical microscope to ensure that no dust came between the PC and PDMS layers. If there is dust trapped between the layers, it can cause the two layers to de-laminate from each other. Also, 2D flakes can not be picked up near dust, as the large dust prohibits the stamp from making good contact to the 2D material. Finally, I put the stamp in the transfer station and lower it onto a bare SiO\textsubscript{2} substrate to check the location in which it first touches the surface. This will be relevant in the next step.
+Next, I use a leather punch with diameter $\approx  \SI{4}{\milli\meter}$ to make a hole in a piece of scotch tape. Then, I put this scotch tape down onto the dried PC film, ensuring that the area in the tape hole is clean and uniform (Fig. \ref{stamp diagram} (c)). I cut the PC on the edge of the scotch tape using a razor blade and pick up the PC film. Lastly, I place the PC film onto the prepared slide base, aligning the hole in the scotch tape with the hole in the Kapton tape, and press the edges of the hole to ensure good adhesion between the scotch and Kapton tapes. Figure \ref{stamp diagram} (d) shows a completed viscoelastic stamp. Before using a stamp to transfer 2D flakes, I inspect it in an optical microscope to ensure that no dust came between the PC and PDMS layers. If there is dust trapped between the layers, it can cause the two layers to de-laminate from each other. Also, 2D flakes can not be picked up near dust, as the large dust prohibits the stamp from making good contact to the 2D material. Then, I anneal the stamp at \SI{90}{C} for 5 minutes to ensure good contact between the PC and PDMS. Finally, I put the stamp in the transfer station and lower it onto a bare SiO\textsubscript{2} substrate to check the location in which it first touches the surface. This determines the initial touch-down point of the stamp in the next step.
 
-Figure \ref{hot pickup diagram} shows the hot pickup process that I use for building 2D heterostructures. First, I select 2D flakes of interest using optical microscopy. Ideal flakes have a large area of a single thickness, and are free of residue (see inset of Fig. \ref{hot pickup diagram.} (a)). I also take AFM images of flakes before I use them in a heterostructure to confirm their thickness and check for residue. 
 
-I begin the transfer process by lowering the viscoelastic stamp until it touches the surface. Then, I heat up the stage to at least \SI{40}{C}. The conventional wisdom is that higher temperature makes the stamp more sticky. However, high temperature also increases the likelihood of the PC and PDMS layers de-laminating, so I prefer to start at a lower temperature. I don't recommend going above \SI{90}{C} during the process, as any higher will start to melt the PC.
+\subsection{The hot pickup process}
+Figure \ref{hot pickup diagram} outlines the hot pickup process that I use for building 2D heterostructures. First, I select 2D flakes of interest using optical microscopy. Ideal flakes have a large area of a single thickness, and are free of residue (see inset of Fig. \ref{hot pickup diagram} (a)). I also take AFM images of flakes before I use them in a heterostructure to confirm their thickness and check for residue. 
+
+I begin the transfer process by lowering the viscoelastic stamp until it touches the surface. Then, I heat up the stage to at least \SI{40}{\celsius}. The conventional wisdom is that higher temperature makes the stamp more sticky. However, high temperature also increases the likelihood of the PC and PDMS layers de-laminating (peeling away from each other), so I prefer to start at a lower temperature. For the same reason, I don't heat the stage above \SI{90}{\celsius} during the transfer process. 
+
+I then lower the z-stage until the entire 2D flake is covered by polymer. The inset of Fig. \ref{hot pickup diagram} (b) shows a 2D flake during the polymer expansion process. The interference fringes indicate the direction that the polymer is expanding, and the smooth surface of the portion of the flake that is covered by polymer indicates good contact between the polymer and 2D flake. It is imperative that the 2D flake is smoothly covered by polymer — if any dust or bubbles separate the flake and polymer, the flake will be difficult to pick up. After the entire flake is covered by polymer, I slowly raise the z-stage to peel the flake off of the substrate. The inset of Fig. \ref{hot pickup diagram} (c) shows a flake on a polymer stamp after pick-up.
+
+Then, I find the next layer of the heterostructure and align to the previous layer by looking through the transparent polymer stamp. I then repeat the pick-up process, using the previous flake to pick up the next layer. Finally, to release the heterostructure from the stamp, I first lower the stamp onto the final substrate: Either a marker chip, if the next step is EBL (Sec. \ref{electron-beam lithography}), or pre-patterned electrodes (Sec. \ref{photolithography}). Then, I heat the stage to \SI{170}{\celsius} to melt the PC away from the stamp, waiting 5 minutes to ensure that the PC is fully melted. Next, I slowly raise the stamp, ensuring that the PC pulls away from the stamp. It is important to watch the PC during this step — if the stage is too cool, the polymer will not melt enough, and the heterostructure will be picked up from the surface. Finally, I place the chip in a bath of chloroform for 20 minutes to dissolve the PC. At this point, spraying with a wash bottle of solvent can release the heterostructure from the surface. If residue needs to be cleaned off, I gently spray the edge of the chip, letting solvent run over the heterostructure.
+
+Here are some tips and tricks that I have learned about the transfer process: 
+
+\begin{itemize}
+    \item Slowly peeling the flake from the substrate increases the success rate of the pick-up step
+    \item Higher temperatures make pick-up easier, but also increase the likelihood of ruining the stamp
+    \item Picking up thick flakes directly with the polymer stamp is easier than picking up thin flakes
+    \item Picking up subsequent flakes with h-BN is much easier than picking them up directly with the polymer
+\end{itemize}
+
 
 
 \begin{figure}
     \includegraphics[width = 1\textwidth]{hot pickup diagram.pdf}
-    \caption{}
+    \caption{The hot-pickup process for constructing 2D heterostructures. (a) First, the polymer stamp is lowered close to a 2D flake. Inset: a $\approx \SI{30}{\nano\meter}$ h-BN flake on SiO\textsubscript{2}. (b) The z-stage is slowly lowered and/or the stage is heated by \SI{5}{\celsius} at a time to slowly expand the polymer front over the 2D flake. Inset: a h-BN flake during the pickup process. (c) The z-stage is slowly raised, peeling the 2D flake from the substrate. Inset: A 2D flake which has been peeled from the substrate, barely visible on a polymer stamp. (d)-(e) Steps (a)-(c) are repeated, using the previous flake to pick up the next flake. (f) The completed heterostructure is placed down on the final substrate. The stage is heated to $\SI{170}{\celsius}$ to melt the polymer. Finally, the polymer is dissolved in a solvent.}
     \label{hot pickup diagram}
 \end{figure}
-
 
 \subsection{PCL cleaning}
 
 \section{Contacts to 2D materials}
 
-\subsection{Photolithography}
+\subsection{Photolithography} \label{photolithography}
 
-In this section, I discuss methods for fabricating 2D devices on piezoelectric substrates using photolithography. One might ask: Why not use electron-beam lithography (EBL)? EBL can achieve higher lithographic resolution than photolithography and allows for custom circuit designs to match bespoke 2D heterostructures (see Section ***). For these reasons, EBL is an excellent choice for fabricating 2D devices on SiO\textsubscript{2}. When performing EBL on a thin (< 0.5\ \SI{3}{\micro\meter}m) layer of insulating SiO2 on conductive Si, the charge buildup from the electron beam can readily dissipate through the thin SiO2. However, piezoelectric substrates like quartz or LiNbO\textsubscript{3} are insulating throughout, leading to charge buildup which deflects the incident electrons and distorts lithographic patterns. To dissipate the charge on insulating substrates, one can either deposit a thin charge dissipation layer on top of the EBL resist with thermal evaporation (often 10-20 nm of Al or Au), which is etched away after exposing the resist, or spin a conductive polymer on the EBL resist which is water-soluble \cite{noauthor_nanolithography_nodate}. These anti-charging layers complicate the fabrication process. Depositing a thin metal charge dissipation layer requires time-consuming thermal evaporation, and removing the metal requires a wet chemical etch. This needs to be repeated for every lithography step. Conductive polymers solve these issues but are prohibitively expensive.\footnote{The most common conductive polymer is ESpacer, which costs \$30,000 per 1 L bottle and expires after 6 months. Recently, an alternative conductive resist has been made available which is available in smaller quantities \cite{lopez_charge_2019}.}  
+In this section, I discuss methods for fabricating 2D devices on piezoelectric substrates using photolithography. One might ask: Why not use electron-beam lithography (EBL)? EBL can achieve higher lithographic resolution than photolithography and allows for custom circuit designs to match bespoke 2D heterostructures. For these reasons, EBL is an excellent choice for fabricating 2D devices on SiO\textsubscript{2} (Sec. \ref{electron-beam lithography}). When performing EBL on a thin ($< \SI{0.5}{\micro\meter}$) layer of insulating SiO2 on conductive Si, the charge buildup from the electron beam can readily dissipate through the thin SiO2. However, piezoelectric substrates like quartz or LiNbO\textsubscript{3} are insulating throughout, leading to charge buildup which deflects the incident electrons and distorts lithographic patterns. To dissipate the charge on insulating substrates, one can either deposit a thin charge dissipation layer on top of the EBL resist with thermal evaporation (often 10-20 nm of Al or Au), which is etched away after exposing the resist, or spin a conductive polymer on the EBL resist which is water-soluble \cite{noauthor_nanolithography_nodate}. These anti-charging layers complicate the fabrication process. Depositing a thin metal charge dissipation layer requires time-consuming thermal evaporation, and removing the metal requires a wet chemical etch. This needs to be repeated for every lithography step. Conductive polymers solve these issues but are prohibitively expensive.\footnote{The most common conductive polymer is ESpacer, which costs \$30,000 per 1 L bottle and expires after 6 months. Recently, an alternative conductive resist has been made available which is available in smaller quantities \cite{lopez_charge_2019}.}  
 
-At Oregon State, we can fabricate structures down to \SI{3}{\micro\meter} with photolithography. Unless a device absolutely necessitates smaller feature sizes, it is in our best interest to simplify fabrication and reduce the number of processing steps. However, the motivation for reducing processing steps goes beyond just reducing cost and complexity. In my experience, 2D device fabrication is most likely to fail during liftoff. For example, Fig. \ref{fig:hBN lifted} shows a 40 nm flake of hBN transferred onto LiNbO\textsubscript{3} (top panel) which separated from the surface during liftoff (bottom panel), taking 50 nm of metal with it. For these reasons, I chose to use photolithography to fabricate 2D devices on piezoelectric substrates, creating pre-patterned metal contacts on which I transfer a 2D material.
+At Oregon State, we can fabricate structures down to \SI{3}{\micro\meter} with photolithography. Unless a device absolutely necessitates smaller feature sizes, it is in our best interest to simplify fabrication and reduce the number of processing steps. However, the motivation for reducing processing steps goes beyond just reducing cost and complexity. In my experience, 2D device fabrication is most likely to fail during liftoff. For example, Fig. \ref{fig:h-BN lifted} shows a 40 nm flake of h-BN transferred onto LiNbO\textsubscript{3} (top panel) which separated from the surface during liftoff (bottom panel), taking 50 nm of metal with it. For these reasons, I use photolithography to fabricate 2D devices on piezoelectric substrates. My process involves first creating pre-patterned metal contacts which are then cleaned using AFM (refer to Section \ref{AFM cleaning main section}) prior to transferring a 2D material onto them.
 \begin{figure}
     \includegraphics[width = 0.5\textwidth]{hBN lifted off.pdf}
-    \caption{hBN flake transferred onto LiNbO\textsubscript{3} before (top) and after (bottom) photolithography process to deposit metal electrodes on top of the hBN. The hBN lifted off with the deposited metal. Scale bar = \SI{40}{\micro\meter}.}
-    \label{fig:hBN lifted}
+    \caption{h-BN flake transferred onto LiNbO\textsubscript{3} before (top) and after (bottom) photolithography process to deposit metal electrodes on top of the h-BN. The h-BN lifted off with the deposited metal. Scale bar = \SI{40}{\micro\meter}.}
+    \label{fig:h-BN lifted}
 \end{figure}
 
-When transferring 2D flakes onto pre-patterned metal contacts, creating a smooth surface is of paramount importance. Therefore, clean liftoff with smooth edges is necessary. For this, I use a bilayer process with a tuned undercut, with S1813 photoresist on top of LOR 3A (“liftoff resist”). The full recipe can be found in *APPENDIX*. Fig. \ref{fig:Liftoff AFM} shows a comparison between single-layer and bilayer liftoff processes in which I attempted to lift off ~25 nm of Cr deposited on SiO2 using electron-beam evaporation. In the single-layer process, metal which coated the resist walls did not lift off with the resist, creating wings that are much larger than the metal thickness. In a bilayer process, the bottom layer of resist develops faster than the top layer, creating an undercut profile that breaks the connection between the metal on the resist walls and the desired pattern. It’s clear that a bilayer process is necessary for pre-patterned 2D material contacts. 
+When transferring 2D flakes onto pre-patterned metal contacts, creating a smooth surface is of paramount importance. Therefore, clean liftoff with smooth edges is necessary. For this, I use a bilayer process with a tuned undercut, with S1813 photoresist on top of LOR 3A (“liftoff resist”). The full recipe can be found in App. \ref{photolithography recipe}.Fig. \ref{fig:Liftoff AFM} shows a comparison between single-layer and bilayer liftoff processes in which I attempted to lift off $\approx \SI{25}{\nano\meter}$ of Cr deposited on SiO2 using electron-beam evaporation. In the single-layer process, metal which coated the resist walls did not lift off with the resist, creating wings that are much larger than the metal thickness. In a bilayer process, the bottom layer of resist develops faster than the top layer, creating an undercut profile that breaks the connection between the metal on the resist walls and the desired pattern. It’s clear that a bilayer process is necessary for pre-patterned 2D material contacts. 
 
 %TODO: photolith recipe
 
 \begin{figure}
-    \includegraphics[width = 1\textwidth]{Liftoff AFM.png}
-    \caption{AFM trace (top) and schematic (bottom) for single-layer (left) and bilayer (right) liftoff processes of Cr on SiO2/Si.}
+    \includegraphics[width = 1\textwidth]{liftoff AFM traces comparison.pdf}
+    \caption{AFM trace (top) and schematic (bottom) for single-layer (left) and bilayer (right) liftoff processes of Cr on SiO\textsubscript{2}}
     \label{fig:Liftoff AFM}
 \end{figure}
 
-The development rate of the LOR can be tuned by varying the bake temperature. A higher temperature bake results in a slower undercut rate, allowing us to optimize the undercut. If the undercut is too large, the top layer of resist will collapse. If the undercut is too small, the metal will not lift off cleanly. I first determined the optimal development time for S1813 as 100 seconds using the interdigitated finger pattern shown in Fig. \ref{fig:hBN lifted} Then, I varied the LOR bake time from 170 C to 190 C and attempted liftoff of 3/20 nm Cr/Au. I found that 180 C was the lowest bake temperature at which liftoff was clean. Figure 2.4 shows a cross-sectional SEM image, in which I confirmed that a 180 C bake and 100 s development creates a $\approx \SI{3}{\micro\meter}$ undercut.
+The development rate of the LOR can be tuned by varying the bake temperature. A higher temperature bake results in a slower undercut rate, allowing us to optimize the undercut. If the undercut is too large, the top layer of resist will collapse. If the undercut is too small, the metal will not lift off cleanly. I first determined the optimal development time for S1813 as 100 seconds using the interdigitated finger pattern shown in Fig. \ref{fig:h-BN lifted} Then, I varied the LOR bake time from 170 C to 190 C and attempted liftoff of 3/20 nm Cr/Au. I found that 180 C was the lowest bake temperature at which liftoff was clean. Figure 2.4 shows a cross-sectional SEM image, in which I confirmed that a 180 C bake and 100 s development creates a $\approx \SI{3}{\micro\meter}$ undercut.
 
 The drawback of transferring metal onto pre-patterned contacts is that the contacts need to be cleaned to minimize contamination of the 2D material. In the next section, I detail a method for cleaning metal contacts with contact-mode AFM.
 
 
 \begin{figure}
     \includegraphics{LOR cross section.png}
-    \caption{Cross-sectional SEM image showing bilayer resist process with undercut length $\approx$ \SI{0.4}{\micro\meter}. Scale bar = \SI{3}{\micro\meter}}
+    \caption{Cross-sectional SEM image showing bilayer resist process with undercut length $\approx \SI{0.4}{\micro\meter}$. Scale bar = \SI{3}{\micro\meter}}
     \label{fig:cross-section SEM}
 \end{figure}
 
-\section{Cleaning electrodes with contact-mode AFM}
+\section{Cleaning electrodes with contact-mode AFM} \ref{AFM cleaning main section}
 Inevitably, as-deposited metal contacts will retain residues from the resist and solvents utilized during the photolithography process. Previously, contact-mode AFM has been used to remove contaminants from beneath 2D materials \cite{goossens_mechanical_2012,chen_tip-based_2021}. However, I use contact-mode AFM to clean pre-patterned metal electrodes prior to transferring graphene onto them. I learned this technique from the Yankowitz group at the University of Washington.
 
 For this process, I use Tap150AL AFM probes (Budget Sensors) and an MFP-3D AFM. I first measure the exact spring constant of the AFM tip by taking a force curve. For the full force curve process and a sample force curve, see Appendix \ref{force curve appendix}. Then, I scan the AFM across the electrodes at a force of \SI{150}{N} and a speed of \SI{150}{\micro\meter/\second}. The AFM scan size is \SI{35}{\micro\meter} in the scan direction, and the Tap150AL tip has a minimum diameter of \SI{10}{\nano\meter}. I chose 3584 lines for the scan (\SI{9.76}{\nano\meter/line}) to ensure that each line slightly overlaps the previous line. Figure \ref{AFM cleaning points} shows Pd electrodes after AFM cleaning. Although the metal appeared residue-free before cleaning, a significant amount of residue is now visible at the scan edges. I use this process in Ch. \ref{AE charge pumping paper} to clean pre-patterned Pd electrodes before transferring graphene onto them.
@@ -594,6 +674,10 @@ For this process, I use Tap150AL AFM probes (Budget Sensors) and an MFP-3D AFM. 
     \caption{An optical microscope image of Pd electrodes on LiNbO\textsubscript{3} after AFM cleaning at \SI{150}{N} and \SI{150}{\micro\meter/\second}. Scale bar = \SI{40}{\micro\meter}.}
     \label{AFM cleaning points}
 \end{figure}
+
+
+\section{Electron-beam lithography} \label{electron-beam lithography}
+Electron-beam lithography uses the electron beam of a scanning electron microscope (SEM) to expose a polymer resist in a desired pattern. The electron beam breaks the bonds of the polymer, allowing it to be washed away with a chemical developer. 
 
 
 \chapter{Acoustoelectric charge pumping in ultra-clean graphene using surface acoustic waves} \label{AE charge pumping paper}
@@ -648,7 +732,7 @@ The first method I use to measure the air gap between two chips is interference 
 
 To correct the reflectance spectrum for wavelength-dependent power fluctuations and substrate effects, I measure a reference spectrum using a bare Si substrate, then subtract this reference spectrum from the measured interference spectrum. Then, I determine the flip-chip air gap by hand-fitting to a model spectrum calculated with Filmetrics’s online thin-film modelling calculator. 
 
-As a first test, I spun a PMMA 495 A11 solution on a Si chip at 2500 RPM for 60 seconds. According to the manufacturer's spin curves, the PMMA layer should be $\approx$ \SI{1000}{\nano\meter} thick. Then, I used the process described in \ref{FCfab} to glue a quartz chip on top to create the Si-PMMA-quartz stack shown in the inset of Fig. \ref{PMMAqzspec}. Figure \ref{PMMAqzspec} shows the corrected reflectance spectrum of this Si-PMMA-quartz stack versus the reflectance calculated with the Filmetrics model.
+As a first test, I spun a PMMA 495 A11 solution on a Si chip at 2500 RPM for 60 seconds. According to the manufacturer's spin curves, the PMMA layer should be $\approx \SI{1000}{\nano\meter}$ thick. Then, I used the process described in \ref{FCfab} to glue a quartz chip on top to create the Si-PMMA-quartz stack shown in the inset of Fig. \ref{PMMAqzspec}. Figure \ref{PMMAqzspec} shows the corrected reflectance spectrum of this Si-PMMA-quartz stack versus the reflectance calculated with the Filmetrics model.
 
 
 \begin{figure}
@@ -687,7 +771,7 @@ Before attempting to control the air gap between two chips, I first need to dete
     \label{interference sandwich}
 \end{figure}
 
-The air gap measurement confirms that one side of the flip-chip is $\approx$ \SI{1}{\micro\meter} closer than the other side. Note that the interference fringes curve towards the side with the smallest spacing, as expected. I constructed two other flip-chips with no spacers, and the smallest spacing I could achieve was the \SI{2.4}{\micro\meter} side of the flip-chip shown in Figure \ref{interference sandwich}. I was not able to determine the exact reason for this limit. When I observed visible dust between the chips, I uncoupled the flip-chip and cleaned the Si and quartz chips. No visible dust is present between the flip-chip shown in Fig. \ref{interference sandwich}. However, unseen dust of size $\approx$ \SI{2.4}{\micro\meter} could be present. The air gap limit could also arise from thickness variation over the surface of the quartz and Si wafers. Ref. \cite{bennaceur_mechanical_2015} attributes their minimum achievable flip-chip spacing (fabricated in a class-100 clean room) of 50 to \SI{200}{\nano\meter} to the top and bottom chips not being perfectly flat across the contact area. We did not buy special $<$ \SI{1}{\micro\meter} total thickness variation Si wafers from University Wafer; furthermore, they do not quote the thickness variation of their fused quartz wafers. From these flip-chips with no spacers, I determine \SI{2.4}{\micro\meter} to be the lower bound for the air gap that I can reasonably achieve with etched Si spacers, and use this to inform my flip-chip design in the next section.
+The air gap measurement confirms that the air gap on one side of the flip-chip is $\approx \SI{1}{\micro\meter}$ larger than the air gap on the other side. Note that the interference fringes curve towards the side with the smallest spacing, as expected. I constructed two other flip-chips with no spacers, and the smallest spacing I could achieve was the \SI{2.4}{\micro\meter} side of the flip-chip shown in Figure \ref{interference sandwich}. I was not able to determine the exact reason for this limit. When I observed visible dust between the chips, I uncoupled the flip-chip and cleaned the Si and quartz chips. No visible dust is present between the flip-chip shown in Fig. \ref{interference sandwich}. However, unseen dust of size $\approx \SI{2.4}{\micro\meter}$ could be present. The air gap limit could also arise from thickness variation over the surface of the quartz and Si wafers. Ref. \cite{bennaceur_mechanical_2015} attributes their minimum achievable flip-chip spacing (fabricated in a class-100 clean room) of 50 to \SI{200}{\nano\meter} to the top and bottom chips not being perfectly flat across the contact area. We did not buy special $< \SI{1}{\micro\meter}$ total thickness variation Si wafers from University Wafer; furthermore, they do not quote the thickness variation of their fused quartz wafers. From these flip-chips with no spacers, I determine \SI{2.4}{\micro\meter} to be the lower bound for the air gap that I can reasonably achieve with etched Si spacers, and use this to inform my flip-chip design in the next section.
 
 
 \section{Flip-chip capacitor with deep RIE-etched Si spacers} \label{FC SIspacer}
@@ -763,7 +847,7 @@ Figure \ref{quartz bending} shows the geometry of the bent quartz chip when appl
 
 
 \section{Conclusions}
-In this section, I built a flip-chip capacitor by sandwiching patterned quartz and etched Si chips together with hard-cured varnish. I used two independent methods to characterize the gap between the two chips — interference spectroscopy ("the optical method") and capacitance. Combining both methods allows for a complete characterization of the flip-chip air gap at multiple locations, and a precise measurement between the gate chip and quantum material to be gated. The optical air gap measurement is useful for quick determination of the air gap before spending time wire bonding the chip and mounting it in a cryostat. Prior reports of flip-chip devices did not use optical methods to measure their flip-chip spacing \cite{beukman_noninvasive_2015, chu_creation_2018,satzinger_quantum_2018,bennaceur_mechanical_2015}. Using this optical method, I found that I was not able to achieve parallel mounting without external mounting pressure, likely due to the arm of my homebuilt assembly station not being perfectly level, leading to uneven mounting pressure. This is in agreement with the Si-quartz sandwiches that I created without patterned spacers (Sec. \ref{smallest achievable air gap}), in which I noticed that one side was always $\approx$ \SI{1}{\micro\meter} higher than the other, as measured using interference spectroscopy. Conversely, the capacitance measurement requires electrical contact to the chip, but can measure the air gap more precisely. The central spacing that I measured with capacitance (Fig. \ref{FC cap measurement}) in the cases of no mounting pressure and edge mounting pressure are in good agreement with the flip-chip geometry determined by AFM and optical measurement (Fig. \ref{FCCap Ref Summ}). When I applied mounting pressure to the central capacitor pads, I was able to bend the quartz chip by \SI{0.563(10)}{\micro\meter} and short-circuit the capacitor pads. This suggests the possibility of measuring the air gap of a flip-chip inside a cryostat and tuning the air gap in-situ. Future flip-chip devices could be designed with a capacitive pad in multiple locations on top and bottom chips. Then, A motorized stage inside the cryostat, such as in \cite{inbar_quantum_2023}, could be used to apply mounting pressure to the flip-chip while measuring the capacitor array to minimize the air gap and maximize the strength of coupling between the SAW gate and quantum material. 
+In this section, I built a flip-chip capacitor by sandwiching patterned quartz and etched Si chips together with hard-cured varnish. I used two independent methods to characterize the gap between the two chips — interference spectroscopy ("the optical method") and capacitance. Combining both methods allows for a complete characterization of the flip-chip air gap at multiple locations, and a precise measurement between the gate chip and quantum material to be gated. The optical air gap measurement is useful for quick determination of the air gap before spending time wire bonding the chip and mounting it in a cryostat. Prior reports of flip-chip devices did not use optical methods to measure their flip-chip spacing \cite{beukman_noninvasive_2015, chu_creation_2018,satzinger_quantum_2018,bennaceur_mechanical_2015}. Using this optical method, I found that I was not able to achieve parallel mounting without external mounting pressure, likely due to the arm of my homebuilt assembly station not being perfectly level, leading to uneven mounting pressure. This is in agreement with the Si-quartz sandwiches that I created without patterned spacers (Sec. \ref{smallest achievable air gap}), in which I noticed that one side was always $\approx \SI{1}{\micro\meter}$ higher than the other, as measured using interference spectroscopy. Conversely, the capacitance measurement requires electrical contact to the chip, but can measure the air gap more precisely. The central spacing that I measured with capacitance (Fig. \ref{FC cap measurement}) in the cases of no mounting pressure and edge mounting pressure are in good agreement with the flip-chip geometry determined by AFM and optical measurement (Fig. \ref{FCCap Ref Summ}). When I applied mounting pressure to the central capacitor pads, I was able to bend the quartz chip by \SI{0.563(10)}{\micro\meter} and short-circuit the capacitor pads. This suggests the possibility of measuring the air gap of a flip-chip inside a cryostat and tuning the air gap in-situ. Future flip-chip devices could be designed with a capacitive pad in multiple locations on top and bottom chips. Then, A motorized stage inside the cryostat, such as in \cite{inbar_quantum_2023}, could be used to apply mounting pressure to the flip-chip while measuring the capacitor array to minimize the air gap and maximize the strength of coupling between the SAW gate and quantum material. 
 
 
 \chapter{Conclusion}
@@ -779,6 +863,19 @@ In this section, I built a flip-chip capacitor by sandwiching patterned quartz a
 \appendix
 
 \chapter{Recipes}
+
+\section{Photolithography recipe} \label{photolithography recipe}
+
+\begin{enumerate}
+    \item Cleanly pipette enough LOR 3A photoresist to cover the substrate. Spin at 4000 RPM for 45 seconds.
+    \item Bake at 180 C for 4 minutes
+    \item Cleanly pipette enough S1813 photoresist to cover the substrate. Spin at 4000 RPM for 30 seconds.
+    \item Bake at 120 C for 2 minutes
+    \item Edge bead removal: The edges of the chip will have built-up photoresist that is many times thicker than the rest of the chip. Edge bead removal is particularly important for fine features on small substrates, as edge beads prevent the chip from fully contacting the mask. Try putting a tiny amount of Remover PG on the tip of a swab and wiping it on a cleanroom wipe, then swab your edges at a 45 degree angle to remove edge beads. 
+    \item Expose chip for 12 seconds at \SI{6}{\milli\joule/\centi\meter^2}.
+    \item Develop for 100 seconds in AZ-300 MIF developer
+    \item Rinse with DI water and blow dry with N\textsubscript{2}.
+\end{enumerate}
 
 
 \section{Force curve instructions} \label{force curve appendix}
@@ -864,7 +961,7 @@ Now, you can use the measured spring constant to convert between your desired fo
 
 
 \chapter{Additional flip-chip tests} \label{additional flip-chip tests}
-I initially tried to use photoresist as spacers for flip-chip construction, following the work of \cite{bennaceur_mechanical_2015}. However, I found that the minimum spacing I could achieve was greater than a single layer of spun S1813 photoresist ($\approx$ \SI{1500}{\nano\meter}), so I transitioned to using etched Si spacers. Also, the photoresist tended to flow between the flip-chips due to capillary action, so I found that GE 7031 varnish worked much better as glue. Figure \ref{PRFC} shows my attempts at photoresist-spaced and photoresist-glued flip-chips.
+I initially tried to use photoresist as spacers for flip-chip construction, following the work of \cite{bennaceur_mechanical_2015}. However, I found that the minimum spacing I could achieve was greater than a single layer of spun S1813 photoresist ($\approx \SI{1500}{\nano\meter})$, so I transitioned to using etched Si spacers. Also, the photoresist tended to flow between the flip-chips due to capillary action, so I found that GE 7031 varnish worked much better as glue. Figure \ref{PRFC} shows my attempts at photoresist-spaced and photoresist-glued flip-chips.
 
 
 \begin{figure}
@@ -876,7 +973,7 @@ I initially tried to use photoresist as spacers for flip-chip construction, foll
 
 \chapter{Transferred contacts for high-quality contact to 2D semiconductors}
 
-\chapter{Gate-tunable photoluminescence in hBN-encapsulated MoS2}
+\chapter{Gate-tunable photoluminescence in h-BN-encapsulated MoS2}
 
 \begin{figure}
     \includegraphics[width=1\textwidth]{PL before-after contact.pdf}

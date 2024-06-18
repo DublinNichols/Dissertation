@@ -247,10 +247,14 @@ INPUT ./Figures/piezoelectric field and delta n edited.pdf
 INPUT ./Figures/piezoelectric field and delta n edited.pdf
 INPUT ./Figures/piezoelectric field and delta n edited.pdf
 INPUT ./Figures/piezoelectric field and delta n edited.pdf
-INPUT ./Figures/graphene layer comparison.png
-INPUT ./Figures/graphene layer comparison.png
-INPUT ./Figures/graphene layer comparison.png
-INPUT ./Figures/graphene layer comparison.png
+INPUT ./Figures/exfoliation diagram.pdf
+INPUT ./Figures/exfoliation diagram.pdf
+INPUT ./Figures/exfoliation diagram.pdf
+INPUT ./Figures/exfoliation diagram.pdf
+INPUT ./Figures/graphene layer comparison.pdf
+INPUT ./Figures/graphene layer comparison.pdf
+INPUT ./Figures/graphene layer comparison.pdf
+INPUT ./Figures/graphene layer comparison.pdf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT ./Figures/stamp making diagram.pdf
 INPUT ./Figures/stamp making diagram.pdf
@@ -261,23 +265,23 @@ INPUT ./Figures/hot pickup diagram.pdf
 INPUT ./Figures/hot pickup diagram.pdf
 INPUT ./Figures/hot pickup diagram.pdf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
-INPUT ./Figures/hBN lifted off.pdf
-INPUT ./Figures/hBN lifted off.pdf
-INPUT ./Figures/hBN lifted off.pdf
-INPUT ./Figures/hBN lifted off.pdf
-INPUT ./Figures/Liftoff AFM.png
-INPUT ./Figures/Liftoff AFM.png
-INPUT ./Figures/Liftoff AFM.png
-INPUT ./Figures/Liftoff AFM.png
-INPUT ./Figures/LOR cross section.png
-INPUT ./Figures/LOR cross section.png
-INPUT ./Figures/LOR cross section.png
-INPUT ./Figures/LOR cross section.png
-INPUT ./Figures/AFM cleaning 1.pdf
-INPUT ./Figures/AFM cleaning 1.pdf
-INPUT ./Figures/AFM cleaning 1.pdf
-INPUT ./Figures/AFM cleaning 1.pdf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./Figures/hBN lifted off.pdf
+INPUT ./Figures/hBN lifted off.pdf
+INPUT ./Figures/hBN lifted off.pdf
+INPUT ./Figures/hBN lifted off.pdf
+INPUT ./Figures/liftoff AFM traces comparison.pdf
+INPUT ./Figures/liftoff AFM traces comparison.pdf
+INPUT ./Figures/liftoff AFM traces comparison.pdf
+INPUT ./Figures/liftoff AFM traces comparison.pdf
+INPUT ./Figures/LOR cross section.png
+INPUT ./Figures/LOR cross section.png
+INPUT ./Figures/LOR cross section.png
+INPUT ./Figures/LOR cross section.png
+INPUT ./Figures/AFM cleaning 1.pdf
+INPUT ./Figures/AFM cleaning 1.pdf
+INPUT ./Figures/AFM cleaning 1.pdf
+INPUT ./Figures/AFM cleaning 1.pdf
 INPUT ./Figures/Flip-chip design from Ref 1.png
 INPUT ./Figures/Flip-chip design from Ref 1.png
 INPUT ./Figures/Flip-chip design from Ref 1.png

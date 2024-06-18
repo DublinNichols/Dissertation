@@ -6,7 +6,6 @@ homebuilt
 Photolithography
 heterostructures
 ESpacer
-hBN
 SAWs
 Eqs
 acoustoelectric
@@ -42,3 +41,6 @@ wavefunctions
 wavefunction
 quasiparticles
 integrand
+de-laminating
+h-BN
+Raman
