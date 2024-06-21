@@ -13,6 +13,42 @@ Arjan J.~A. Beukman, Fanming Qu, Ken~W. West, Loren~N. Pfeiffer, and Leo~P. Kouw
 \bibitem{noauthor_newtons_nodate}
 Newton’s rings.
 
+\bibitem{noauthor_rise_2016}
+The rise of quantum materials.
+\newblock {\em Nature Physics}, 12(2):105--105, February 2016.
+\newblock Publisher: Nature Publishing Group.
+
+\bibitem{novoselov_electric_2004}
+K.~S. Novoselov, A.~K. Geim, S.~V. Morozov, D.~Jiang, Y.~Zhang, S.~V. Dubonos, I.~V. Grigorieva, and A.~A. Firsov.
+\newblock Electric {Field} {Effect} in {Atomically} {Thin} {Carbon} {Films}.
+\newblock {\em Science}, 306(5696):666--669, October 2004.
+
+\bibitem{liu_two-dimensional_2020}
+Chunsen Liu, Huawei Chen, Shuiyuan Wang, Qi~Liu, Yu-Gang Jiang, David~Wei Zhang, Ming Liu, and Peng Zhou.
+\newblock Two-dimensional materials for next-generation computing technologies.
+\newblock {\em Nature Nanotechnology}, 15(7):545--557, July 2020.
+
+\bibitem{obrien_process_2023}
+Kevin~P. O’Brien, Carl~H. Naylor, Chelsey Dorow, Kirby Maxey, Ashish~Verma Penumatcha, Andrey Vyatskikh, Ting Zhong, Ande Kitamura, Sudarat Lee, Carly Rogan, Wouter Mortelmans, Mahmut~Sami Kavrik, Rachel Steinhardt, Pratyush Buragohain, Sourav Dutta, Tristan Tronic, Scott Clendenning, Paul Fischer, Ernisse~S. Putna, Marko Radosavljevic, Matt Metz, and Uygar Avci.
+\newblock Process integration and future outlook of {2D} transistors.
+\newblock {\em Nature Communications}, 14(1):6400, October 2023.
+
+\bibitem{huang_layer-dependent_2017}
+Bevin Huang, Genevieve Clark, Efrén Navarro-Moratalla, Dahlia~R. Klein, Ran Cheng, Kyle~L. Seyler, Ding Zhong, Emma Schmidgall, Michael~A. McGuire, David~H. Cobden, Wang Yao, Di~Xiao, Pablo Jarillo-Herrero, and Xiaodong Xu.
+\newblock Layer-dependent ferromagnetism in a van der {Waals} crystal down to the monolayer limit.
+\newblock {\em Nature}, 546(7657):270--273, June 2017.
+
+\bibitem{kajale_two-dimensional_2024}
+Shivam~N. Kajale, Jad Hanna, Kyuho Jang, and Deblina Sarkar.
+\newblock Two-dimensional magnetic materials for spintronic applications.
+\newblock {\em Nano Research}, 17(2):743--762, February 2024.
+
+\bibitem{rayleigh_waves_1885}
+Lord Rayleigh.
+\newblock On {Waves} {Propagated} along the {Plane} {Surface} of an {Elastic} {Solid}.
+\newblock {\em Proceedings of the London Mathematical Society}, s1-17(1):4--11, 1885.
+\newblock Publisher: Oxford University Press.
+
 \bibitem{friess_current_2018}
 B.~Friess, V.~Umansky, K.~Von~Klitzing, and J. H. Smet.
 \newblock Current {Flow} in the {Bubble} and {Stripe} {Phases}.
@@ -104,6 +140,63 @@ Xuchen Nie, Xiaoyue Wu, Yang Wang, Siyuan Ban, Zhihao Lei, Jiabao Yi, Ying Liu, 
 \newblock Surface acoustic wave induced phenomena in two-dimensional materials.
 \newblock {\em Nanoscale Horizons}, 8(2):158--175, 2023.
 
+\bibitem{scherer_singleelectron_2019}
+Hansjörg Scherer and Hans~Werner Schumacher.
+\newblock Single‐{Electron} {Pumps} and {Quantum} {Current} {Metrology} in the {Revised} {SI}.
+\newblock {\em Annalen der Physik}, 531(5):1800371, May 2019.
+
+\bibitem{citro_thouless_2023}
+Roberta Citro and Monika Aidelsburger.
+\newblock Thouless pumping and topology.
+\newblock {\em Nature Reviews Physics}, 5(2):87--101, February 2023.
+\newblock Publisher: Nature Publishing Group.
+
+\bibitem{thouless_quantization_1983}
+D.~J. Thouless.
+\newblock Quantization of particle transport.
+\newblock {\em Physical Review B}, 27(10):6083--6087, May 1983.
+
+\bibitem{pekola_single-electron_2013}
+Jukka~P. Pekola, Olli-Pentti Saira, Ville~F. Maisi, Antti Kemppinen, Mikko Möttönen, Yuri~A. Pashkin, and Dmitri~V. Averin.
+\newblock Single-electron current sources: {Toward} a refined definition of the ampere.
+\newblock {\em Reviews of Modern Physics}, 85(4):1421--1472, October 2013.
+
+\bibitem{das_controlled_2006}
+Kunal~K. Das, Sungjun Kim, and Ari Mizel.
+\newblock Controlled {Flow} of {Spin}-{Entangled} {Electrons} via {Adiabatic} {Quantum} {Pumping}.
+\newblock {\em Physical Review Letters}, 97(9):096602, August 2006.
+\newblock Publisher: American Physical Society.
+
+\bibitem{talyanskii_quantized_2001}
+V.~I. Talyanskii, D.~S. Novikov, B.~D. Simons, and L.~S. Levitov.
+\newblock Quantized {Adiabatic} {Charge} {Transport} in a {Carbon} {Nanotube}.
+\newblock {\em Physical Review Letters}, 87(27):276802, December 2001.
+
+\bibitem{buitelaar_adiabatic_2008}
+M.~R. Buitelaar, V.~Kashcheyevs, P.~J. Leek, V.~I. Talyanskii, C.~G. Smith, D.~Anderson, G.~A.~C. Jones, J.~Wei, and D.~H. Cobden.
+\newblock Adiabatic {Charge} {Pumping} in {Carbon} {Nanotube} {Quantum} {Dots}.
+\newblock {\em Physical Review Letters}, 101(12):126803, September 2008.
+
+\bibitem{huang_superior_2015}
+Jhao-Wun Huang, Cheng Pan, Son Tran, Bin Cheng, Kenji Watanabe, Takashi Taniguchi, Chun~Ning Lau, and Marc Bockrath.
+\newblock Superior {Current} {Carrying} {Capacity} of {Boron} {Nitride} {Encapsulated} {Carbon} {Nanotubes} with {Zero}-{Dimensional} {Contacts}.
+\newblock {\em Nano Letters}, 15(10):6836--6840, October 2015.
+
+\bibitem{senger_universal_2018}
+Mitchell~J. Senger, Daniel~R. McCulley, Neda Lotfizadeh, Vikram~V. Deshpande, and Ethan~D. Minot.
+\newblock Universal interaction-driven gap in metallic carbon nanotubes.
+\newblock {\em Physical Review B}, 97(3):035445, January 2018.
+
+\bibitem{goossens_mechanical_2012}
+A.~M. Goossens, V.~E. Calado, A.~Barreiro, K.~Watanabe, T.~Taniguchi, and L.~M.~K. Vandersypen.
+\newblock Mechanical cleaning of graphene.
+\newblock {\em Applied Physics Letters}, 100(7):073110, February 2012.
+
+\bibitem{chen_tip-based_2021}
+Sihan Chen, Jangyup Son, Siyuan Huang, Kenji Watanabe, Takashi Taniguchi, Rashid Bashir, Arend~M. Van Der~Zande, and William~P. King.
+\newblock Tip-{Based} {Cleaning} and {Smoothing} {Improves} {Performance} in {Monolayer} {MoS} $_{\textrm{2}}$ {Devices}.
+\newblock {\em ACS Omega}, 6(5):4013--4021, February 2021.
+
 \bibitem{wallace_band_1947}
 P.~R. Wallace.
 \newblock The {Band} {Theory} of {Graphite}.
@@ -134,12 +227,6 @@ C.~R. Dean, A.~F. Young, I.~Meric, C.~Lee, L.~Wang, S.~Sorgenfrei, K.~Watanabe, 
 Na~Xin, James Lourembam, Piranavan Kumaravadivel, A.~E. Kazantsev, Zefei Wu, Ciaran Mullan, Julien Barrier, Alexandra~A. Geim, I.~V. Grigorieva, A.~Mishchenko, A.~Principi, V.~I. Fal’ko, L.~A. Ponomarenko, A.~K. Geim, and Alexey~I. Berdyugin.
 \newblock Giant magnetoresistance of {Dirac} plasma in high-mobility graphene.
 \newblock {\em Nature}, 616(7956):270--274, April 2023.
-
-\bibitem{rayleigh_waves_1885}
-Lord Rayleigh.
-\newblock On {Waves} {Propagated} along the {Plane} {Surface} of an {Elastic} {Solid}.
-\newblock {\em Proceedings of the London Mathematical Society}, s1-17(1):4--11, 1885.
-\newblock Publisher: Oxford University Press.
 
 \bibitem{weinreich_acoustodynamic_1956}
 Gabriel Weinreich.
@@ -181,10 +268,20 @@ Vladimir~I. Fal’ko, S.~V. Meshkov, and S.~V. Iordanskii.
 \newblock Acoustoelectric drag effect in the two-dimensional electron gas at strong magnetic field.
 \newblock {\em Physical Review B}, 47(15):9910--9912, April 1993.
 
-\bibitem{novoselov_electric_2004}
-K.~S. Novoselov, A.~K. Geim, S.~V. Morozov, D.~Jiang, Y.~Zhang, S.~V. Dubonos, I.~V. Grigorieva, and A.~A. Firsov.
-\newblock Electric {Field} {Effect} in {Atomically} {Thin} {Carbon} {Films}.
-\newblock {\em Science}, 306(5696):666--669, October 2004.
+\bibitem{campbell_surface_1989}
+Colin Campbell.
+\newblock {\em Surface {Acoustic} {Wave} {Devices} and {Their} {Signal} {Processing} {Applications}}.
+\newblock Academic Press INC. (London) LTD., 1989.
+
+\bibitem{smith_analysis_1969}
+W.R. Smith, H.M. Gerard, J.H. Collins, T.M. Reeder, and H.J. Shaw.
+\newblock Analysis of {Interdigital} {Surface} {Wave} {Transducers} by {Use} of an {Equivalent} {Circuit} {Model}.
+\newblock {\em IEEE Transactions on Microwave Theory and Techniques}, 17(11):856--864, November 1969.
+
+\bibitem{lane_integrating_2021}
+Justin~R Lane.
+\newblock {INTEGRATING} {SUPERCONDUCTING} {QUBITS} {WITH} {QUANTUM} {FLUIDS} {AND} {SURFACE} {ACOUSTIC} {WAVE} {DEVICES}.
+\newblock 2021.
 
 \bibitem{quellmalz_large-area_2021}
 Arne Quellmalz, Xiaojing Wang, Simon Sawallich, Burkay Uzlu, Martin Otto, Stefan Wagner, Zhenxing Wang, Maximilian Prechtl, Oliver Hartwig, Siwei Luo, Georg~S. Duesberg, Max~C. Lemme, Kristinn~B. Gylfason, Niclas Roxhed, Göran Stemme, and Frank Niklaus.
@@ -220,16 +317,6 @@ Gerald Lopez, Glen De~Villafranca, Grant Shao, Meiyue Zhang, and Andrew Thompson
 \newblock Charge dissipation by use of a novel aqueous based quaternary ammonium compound for use in electron beam lithography on non-conductive substrates.
 \newblock In Roel Gronheid and Daniel~P. Sanders, editors, {\em Advances in {Patterning} {Materials} and {Processes} {XXXVI}}, page~79, San Jose, United States, March 2019. SPIE.
 
-\bibitem{goossens_mechanical_2012}
-A.~M. Goossens, V.~E. Calado, A.~Barreiro, K.~Watanabe, T.~Taniguchi, and L.~M.~K. Vandersypen.
-\newblock Mechanical cleaning of graphene.
-\newblock {\em Applied Physics Letters}, 100(7):073110, February 2012.
-
-\bibitem{chen_tip-based_2021}
-Sihan Chen, Jangyup Son, Siyuan Huang, Kenji Watanabe, Takashi Taniguchi, Rashid Bashir, Arend~M. Van Der~Zande, and William~P. King.
-\newblock Tip-{Based} {Cleaning} and {Smoothing} {Improves} {Performance} in {Monolayer} {MoS} $_{\textrm{2}}$ {Devices}.
-\newblock {\em ACS Omega}, 6(5):4013--4021, February 2021.
-
 \bibitem{fink_electron-beam-induced_1990}
 T.~Fink, D.D. Smith, and W.D. Braddock.
 \newblock Electron-beam-induced damage study in {GaAs}-{AlGaAs} heterostructures as determined by magnetotransport characterization.
@@ -254,10 +341,6 @@ K.~J. Satzinger, Y.~P. Zhong, H.-S. Chang, G.~A. Peairs, A.~Bienfait, Ming-Han C
 Keyan Bennaceur, Benjamin~A. Schmidt, Samuel Gaucher, Dominique Laroche, Michael~P. Lilly, John~L. Reno, Ken~W. West, Loren~N. Pfeiffer, and Guillaume Gervais.
 \newblock Mechanical {Flip}-{Chip} for {Ultra}-{High} {Electron} {Mobility} {Devices}.
 \newblock {\em Scientific Reports}, 5(1):13494, September 2015.
-
-\bibitem{lane_integrating_nodate}
-Justin~R Lane.
-\newblock {INTEGRATING} {SUPERCONDUCTING} {QUBITS} {WITH} {QUANTUM} {FLUIDS} {AND} {SURFACE} {ACOUSTIC} {WAVE} {DEVICES}.
 
 \bibitem{inbar_quantum_2023}
 A.~Inbar, J.~Birkbeck, J.~Xiao, T.~Taniguchi, K.~Watanabe, B.~Yan, Y.~Oreg, Ady Stern, E.~Berg, and S.~Ilani.

@@ -8,6 +8,9 @@
 \usepackage{physics}
 \usepackage{amsmath}
 \usepackage[autostyle, english = american]{csquotes}
+\usepackage{etoolbox}
+%\usepackage{quotchap}
+\AtBeginEnvironment{quote}{\par\singlespacing\small}
 \MakeOuterQuote{"}
 \DeclareUnicodeCharacter{2009}{\,} 
 \title{Interactions between surface acoustic waves and charge carriers in quantum materials}
@@ -43,70 +46,54 @@
 %-------------------------INTRODUCTION-----------------------------
 
 \chapter{Introduction}
+Interest in the transformative potential of the second quantum revolution has reached the mainstream. Not a week goes by without a hundred popular science articles promising that some new material, with some "weird quantum property", will revolutionize your computer, car, refrigerator, and more. Central to these claims are quantum materials. In contrast to conventional materials such as silicon, which can be accurately described using semiclassical physics and basic quantum mechanics, quantum materials force us to move beyond the theories established in the early 20th century (during the first quantum revolution). These initial theories were immensely impactful — they led to the invention of transistors and formed the foundation of our computer-centric world. Quantum materials, however, boast strongly-interacting electrons, exhibit quantum interference effects, provide new quantum degrees of freedom, and manifest topological states of matter, all of which challenge our understanding of physics. But, can these materials revolutionize anything, or are they just curiosities that will never leave the lab?
 
-Why do quantum materials matter? Is there a point to studying them? Are all of these new physics phenomena just toys, or can they be useful? Relate this to the first quantum revolution
-
-
-Interest in the transformative potential of the second quantum revolution has reached the mainstream. Not a week goes by without a thousand popular science articles promising that some new material, with some "weird quantum property", will enable scalable quantum computers that revolutionize your computer, car, refrigerator, and more. Central to these claims are quantum materials, or those whose properties go beyond silicon. In quantum materials, electrons are strongly interacting, quantum interference effects arise, new quantum degrees of freedom can be harnessed, and topological states of matter challenge our understanding of physics. But, can these materials revolutionize anything, or are they just curiosities that will never leave the lab?
-
-Few classes of materials have captivated researchers' interest as profoundly as two-dimensional (2D) materials, a subset of quantum materials. Nearly two decades since the Nobel Prize was awarded for electronic measurements of atomically-thin carbon films known as graphene, the family of 2D materials has expanded to include a plethora of 2D semiconductors and magnets with surprising new phenomena. 
-
-2D materials are very tunable.
-
-https://www-nature-com.oregonstate.idm.oclc.org/articles/nature22391
-
-2D magnets are approaching room-temperature applications
+When I first heard the phrase "quantum materials", I thought it was a bit ridiculous. Aren't all material properties essentially a result of quantum mechanics? I was convinced to the contrary by an editorial in \textit{Nature Physics}, which writes
 
 
+\begin{quote}
+"Of course, on a trivial level all materials
+exist thanks to the laws of quantum
+mechanics, and there are cynics who will
+privately wonder if the description isn’t too
+broad and, well, catchy for its own good\dots there
+are good reasons to embrace quantum
+materials. In essence, they provide
+a common thread linking disparate
+communities of researchers working on
+a variety of problems at the frontiers of
+physics, materials science and engineering." \cite{noauthor_rise_2016}
+\end{quote}
+The phrase "quantum materials" isn't meant to be precise. It links together researchers who are developing quantum computers, to those exploring topological states of matter in ultracold atoms, to researchers like me who seek to harness the properties of 2D materials to explore new and exciting physics and promising applications. The development of the transistor never would have been possible without first developing a deep understanding of the basic physics of quantum mechanics. Now, as we stand on the precipice of the second quantum revolution, we must confront these challenges directly, and strive to deepen our understanding of the physics of quantum materials. Though we work on distinct challenges, we can unite under the moniker "quantum materials". 
 
+\section{Why two-dimensional materials?}
 
-Electrons are strongly interacting
-Quantum interference effects
-New quantum degrees of freedom (e.g. valley degree of freedom)
-Topological physics
-
-
-
-Quantum materials command a central focus in today’s research landscape. Excitement about quantum information science 
-
-
-Quantum materials . These materials, which encompass a diverse family of two-dimensional (2D) semiconductors, hold the potential to revolutionize our understanding of the quantum world and herald the next generation of computing. 
-
-
-
-
-Few classes of materials have captivated researchers' interest as profoundly as two-dimensional (2D) materials. Nearly two decades since the Nobel Prize was awarded for measurements of atomically-thin carbon films known as graphene, the family of 2D materials has expanded to include a plethora of 2D semiconductors and magnets
-
-
-a plethora of two-dimensional (2D) materials 
-
-has promised to revolutionize physics, thanks to its unique properties. Its extraordinary thermal conductivity, mechanical strength, and, most importantly, its unusual electronic band structure have opened new avenues for exploring quantum phenomena. This dissertation embarks on a journey to probe these quantum phenomena using surface acoustic waves (SAWs), an innovative approach that marries the macroscopic world of acoustics with the microscopic realm of quantum mechanics. As we delve into the heart of 2D materials with the rhythm of SAWs, we stand on the brink of uncovering new physics, promising not only to enrich our understanding of the universe but also to propel us into a future where the quantum world is within our grasp. This is not just a study—it’s an exploration of the quantum frontier.
-
-
-\section{Objective}
+Few quantum materials have captivated researchers' interest as profoundly as two-dimensional (2D) materials. Two decades have passed since Novoselov et al. published their electronic measurements on atomically-thin carbon films known as graphene, which would later win them the Nobel Prize \cite{novoselov_electric_2004}. Since then, the family of 2D materials has expanded to include a plethora of 2D semiconductors and magnets. The greatest strength of 2D materials lies in their tunability. When electrons are confined to two dimensions, they are incredibly sensitive to their environment. By stacking atomically-thin 2D materials into heterostructures, we can harness their tunability for next-generation electronics. For example, 2D semiconductor heterostructures are of prime interest to overcome the fundamental limits of silicon-based transistors, enhancing transistor density while simultaneously paving the way for more energy-efficient computing \cite{liu_two-dimensional_2020,obrien_process_2023}. 2D ferromagnets challenge established theories of magnetism, provide unprecedented electronic control over magnetism, and enable applications in sensing and data storage \cite{huang_layer-dependent_2017,kajale_two-dimensional_2024}. The tunability of 2D materials allows us to tune their electronic properties and control these quantum phenomena to explore both exciting new physics and promising applications.
 
 
 \section{Background and Motivation}
-\subsection{Probing and controlling phenomena in quantum materials}
+\subsection{Using surface acoustic waves to probe and control quantum phenomena}
 
-Surface acoustic waves enable novel probes into quantum phenomena which are not accessible using conventional transport techniques. For example, SAWs were recently used to demonstrate that current-induced modifications of bubble and stripe phases in 2D electron systems (2DEs) are a local phenomenon \cite{friess_current_2018}. In contrast to prior transport studies which indirectly probed the voltage drop on the edges of the 2DEs, the authors used SAWs to probe the entire sample at once, gaining new understanding into the effects of external current on highly-ordered electron phases. Another work used a combination of SAWs, microwave excitation, and optical detection to study quantum Hall stripes \cite{kukushkin_collective_2011}. By employing SAWs with a wavelength of \SI{60}{\nano\meter}, the authors were able to probe commensurability effects between the SAW superlattice and quantum Hall stripes. A plethora of earlier SAW-based studies provided new insight into the quantum Hall and fractional quantum Hall effect \cite{wixforth_quantum_1986,esslinger_acoustoelectric_1992,esslinger_ultrasonic_1994,kukushkin_collective_2011,willett_experimental_1993} and Wigner crystallization \cite{paalanen_rf_1992}. These works highlight the incredible strength of SAWs for probing phenomena in quantum systems. Building on these successes, researchers have begun to explore the potential of SAWs in the rapidly evolving field of 2D materials.
+
+A surface acoustic wave (SAW) is an elastic wave that propagates along the surface of a
+material, with its energy confined to a depth of around one wavelength below the surface \cite{rayleigh_waves_1885}. When a SAW propagates in a piezoelectric substrate (such as LiNbO\textsubscript{3}), it mechanically stresses the piezoelectric, generating electric fields. These travelling spatially- and temporally-periodic electric fields can interact with quantum materials, enabling novel probes into quantum phenomena which are not accessible using conventional transport techniques. For example, SAWs were recently used to demonstrate that current-induced modifications of bubble and stripe phases in 2D electron systems (2DES) are a local phenomenon \cite{friess_current_2018}. In contrast to prior transport studies which indirectly probed the voltage drop on the edges of the 2DES, the authors used SAWs to probe the entire sample at once, gaining new understanding into the effects of external current on highly-ordered electron phases. Another work used a combination of SAWs, microwave excitation, and optical detection to study quantum Hall stripes \cite{kukushkin_collective_2011}. By employing SAWs with a wavelength of \SI{60}{\nano\meter}, the authors were able to probe commensurability effects between the SAW superlattice and quantum Hall stripes. A plethora of earlier SAW-based studies provided new insight into the quantum Hall and fractional quantum Hall effect \cite{wixforth_quantum_1986,esslinger_acoustoelectric_1992,esslinger_ultrasonic_1994,kukushkin_collective_2011,willett_experimental_1993} and Wigner crystallization \cite{paalanen_rf_1992}. These works highlight the incredible strength of SAWs for probing phenomena in quantum systems. Building on these successes, researchers have begun to explore the potential of SAWs in the rapidly evolving field of 2D materials.
 
 In 2018, interest in engineered 2D superlattices exploded with the discovery of unconventional superconductivity in twisted bilayer graphene \cite{cao_unconventional_2018}. The birth of the field of "twistronics" added a new knob to turn in the already massive parameter space available for creating bespoke 2D devices. By tuning the twist angle between two sheets of graphene (and thus the periodicity of the moiré superlattice), bilayer graphene can not only exhibit superconductivity, but also correlation-induced insulating states, magnetism, quantized anomalous Hall states, and many more \cite{andrei_graphene_2020}. In 2D semiconductors, which exhibit exciton dynamics that are of great interest for next-generation electronics, tuning the moiré superlattice provides even more control over the spin and valley degrees of freedom \cite{ciarrocchi_excitonic_2022}. While graphene has a lattice periodicity on the order of \SI{0.15}{\nano\meter}, the moiré superlattices in twisted devices have much longer periods (tens to hundreds of nm) which are on the order of nominal SAW wavelengths. This congruence opens up the possibility of exploring commensurability effects between moiré superlattices and SAW potentials. Contactless probing using SAWs could also circumvent the challenges of making quality electrical contacts to 2D semiconductors for transport measurements \cite{miao_recent_2022}. Hence, SAWs are an ideal tool for contactlessly probing and controlling quantum phenomena in 2D materials. This potential has not gone unnoticed, as evidenced by recent works that have already employed SAWs to great effect, opening new avenues in the probing and manipulation of 2D quantum phenomena.
 
-One phenomenon of interest is interlayer excitons in 2D semiconductor heterostructures. Interlayer excitons are composed of electrons and holes located in different layers in stacks of 2D semiconductors. Harnessing these excitons is exciting for nanophotonics and quantum information applications \cite{tran_evidence_2019}; however, controlling them is difficult because they are charge-neutral and exhibit no net force under a uniform electric field. Prior works utilized diffusion to transport interlayer excitons, but the transport lengths achievable using diffusion are limited \cite{jauregui_electrical_2019,unuchek_room-temperature_2018}. In a recent work, the authors used SAWs to transport interlayer excitons over incredible distances in bilayer WSe\textsubscript{2} \cite{peng_long-range_2022}. Given that SAWs transport both electrons and holes in the same direction (See Sec. ****), they can transport neutral excitons much further than the diffusion length. This approach also circumvents the challenges previously identified by other researchers when using local graphene gates \cite{liu_electrically_2020}. In another work, SAWs were used as a contactless probe of measuring wave-vector dependent conductivity in ultraclean graphene, establishing the viability of SAW resonant cavities as a probe for quantum transport phenomena in 2D materials \cite{fang_quantum_2023}. However, these studies have only scratched the surface of what is possible by interfacing SAWs with quantum materials. Many other SAW-induced phenomena in 2D materials have been theoretically predicted, but not yet achieved experimentally \cite{nie_surface_2023}. Therefore, it is imperative to further develop the methods of interfacing SAWs with 2D materials, and to further our understanding of interactions between SAWs and quantum phenomena in 2D materials.
+One phenomenon of interest is interlayer excitons in 2D semiconductor heterostructures. Interlayer excitons are composed of electrons and holes located in different layers in stacks of 2D semiconductors. Harnessing these excitons is exciting for nanophotonics and quantum information applications \cite{tran_evidence_2019}; however, controlling them is difficult because they are charge-neutral and exhibit no net force under a uniform electric field. Prior works utilized diffusion to transport interlayer excitons, but the transport lengths achievable using diffusion are limited \cite{jauregui_electrical_2019,unuchek_room-temperature_2018}. In a recent work, the authors used SAWs to transport interlayer excitons over incredible distances in bilayer WSe\textsubscript{2} \cite{peng_long-range_2022}. Given that SAWs transport both electrons and holes in the same direction (See Sec. ****), they can transport neutral excitons much further than the diffusion length. This approach also circumvents the challenges previously identified by other researchers when using local graphene gates \cite{liu_electrically_2020}. In another work, SAWs were used as a contactless probe of measuring wave-vector dependent conductivity in ultraclean graphene, establishing the viability of SAW resonant cavities as a probe for quantum transport phenomena in 2D materials \cite{fang_quantum_2023}. However, these studies have only scratched the surface of what is possible by interfacing SAWs with quantum materials. Many other SAW-induced phenomena in 2D materials have been theoretically predicted, but not yet achieved experimentally \cite{nie_surface_2023}. Therefore, it is imperative to further develop the methods of interfacing SAWs with 2D materials, and to further our understanding of interactions between SAWs and phenomena in quantum materials. One such SAW-enabled phenomenon that has not yet been realized experimentally is topologically-protected quantized charge transport.
 
-\subsection{Quantum pumps}
+\subsection{Topologically-protected charge pumps}
 
+A quantized charge pump is a device that transports electrons in precise, quantized units. Unlike conventional DC transport, where electrons flow stochastically in response to an applied voltage bias, quantized charge pumps operate at a constant frequency $f$, transporting a unit of charge $Ne$ per cycle (where $N$ is an integer), resulting in a DC current of magnitude $Nef$. Such devices are of great interest to metrologists, where practical sources of highly-quantized current could help define a better standard of current \cite{scherer_singleelectron_2019}. Many designs for quantized charge pumps have been demonstrated, with the best pumps today being based on controlling tunneling to- and from quantum dots. However, quantized charge pumps based on tunneling face fundamental limits to their accuracy, as tunneling is an inherently random process. Topologically-protected quantum charge pumps could overcome these fundamental limits.
 
-\subsection{Surface acoustic wave sensors}
+In a topologically-protected quantum charge, the Hamiltonian of the system is adiabatically modulated by a potential periodic in space and time. During one cycle of the periodic potential, the state of the system traverses a closed path in momentum space. From the adiabatic theorem, if the system starts in an eigenstate of the Hamiltonian, and undergoes an adiabatic transformation, it must end in an eigenstate of the Hamiltonian. However, though the state begins and ends in an identical eigenstate, during the cycle it acquires a geometric phase. This geometric phase defines a \textit{topological invariant}, or a quantity that depends only on the topology of the energy bands of the system, and is thus invariant to small perturbations from the environment \cite{citro_thouless_2023}. Such a pump is known as the Thouless pump, named after D.J. Thouless, who was the first to propose this phenomenon theoretically \cite{thouless_quantization_1983}. Thouless found that, in a 1D electronic system under the influence of a spatially- and temporally-periodic potential, the unit of charge transported per cycle is topologically invariant. The Thouless pump is of great interest to the fields of metrology \cite{pekola_single-electron_2013}, where topologically protected charge pumping could enable higher-accuracy quantized charge pumps, and quantum computing \cite{das_controlled_2006}, where a Thouless pump could generate and control the flow of spin-entangled quantum states with minimal decoherence. A charge Thouless pump has not yet been realized experimentally; however, it has been proposed that coupling carbon nanotubes to SAWs is an ideal system to realize topologically-protected charge pumping.
 
+Talyanskii et al. proposed that a carbon nanotube coupled to a surface acoustic wave is an ideal system to create a charge Thouless pump \cite{talyanskii_quantized_2001}. Though charge pumping in carbon nanotubes using surface acoustic waves has been demonstrated previously \cite{buitelaar_adiabatic_2008}, the Thouless pumping regime has not yet been achieved. This is likely because, to achieve the Thouless pumping state, one needs to fit many spatial periods of the SAW inside an ultraclean nanotube. This is challenging because insulating surfaces, including piezoelectric insulators (on which SAWs are generated), induce considerable electrostatic disorder within electronic systems on their surface. Therefore, surface nanotubes are too disordered to use in a Thouless pump. Thus, we must turn to two demonstrated methods of creating ultraclean nanotubes: Either encapsulate the nanotube in two-dimensional hexagonal boron nitride (h-BN) \cite{huang_superior_2015}, or suspend the nanotube above the substrate \cite{senger_universal_2018}. Realizing a charge Thouless pump using a carbon nanotube was the primary motivation for the research presented in this dissertation. Therefore, I will next delve into these two approaches towards the Thouless pump and utilize them to outline this dissertation.
 
+On its face, marrying a surface acoustic wave and suspended carbon nanotube does not seem too challenging. It is possible to create \SI{3}{\micro\meter}-long ultraclean suspended nanotubes \cite{senger_universal_2018}, and \SI{60}{\nano\meter} SAWs have been coupled to quantum materials before \cite{kukushkin_collective_2011}. However, growing carbon nanotubes and generating SAWs have competing fabrication requirements. To combine the two, we would need to fabricate the two chips separately, and bring them into extremely close contact to couple the SAW to the nanotube. A technique called "flip-chip construction" has emerged in recent years, in which one chip is "flipped" onto the other.  In Chapter \ref{flip-chip chapter}, I present a method of flip-chip construction that allows the air gap between the two chips to be precisely measured, which could be used to couple SAWs to a suspended carbon nanotube. I discovered that, admittedly, this does present a significant challenge\dots how about encapsulating a carbon nanotube in h-BN?
 
+In Ref. \cite{huang_superior_2015}, they encapsulate a nanotube in h-BN using a similar dry transfer technique to the one that I outline in Sec. \ref{transfer methods section}. In Ch. \ref{AE charge pumping paper}, I encapsulate graphene in h-BN and transfer it onto LiNbO\textsubscript{3}, then generate SAWs to pump charge through the graphene. To create the Thouless pump, a carbon nanotube could similarly be encapsulated in h-BN and transferred onto a LiNbO\textsubscript{3}. Then, one-dimensional contacts (as in Ref. \cite{huang_superior_2015}) could be made to the nanotube. One concern for this process is residues contaminating the nanotube during the transfer process. To clean the encapsulated nanotube, AFM cleaning (which I describe in Sec. \ref{AFM cleaning main section}) could be used to "squeegee" out any contaminants stuck between the h-BN, as in Refs. \cite{goossens_mechanical_2012,chen_tip-based_2021}. 
 
-
-
-
-\section{Outline}
 
 
 \chapter{Theory}
@@ -139,7 +126,7 @@ where $\hbar$ is the reduced Planck's constant and $v_f = 3ta/2  \approx \SI{e6}
 
 In graphene, we can tune the Fermi energy using an electric field, which in turn tunes the charge carrier density.\footnote{The term "charge carrier" is commonly used to refer to both electrons and holes, and I use it in this context throughout this dissertation.} Figure \ref{graphene bands at 0 T} illustrates graphene's band structure at zero temperature for $E_F < 0$, $E_F = 0$, and $E_F < 0$. When $E_F$ lies above the Dirac point ($E_F > 0$), states in the conduction band are filled with electrons up to $E_F$ (Fig. \ref{graphene bands at 0 T} (a)). Conversely, when $E_F < 0$, the valence band is depleted of electrons down to $E_F$ (Fig. \ref{graphene bands at 0 T} (c)). These vacant electronic states, referred to as "holes", act as positively-charged quasiparticles. Similar to electrons in the conduction band, holes in the valence band are free from the graphene lattice and can move in response to an electric field. In the case of charge neutral graphene ($E_F$ = 0) at zero temperature, the conduction band is entirely empty, and the valence band is completely occupied, so no charge carriers should be present to conduct current (Fig. \ref{graphene bands at 0 T} (b)). However, in real graphene samples, charge carriers can still be present when $E_F = 0$, leading to finite conductivity when $E_F$ is tuned to the charge neutrality point.
 
-In real-world graphene samples, extrinsic sources of charge, referred to as electrostatic disorder, can be present. For instance, substrates like SiO\textsubscript{2} contain charge traps which induce spatially-varying charge carrier concentrations in graphene \cite{martin_observation_2008}. This substrate-induced disorder can be minimized by encapsulating graphene in hexagonal boron nitride (h-BN) \cite{dean_boron_2010}. However, even the most pristine encapsulated graphene samples exhibit some DC conductivity at the charge neutrality point \cite{xin_giant_2023} due to thermally-excited electrons and holes. To quantify the densities of these thermally excited electrons and holes, I will proceed to derive the density of states in graphene.
+Extrinsic sources of charge, referred to as electrostatic disorder, can be present in real graphene samples. For instance, substrates like SiO\textsubscript{2} contain charge traps which induce spatially-varying charge carrier concentrations in graphene \cite{martin_observation_2008}. This substrate-induced disorder can be minimized by encapsulating graphene in hexagonal boron nitride (h-BN) \cite{dean_boron_2010}. However, even the most pristine encapsulated graphene samples exhibit some DC conductivity at the charge neutrality point \cite{xin_giant_2023} due to thermally-excited electrons and holes. To quantify the densities of these thermally excited electrons and holes, I will proceed to derive the density of states in graphene.
 
 
 \begin{figure}
@@ -149,9 +136,7 @@ In real-world graphene samples, extrinsic sources of charge, referred to as elec
 \end{figure}
 
 \subsection{Density of states in graphene}
-The density of states helps us understand how many states are available for electrons to occupy at a certain energy level.
-
-Consider a sheet of graphene at zero temperature in which we have tuned the Fermi energy $E_F$ to lie above the Dirac point, filling the states in the conduction band with electrons to an energy $E_F$. Figure \ref{density of states graphic} (b) illustrates the $k$-plane slice at $E = E_F$, where the momentum at which $E_F$ intersects the Dirac cone is defined as $k_F$. To find the density of states, we can count the number of states that lie inside this circle (states with momentum $0 < k < k_F$), and divide this number by the area of a single state in momentum space.
+The density of states helps us understand how many states are available for electrons to occupy at a certain energy level. Consider a sheet of graphene at zero temperature in which we have tuned the Fermi energy $E_F$ to lie above the Dirac point, filling the states in the conduction band with electrons to an energy $E_F$. Figure \ref{density of states graphic} (b) illustrates the $k$-plane slice at $E = E_F$, where the momentum at which $E_F$ intersects the Dirac cone is defined as $k_F$. To find the density of states, we can count the number of states that lie inside this circle (states with momentum $0 < k < k_F$), and divide this number by the area of a single state in momentum space.
 
 \begin{figure}
     \includegraphics[width = 0.75\textwidth]{density of states graphic.pdf}
@@ -208,7 +193,7 @@ Equations \ref{n integral} and \ref{p integral} can be solved analytically as fo
     \begin{split}
         p = \int_{-\infty}^{0}(1-f(E)) D(E)\mathrm{d}E 
         = \int_{-\infty}^{0}\left( 1 -\frac{1}{1+\mathrm{e}^{(E/k_B T)}} \right) \frac{-2E}{\pi \hbar^2 v_F^2}\mathrm{d}E \\
-        = \frac{2(k_B T)^2}{\pi \hbar^2 v_F^2}\int_{-\infty}^{0}\left(x - \frac{x}{1+\mathrm{e}^{x}}\right)\mathrm{d}x \\
+        = -\frac{2(k_B T)^2}{\pi \hbar^2 v_F^2}\int_{-\infty}^{0}\left(x - \frac{x}{1+\mathrm{e}^{x}}\right)\mathrm{d}x \\
         = \frac{2(k_B T)^2}{\pi\hbar^2 v_F^2} \frac{\pi^2}{12}, \label{p density}
     \end{split}
 \end{equation}
@@ -259,7 +244,7 @@ where $\rho$ is the mass density of the material. From these relations, we get a
 \end{equation}
 from which we can readily see that plane waves propagate in this elastic material with a velocity $v_0 = \sqrt{\frac{c}{\rho}}$. This is familiar from travelling acoustic waves in a string: as stiffness increases, waves propagate more quickly, and as mass density increases, waves propagate more slowly. In piezoelectric materials, this intuition holds, with one caveat: the effective stiffness of a piezoelectric material depends on more than just its mechanical properties.
 
-\subsection{Waves in bulk piezoelectric materials}
+\subsection{Waves in bulk piezoelectric materials} \label{waves in bulk piezoelectric materials}
 \begin{figure}
     \includegraphics[width=0.75\textwidth]{SAW in bulk semi.pdf}
     \caption{A surface acoustic wave travelling in a bulk piezoelectric material. The SAW amplitude $|\phi_{SAW}|$ is well-known to decay approximately exponentially into the surface, with most of its energy contained within a depth $1/k$ \cite{wixforth_surface_1989}.}
@@ -286,7 +271,7 @@ and
 \begin{equation}
     D = eS.
 \end{equation}
-In this case, our wave velocity is $v_0 = \sqrt{c/\rho}$ (unchanged from before), and the elastic wave propagates in tandem with $D$-fields. This case of a material with very high conductivity is framed by Wixforth et al. as "a material that [to the elastic wave] appears to be non-piezoelectric" \cite{wixforth_surface_1989}.
+In this case, our wave velocity is $v_0 = \sqrt{c/\rho}$ (unchanged from before), and the elastic wave propagates in tandem with $D$-fields. This case of a material with very high conductivity is framed by Wixforth et al.  as "a material that [to the elastic wave] appears to be non-piezoelectric" \cite{wixforth_surface_1989}.
 
 The next limiting case is that of very low conductivity ($\sigma = 0$). In this perfect piezoelectric insulator, there is no free charge, so Poisson's equation requires that 
 
@@ -480,7 +465,7 @@ Now, we can find the DC acoustoelectric current by plugging Eqs. \ref{sigma modi
     \label{j time averaged}
 \end{equation}
 One might initially consider the notion of an oscillating $E$-field creating a DC current to be counter-intuitive. However, we can now see that, though $\left\langle E_{eff}(x,t) \right\rangle = 0$, a DC current arises from the cross-term $\left\langle \sigma E_{eff}(x,t) ^2 \right\rangle$, which corresponds to the time-averaged Ohmic power dissipated by the charge carriers in the thin film. So far, this model considers a local perturbation in $n$ from the SAW; therefore, this cross-term can be thought of as the local dissipation of SAW power by charge carriers in response to the co-propagating electric field. 
-
+%TODO: Make subscripts which are not variables not italics
 Finally, we need to relate Eq. \ref{j time averaged} to $\Gamma$. Remembering that $\Gamma$ describes the loss in SAW intensity per unit length, the SAW intensity $I$ can be written in the form
 
 \begin{equation}
@@ -519,7 +504,60 @@ Comparing Eqs. \ref{DC AEC electron case} and \ref{DC AEC hole case}, they are i
 Equations \ref{v_2D}, \ref{gamma_2D}, and \ref{DC AEC hole case} are central to interactions between SAWs and quantum materials. In Sec. \ref{AE paper discussion}, we modify this classical relaxation model, which assumes charge carriers of a single type, to describe mixed-carrier transport in graphene.
 
 
-\section{Surface acoustic wave generation}
+\section{Surface acoustic wave device design rules} \label{SAW device design rules}
+
+So far, I have described the propagation of surface acoustic waves, and how they interact with charge carriers in thin films; however, I have not discussed how they are generated. In this section, I discuss the electrical response of interdigitated transducers (IDTs). The electrical response of IDTs inform the design of IDTs.
+
+The discussion in this section follows that of Chapters 3 and 4 of Ref. \cite{campbell_surface_1989}.
+
+IDTs convert an RF signal into surface acoustic waves, or surface acoustic waves into RF signal. Figure \ref{SAW diagram} shows a schematic of an IDT. The wavelength $lambda$ of the generated SAW spans two fingers of the IDT. Because of this, one of the defining parameters of an IDT is the number of finger pairs $N_p$. 
+
+The electrical response of an IDT can be approximated by assuming that each IDT finger is an infinitely thin point source, spaced by $\lambda/2$. This is known as the "delta function model". The frequency response, or transfer function, of a single IDT in the delta function model can be approximated as 
+
+\begin{equation}
+    \begin{split}
+        H(f) = \frac{V_{in}}{V_{out}} = N_p \abs{\frac{\sin (N_p \pi (f-f_0) / f_0)}{N_p \pi (f-f_0) / f_0}},
+    \end{split}
+    \label{Response of IDT}
+\end{equation}
+where $V_{in} = \sqrt{P_{RF}}$ is the amplitude of the input RF signal, $V_out = \sqrt{P_{SAW}}$ is the amplitude of the output SAW and $f_0 = v/\lambda$ (where $v$ is the SAW velocity) is the center frequency of the IDT. Figure \ref{SAW diagram} (b) shows Eq. \ref{Response of IDT} for various values of $N_p$. From this, we can glean some important features of IDT response: The maximum conversion of input power to SAW power will be at the center frequency $f_0$, and as $N_p$ increases, a higher proportion of input RF power is converted to SAW power, but the central bandwidth of the IDT decreases.
+
+\begin{figure}
+    \includegraphics{SAW diagram.pdf}
+    \label{SAW diagram}
+\end{figure}
+
+When powering our IDT, we want to minimize the loss between applied RF power and output SAW power. For example, in the experiments described in Ch. \ref{AE charge pumping paper}, a higher resultant SAW power results in a larger acoustoelectric signal. Most RF signal generators are designed with \SI{50}{\ohm} input impedance. Therefore, if we power our IDT of impedance $Z_IDT$, the ratio of input RF power $P_{RF}$ to resultant SAW power $P_{SAW}$ (or, transmission coefficient) is
+
+\begin{equation}
+    \frac{P_{RF}}{P_{SAW}} = \frac{2 Z_{IDT}}{Z_{IDT} + \SI{50}{\ohm}}
+\end{equation}
+
+The impedance of an IDT depends on its geometry, and must be evaluated numerically. This problem has been considered by numerous other authors (for example, Ref. \cite{smith_analysis_1969}), and is beyond the scope of this dissertation. The relevant results are as follows: An IDT can be modelled as an equivalent circuit with capacitance $C_IDT$, real conductance $G$, and complex conductance $B$. The total IDT admittance $Y = 1/Z_{IDT}$ is given by 
+
+\begin{equation}
+    \begin{split}
+    Y(f) = G(f) + i(B(f) + 2\pi C_{IDT})\\
+    = G_0 \left(\frac{\sin X}{X}\right) + i \left(\frac{\sin (2X) - 2X}{2X^2}\right) + i 2\pi f C_{IDT}, \label{IDT admittance}
+    \end{split}
+\end{equation}
+
+where $X$ is given by
+
+\begin{equation}
+    X = N_p \pi \frac{f - f_0}{f_0},
+\end{equation}
+
+and $G_0$ is the admittance at the center frequency, given by 
+
+\begin{equation}
+    G_0 \approx 8 K^2 N_p^2 f_0 W C_s,
+\end{equation}
+where $C_s$ is the capacitance per unit length per finger pair, and $K^2$ is the piezoelectric coupling coefficient (see Sec. \ref{waves in bulk piezoelectric materials}).
+
+This model does not consider reflections. In real IDTs, each finger not only absorbs SAWs, but also reflects them. The reflection coefficient of a single IDT finger is around $1\%$, so Eq. \ref{IDT admittance} is still useful for estimating the impedance of an IDT design. For a more accurate model that considers reflections from each IDT finger, coupling of modes analysis must be used (see Refs. \cite[p. 140-149]{lane_integrating_2021} and \cite[Ch. 4]{campbell_surface_1989}). I use Eq. \ref{IDT admittance} to estimate the impedance of my IDTs in Sec. \ref{IDT methods}.
+
+
 
 
 
@@ -529,12 +567,16 @@ Equations \ref{v_2D}, \ref{gamma_2D}, and \ref{DC AEC hole case} are central to 
 
 %-------------------------Fabrication Methods-----------------------------
 
-\chapter{Methods for fabricating 2D devices}
+\chapter{Methods}
+
+
+
+\section{Fabricating 2D devices}
 
 In 2010, the 2D materials revolution was launched when Geim and Novoselov won the Nobel Prize for their experiments on exfoliated graphene \cite{novoselov_electric_2004}. From the humble beginnings of the ‘scotch tape technique’, the field of has matured to an immense parameter space of layered materials for us to explore. In this lies the greatest strength of 2D materials — we can combine the strengths of different materials to create designer heterostructures. These stacks of 2D materials are called “van der Waals heterostructures”, from the van der Waals force that holds them together. In this chapter, I describe methods for fabricating 2D devices. I begin by describing the best practices that I have found for exfoliation. Then, I discuss my implementation of the dry transfer method for stacking 2D materials to create designer heterostructures. Lastly, I show two methods for making electrical contact to 2D materials — photolithography and electron-beam lithography (EBL) — and compare the strengths and weaknesses of each.
+%you said a different greatest strength in the intro...
 
-
-\section{Exfoliation of 2D crystals}
+\subsection{Exfoliation of 2D crystals}
 
 While some groups are investigating large-area 2D growth for use in the next generation of electronics \cite{quellmalz_large-area_2021}, the best devices with the lowest electrostatic disorder are still made using mechanical exfoliation \cite{xin_giant_2023}. Using sticky tape, layered crystals are cleaved 5-10 times, then transferred onto clean SiO\textsubscript{2}. Exfoliation is a simple process, but getting consistent results can be challenging due to the vast array of variables that affect the process. Different research groups, and even different members in the same group, can have vastly differing opinions on the best methods for exfoliation. Furthermore, every 2D material has different mechanical properties, so the best recipe varies widely between materials. I gained substantial knowledge on 2D material exfoliation from my visit to the Xu group at University of Washington in 2017. Since then, I have developed my best practices through trial and error. In this section, I briefly describe my best practices for exfoliating graphene and h-BN using sticky tape. At the end of this section, I collect some tips and tricks that I have learned from performing many exfoliations. For a review of exfoliation techniques and a model of the complex physics behind mechanical exfoliation, see Ref. \cite{islam_exfoliation_2022}.
 
@@ -563,27 +605,37 @@ This exfoliation process results in flakes of a variety of sizes and thicknesses
 \end{figure}
 Accurately measuring the number of layers of a graphene sample with AFM is difficult due to interactions between the AFM tip and graphene and water layers on substrates prepared in atmospheric conditions \cite{shearer_accurate_2016}. These difficulties can be reduced by using tapping-mode AFM; however, if monolayer graphene is necessary for an experiment, it is better to use Raman microscopy, which can distinguish between monolayer and multilayer graphene. In the graphene devices described in this dissertation, having monolayer graphene is not imperative, so I used AFM to determine the layer number of my graphene samples.
 
-Here is a summary of my tips and tricks for exfoliation:
+
+\begin{center}
+
+    \linespread{1.0}\selectfont
+    \fbox{\begin{minipage}{30em}
+        Here is a summary of my tips and tricks for exfoliation:
 
 
-\begin{itemize}
-    \item Use scotch tape for graphene, and blue tape for h-BN
-    \item Cleave 6-8 times on tape for graphene
-    \item Cleave 3-5 times on tape for h-BN
-    \item When peeling tape, peel at a low angle. The conventional wisdom is that this results in larger-area flakes.
-    \item When placing h-BN bulk crystals onto tape, use tweezers to "smear" them flat onto the tape. h-BN crystals are thick, and need to be pressed flat to ensure good contact with the tape.
-    \item In the final step, anneal tape on SiO\textsubscript{2} at \SI{90}{\celsius} for 5 minutes for all materials, then cool completely (2 minutes) before peeling tape from SiO\textsubscript{2}.
-    \item Clean SiO\textsubscript{2} with O\textsubscript{2} plasma for 1 minute immediately before transferring crystals from tape onto SiO\textsubscript{2}
-\end{itemize}
+        \begin{itemize}
+            \item Use scotch tape for graphene, and blue tape for h-BN
+            \item Cleave 6-8 times on tape for graphene
+            \item Cleave 3-5 times on tape for h-BN
+            \item When peeling tape, peel at a low angle. The conventional wisdom is that this results in larger-area flakes.
+            \item When placing h-BN bulk crystals onto tape, use tweezers to "smear" them flat onto the tape. h-BN crystals are thick, and need to be pressed flat to ensure good contact with the tape.
+            \item In the final step, anneal tape on SiO\textsubscript{2} at \SI{90}{\celsius} for 5 minutes for all materials, then cool completely (2 minutes) before peeling tape from SiO\textsubscript{2}.
+            \item Clean SiO\textsubscript{2} with O\textsubscript{2} plasma for 1 minute immediately before transferring crystals from tape onto SiO\textsubscript{2}.
+        \end{itemize}
+    \end{minipage}}
 
-\section{Stacking 2D materials to create heterostructure devices}
+\end{center}
 
-The ability to isolate single layers of 2D crystals with mechanical exfoliation opened wide the possibility of stacking different atomic layers to create designer heterostructures. In 2010, Dean et al. demonstrated that the mobility and electronic disorder of graphene can be vastly improved by encapsulating the graphene in insulating hexagonal boron nitride (h-BN) \cite{dean_boron_2010}. Since then, techniques for assembling stacks of 2D materials have improved, allowing for sub-micron lateral precision and sub-degree rotational alignment between layers \cite{castellanos-gomez_van_2022}. Heterostructure fabrication techniques fall into two main categories: wet-transfer methods, which use sacrificial polymer layers to place down each 2D crystal, and dry-transfer methods, which only require dissolving the polymer stamp once the entire structure is completed. In general, dry transfer methods are preferred as they reduce contamination between layers, and it is the method I use to create the devices discussed in this dissertation. Therefore, I will only describe the dry transfer method here. Similarly to exfoliation techniques, many researchers have different opinions on the best tricks for 2D transfer. For an overview of different 2D transfer methods, see the review by Castellanos-Gomez \textit{et al.} \cite{castellanos-gomez_van_2022}. The methods I present in the subsequent sections were initially learned through discussions with researchers at the University of Washington, then modified based on my own trial and error.
+
+
+\subsection{Stacking 2D materials to create heterostructure devices} \label{transfer methods section}
+
+The ability to isolate single layers of 2D crystals with mechanical exfoliation opened wide the possibility of stacking different atomic layers to create designer heterostructures. In 2010, Dean et al.  demonstrated that the mobility and electronic disorder of graphene can be vastly improved by encapsulating the graphene in insulating hexagonal boron nitride (h-BN) \cite{dean_boron_2010}. Since then, techniques for assembling stacks of 2D materials have improved, allowing for sub-micron lateral precision and sub-degree rotational alignment between layers \cite{castellanos-gomez_van_2022}. Heterostructure fabrication techniques fall into two main categories: wet-transfer methods, which use sacrificial polymer layers to place down each 2D crystal, and dry-transfer methods, which only require dissolving the polymer stamp once the entire structure is completed. In general, dry transfer methods are preferred as they reduce contamination between layers, and it is the method I use to create the devices discussed in this dissertation. Therefore, I will only describe the dry transfer method here. Similarly to exfoliation techniques, many researchers have different opinions on the best tricks for 2D transfer. For an overview of different 2D transfer methods, see the review by Castellanos-Gomez et al.  \cite{castellanos-gomez_van_2022}. The methods I present in the subsequent sections were initially learned through discussions with researchers at the University of Washington, then modified based on my own trial and error.
 
 Figure \ref{hot pickup diagram} shows a generalized version of the dry transfer process that I use to build the devices in this dissertation.  A sticky polymer stamp is mounted onto a micromanipulator stage underneath a long-focal length microscope. The stamp is brought into contact with a chip containing exfoliated 2D flakes. The temperature of the stage is increased to make the polymer stamp stickier. Then, the contact area of the stamp on the chip is increased by lowering the stamp. Once the entire 2D flake is covered with polymer, the stage is slowly retracted to pick up the 2D flake. This process is repeated to build the desired heterostructure top-down, using the previous layer to pick up the next. Finally, the stamp is melted at a high temperature and dissolved in a solvent. This method of heating up a polymer stamp to build 2D heterostructures is called the "hot pick up technique" \cite{pizzocchero_hot_2016}.
 
 
-\subsection{Making the viscoelastic stamp}
+\subsubsection{Making the viscoelastic stamp}
 
 Figure \ref{stamp diagram} shows the viscoelastic stamp that I use, which is used to pick up and place 2D flakes. The stamp consists of a polydimethylsiloxane (PDMS) layer mounted on a glass slide, with a thin poly(bisphenol A carbonate) (PC) polymer layer on top (some groups use polypropylene carbonate, referred to as PPC). The PDMS acts as a base for the stamp, while the PC layer becomes sticky at elevated temperatures.
 
@@ -602,23 +654,34 @@ To prepare the slide that composes the base of the stamp, I use a leather punch 
 Next, I use a leather punch with diameter $\approx  \SI{4}{\milli\meter}$ to make a hole in a piece of scotch tape. Then, I put this scotch tape down onto the dried PC film, ensuring that the area in the tape hole is clean and uniform (Fig. \ref{stamp diagram} (c)). I cut the PC on the edge of the scotch tape using a razor blade and pick up the PC film. Lastly, I place the PC film onto the prepared slide base, aligning the hole in the scotch tape with the hole in the Kapton tape, and press the edges of the hole to ensure good adhesion between the scotch and Kapton tapes. Figure \ref{stamp diagram} (d) shows a completed viscoelastic stamp. Before using a stamp to transfer 2D flakes, I inspect it in an optical microscope to ensure that no dust came between the PC and PDMS layers. If there is dust trapped between the layers, it can cause the two layers to de-laminate from each other. Also, 2D flakes can not be picked up near dust, as the large dust prohibits the stamp from making good contact to the 2D material. Then, I anneal the stamp at \SI{90}{C} for 5 minutes to ensure good contact between the PC and PDMS. Finally, I put the stamp in the transfer station and lower it onto a bare SiO\textsubscript{2} substrate to check the location in which it first touches the surface. This determines the initial touch-down point of the stamp in the next step.
 
 
-\subsection{The hot pickup process}
+\subsubsection{The hot pickup process}
 Figure \ref{hot pickup diagram} outlines the hot pickup process that I use for building 2D heterostructures. First, I select 2D flakes of interest using optical microscopy. Ideal flakes have a large area of a single thickness, and are free of residue (see inset of Fig. \ref{hot pickup diagram} (a)). I also take AFM images of flakes before I use them in a heterostructure to confirm their thickness and check for residue. 
 
 I begin the transfer process by lowering the viscoelastic stamp until it touches the surface. Then, I heat up the stage to at least \SI{40}{\celsius}. The conventional wisdom is that higher temperature makes the stamp more sticky. However, high temperature also increases the likelihood of the PC and PDMS layers de-laminating (peeling away from each other), so I prefer to start at a lower temperature. For the same reason, I don't heat the stage above \SI{90}{\celsius} during the transfer process. 
 
 I then lower the z-stage until the entire 2D flake is covered by polymer. The inset of Fig. \ref{hot pickup diagram} (b) shows a 2D flake during the polymer expansion process. The interference fringes indicate the direction that the polymer is expanding, and the smooth surface of the portion of the flake that is covered by polymer indicates good contact between the polymer and 2D flake. It is imperative that the 2D flake is smoothly covered by polymer — if any dust or bubbles separate the flake and polymer, the flake will be difficult to pick up. After the entire flake is covered by polymer, I slowly raise the z-stage to peel the flake off of the substrate. The inset of Fig. \ref{hot pickup diagram} (c) shows a flake on a polymer stamp after pick-up.
 
-Then, I find the next layer of the heterostructure and align to the previous layer by looking through the transparent polymer stamp. I then repeat the pick-up process, using the previous flake to pick up the next layer. Finally, to release the heterostructure from the stamp, I first lower the stamp onto the final substrate: Either a marker chip, if the next step is EBL (Sec. \ref{electron-beam lithography}), or pre-patterned electrodes (Sec. \ref{photolithography}). Then, I heat the stage to \SI{170}{\celsius} to melt the PC away from the stamp, waiting 5 minutes to ensure that the PC is fully melted. Next, I slowly raise the stamp, ensuring that the PC pulls away from the stamp. It is important to watch the PC during this step — if the stage is too cool, the polymer will not melt enough, and the heterostructure will be picked up from the surface. Finally, I place the chip in a bath of chloroform for 20 minutes to dissolve the PC. At this point, spraying with a wash bottle of solvent can release the heterostructure from the surface. If residue needs to be cleaned off, I gently spray the edge of the chip, letting solvent run over the heterostructure.
+Then, I find the next layer of the heterostructure and align to the previous layer by looking through the transparent polymer stamp. I then repeat the pick-up process, using the previous flake to pick up the next layer. Finally, to release the heterostructure from the stamp, I first lower the stamp onto the final substrate: Either a marker chip, if the next step is EBL (Sec. \ref{electron-beam lithography}), or pre-patterned electrodes (Sec. \ref{photolithography}). Then, I heat the stage to \SI{170}{\celsius} to melt the PC away from the stamp, waiting 5 minutes to ensure that the PC is fully melted. Next, I slowly raise the stamp, ensuring that the PC pulls away from the stamp. It is important to watch the PC during this step — if the stage is too cool, the polymer will not melt enough, and the heterostructure will be picked up from the surface. Finally, I place the chip in a bath of chloroform for 20 minutes to dissolve the PC. At this point, spraying with a wash bottle of solvent can release the heterostructure from the surface. If residue needs to be cleaned off, I gently spray the edge of the chip with acetone then isopropyl alcohol, letting solvent run over the heterostructure.
 
-Here are some tips and tricks that I have learned about the transfer process: 
 
-\begin{itemize}
-    \item Slowly peeling the flake from the substrate increases the success rate of the pick-up step
-    \item Higher temperatures make pick-up easier, but also increase the likelihood of ruining the stamp
-    \item Picking up thick flakes directly with the polymer stamp is easier than picking up thin flakes
-    \item Picking up subsequent flakes with h-BN is much easier than picking them up directly with the polymer
-\end{itemize}
+
+
+\begin{center}
+
+    \linespread{1.0}\selectfont
+    \fbox{\begin{minipage}{30em}
+        Here are some tips and tricks that I have learned about the transfer process: 
+
+
+        \begin{itemize}
+            \item Slowly peeling the flake from the substrate increases the success rate of the pick-up step.
+            \item Higher temperatures make pick-up easier, but also increase the likelihood of ruining the stamp.
+            \item Picking up thick flakes directly with the polymer stamp is easier than picking up thin flakes.
+            \item Picking up subsequent flakes with h-BN is much easier than picking them up directly with the polymer.
+        \end{itemize}
+    \end{minipage}}
+
+\end{center}
 
 
 
@@ -628,7 +691,10 @@ Here are some tips and tricks that I have learned about the transfer process:
     \label{hot pickup diagram}
 \end{figure}
 
-\subsection{PCL cleaning}
+\subsubsection{PCL cleaning}
+
+To be filled in
+
 
 \section{Contacts to 2D materials}
 
@@ -643,7 +709,7 @@ At Oregon State, we can fabricate structures down to \SI{3}{\micro\meter} with p
     \label{fig:h-BN lifted}
 \end{figure}
 
-When transferring 2D flakes onto pre-patterned metal contacts, creating a smooth surface is of paramount importance. Therefore, clean liftoff with smooth edges is necessary. For this, I use a bilayer process with a tuned undercut, with S1813 photoresist on top of LOR 3A (“liftoff resist”). The full recipe can be found in App. \ref{photolithography recipe}.Fig. \ref{fig:Liftoff AFM} shows a comparison between single-layer and bilayer liftoff processes in which I attempted to lift off $\approx \SI{25}{\nano\meter}$ of Cr deposited on SiO2 using electron-beam evaporation. In the single-layer process, metal which coated the resist walls did not lift off with the resist, creating wings that are much larger than the metal thickness. In a bilayer process, the bottom layer of resist develops faster than the top layer, creating an undercut profile that breaks the connection between the metal on the resist walls and the desired pattern. It’s clear that a bilayer process is necessary for pre-patterned 2D material contacts. 
+When transferring 2D flakes onto pre-patterned metal contacts, creating a smooth surface is of paramount importance. Therefore, clean liftoff with smooth edges is necessary. For this, I use a bilayer process with a tuned undercut, with S1813 photoresist on top of LOR 3A (“liftoff resist”). The full recipe can be found in App. \ref{photolithography recipe}. Figure \ref{fig:Liftoff AFM} shows a comparison between single-layer and bilayer liftoff processes in which I attempted to lift off $\approx \SI{25}{\nano\meter}$ of Cr deposited on SiO2 using electron-beam evaporation. In the single-layer process, metal which coated the resist walls did not lift off with the resist, creating wings that are much larger than the metal thickness. In a bilayer process, the bottom layer of resist develops faster than the top layer, creating an undercut profile that breaks the connection between the metal on the resist walls and the desired pattern. It’s clear that a bilayer process is necessary for pre-patterned 2D material contacts. 
 
 %TODO: photolith recipe
 
@@ -653,31 +719,66 @@ When transferring 2D flakes onto pre-patterned metal contacts, creating a smooth
     \label{fig:Liftoff AFM}
 \end{figure}
 
-The development rate of the LOR can be tuned by varying the bake temperature. A higher temperature bake results in a slower undercut rate, allowing us to optimize the undercut. If the undercut is too large, the top layer of resist will collapse. If the undercut is too small, the metal will not lift off cleanly. I first determined the optimal development time for S1813 as 100 seconds using the interdigitated finger pattern shown in Fig. \ref{fig:h-BN lifted} Then, I varied the LOR bake time from 170 C to 190 C and attempted liftoff of 3/20 nm Cr/Au. I found that 180 C was the lowest bake temperature at which liftoff was clean. Figure 2.4 shows a cross-sectional SEM image, in which I confirmed that a 180 C bake and 100 s development creates a $\approx \SI{3}{\micro\meter}$ undercut.
+The development rate of the LOR can be tuned by varying the bake temperature. A higher temperature bake results in a slower undercut rate, allowing us to optimize the undercut. If the undercut is too large, the top layer of resist will collapse. If the undercut is too small, the metal will not lift off cleanly. I first determined the optimal development time for S1813 as 100 seconds using the interdigitated finger pattern shown in Fig. \ref{fig:h-BN lifted}. Then, I varied the LOR bake time from 170 C to 190 C and attempted liftoff of 3/20 nm Cr/Au. I found that 180 C was the lowest bake temperature at which liftoff was clean. Figure 2.4 shows a cross-sectional SEM image, in which I confirmed that a 180 C bake and 100 s development creates a $\approx \SI{3}{\micro\meter}$ undercut.
 
 The drawback of transferring metal onto pre-patterned contacts is that the contacts need to be cleaned to minimize contamination of the 2D material. In the next section, I detail a method for cleaning metal contacts with contact-mode AFM.
 
 
 \begin{figure}
-    \includegraphics{LOR cross section.png}
+    \includegraphics[width = 0.5\textwidth]{LOR cross section.png}
     \caption{Cross-sectional SEM image showing bilayer resist process with undercut length $\approx \SI{0.4}{\micro\meter}$. Scale bar = \SI{3}{\micro\meter}}
     \label{fig:cross-section SEM}
 \end{figure}
 
-\section{Cleaning electrodes with contact-mode AFM} \ref{AFM cleaning main section}
+\section{Cleaning electrodes with contact-mode AFM} \label{AFM cleaning main section}
 Inevitably, as-deposited metal contacts will retain residues from the resist and solvents utilized during the photolithography process. Previously, contact-mode AFM has been used to remove contaminants from beneath 2D materials \cite{goossens_mechanical_2012,chen_tip-based_2021}. However, I use contact-mode AFM to clean pre-patterned metal electrodes prior to transferring graphene onto them. I learned this technique from the Yankowitz group at the University of Washington.
 
-For this process, I use Tap150AL AFM probes (Budget Sensors) and an MFP-3D AFM. I first measure the exact spring constant of the AFM tip by taking a force curve. For the full force curve process and a sample force curve, see Appendix \ref{force curve appendix}. Then, I scan the AFM across the electrodes at a force of \SI{150}{N} and a speed of \SI{150}{\micro\meter/\second}. The AFM scan size is \SI{35}{\micro\meter} in the scan direction, and the Tap150AL tip has a minimum diameter of \SI{10}{\nano\meter}. I chose 3584 lines for the scan (\SI{9.76}{\nano\meter/line}) to ensure that each line slightly overlaps the previous line. Figure \ref{AFM cleaning points} shows Pd electrodes after AFM cleaning. Although the metal appeared residue-free before cleaning, a significant amount of residue is now visible at the scan edges. I use this process in Ch. \ref{AE charge pumping paper} to clean pre-patterned Pd electrodes before transferring graphene onto them.
+For this process, I use Tap150AL AFM probes (Budget Sensors) and an MFP-3D AFM. I first measure the exact spring constant of the AFM tip by taking a force curve. For the full force curve process and a sample force curve, see Appendix \ref{force curve appendix}. Then, I scan the AFM across the electrodes at a force of \SI{150}{N} and a speed of \SI{150}{\micro\meter/\second}. The AFM scan size is \SI{35}{\micro\meter} in the scan direction, and the Tap150AL tip has a minimum diameter of \SI{10}{\nano\meter}. I chose 3584 lines for the scan (\SI{9.76}{\nano\meter/line}) to ensure that each line slightly overlaps the previous line. Figure \ref{AFM cleaning points} shows Pd electrodes after AFM cleaning. Although the metal appeared residue-free before cleaning, a significant amount of residue is now visible at the scan edges. For the devices described in Ch. \ref{AE charge pumping paper}, I use this process to clean pre-patterned Pd electrodes before transferring graphene onto them.
 
 \begin{figure}
-    \includegraphics{AFM cleaning 1.pdf}
-    \caption{An optical microscope image of Pd electrodes on LiNbO\textsubscript{3} after AFM cleaning at \SI{150}{N} and \SI{150}{\micro\meter/\second}. Scale bar = \SI{40}{\micro\meter}.}
+    \includegraphics[width = 0.5\textwidth]{AFM cleaning 1.pdf}
+    \caption{An optical microscope image of Pd electrodes on LiNbO\textsubscript{3} after AFM cleaning at a force of \SI{150}{N} and a speed of \SI{150}{\micro\meter/\second}. Scale bar = \SI{40}{\micro\meter}.}
     \label{AFM cleaning points}
 \end{figure}
 
 
-\section{Electron-beam lithography} \label{electron-beam lithography}
+\subsection{Electron-beam lithography} \label{electron-beam lithography}
 Electron-beam lithography uses the electron beam of a scanning electron microscope (SEM) to expose a polymer resist in a desired pattern. The electron beam breaks the bonds of the polymer, allowing it to be washed away with a chemical developer. 
+
+
+\section{Interdigitated transducers} \label{IDT methods}
+
+In this section, I discuss the fabrication and measurement of interdigitated transducers.
+
+
+Before using an interdigitated transducer in an acoustoelectric device (Ch. \ref{AE charge pumping paper}), I need to verify its performance. In Sec. \ref{SAW theory}, I outline the expected frequency response and impedance of an IDT based on its geometry. Figure \ref{SAW device optical image with measurements} shows an optical microscope image of an IDT that I fabricated on LiNbO\textsubscript{3} using photolithography (see App. \ref{photolithography recipe}) and metallization of $5/\SI{25}{\nano\meter}$ Cr/Au.
+
+A receiving IDT with identical geometry is located \SI{200}{\micro\meter} away from the IDT pictured.
+
+
+
+\begin{figure}
+    \includegraphics{SAW device optical image 1.pdf}
+    \caption{}
+    \label{SAW device optical image with measurements}
+\end{figure}
+
+This IDT has $N_p = 20$ finger pairs and aperture width $W = \SI{230}{\micro\meter}$. The SAW velocity on LiNbO\textsubscript{3} is \SI{3488}{\meter/\second}, giving a center frequency of $f_0 = \SI{174.4}{\mega\hertz}$. Using Eq. \ref{IDT admittance}, the impedance of this IDT should be $Z_{IDT} \approx \SI{170}{\ohm}$. In the rest of this section, when I refer to "the IDT pair", I am referring to this specific pair of IDTs.
+
+To benchmark the performance of the pair IDTs, I use an Agilent E5071C-280 vector network analyzer to measure their S-parameters. Figure \ref{S-parameters} (a) shows the definition of the four S-parameters. $S_{11}$ and $S_{22}$ are the ratios of reflected RF power to input RF power for IDT 1 and IDT 2 respectively. $S_{21}$ is the ratio of received RF power at IDT 2 to input RF power at IDT 1, and $S_12$ is the ratio of received RF power at IDT 1 to input RF power at IDT 2. Figure \ref{S-parameters} (b) shows S11 and S22, and Fig. \ref{S-parameters} (b) shows S21 and S12.
+
+
+\begin{figure}
+    \includegraphics{S-parameters.pdf}
+    \caption{}
+    \label{S-parameters}
+\end{figure}
+
+\begin{figure}
+    \includegraphics{Z11_plot_.pdf}
+    \caption{}
+    \label{Z11 plot}
+\end{figure}
 
 
 \chapter{Acoustoelectric charge pumping in ultra-clean graphene using surface acoustic waves} \label{AE charge pumping paper}
@@ -705,7 +806,8 @@ Present the paper here (reformat)
 
 % ~~~~~~~~~Flip-chip chapter~~~~~~~~~~
 
-\chapter{Flip-chip design for non-invasive gating of pristine quantum materials}
+%TODO: Rewrite this intro
+\chapter{Flip-chip design for coupling surface acoustic waves to quantum materials} \label{flip-chip chapter}
 
 \section{Introduction}
 Lithographic patterning followed by metal deposition is the standard technique to define electrostatic gates; however, the methods of fabricating these devices often involve harsh processing. For example, taking a material to high temperatures — such as during thermal deposition of metals and chemical vapor deposition — can damage sensitive structures by thermal strain (See Appendix on EBL IDT damage from CNT growth processes). Similarly, harsh etching chemicals can introduce impurities and dopants to the surface, affecting electron mobility \cite{beukman_noninvasive_2015}. Electron-beam lithography can also damage pristine surfaces \cite{fink_electron-beam-induced_1990}. To fulfil this need for electrostatically gating a surface while leaving it pristine, the technique of “flip-chip gating” has emerged in recent years \cite{beukman_noninvasive_2015,robertson_non-invasive_2020}. Distinct from the similarly named “flip-chip packaging” technique in semiconductor device processing, flip-chip gating involves flipping the gate chip onto the chip to be gated, allowing a material to be field-effect gated without harsh processing (Fig. 1). This method of flip-chip construction has led to breakthroughs in hybrid quantum systems \cite{chu_creation_2018,satzinger_quantum_2018}.
@@ -786,6 +888,7 @@ Figure \ref{twotier} shows the two-tier deep reactive ion etch (RIE) process tha
     \label{FCcap during alignment}
 \end{figure}
 
+%TODO: fix text sizes on this one
 \begin{figure}
     \includegraphics[width=1\textwidth]{Two-tier etch.pdf}
     \caption{(a) Two-tier etch process for defining the center gap and post height of the flip-chip. The denoted measurements are estimated from known Cr deposition rates and known Cr and Si etch rates (see Appendix \ref{Si RIE recipe}). (b) The completed top and bottom sides of the flip-chip capacitor, before assembly.}
@@ -862,6 +965,8 @@ In this section, I built a flip-chip capacitor by sandwiching patterned quartz a
 
 \appendix
 
+\chapter{Limitations of quantized charge pumps based on tunneling}
+
 \chapter{Recipes}
 
 \section{Photolithography recipe} \label{photolithography recipe}
@@ -871,7 +976,7 @@ In this section, I built a flip-chip capacitor by sandwiching patterned quartz a
     \item Bake at 180 C for 4 minutes
     \item Cleanly pipette enough S1813 photoresist to cover the substrate. Spin at 4000 RPM for 30 seconds.
     \item Bake at 120 C for 2 minutes
-    \item Edge bead removal: The edges of the chip will have built-up photoresist that is many times thicker than the rest of the chip. Edge bead removal is particularly important for fine features on small substrates, as edge beads prevent the chip from fully contacting the mask. Try putting a tiny amount of Remover PG on the tip of a swab and wiping it on a cleanroom wipe, then swab your edges at a 45 degree angle to remove edge beads. 
+    \item Edge bead removal: The edges of the chip will have built-up photoresist that is many times thicker than the rest of the chip. Edge bead removal is particularly important for fine features on small substrates, as edge beads prevent the chip from fully contacting the mask. Try putting a tiny amount of Remover PG on the tip of a clean swab, such as a small square of cleanroom wipe, then swab your edges at a 45-degree angle to remove edge beads. 
     \item Expose chip for 12 seconds at \SI{6}{\milli\joule/\centi\meter^2}.
     \item Develop for 100 seconds in AZ-300 MIF developer
     \item Rinse with DI water and blow dry with N\textsubscript{2}.

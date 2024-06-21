@@ -44,3 +44,12 @@ integrand
 de-laminating
 h-BN
 Raman
+ferromagnets
+Thouless
+cleanroom
+adiabatically
+eigenstate
+Talyanskii
+interdigitated
+Interdigitated
+Agilent
