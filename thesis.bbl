@@ -273,15 +273,15 @@ Colin Campbell.
 \newblock {\em Surface {Acoustic} {Wave} {Devices} and {Their} {Signal} {Processing} {Applications}}.
 \newblock Academic Press INC. (London) LTD., 1989.
 
-\bibitem{smith_analysis_1969}
-W.R. Smith, H.M. Gerard, J.H. Collins, T.M. Reeder, and H.J. Shaw.
-\newblock Analysis of {Interdigital} {Surface} {Wave} {Transducers} by {Use} of an {Equivalent} {Circuit} {Model}.
-\newblock {\em IEEE Transactions on Microwave Theory and Techniques}, 17(11):856--864, November 1969.
-
 \bibitem{lane_integrating_2021}
 Justin~R Lane.
 \newblock {INTEGRATING} {SUPERCONDUCTING} {QUBITS} {WITH} {QUANTUM} {FLUIDS} {AND} {SURFACE} {ACOUSTIC} {WAVE} {DEVICES}.
 \newblock 2021.
+
+\bibitem{smith_analysis_1969}
+W.R. Smith, H.M. Gerard, J.H. Collins, T.M. Reeder, and H.J. Shaw.
+\newblock Analysis of {Interdigital} {Surface} {Wave} {Transducers} by {Use} of an {Equivalent} {Circuit} {Model}.
+\newblock {\em IEEE Transactions on Microwave Theory and Techniques}, 17(11):856--864, November 1969.
 
 \bibitem{quellmalz_large-area_2021}
 Arne Quellmalz, Xiaojing Wang, Simon Sawallich, Burkay Uzlu, Martin Otto, Stefan Wagner, Zhenxing Wang, Maximilian Prechtl, Oliver Hartwig, Siwei Luo, Georg~S. Duesberg, Max~C. Lemme, Kristinn~B. Gylfason, Niclas Roxhed, Göran Stemme, and Frank Niklaus.

@@ -9,6 +9,7 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Eq. \ref {gamma_bulk} (left axis) and Eq. \ref {v_bulk} (right axis) plotted as dimensionless quantities against the ratio $\omega _c/\omega $.}}{27}{}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces (a) A SAW propagating in a bulk material with conductivity $\sigma $ and permittivity $\epsilon $. (b) A SAW propagating in a piezoelectric material with permittivity $\epsilon $ that has been capped by a conductive material of thickness $d$ and sheet conductivity $\sigma _{2D} = \sigma d$.}}{29}{}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces $E_p$ (left axis) and $\Delta n$ (right axis) plotted for the case of (a) $\sigma _{2D} \gg \sigma _M$ (very high sheet conductivity), (b) $\sigma _{2D} = \sigma _M$, and (c) $\sigma _{2D} \ll \sigma _M$ (very low sheet conductivity).}}{33}{}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces }}{37}{}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces }}{41}{}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces (a) AFM scan and (b) optical image of exfoliated graphene on SiO\textsubscript {2}. The AFM scan region is indicated by a gray dotted box. Scale bar = \SI {10}{\micro \meter }.}}{42}{}%

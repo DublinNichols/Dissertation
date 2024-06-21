@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {2.2.2}Waves in bulk piezoelectric materials}{21}{}%
 \contentsline {subsection}{\numberline {2.2.3}SAWs propagating in 2D materials}{28}{}%
 \contentsline {subsection}{\numberline {2.2.4}The 2D acoustoelectric charge pumping effect}{30}{}%
-\contentsline {section}{\numberline {2.3}Surface acoustic wave device design rules}{35}{}%
+\contentsline {section}{\numberline {2.3}Surface acoustic wave device design}{35}{}%
 \contentsline {chapter}{\numberline {3}Methods}{39}{}%
 \contentsline {section}{\numberline {3.1}Fabricating 2D devices}{39}{}%
 \contentsline {subsection}{\numberline {3.1.1}Exfoliation of 2D crystals}{39}{}%

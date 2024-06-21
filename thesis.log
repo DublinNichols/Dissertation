@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  20 JUN 2024 17:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  20 JUN 2024 20:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -557,11 +557,11 @@ File: Figures/piezoelectric field and delta n edited.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/piezoelectric field and delta n edited.pdf  used on input line 444.
 (pdftex.def)             Requested size: 461.10085pt x 473.49944pt.
  [32] [33 <./Figures/piezoelectric field and delta n edited.pdf>] [34] [35]
-<Figures/SAW diagram.pdf, id=424, 466.5611pt x 244.15518pt>
+<Figures/SAW diagram.pdf, id=424, 460.62022pt x 191.33487pt>
 File: Figures/SAW diagram.pdf Graphic file (type pdf)
 <use Figures/SAW diagram.pdf>
-Package pdftex.def Info: Figures/SAW diagram.pdf  used on input line 526.
-(pdftex.def)             Requested size: 466.55995pt x 244.15457pt.
+Package pdftex.def Info: Figures/SAW diagram.pdf  used on input line 524.
+(pdftex.def)             Requested size: 460.6191pt x 191.33438pt.
  [36] [37 <./Figures/SAW diagram.pdf>] [38]
 Chapter 3.
 [39
@@ -570,69 +570,66 @@ Chapter 3.
 <Figures/exfoliation diagram.pdf, id=471, 442.26123pt x 234.62898pt>
 File: Figures/exfoliation diagram.pdf Graphic file (type pdf)
 <use Figures/exfoliation diagram.pdf>
-Package pdftex.def Info: Figures/exfoliation diagram.pdf  used on input line 592.
+Package pdftex.def Info: Figures/exfoliation diagram.pdf  used on input line 590.
 (pdftex.def)             Requested size: 442.26013pt x 234.62839pt.
  [41 <./Figures/exfoliation diagram.pdf>]
 <Figures/graphene layer comparison.pdf, id=488, 246.89812pt x 245.25523pt>
 File: Figures/graphene layer comparison.pdf Graphic file (type pdf)
 <use Figures/graphene layer comparison.pdf>
-Package pdftex.def Info: Figures/graphene layer comparison.pdf  used on input line 602.
+Package pdftex.def Info: Figures/graphene layer comparison.pdf  used on input line 600.
 (pdftex.def)             Requested size: 256.0748pt x 254.39328pt.
  [42 <./Figures/graphene layer comparison.pdf>] [43] [44]
 <Figures/stamp making diagram.pdf, id=526, 442.26123pt x 234.62898pt>
 File: Figures/stamp making diagram.pdf Graphic file (type pdf)
 <use Figures/stamp making diagram.pdf>
-Package pdftex.def Info: Figures/stamp making diagram.pdf  used on input line 644.
+Package pdftex.def Info: Figures/stamp making diagram.pdf  used on input line 642.
 (pdftex.def)             Requested size: 469.75499pt x 249.21747pt.
  [45 <./Figures/stamp making diagram.pdf>] [46] [47]
 <Figures/hot pickup diagram.pdf, id=591, 485.02pt x 350.9049pt>
 File: Figures/hot pickup diagram.pdf Graphic file (type pdf)
 <use Figures/hot pickup diagram.pdf>
-Package pdftex.def Info: Figures/hot pickup diagram.pdf  used on input line 689.
+Package pdftex.def Info: Figures/hot pickup diagram.pdf  used on input line 687.
 (pdftex.def)             Requested size: 469.75499pt x 339.87402pt.
  [48] [49 <./Figures/hot pickup diagram.pdf>] [50]
 <Figures/hBN lifted off.pdf, id=722, 238.25822pt x 366.96913pt>
 File: Figures/hBN lifted off.pdf Graphic file (type pdf)
 <use Figures/hBN lifted off.pdf>
-Package pdftex.def Info: Figures/hBN lifted off.pdf  used on input line 707.
+Package pdftex.def Info: Figures/hBN lifted off.pdf  used on input line 705.
 (pdftex.def)             Requested size: 234.87749pt x 361.7719pt.
 <Figures/liftoff AFM traces comparison.pdf, id=723, 476.30379pt x 228.1955pt>
 File: Figures/liftoff AFM traces comparison.pdf Graphic file (type pdf)
 <use Figures/liftoff AFM traces comparison.pdf>
-Package pdftex.def Info: Figures/liftoff AFM traces comparison.pdf  used on input line 717.
+Package pdftex.def Info: Figures/liftoff AFM traces comparison.pdf  used on input line 715.
 (pdftex.def)             Requested size: 469.75499pt x 225.06462pt.
  [51] [52 <./Figures/hBN lifted off.pdf>] [53 <./Figures/liftoff AFM traces comparison.pdf>]
 <Figures/LOR cross section.png, id=784, 294.774pt x 326.31pt>
 File: Figures/LOR cross section.png Graphic file (type png)
 <use Figures/LOR cross section.png>
-Package pdftex.def Info: Figures/LOR cross section.png  used on input line 728.
+Package pdftex.def Info: Figures/LOR cross section.png  used on input line 726.
 (pdftex.def)             Requested size: 234.87749pt x 260.00772pt.
  [54 <./Figures/LOR cross section.png>]
 <Figures/AFM cleaning 1.pdf, id=791, 219.24696pt x 171.36018pt>
 File: Figures/AFM cleaning 1.pdf Graphic file (type pdf)
 <use Figures/AFM cleaning 1.pdf>
-Package pdftex.def Info: Figures/AFM cleaning 1.pdf  used on input line 739.
+Package pdftex.def Info: Figures/AFM cleaning 1.pdf  used on input line 737.
 (pdftex.def)             Requested size: 234.87749pt x 183.58629pt.
  [55 <./Figures/AFM cleaning 1.pdf>]
-
-LaTeX Warning: Reference `SAW theory' on page 56 undefined on input line 754.
-
 <Figures/SAW device optical image 1.pdf, id=807, 386.24875pt x 213.08624pt>
 File: Figures/SAW device optical image 1.pdf Graphic file (type pdf)
 <use Figures/SAW device optical image 1.pdf>
-Package pdftex.def Info: Figures/SAW device optical image 1.pdf  used on input line 761.
+Package pdftex.def Info: Figures/SAW device optical image 1.pdf  used on input line 758.
 (pdftex.def)             Requested size: 386.2478pt x 213.08571pt.
-<Figures/S-parameters.pdf, id=808, 467.3964pt x 335.4899pt>
+ [56]
+<Figures/S-parameters.pdf, id=811, 467.3964pt x 335.4899pt>
 File: Figures/S-parameters.pdf Graphic file (type pdf)
 <use Figures/S-parameters.pdf>
-Package pdftex.def Info: Figures/S-parameters.pdf  used on input line 772.
+Package pdftex.def Info: Figures/S-parameters.pdf  used on input line 769.
 (pdftex.def)             Requested size: 467.39523pt x 335.48906pt.
-[56]
-<Figures/Z11_plot_.pdf, id=813, 231.23424pt x 163.72382pt>
+<Figures/Z11_plot_.pdf, id=812, 231.23424pt x 163.72382pt>
 File: Figures/Z11_plot_.pdf Graphic file (type pdf)
 <use Figures/Z11_plot_.pdf>
 Package pdftex.def Info: Figures/Z11_plot_.pdf  used on input line 778.
-(pdftex.def)             Requested size: 231.23366pt x 163.7234pt.
+(pdftex.def)             Requested size: 352.31624pt x 249.46983pt.
  [57 <./Figures/SAW device optical image 1.pdf>] [58 <./Figures/S-parameters.pdf>] [59 <./Figures/Z11_plot_.pdf>]
 Chapter 4.
 [60
@@ -645,18 +642,18 @@ LaTeX Warning: Reference `SAW devices' on page 61 undefined on input line 815.
 [61
 
 ]
-<Figures/Flip-chip design from Ref 1.png, id=898, 469.536pt x 184.836pt>
+<Figures/Flip-chip design from Ref 1.png, id=904, 469.536pt x 184.836pt>
 File: Figures/Flip-chip design from Ref 1.png Graphic file (type png)
 <use Figures/Flip-chip design from Ref 1.png>
 Package pdftex.def Info: Figures/Flip-chip design from Ref 1.png  used on input line 819.
 (pdftex.def)             Requested size: 469.75499pt x 184.92296pt.
-<Figures/Interference spectroscopy.pdf, id=899, 366.89351pt x 320.17766pt>
+<Figures/Interference spectroscopy.pdf, id=905, 366.89351pt x 320.17766pt>
 File: Figures/Interference spectroscopy.pdf Graphic file (type pdf)
 <use Figures/Interference spectroscopy.pdf>
 Package pdftex.def Info: Figures/Interference spectroscopy.pdf  used on input line 830.
 (pdftex.def)             Requested size: 234.87749pt x 204.97162pt.
  [62] [63 <./Figures/Flip-chip design from Ref 1.png> <./Figures/Interference spectroscopy.pdf>]
-<Figures/qzPMMAsi stack spec.PNG, id=929, 953.81343pt x 306.39468pt>
+<Figures/qzPMMAsi stack spec.PNG, id=935, 953.81343pt x 306.39468pt>
 File: Figures/qzPMMAsi stack spec.PNG Graphic file (type png)
 <use Figures/qzPMMAsi stack spec.PNG>
 Package pdftex.def Info: Figures/qzPMMAsi stack spec.PNG  used on input line 841.
@@ -670,46 +667,46 @@ LaTeX Warning: Citation `lane_integrating_nodate' on page 64 undefined on input 
 LaTeX Warning: Reference `FCnospacerIF' on page 65 undefined on input line 853.
 
 [65]
-<Figures/newtonsrings.png, id=937, 869.49844pt x 264.99pt>
+<Figures/newtonsrings.png, id=943, 869.49844pt x 264.99pt>
 File: Figures/newtonsrings.png Graphic file (type png)
 <use Figures/newtonsrings.png>
 Package pdftex.def Info: Figures/newtonsrings.png  used on input line 859.
 (pdftex.def)             Requested size: 469.75499pt x 143.16524pt.
  [66 <./Figures/newtonsrings.png>]
-<Figures/interference sandwich image and spectrum.pdf, id=942, 547.25186pt x 406.1383pt>
+<Figures/interference sandwich image and spectrum.pdf, id=948, 547.25186pt x 406.1383pt>
 File: Figures/interference sandwich image and spectrum.pdf Graphic file (type pdf)
 <use Figures/interference sandwich image and spectrum.pdf>
 Package pdftex.def Info: Figures/interference sandwich image and spectrum.pdf  used on input line 871.
 (pdftex.def)             Requested size: 469.75499pt x 348.62143pt.
  [67] [68 <./Figures/interference sandwich image and spectrum.pdf>]
-<Figures/FCCap during alignment.pdf, id=982, 581.74026pt x 442.46999pt>
+<Figures/FCCap during alignment.pdf, id=988, 581.74026pt x 442.46999pt>
 File: Figures/FCCap during alignment.pdf Graphic file (type pdf)
 <use Figures/FCCap during alignment.pdf>
 Package pdftex.def Info: Figures/FCCap during alignment.pdf  used on input line 886.
 (pdftex.def)             Requested size: 234.87749pt x 178.64572pt.
-<Figures/Two-tier etch.pdf, id=983, 485.87721pt x 366.877pt>
+<Figures/Two-tier etch.pdf, id=989, 485.87721pt x 366.877pt>
 File: Figures/Two-tier etch.pdf Graphic file (type pdf)
 <use Figures/Two-tier etch.pdf>
 Package pdftex.def Info: Figures/Two-tier etch.pdf  used on input line 893.
 (pdftex.def)             Requested size: 469.75499pt x 354.70026pt.
  [69]
-<Figures/Flip-chip capacitor reflectance summary.pdf, id=987, 459.92084pt x 250.15002pt>
+<Figures/Flip-chip capacitor reflectance summary.pdf, id=993, 459.92084pt x 250.15002pt>
 File: Figures/Flip-chip capacitor reflectance summary.pdf Graphic file (type pdf)
 <use Figures/Flip-chip capacitor reflectance summary.pdf>
 Package pdftex.def Info: Figures/Flip-chip capacitor reflectance summary.pdf  used on input line 901.
 (pdftex.def)             Requested size: 469.75499pt x 255.50462pt.
  [70 <./Figures/FCCap during alignment.pdf>] [71 <./Figures/Two-tier etch.pdf>] [72 <./Figures/Flip-chip capacitor reflectance summary.pdf>] [73]
-<Figures/FC capacitance measurement.pdf, id=1091, 347.11374pt x 489.14436pt>
+<Figures/FC capacitance measurement.pdf, id=1097, 347.11374pt x 489.14436pt>
 File: Figures/FC capacitance measurement.pdf Graphic file (type pdf)
 <use Figures/FC capacitance measurement.pdf>
 Package pdftex.def Info: Figures/FC capacitance measurement.pdf  used on input line 928.
 (pdftex.def)             Requested size: 234.87749pt x 330.98666pt.
-<Figures/flipping chips.pdf, id=1092, 452.82863pt x 779.53918pt>
+<Figures/flipping chips.pdf, id=1098, 452.82863pt x 779.53918pt>
 File: Figures/flipping chips.pdf Graphic file (type pdf)
 <use Figures/flipping chips.pdf>
 Package pdftex.def Info: Figures/flipping chips.pdf  used on input line 934.
 (pdftex.def)             Requested size: 234.87749pt x 404.35165pt.
-<Figures/quartz bending.pdf, id=1093, 336.29292pt x 121.39844pt>
+<Figures/quartz bending.pdf, id=1099, 336.29292pt x 121.39844pt>
 File: Figures/quartz bending.pdf Graphic file (type pdf)
 <use Figures/quartz bending.pdf>
 Package pdftex.def Info: Figures/quartz bending.pdf  used on input line 946.
@@ -742,14 +739,14 @@ Appendix B.
 [90
 
 ] [91]
-<Figures/force curve.pdf, id=1242, 408.83327pt x 229.91023pt>
+<Figures/force curve.pdf, id=1248, 408.83327pt x 229.91023pt>
 File: Figures/force curve.pdf Graphic file (type pdf)
 <use Figures/force curve.pdf>
 Package pdftex.def Info: Figures/force curve.pdf  used on input line 1001.
 (pdftex.def)             Requested size: 408.83226pt x 229.90965pt.
  [92 <./Figures/force curve.pdf>] [93] [94] [95]
 Appendix C.
-<Figures/photoresist flip-chips.png, id=1271, 662.475pt x 481.8pt>
+<Figures/photoresist flip-chips.png, id=1277, 662.475pt x 481.8pt>
 File: Figures/photoresist flip-chips.png Graphic file (type png)
 <use Figures/photoresist flip-chips.png>
 Package pdftex.def Info: Figures/photoresist flip-chips.png  used on input line 1073.
@@ -762,22 +759,22 @@ Appendix D.
 
 ]
 Appendix E.
-<Figures/PL before-after contact.pdf, id=1282, 597.81154pt x 339.1253pt>
+<Figures/PL before-after contact.pdf, id=1288, 597.81154pt x 339.1253pt>
 File: Figures/PL before-after contact.pdf Graphic file (type pdf)
 <use Figures/PL before-after contact.pdf>
 Package pdftex.def Info: Figures/PL before-after contact.pdf  used on input line 1084.
 (pdftex.def)             Requested size: 469.75499pt x 266.49336pt.
-<Figures/First Vg PL sweeps.pdf, id=1283, 980.7309pt x 574.57018pt>
+<Figures/First Vg PL sweeps.pdf, id=1289, 980.7309pt x 574.57018pt>
 File: Figures/First Vg PL sweeps.pdf Graphic file (type pdf)
 <use Figures/First Vg PL sweeps.pdf>
 Package pdftex.def Info: Figures/First Vg PL sweeps.pdf  used on input line 1089.
 (pdftex.def)             Requested size: 469.75499pt x 275.21191pt.
-<Figures/Second Vg sweep.pdf, id=1284, 964.92183pt x 573.39984pt>
+<Figures/Second Vg sweep.pdf, id=1290, 964.92183pt x 573.39984pt>
 File: Figures/Second Vg sweep.pdf Graphic file (type pdf)
 <use Figures/Second Vg sweep.pdf>
 Package pdftex.def Info: Figures/Second Vg sweep.pdf  used on input line 1094.
 (pdftex.def)             Requested size: 469.75499pt x 279.14851pt.
-<Figures/exciton dynamics summary.pdf, id=1285, 956.29697pt x 552.38046pt>
+<Figures/exciton dynamics summary.pdf, id=1291, 956.29697pt x 552.38046pt>
 File: Figures/exciton dynamics summary.pdf Graphic file (type pdf)
 <use Figures/exciton dynamics summary.pdf>
 Package pdftex.def Info: Figures/exciton dynamics summary.pdf  used on input line 1099.
@@ -797,18 +794,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 11809 strings out of 474103
- 265470 string characters out of 5747481
+ 11811 strings out of 474103
+ 265519 string characters out of 5747481
  1938496 words of memory out of 5000000
- 33976 multiletter control sequences out of 15000+600000
+ 33978 multiletter control sequences out of 15000+600000
  564640 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,20n,93p,2544b,751s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (117 pages, 90073131 bytes).
+Output written on thesis.pdf (117 pages, 90075853 bytes).
 PDF statistics:
- 1638 PDF objects out of 1728 (max. 8388607)
- 1103 compressed objects within 12 object streams
+ 1644 PDF objects out of 1728 (max. 8388607)
+ 1107 compressed objects within 12 object streams
  0 named destinations out of 1000 (max. 500000)
  203 words of extra memory for PDF output out of 10000 (max. 10000000)
 
