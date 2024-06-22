@@ -537,7 +537,7 @@ The impedance of an IDT depends on its geometry, and must be found numerically. 
 
 \begin{align}
     Y(f) &= G(f) + i(B(f) + 2\pi C_{IDT})\\
-    &= G_0 \left(\frac{\sin X}{X}\right)^2 + i \left(\frac{\sin (2X) - 2X}{2X^2} + 2\pi f C_{IDT}\right), \label{IDT admittance}
+    &= G_0 \left(\frac{\sin X}{X}\right)^2 + i \left(G_0 \frac{\sin (2X) - 2X}{2X^2} + 2\pi f C_{IDT}\right), \label{IDT admittance}
 \end{align}
 
 where $X$ is given by
@@ -601,7 +601,7 @@ This exfoliation process results in flakes of a variety of sizes and thicknesses
     \caption{(a) AFM scan and (b) optical image of exfoliated graphene on SiO\textsubscript{2}. The AFM scan region is indicated by a gray dotted box. Scale bar = \SI{10}{\micro\meter}.}
     \label{fig:graphenelayer}
 \end{figure}
-Accurately measuring the number of layers of a graphene sample with AFM is difficult due to interactions between the AFM tip and graphene and water layers on substrates prepared in atmospheric conditions \cite{shearer_accurate_2016}. These difficulties can be reduced by using tapping-mode AFM; however, if monolayer graphene is necessary for an experiment, it is better to use Raman microscopy, which can distinguish between monolayer and multilayer graphene. In the graphene devices described in this dissertation, having monolayer graphene is not imperative, so I used AFM to determine the layer number of my graphene samples.
+Accurately measuring the number of layers of a graphene sample with AFM is difficult due to water layers on substrates prepared in atmospheric conditions interactions between the AFM tip and graphene \cite{shearer_accurate_2016}. These difficulties can be reduced by using tapping-mode AFM; however, if monolayer graphene is necessary for an experiment, it is better to use Raman microscopy, which can distinguish between monolayer and multilayer graphene. In the graphene devices described in this dissertation, monolayer graphene is not imperative, so I used AFM to determine the layer number of my graphene and h-BN samples.
 
 
 \begin{center}
@@ -628,12 +628,16 @@ Accurately measuring the number of layers of a graphene sample with AFM is diffi
 
 \subsection{Stacking 2D materials to create heterostructure devices} \label{transfer methods section}
 
-The ability to isolate single layers of 2D crystals with mechanical exfoliation opened wide the possibility of stacking different atomic layers to create designer heterostructures. In 2010, Dean et al.  demonstrated that the mobility and electronic disorder of graphene can be vastly improved by encapsulating the graphene in insulating hexagonal boron nitride (h-BN) \cite{dean_boron_2010}. Since then, techniques for assembling stacks of 2D materials have improved, allowing for sub-micron lateral precision and sub-degree rotational alignment between layers \cite{castellanos-gomez_van_2022}. Heterostructure fabrication techniques fall into two main categories: wet-transfer methods, which use sacrificial polymer layers to place down each 2D crystal, and dry-transfer methods, which only require dissolving the polymer stamp once the entire structure is completed. In general, dry transfer methods are preferred as they reduce contamination between layers, and it is the method I use to create the devices discussed in this dissertation. Therefore, I will only describe the dry transfer method here. Similarly to exfoliation techniques, many researchers have different opinions on the best tricks for 2D transfer. For an overview of different 2D transfer methods, see the review by Castellanos-Gomez et al.  \cite{castellanos-gomez_van_2022}. The methods I present in the subsequent sections were initially learned through discussions with researchers at the University of Washington, then modified based on my own trial and error.
+The ability to isolate single layers of 2D crystals with mechanical exfoliation opened wide the possibility of stacking different atomic layers to create designer heterostructures. In 2010, Dean et al. demonstrated that the mobility and electronic disorder of graphene can be vastly improved by encapsulating the graphene in insulating hexagonal boron nitride (h-BN) \cite{dean_boron_2010}. Since then, techniques for assembling stacks of 2D materials have vastly improved, allowing for sub-micron lateral precision and sub-degree rotational alignment between layers \cite{castellanos-gomez_van_2022}. Heterostructure fabrication techniques fall into two main categories: wet-transfer methods, which use sacrificial polymer layers to place down each 2D crystal, and dry-transfer methods, which only require dissolving the polymer stamp once the entire structure is completed. In general, dry transfer methods are preferred as they reduce contamination between layers, and it is the method I use to create the devices discussed in this dissertation. Therefore, I will only describe the dry transfer method here. Different researchers have different opinions on the best tricks for 2D transfer. For an overview of different 2D transfer methods, see the review by Castellanos-Gomez et al.  \cite{castellanos-gomez_van_2022}. The methods I present in the subsequent sections were initially learned through discussions with graduate students in the University of Washington Department of Physics, then modified by me based on trial and error.
 
-Figure \ref{hot pickup diagram} shows a generalized version of the dry transfer process that I use to build the devices in this dissertation.  A sticky polymer stamp is mounted onto a micromanipulator stage underneath a long-focal length microscope. The stamp is brought into contact with a chip containing exfoliated 2D flakes. The temperature of the stage is increased to make the polymer stamp stickier. Then, the contact area of the stamp on the chip is increased by lowering the stamp. Once the entire 2D flake is covered with polymer, the stage is slowly retracted to pick up the 2D flake. This process is repeated to build the desired heterostructure top-down, using the previous layer to pick up the next. Finally, the stamp is melted at a high temperature and dissolved in a solvent. This method of heating up a polymer stamp to build 2D heterostructures is called the "hot pick up technique" \cite{pizzocchero_hot_2016}.
+Figure \ref{hot pickup diagram} shows a generalized version of the dry transfer process that I use to build the devices in this dissertation, A sticky polymer stamp is mounted onto a micromanipulator stage (Fig. \ref{transfer stage image}) underneath a long-focal length microscope. The stamp is brought into contact with a chip containing exfoliated 2D flakes. The temperature of the stage is increased to make the polymer stamp stickier. Then, the contact area of the stamp on the chip is increased by lowering the stamp. Once the entire 2D flake is covered with polymer, the stage is slowly retracted to pick up the 2D flake. This process is repeated to build the desired heterostructure top-down, using the previous layer to pick up the next. Finally, the stamp is melted at a high temperature and dissolved in a solvent. This method of heating up a polymer stamp to build 2D heterostructures is called the "hot pick up technique" \cite{pizzocchero_hot_2016}.
 
+\begin{figure}
+    \includegraphics{transfer stage image.pdf}
+    \label{transfer stage image}
+\end{figure}
 
-\subsubsection{Making the viscoelastic stamp}
+\subsubsection{Making the viscoelastic stamp} \label{making the PC stamp section}
 
 Figure \ref{stamp diagram} shows the viscoelastic stamp that I use, which is used to pick up and place 2D flakes. The stamp consists of a polydimethylsiloxane (PDMS) layer mounted on a glass slide, with a thin poly(bisphenol A carbonate) (PC) polymer layer on top (some groups use polypropylene carbonate, referred to as PPC). The PDMS acts as a base for the stamp, while the PC layer becomes sticky at elevated temperatures.
 
@@ -659,7 +663,9 @@ I begin the transfer process by lowering the viscoelastic stamp until it touches
 
 I then lower the z-stage until the entire 2D flake is covered by polymer. The inset of Fig. \ref{hot pickup diagram} (b) shows a 2D flake during the polymer expansion process. The interference fringes indicate the direction that the polymer is expanding, and the smooth surface of the portion of the flake that is covered by polymer indicates good contact between the polymer and 2D flake. It is imperative that the 2D flake is smoothly covered by polymer — if any dust or bubbles separate the flake and polymer, the flake will be difficult to pick up. After the entire flake is covered by polymer, I slowly raise the z-stage to peel the flake off of the substrate. The inset of Fig. \ref{hot pickup diagram} (c) shows a flake on a polymer stamp after pick-up.
 
-Then, I find the next layer of the heterostructure and align to the previous layer by looking through the transparent polymer stamp. I then repeat the pick-up process, using the previous flake to pick up the next layer. Finally, to release the heterostructure from the stamp, I first lower the stamp onto the final substrate: Either a marker chip, if the next step is EBL (Sec. \ref{electron-beam lithography}), or pre-patterned electrodes (Sec. \ref{photolithography}). Then, I heat the stage to \SI{170}{\celsius} to melt the PC away from the stamp, waiting 5 minutes to ensure that the PC is fully melted. Next, I slowly raise the stamp, ensuring that the PC pulls away from the stamp. It is important to watch the PC during this step — if the stage is too cool, the polymer will not melt enough, and the heterostructure will be picked up from the surface. Finally, I place the chip in a bath of chloroform for 20 minutes to dissolve the PC. At this point, spraying with a wash bottle of solvent can release the heterostructure from the surface. If residue needs to be cleaned off, I gently spray the edge of the chip with acetone then isopropyl alcohol, letting solvent run over the heterostructure.
+Then, I find the next layer of the heterostructure and align to the previous layer by looking through the transparent polymer stamp. I then repeat the pick-up process, using the previous flake to pick up the next layer. Finally, to release the heterostructure from the stamp, I first lower the stamp onto the final substrate: Either a marker chip, if the next step is EBL (Sec. \ref{electron-beam lithography}), or pre-patterned electrodes (Sec. \ref{photolithography}). Then, I heat the stage to \SI{170}{\celsius} to melt the PC away from the stamp, waiting 5 minutes to ensure that the PC is fully melted. Next, I slowly raise the stamp, ensuring that the PC pulls away from the stamp. It is important to watch the PC during this step — if the stage is too cool, the polymer will not melt enough, and the heterostructure will be picked up from the surface. Finally, I place the chip in a bath of chloroform for 20 minutes to dissolve the PC. Usually, this soak is enough to remove the PC residue. If residue needs to be cleaned off, I gently spray the edge of the chip with acetone then isopropyl alcohol, letting solvent run over the heterostructure. At this point, spraying the heterostructure directly with a wash bottle can release the heterostructure from the surface. After the PC is cleaned off, the heterostructure is ready for lithography (Sec. \ref{contacts to 2D materials}).
+
+Exfoliation is not a deterministic process, and pristine, single-thickness areas of 2D samples often come attached to thicker areas. Also, the density of exfoliated material can be quite high, making transfer difficult. In the next section, I describe the use of a highly-adhesive stamp to clean unwanted flakes from the substrate and tear exfoliated flakes into single-thickness regions.
 
 
 
@@ -689,12 +695,46 @@ Then, I find the next layer of the heterostructure and align to the previous lay
     \label{hot pickup diagram}
 \end{figure}
 
-\subsubsection{PCL cleaning}
+\subsection{Polycaprolactone (PCL) stamp for removing unwanted 2D flakes}
+In this section, I describe the use of a highly-adhesive stamp to clean unwanted flakes from the substrate and tear exfoliated flakes into single-thickness regions. As shown in the inset of Fig. \ref{exfoliation diagram} (d), thin regions of exfoliated 2D crystal often come next to thicker regions. When attempting to pick up a flake with the hot pickup method (Sec. \ref{transfer methods section}), a thick region will prevent good contact with an adjacent thinner region. If transfer is successful, adjacent flakes are often also picked up with the target flake. For the devices described in Ch. \ref{AE charge pumping paper}, an unwanted graphene flake could short-circuit the interdigitated transducer, rendering it inoperable. Therefore, this method of cleaning was necessary to successfully create the devices described in Ch. \ref{AE charge pumping paper}.
 
-To be filled in
+\subsubsection{Preparing the PCL stamp}
 
 
-\section{Contacts to 2D materials}
+Figure \ref{PCL stamp making diagram} illustrates the process for making a polycaprolactone (PCL) stamp. The process for making a PCL stamp is very similar to the PC stamp-making process described in Sec. \ref{making the PC stamp section}, with two distinct differences. First, the PCL stamp has a PCL film instead of PC film. Second, the PDMS used is not a flat gel-pak sheet, but a round "dome PDMS". 
+
+Figure \ref{PCL stamp making diagram} (a) illustrates how to make dome PDMS. First, I mix SYLGARD™ 184 Silicone Elastomer solution (PDMS solution) at a 10:1 ratio with curing agent (as per manufacturer recipe) in a plastic petri dish with a flat bottom. I make enough curing agent to fill the dish with an $\approx \SI{2}{\milli\meter}$ layer of PDMS solution (the thickness of this layer determines the height of the dome PDMS). I then place the uncured PDMS into a vacuum chamber for 30 minutes to remove air bubbles from the PDMS solution. Then, I cure the solution on a hotplate at \SI{40}{\celsius} overnight. Next, I use a biopsy punch with diameter \SI{2.5}{\milli\meter} to punch a small, circular piece of cured PDMS out of the plastic dish and place it in a fresh plastic dish (Fig. \ref{PCL stamp making diagram} (a) (1)). Then, I prepare another batch of PDMS solution, and before it cures, I pipette one drop of PDMS solution onto the prepared cured PDMS piece (Fig. \ref{PCL stamp making diagram} (a) (2)). Due to surface tension, this droplet stays rounded on top, which defines the dome. Lastly, I cure the dome PDMS on a hot plate at \SI{40}{\celsius} overnight. Figure \ref{PCL stamp making diagram} (a) (3) shows a photo of completed dome PDMS.
+
+To create the PCL film, I first prepare a solution of $15 \%$ polycaprolactone (PCL) in tetrahydrofuran (THF) (mass percent). I mix this solution on a stir plate at medium speed for 24-48 hours, until the PCL is fully dissolved. Then, I mount a clean glass slide on a spin-coater, and pipette $\approx \SI{2}{\milli\liter}$ onto the center of the slide. I then spin the solution at 2000 RPM for 1 minute. At this point, the PCL film will appear rough. Next, I melt the PCL film on a hotplate at \SI{90}{\celsius} for 1 minute, or until the PCL film becomes transparent. I then let the PCL film cool fully (until it becomes opaque again) before proceeding.
+
+After the dome PDMS and PCL film are prepared, the stamp is constructed identically to the process described at the end of Sec. \ref{making the PC stamp section}, using the dome PDMS and PCL film. In brief: I use scotch tape to transfer the PC film onto the dome PDMS, which is mounted on a glass slide (Fig. \ref{PCL stamp making diagram} (c) and (d)). Figure \ref{PCL stamp making diagram} shows a schematic of a completed PCL stamp.
+
+\begin{figure}
+    \includegraphics{PCL stamp making diagram.pdf}
+    \caption{}
+    \label{PCL stamp making diagram}
+\end{figure}
+
+\subsubsection{Using the PCL stamp}
+Figure \ref{PCL cleaning process} illustrates the process of picking up unwanted flakes or tearing sections from desired flakes using a PCL stamp. First, I mount the PCL stamp onto the transfer stage (Fig. \ref{transfer stage image}) with the temperature set to \SI{30}{\celsius}. Then, I lower the PCL stamp onto a clean SiO\textsubscript{2} substrate until it contacts the surface in a circle of radius $\approx \SI{500}{\micro\meter}$. Next, I raise the stage temperature to \SI{60}{\celsius} to melt the PCL that is contacting the surface. The PCL is opaque when solid and transparent when melted. At this point, if the PCL contact area expands more than desired, I slowly raise the z-stage to stop the expansion and/or cool the stage by \SI{5}{\celsius}. Then, I cool the stage to \SI{30}{\celsius} to solidify the PCL. To pick up or tear a flake, I lower the stamp until it is lightly contacting the substrate, then heat the stage to \SI{60}{\celsius}. Ideally, the PCL contact area will stop expanding at the edge created in the previous step. Then, I cool the stage back to \SI{30}{\celsius}. When melted, the PCL conforms well to the 2D flake, then when cooled, the flake is strongly adhered to the PCL. Lastly, once the PCL is opaque (around 2 mins at \SI{30}{\celsius}), I raise the stamp off of the substrate, picking up any 2D flake (or part of a flake) that is inside the PCL contact area.
+
+%TODO: Fix this section and restate how you use this at the end
+
+
+\begin{figure}
+    \includegraphics{PCL cleaning process.pdf}
+    \caption{}
+    \label{PCL cleaning process}
+\end{figure}
+
+
+
+
+
+
+
+
+\section{Contacts to 2D materials} \label{contacts to 2D materials}
 
 \subsection{Photolithography} \label{photolithography}
 
@@ -746,40 +786,37 @@ Electron-beam lithography uses the electron beam of a scanning electron microsco
 
 \section{Interdigitated transducers} \label{IDT methods}
 
-Before using an interdigitated transducer in an acoustoelectric device (Ch. \ref{AE charge pumping paper}), I need to verify its performance. In Sec. \ref{SAW device design}, I outline the expected frequency response and impedance of an IDT based on its geometry. In this section, I discuss measuring the frequency response and impedance of IDTs to verify their performance. 
+Before using an interdigitated transducer to pump charge in graphene (Ch. \ref{AE charge pumping paper}), I need to verify its performance. In Sec. \ref{SAW device design}, I outline the expected frequency response and impedance of an IDT based on its geometry. In this section, I discuss my methods for measuring the frequency response and impedance of IDTs to verify their performance, and compare my measurements to theory. 
 
-Figure \ref{SAW device optical image with measurements} shows an optical microscope image of an IDT that I fabricated on LiNbO\textsubscript{3} using photolithography (see App. \ref{photolithography recipe}) and metallization of $5/\SI{25}{\nano\meter}$ Cr/Au.
-
-A receiving IDT with identical geometry is located \SI{200}{\micro\meter} away from the IDT pictured.
-
-
+Figure \ref{SAW device optical image with measurements} shows an optical microscope image of a pair of IDTs that I fabricated on LiNbO\textsubscript{3} using photolithography (see App. \ref{photolithography recipe}) and metallization of $5/\SI{25}{\nano\meter}$ Al using electron-beam evaporation.
 
 \begin{figure}
-    \includegraphics{SAW device optical image 1.pdf}
-    \caption{}
+    \includegraphics[width = 1\textwidth]{SAW device optical image 1.pdf}
+    \caption{Optical microscope image of a pair of IDTs on LiNbO\textsubscript{3} with parameters $N_p = 20$, $W = \SI{230}{\micro\meter}$, and $\lambda = \SI{20}{\micro\meter}$ }
     \label{SAW device optical image with measurements}
 \end{figure}
 
-This IDT has $N_p = 20$ finger pairs and aperture width $W = \SI{230}{\micro\meter}$. The SAW velocity on LiNbO\textsubscript{3} is \SI{3488}{\meter/\second}, giving a center frequency of $f_0 = \SI{174.4}{\mega\hertz}$. Using Eq. \ref{IDT admittance}, the impedance of this IDT should be $Z_{IDT} \approx \SI{170}{\ohm}$. In the rest of this section, when I refer to "the IDT pair", I am referring to this specific pair of IDTs.
+These IDTs have $N_p = 20$ finger pairs and aperture width $W = \SI{230}{\micro\meter}$. Their wavelength is $\lambda = \SI{20}{\micro\meter}$ and the SAW velocity on LiNbO\textsubscript{3} is \SI{3488}{\meter/\second}, giving a center frequency of $f_0 = \SI{174.4}{\mega\hertz}$. Using Eq. \ref{IDT admittance}, the impedance of this IDT should be $Z_{IDT} \approx \SI{170}{\ohm}$. 
 
-To benchmark the performance of the IDT pair, I use an Agilent E5071C-280 vector network analyzer to measure their S-parameters and impedance. Figure \ref{S-parameters} (a) shows the definition of the four S-parameters. $S_{11}$ and $S_{22}$ are the ratios of reflected RF power to input RF power for IDT 1 and IDT 2 respectively. $S_{21}$ is the ratio of received RF power at IDT 2 to input RF power at IDT 1, and $S_12$ is the ratio of received RF power at IDT 1 to input RF power at IDT 2. Figure \ref{S-parameters} (b) shows S11 and S22, and Fig. \ref{S-parameters} (b) shows S21 and S12.
+To benchmark the performance of the IDT pair, I use an Agilent E5071C-280 vector network analyzer to measure their S-parameters and impedance. Figure \ref{S-parameters} (a) shows the definition of the four S-parameters for a two-port network. $S_{11}$ and $S_{22}$ are the ratios of reflected RF power to input RF power for IDT 1 and IDT 2 respectively. $S_{21}$ is the ratio of received RF power at IDT 2 to input RF power at IDT 1, and $S_12$ is the ratio of received RF power at IDT 1 to input RF power at IDT 2. Figure \ref{S-parameters} (b) shows S11 and S22, and Fig. \ref{S-parameters} (b) shows S21 and S12 for IDT 1 and IDT 2 (Fig. \ref{SAW device optical image with measurements}).
 
 
 \begin{figure}
-    \includegraphics{S-parameters.pdf}
-    \caption{}
+    \includegraphics[width = 1\textwidth]{S-parameters.pdf}
+    \caption{(a) Definition of S-parameters for a two-port network. (b) $S_{11}$ and $S_{22}$ for IDT 1 and IDT 2. A drop in reflected power is seen near the center frequency $f_0 = v/\lambda = \SI{174.4}{\mega\hertz} $. }
     \label{S-parameters}
 \end{figure}
-The S-parameter data shown in Fig. \ref{S-parameters} (b) and (c) have the expected behavior. First, there is a drop in reflected power at $f_0$ (Fig. \ref{S-parameters} (b)), which corresponds to the increase in transmitted power (Fig. \ref{S-parameters} (c)). Away from $f_0$, the S21 and S12 data match the expected frequency response predicted by the model discussed in Sec. \ref{SAW device design} (Eq. \ref{Response of IDT}).
+The S-parameter data shown in Fig. \ref{S-parameters} (b) and (c) are in good agreement with the model discussed in Sec. \ref{SAW device design}. First, there is a drop in reflected power at $\approx \SI{170}{\mega\hertz}$, close to $f_0$, (Fig. \ref{S-parameters} (b)), which corresponds to the increase in transmitted power (Fig. \ref{S-parameters} (c)). It is normal for the IDT center frequency to be slightly lower than expected due to mass-loading effects, depending on the density and thickness of the metal used. This effect is less pronounced for IDTs in the MHz range. As $f_0$ increases, using low-density, thin metal becomes more important to minimize the mass-loading-driven shift in $f_0$ \cite{chen_ultrahigh-frequency_2020}. Away from $f_0$, secondary resonance peaks of decreasing magnitude can be seen in the S21 and S12 data. This is in agreement with the frequency response predicted by Eq. \ref{Response of IDT}. Lastly, the frequency response curves of the two IDTs are nearly indistinguishable, showing that the geometry of each IDT is identical. Therefore, the lithography is of high quality. 
 
-Figure \ref{Z11 plot} shows the impedance of IDT 1 in comparison to the model given by Eq. \ref{IDT admittance}. The measured impedance at $f_0$ is \SI{290}{ohm}, while the model predicts an impedance of \SI{170}{ohm}. This is most likely because the model given by Eq. \ref{IDT admittance} does not consider reflections from each IDT finger. This IDT has $N_p = 20$, and each finger reflects around $0.1-2 \%$ of the IDT signal. 
 
-From Eq. \ref{transmission coefficient}, $\approx 70\%$ of the input RF power is reflected back from the IDT. This could be improved; however, this IDT has similar performance to 
+Figure \ref{Z11 plot} shows the measured real part of the admittance ($\mathrm{Re}(Y)$) of IDT 1 in comparison to the model given by Eq. \ref{IDT admittance}. The measured admittance at $f_0$ is $\SI{6.5}{\milli\siemens} = (\SI{154}{\ohm})^{-1}$, while the model predicts an admittance of $\SI{5.9}{\milli\siemens} = (\SI{170}{\ohm})^{-1}$ (a difference of $10\%$). Also, the width of the peak in $Re(Y)$ is wider than predicted by the model. This discrepancy is most likely because the model given by Eq. \ref{IDT admittance} does not consider reflections from each IDT finger. This IDT has $N_p = 20$, and each finger reflects around $0.1-2 \%$ of the IDT signal \cite[p. 140]{lane_integrating_2021}.
 
-%TODO: Fix ticks on all of these plots
+From Eq. \ref{transmission coefficient} and an input impedance of $\SI{50}{\ohm}$ $\approx 70\%$ of the input RF power is reflected back from the IDT. This could be improved; however, this IDT has similar $S{21/12}$ performance to prior IDTs used in charge pumping experiments \cite{buitelaar_charge_2006}, so I deemed the performance of these IDTs good enough to proceed with the experiment. I use this IDT design for the devices described in Ch. \ref{AE charge pumping paper}.
+
+
 \begin{figure}
     \includegraphics[width = 0.75\textwidth]{Z11_plot_.pdf}
-    \caption{}
+    \caption{Measured real part of $Y_{11}$ for IDT 1 compared to the model given by Eq. \ref{IDT admittance}. The center frequency of the model has been shifted to match the measured center frequency.}
     \label{Z11 plot}
 \end{figure}
 
@@ -968,7 +1005,11 @@ In this section, I built a flip-chip capacitor by sandwiching patterned quartz a
 
 \appendix
 
-\chapter{Limitations of quantized charge pumps based on tunneling}
+\chapter{Additional data}
+
+\section{Additional Surface acoustic wave device data}
+
+
 
 \chapter{Recipes}
 

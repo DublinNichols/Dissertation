@@ -7,45 +7,45 @@ Warning--I didn't find a database entry for "lane_integrating_nodate"
 Warning--empty author in noauthor_rise_2016
 Warning--empty publisher in pozar_microwave_2012
 Warning--empty journal in lane_integrating_2021
-You've used 69 entries,
+You've used 71 entries,
             1791 wiz_defined-function locations,
-            858 strings with 19882 characters,
-and the built_in function-call counts, 19661 in all, are:
-= -- 1475
-> -- 1448
+            868 strings with 20538 characters,
+and the built_in function-call counts, 20384 in all, are:
+= -- 1525
+> -- 1515
 < -- 1
-+ -- 509
-- -- 440
-* -- 1971
-:= -- 3350
-add.period$ -- 210
-call.type$ -- 69
-change.case$ -- 68
++ -- 532
+- -- 461
+* -- 2051
+:= -- 3477
+add.period$ -- 216
+call.type$ -- 71
+change.case$ -- 70
 chr.to.int$ -- 0
-cite$ -- 72
-duplicate$ -- 622
-empty$ -- 1602
-format.name$ -- 440
-if$ -- 4013
+cite$ -- 74
+duplicate$ -- 640
+empty$ -- 1652
+format.name$ -- 461
+if$ -- 4155
 int.to.chr$ -- 0
-int.to.str$ -- 69
-missing$ -- 69
-newline$ -- 350
-num.names$ -- 68
-pop$ -- 94
+int.to.str$ -- 71
+missing$ -- 71
+newline$ -- 360
+num.names$ -- 70
+pop$ -- 96
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 225
+skip$ -- 231
 stack$ -- 0
-substring$ -- 1416
-swap$ -- 73
+substring$ -- 1472
+swap$ -- 75
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 172
-width$ -- 71
-write$ -- 759
+while$ -- 178
+width$ -- 73
+write$ -- 781
 (There were 4 warnings)
