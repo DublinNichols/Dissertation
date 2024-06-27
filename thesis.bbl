@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{peng_long-range_2022}
+Ruoming Peng, Adina Ripin, Yusen Ye, Jiayi Zhu, Changming Wu, Seokhyeong Lee, Huan Li, Takashi Taniguchi, Kenji Watanabe, Ting Cao, Xiaodong Xu, and Mo~Li.
+\newblock Long-range transport of {2D} excitons with acoustic waves.
+\newblock {\em Nature Communications}, 13(1):1334, March 2022.
+
 \bibitem{wixforth_surface_1989}
 A.~Wixforth, J.~Scriba, M.~Wassermeier, J.~P. Kotthaus, G.~Weimann, and W.~Schlapp.
 \newblock Surface acoustic waves on {GaAs}/{AlGaAs} heterostructures.
@@ -17,6 +22,11 @@ Newton’s rings.
 The rise of quantum materials.
 \newblock {\em Nature Physics}, 12(2):105--105, February 2016.
 \newblock Publisher: Nature Publishing Group.
+
+\bibitem{orenstein_ultrafast_2012}
+Joseph Orenstein.
+\newblock Ultrafast spectroscopy of quantum materials.
+\newblock {\em Physics Today}, 65(9):44--50, September 2012.
 
 \bibitem{novoselov_electric_2004}
 K.~S. Novoselov, A.~K. Geim, S.~V. Morozov, D.~Jiang, Y.~Zhang, S.~V. Dubonos, I.~V. Grigorieva, and A.~A. Firsov.
@@ -109,6 +119,17 @@ Kha Tran, Galan Moody, Fengcheng Wu, Xiaobo Lu, Junho Choi, Kyounghwan Kim, Amri
 \newblock Evidence for moiré excitons in van der {Waals} heterostructures.
 \newblock {\em Nature}, 567(7746):71--75, March 2019.
 
+\bibitem{kuznetsova_all-optical_2010}
+Y.~Y. Kuznetsova, M.~Remeika, A.~A. High, A.~T. Hammack, L.~V. Butov, M.~Hanson, and A.~C. Gossard.
+\newblock All-optical excitonic transistor.
+\newblock {\em Optics Letters}, 35(10):1587, May 2010.
+
+\bibitem{liu_electrically_2020}
+Yuanda Liu, Kévin Dini, Qinghai Tan, Timothy Liew, Kostya~S. Novoselov, and Weibo Gao.
+\newblock Electrically controllable router of interlayer excitons.
+\newblock {\em Science Advances}, 6(41):eaba1830, October 2020.
+\newblock Publisher: American Association for the Advancement of Science.
+
 \bibitem{jauregui_electrical_2019}
 Luis~A. Jauregui, Andrew~Y. Joe, Kateryna Pistunova, Dominik~S. Wild, Alexander~A. High, You Zhou, Giovanni Scuri, Kristiaan De~Greve, Andrey Sushko, Che-Hang Yu, Takashi Taniguchi, Kenji Watanabe, Daniel~J. Needleman, Mikhail~D. Lukin, Hongkun Park, and Philip Kim.
 \newblock Electrical control of interlayer exciton dynamics in atomically thin heterostructures.
@@ -119,21 +140,11 @@ Dmitrii Unuchek, Alberto Ciarrocchi, Ahmet Avsar, Kenji Watanabe, Takashi Tanigu
 \newblock Room-temperature electrical control of exciton flux in a van der {Waals} heterostructure.
 \newblock {\em Nature}, 560(7718):340--344, August 2018.
 
-\bibitem{peng_long-range_2022}
-Ruoming Peng, Adina Ripin, Yusen Ye, Jiayi Zhu, Changming Wu, Seokhyeong Lee, Huan Li, Takashi Taniguchi, Kenji Watanabe, Ting Cao, Xiaodong Xu, and Mo~Li.
-\newblock Long-range transport of {2D} excitons with acoustic waves.
-\newblock {\em Nature Communications}, 13(1):1334, March 2022.
-
-\bibitem{liu_electrically_2020}
-Yuanda Liu, Kévin Dini, Qinghai Tan, Timothy Liew, Kostya~S. Novoselov, and Weibo Gao.
-\newblock Electrically controllable router of interlayer excitons.
-\newblock {\em Science Advances}, 6(41):eaba1830, October 2020.
-\newblock Publisher: American Association for the Advancement of Science.
-
 \bibitem{fang_quantum_2023}
-Yawen Fang, Yang Xu, Kaifei Kang, Benyamin Davaji, Kenji Watanabe, Takashi Taniguchi, Amit Lal, Kin~Fai Mak, Jie Shan, and B. J. Ramshaw.
-\newblock Quantum {Oscillations} in {Graphene} {Using} {Surface} {Acoustic} {Wave} {Resonators}.
+Yawen Fang, Yang Xu, Kaifei Kang, Benyamin Davaji, Kenji Watanabe, Takashi Taniguchi, Amit Lal, Kin~Fai Mak, Jie Shan, and B.~J. Ramshaw.
+\newblock Quantum {Transport} in {Graphene} {Using} {Surface} {Acoustic} {Wave} {Resonators}.
 \newblock {\em Physical Review Letters}, 130(24):246201, June 2023.
+\newblock arXiv:2302.01492 [cond-mat].
 
 \bibitem{nie_surface_2023}
 Xuchen Nie, Xiaoyue Wu, Yang Wang, Siyuan Ban, Zhihao Lei, Jiabao Yi, Ying Liu, and Yanpeng Liu.
@@ -145,16 +156,26 @@ Hansjörg Scherer and Hans~Werner Schumacher.
 \newblock Single‐{Electron} {Pumps} and {Quantum} {Current} {Metrology} in the {Revised} {SI}.
 \newblock {\em Annalen der Physik}, 531(5):1800371, May 2019.
 
-\bibitem{citro_thouless_2023}
-Roberta Citro and Monika Aidelsburger.
-\newblock Thouless pumping and topology.
-\newblock {\em Nature Reviews Physics}, 5(2):87--101, February 2023.
-\newblock Publisher: Nature Publishing Group.
-
 \bibitem{thouless_quantization_1983}
 D.~J. Thouless.
 \newblock Quantization of particle transport.
 \newblock {\em Physical Review B}, 27(10):6083--6087, May 1983.
+
+\bibitem{niu_towards_1990}
+Q.~Niu.
+\newblock Towards a quantum pump of electric charges.
+\newblock {\em Physical Review Letters}, 64(15):1812--1815, April 1990.
+
+\bibitem{sakurai_modern_1985}
+J.J. Sakurai and Jim Napolitano.
+\newblock {\em Modern {Quantum} {Mechanics}}.
+\newblock 1985.
+
+\bibitem{citro_thouless_2023}
+Roberta Citro and Monika Aidelsburger.
+\newblock Thouless pumping and topology.
+\newblock {\em Nature Reviews Physics}, 5(2):87--101, January 2023.
+\newblock arXiv:2210.02050 [cond-mat].
 
 \bibitem{pekola_single-electron_2013}
 Jukka~P. Pekola, Olli-Pentti Saira, Ville~F. Maisi, Antti Kemppinen, Mikko Möttönen, Yuri~A. Pashkin, and Dmitri~V. Averin.
@@ -308,6 +329,11 @@ Andres Castellanos-Gomez, Xiangfeng Duan, Zhe Fei, Humberto~Rodriguez Gutierrez,
 Filippo Pizzocchero, Lene Gammelgaard, Bjarke~S. Jessen, José~M. Caridad, Lei Wang, James Hone, Peter Bøggild, and Timothy~J. Booth.
 \newblock The hot pick-up technique for batch assembly of van der {Waals} heterostructures.
 \newblock {\em Nature Communications}, 7(1):11894, June 2016.
+
+\bibitem{son_strongly_2020}
+Suhan Son, Young~Jae Shin, Kaixuan Zhang, Jeacheol Shin, Sungmin Lee, Hiroshi Idzuchi, Matthew~J Coak, Hwangsun Kim, Jangwon Kim, Jae~Hoon Kim, Miyoung Kim, Dohun Kim, Philip Kim, and Je-Geun Park.
+\newblock Strongly adhesive dry transfer technique for van der {Waals} heterostructure.
+\newblock {\em 2D Materials}, 7(4):041005, September 2020.
 
 \bibitem{noauthor_nanolithography_nodate}
 Nanolithography / {Electron} {Beam} {Lithography}.

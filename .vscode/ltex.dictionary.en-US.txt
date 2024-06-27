@@ -55,3 +55,12 @@ Interdigitated
 Agilent
 polycaprolactone
 tetrahydrofuran
+pseudospin
+dichalcogenides
+TMDs
+inequivalent
+brillouin
+pseudospins
+valleytronics
+bilayers
+excitonic

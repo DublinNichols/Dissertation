@@ -4,7 +4,6 @@
 \usepackage{rotating} 
 \usepackage{tablefootnote}
 \usepackage[separate-uncertainty=true]{siunitx} 
-\usepackage{svg}
 \usepackage{physics}
 \usepackage{amsmath}
 \usepackage[autostyle, english = american]{csquotes}
@@ -46,9 +45,9 @@
 %-------------------------INTRODUCTION-----------------------------
 
 \chapter{Introduction}
-Interest in the transformative potential of the second quantum revolution has reached the mainstream. Not a week goes by without a hundred popular science articles promising that some new material, with some "weird quantum property", will revolutionize your computer, car, refrigerator, and more. Central to these claims are quantum materials. In contrast to conventional materials such as silicon, which can be accurately described using semiclassical physics and basic quantum mechanics, quantum materials force us to move beyond the theories established in the early 20th century (during the first quantum revolution). These initial theories were immensely impactful — they led to the invention of transistors and formed the foundation of our computer-centric world. Quantum materials, however, boast strongly-interacting electrons, exhibit quantum interference effects, provide new quantum degrees of freedom, and manifest topological states of matter, all of which challenge our understanding of physics. But, can these materials revolutionize anything, or are they just curiosities that will never leave the lab?
+Interest in the transformative potential of the second quantum revolution has reached the mainstream. Not a week goes by without a hundred popular science articles promising that some new material, with some "weird quantum property", will revolutionize your computer, car, refrigerator, and more. Central to these claims are quantum materials. In contrast to conventional materials such as silicon, which can be accurately described using semiclassical physics and basic quantum mechanics, quantum materials force us to move beyond the theories established in the early 20th century (during the first quantum revolution). These initial theories were immensely impactful — they led to the invention of transistors and formed the foundation of our computer-centric world. Quantum materials, however, boast strongly-interacting electrons, exhibit quantum interference effects, provide new quantum degrees of freedom, and manifest topological states of matter, all of which challenge our understanding of physics. 
 
-When I first heard the phrase "quantum materials", I thought it was a bit ridiculous. Aren't all material properties essentially a result of quantum mechanics? I was convinced to the contrary by an editorial in \textit{Nature Physics}, which writes
+When I first heard the phrase "quantum materials", I thought it was a redundant rebranding of condensed matter physics. Aren't all material properties essentially a result of quantum mechanics? I was convinced to the contrary by an editorial in \textit{Nature Physics}, which writes
 
 
 \begin{quote}
@@ -64,11 +63,43 @@ communities of researchers working on
 a variety of problems at the frontiers of
 physics, materials science and engineering." \cite{noauthor_rise_2016}
 \end{quote}
-The phrase "quantum materials" isn't meant to be precise. It links together researchers who are developing quantum computers, to those exploring topological states of matter in ultracold atoms, to researchers like me who seek to harness the properties of 2D materials to explore new and exciting physics and promising applications. The development of the transistor never would have been possible without first developing a deep understanding of the basic physics of quantum mechanics. Now, as we stand on the precipice of the second quantum revolution, we must confront these challenges directly, and strive to deepen our understanding of the physics of quantum materials. Though we work on distinct challenges, we can unite under the moniker "quantum materials". 
+Or, put more simply, quantum materials are those "whose electronic properties cannot be understood with concepts from contemporary condensed-matter textbooks" \cite{orenstein_ultrafast_2012}. 
 
-\section{Why two-dimensional materials?}
+The phrase "quantum materials" isn't meant to be precise. It links together researchers who are developing quantum computers, to those exploring topological states of matter in ultracold atoms, to researchers like me who seek to harness the properties of 2D materials to explore new and exciting physics and promising applications. The development of the transistor never would have been possible without first developing a deep understanding of the basic physics of quantum mechanics. Now, as we stand on the precipice of the second quantum revolution, we must confront these challenges directly, and strive to deepen our understanding of physics. Though we work on distinct challenges, we can unite under the moniker "quantum materials". 
 
-Few quantum materials have captivated researchers' interest as profoundly as two-dimensional (2D) materials. Two decades have passed since Novoselov et al. published their electronic measurements on atomically-thin carbon films known as graphene, which would later win them the Nobel Prize \cite{novoselov_electric_2004}. Since then, the family of 2D materials has expanded to include a plethora of 2D semiconductors and magnets. The greatest strength of 2D materials lies in their tunability. When electrons are confined to two dimensions, they are incredibly sensitive to their environment. By stacking atomically-thin 2D materials into heterostructures, we can harness their tunability for next-generation electronics. For example, 2D semiconductor heterostructures are of prime interest to overcome the fundamental limits of silicon-based transistors, enhancing transistor density while simultaneously paving the way for more energy-efficient computing \cite{liu_two-dimensional_2020,obrien_process_2023}. 2D ferromagnets challenge established theories of magnetism, provide unprecedented electronic control over magnetism, and enable applications in sensing and data storage \cite{huang_layer-dependent_2017,kajale_two-dimensional_2024}. The tunability of 2D materials allows us to tune their electronic properties and control these quantum phenomena to explore both exciting new physics and promising applications.
+
+
+\section{Why low-dimensional materials?}
+In this dissertation, I primarily focus on the subset of quantum materials known as "low-dimensional materials". Low-dimensional materials have at least one dimension at the nanoscale, such that electrons are confined to two, one, or zero dimensions. This low dimensionality leads to unique electronic properties that can be harnessed for next-generation electronics, such as the valley degree of freedom.\footnote{In this dissertation, I focus mostly on graphene (a 2D material) with some discussion on carbon nanotubes (a 1D material). I will not discuss 0D materials, such as quantum dots. I also use "low-dimensional materials" to refer solely to 2D and 1D materials.}
+
+The electronic properties of a crystalline solid are predominantly determined by its band structure, which describes the relationship between the permissible energy and momentum of electrons. Within the band structure of a material, a local minimum in the conduction band or a local maximum in the valence band is referred to as a “valley”. Manipulating the shape of an electronic valley has been explored in conventional semiconductors. For example, strain has been used in the semiconductor industry to tune the shape of a valley to increase carrier mobility \cite{thompson_90-nm_2004}. However, the usefulness of valleys goes further. In addition to the well-known charge and spin degrees of freedom, electrons also possess a valley degree of freedom determined by the valley they occupy. In materials with multiple, symmetrical valleys in their band structure, this valley degree of freedom acts like a “pseudospin”. For example, graphene has pairs of inequivalent valleys near the edges of its brillouin zone at the $K$ and $K'$ symmetry points (Fig. \ref{graphene dispersion plot intro}). Electrons in the $K$ valley can be labelled as "pseudospin up", and electrons in the $K'$ valley can be labelled as "pseudospin down". These pseudospins have possible applications in "valleytronics" devices, which use the pseudospin to store information \cite{schaibley_valleytronics_2016}. Valleys in low-dimensional materials are fundamentally different than those in bulk materials. The reduced dimensionality of 2D and 1D materials brings forward a new family of valley-dependent physical phenomena. One example is the valley Hall effect in graphene, where electrons in the $K$ and $K'$ valleys were observed to drift in opposite directions under an applied electric field \cite{gorbachev_detecting_2014}. However, 1D materials also exhibit interesting valley-dependent physics.
+
+
+%TODO: Shade (b) grey to match (a)
+\begin{figure}
+    \includegraphics[width = 1\textwidth]{Graphene band structure 3D.pdf}
+    \caption{(a) A plot of graphene's dispersion relation given by Eq. \ref{graphene dispersion}. (b) Near the Dirac points, the energy of electronic states in graphene is approximately linear with respect to momentum. (c) The momentum-space lattice of graphene, with Dirac points labelled.}
+    \label{graphene dispersion plot intro}
+\end{figure}
+
+Carbon nanotubes (CNTs) are essentially rolled-up sheets of graphene, forming a 1D tube-like structure. Similar to graphene, CNTs also exhibit a valley degree of freedom. However, the physics of valleys in CNTs is even more intriguing due to their 1D nature. Depending on how the sheet of graphene is rolled up, nanotubes can have widely different properties. The confinement of electrons resulting in discrete subbands in the band structure. Each subband corresponds to a different “valley”, and the valley index can be used as a pseudospin, similar to the case of graphene.
+
+Senger 2016 paper
+
+
+
+
+
+
+
+
+
+
+The 2D materials revolution was launched when Novoselov et al. published their electronic measurements on atomically-thin carbon films known as graphene, which would later win them the Nobel Prize \cite{novoselov_electric_2004}. Since then, the family of 2D materials has expanded to include a plethora of 2D semiconductors and magnets. 
+
+
+
+The greatest strength of 2D materials lies in their tunability. By stacking atomically-thin 2D materials into heterostructures, we can harness their tunability for next-generation electronics. For example, 2D semiconductor heterostructures are of prime interest to overcome the fundamental limits of silicon-based transistors, enhancing transistor density while simultaneously paving the way for more energy-efficient computing \cite{liu_two-dimensional_2020,obrien_process_2023}. 2D ferromagnets challenge established theories of magnetism, provide unprecedented electronic control over magnetism, and enable applications in sensing and data storage \cite{huang_layer-dependent_2017,kajale_two-dimensional_2024}. The tunability of 2D materials allows us to tune their electronic properties and control these quantum phenomena to explore both exciting new physics and promising applications.
 
 
 \section{Background and Motivation}
@@ -76,30 +107,169 @@ Few quantum materials have captivated researchers' interest as profoundly as two
 
 
 A surface acoustic wave (SAW) is an elastic wave that propagates along the surface of a
-material, with its energy confined to a depth of around one wavelength below the surface \cite{rayleigh_waves_1885}. When a SAW propagates in a piezoelectric substrate (such as LiNbO\textsubscript{3}), it mechanically stresses the piezoelectric, generating electric fields. These travelling spatially- and temporally-periodic electric fields can interact with quantum materials, enabling novel probes into quantum phenomena which are not accessible using conventional transport techniques. For example, SAWs were recently used to demonstrate that current-induced modifications of bubble and stripe phases in 2D electron systems (2DES) are a local phenomenon \cite{friess_current_2018}. In contrast to prior transport studies which indirectly probed the voltage drop on the edges of the 2DES, the authors used SAWs to probe the entire sample at once, gaining new understanding into the effects of external current on highly-ordered electron phases. Another work used a combination of SAWs, microwave excitation, and optical detection to study quantum Hall stripes \cite{kukushkin_collective_2011}. By employing SAWs with a wavelength of \SI{60}{\nano\meter}, the authors were able to probe commensurability effects between the SAW superlattice and quantum Hall stripes. A plethora of earlier SAW-based studies provided new insight into the quantum Hall and fractional quantum Hall effect \cite{wixforth_quantum_1986,esslinger_acoustoelectric_1992,esslinger_ultrasonic_1994,kukushkin_collective_2011,willett_experimental_1993} and Wigner crystallization \cite{paalanen_rf_1992}. These works highlight the incredible strength of SAWs for probing phenomena in quantum systems. Building on these successes, researchers have begun to explore the potential of SAWs in the rapidly evolving field of 2D materials.
+material, with its energy confined to a depth of around one wavelength below the surface \cite{rayleigh_waves_1885}. When a SAW propagates in a piezoelectric substrate (such as LiNbO\textsubscript{3}), it mechanically stresses the piezoelectric, generating electric fields that propagate at the acoustic velocity (a few thousand meters per second). These spatially- and temporally-periodic electric fields can interact with quantum materials, enabling novel probes into quantum phenomena which are not accessible using conventional transport techniques. For example, SAWs were recently used to demonstrate that current-induced modifications of bubble and stripe phases in 2D electron systems (2DES) are a local phenomenon \cite{friess_current_2018}. In contrast to prior transport studies which indirectly probed the voltage drop on the edges of the 2DES, the authors used SAWs to probe the entire sample at once, gaining new understanding into the effects of external current on highly-ordered electron phases. Another work used a combination of SAWs, microwave excitation, and optical detection to study quantum Hall stripes \cite{kukushkin_collective_2011}. By employing SAWs with a wavelength of \SI{60}{\nano\meter}, the authors were able to probe commensurability effects between the SAW superlattice and quantum Hall stripes. A plethora of earlier SAW-based studies provided new insight into the quantum Hall and fractional quantum Hall effect \cite{wixforth_quantum_1986,esslinger_acoustoelectric_1992,esslinger_ultrasonic_1994,kukushkin_collective_2011,willett_experimental_1993} and Wigner crystallization \cite{paalanen_rf_1992}. These works highlight the incredible strength of SAWs for probing phenomena in quantum systems. Building on these successes, researchers have begun to explore the potential of SAWs in the rapidly evolving field of 2D materials.
 
-In 2018, interest in engineered 2D superlattices exploded with the discovery of unconventional superconductivity in twisted bilayer graphene \cite{cao_unconventional_2018}. The birth of the field of "twistronics" added a new knob to turn in the already massive parameter space available for creating bespoke 2D devices. By tuning the twist angle between two sheets of graphene (and thus the periodicity of the moiré superlattice), bilayer graphene can not only exhibit superconductivity, but also correlation-induced insulating states, magnetism, quantized anomalous Hall states, and many more \cite{andrei_graphene_2020}. In 2D semiconductors, which exhibit exciton dynamics that are of great interest for next-generation electronics, tuning the moiré superlattice provides even more control over the spin and valley degrees of freedom \cite{ciarrocchi_excitonic_2022}. While graphene has a lattice periodicity on the order of \SI{0.15}{\nano\meter}, the moiré superlattices in twisted devices have much longer periods (tens to hundreds of nm) which are on the order of nominal SAW wavelengths. This congruence opens up the possibility of exploring commensurability effects between moiré superlattices and SAW potentials. Contactless probing using SAWs could also circumvent the challenges of making quality electrical contacts to 2D semiconductors for transport measurements \cite{miao_recent_2022}. Hence, SAWs are an ideal tool for contactlessly probing and controlling quantum phenomena in 2D materials. This potential has not gone unnoticed, as evidenced by recent works that have already employed SAWs to great effect, opening new avenues in the probing and manipulation of 2D quantum phenomena.
+In 2018, interest in engineered 2D superlattices exploded with the discovery of unconventional superconductivity in twisted bilayer graphene \cite{cao_unconventional_2018}, renewing interest in the field of "twistronics". By tuning the twist angle between two sheets of graphene (and thus the periodicity of the moiré superlattice), bilayer graphene can not only exhibit superconductivity, but also correlation-induced insulating states, magnetism, quantized anomalous Hall states, and many more exotic phenomena \cite{andrei_graphene_2020}. In 2D semiconductors, which exhibit exciton dynamics that are of great interest for next-generation electronics, tuning the moiré superlattice provides even more control over the spin and valley degrees of freedom \cite{ciarrocchi_excitonic_2022}. While graphene has a lattice periodicity on the order of \SI{0.15}{\nano\meter}, the moiré superlattices in twisted devices have much longer periods (tens to hundreds of nm) which are on the order of nominal SAW wavelengths. This congruence opens up the possibility of exploring commensurability effects between moiré superlattices and SAW potentials. Contactless probing using SAWs could also circumvent the challenges of making quality electrical contacts to 2D semiconductors for transport measurements \cite{miao_recent_2022}. Hence, SAWs are an ideal tool for contactlessly probing and controlling quantum phenomena in 2D materials. This potential has not gone unnoticed, as evidenced by recent works that have already employed SAWs to great effect, opening new avenues in the probing and manipulation of 2D quantum phenomena.
 
-One phenomenon of interest is interlayer excitons in 2D semiconductor heterostructures. Interlayer excitons are composed of electrons and holes located in different layers in stacks of 2D semiconductors. Harnessing these excitons is exciting for nanophotonics and quantum information applications \cite{tran_evidence_2019}; however, controlling them is difficult because they are charge-neutral and exhibit no net force under a uniform electric field. Prior works utilized diffusion to transport interlayer excitons, but the transport lengths achievable using diffusion are limited \cite{jauregui_electrical_2019,unuchek_room-temperature_2018}. In a recent work, the authors used SAWs to transport interlayer excitons over incredible distances in bilayer WSe\textsubscript{2} \cite{peng_long-range_2022}. Given that SAWs transport both electrons and holes in the same direction (See Sec. ****), they can transport neutral excitons much further than the diffusion length. This approach also circumvents the challenges previously identified by other researchers when using local graphene gates \cite{liu_electrically_2020}. In another work, SAWs were used as a contactless probe of measuring wave-vector dependent conductivity in ultraclean graphene, establishing the viability of SAW resonant cavities as a probe for quantum transport phenomena in 2D materials \cite{fang_quantum_2023}. However, these studies have only scratched the surface of what is possible by interfacing SAWs with quantum materials. Many other SAW-induced phenomena in 2D materials have been theoretically predicted, but not yet achieved experimentally \cite{nie_surface_2023}. Therefore, it is imperative to further develop the methods of interfacing SAWs with 2D materials, and to further our understanding of interactions between SAWs and phenomena in quantum materials. One such SAW-enabled phenomenon that has not yet been realized experimentally is topologically-protected quantized charge transport.
+One phenomenon of interest is interlayer excitons in 2D semiconductor bilayers. Interlayer excitons consist of an electron and hole confined in different real space-separated 2D layers and momentum-space separated valleys \cite{rivera_interlayer_2018}. These excitons are long-lived (allowing them to be transported over long distances) and, due to the strong Coulomb interactions in 2D materials, have large exciton binding energy (allowing them to be operational at room temperature), making them promising for nanophotonics and quantum information applications \cite{tran_evidence_2019}. For example, excitonic transistors, in which light is used to control the flow of excitons, are promising as an energy-efficient alternative to traditional electron-switched transistors \cite{kuznetsova_all-optical_2010}. Excitonic transistors have been demonstrated previously in bilayer 2D semiconductors \cite{liu_electrically_2020}. However, controlling interlayer excitons is difficult because, though they have a long lifetime, they are charge-neutral and exhibit no net force under a uniform electric field. Prior works utilized diffusion or static gates to transport interlayer excitons, but the transport lengths achievable using these methods are limited \cite{jauregui_electrical_2019,unuchek_room-temperature_2018,liu_electrically_2020}. In a recent work, the authors used SAWs to transport interlayer excitons in bilayer WSe\textsubscript{2} over distances of $> \SI{30}{\micro\meter}$, an order of magnitude longer than the diffusion length \cite{peng_long-range_2022}. This was made possible by leveraging the properties of co-propagating SAW electric fields.
 
-\subsection{Topologically-protected charge pumps}
+Figure \ref{IX transport fig} illustrates the experiment performed in Ref. \cite{peng_long-range_2022}. A SAW travelling in a piezoelectric substrate is accompanied by an electric field of the form
 
-A quantized charge pump is a device that transports electrons in precise, quantized units. Unlike conventional DC transport, where electrons flow stochastically in response to an applied voltage bias, quantized charge pumps operate at a constant frequency $f$, transporting a unit of charge $Ne$ per cycle (where $N$ is an integer), resulting in a DC current of magnitude $Nef$. Such devices are of great interest to metrologists, where practical sources of highly-quantized current could help define a better standard of current \cite{scherer_singleelectron_2019}. Many designs for quantized charge pumps have been demonstrated, with the best pumps today being based on controlling tunneling to- and from quantum dots. However, quantized charge pumps based on tunneling face fundamental limits to their accuracy, as tunneling is an inherently random process. Topologically-protected quantum charge pumps could overcome these fundamental limits.
+\begin{equation}
+    E(x, t) = E_0 \mathrm{e}^{i(kx - \omega t)}. 
+\end{equation}
+As the SAW propagates through the bilayer WSe\textsubscript{2}, this electric field modulates the energy of the conduction band ($E_C$) and valence band ($E_V$) by $\Delta U = \pm \vectorbold{p} \dotproduct E$, where $\vectorbold{p}$ is the dipole moment of the IX. This creates potential wells in which charge-neutral excitons can become trapped, "surfing" the SAW potential at the acoustic velocity.
 
-In a topologically-protected quantum charge, the Hamiltonian of the system is adiabatically modulated by a potential periodic in space and time. During one cycle of the periodic potential, the state of the system traverses a closed path in momentum space. From the adiabatic theorem, if the system starts in an eigenstate of the Hamiltonian, and undergoes an adiabatic transformation, it must end in an eigenstate of the Hamiltonian. However, though the state begins and ends in an identical eigenstate, during the cycle it acquires a geometric phase. This geometric phase defines a \textit{topological invariant}, or a quantity that depends only on the topology of the energy bands of the system, and is thus invariant to small perturbations from the environment \cite{citro_thouless_2023}. Such a pump is known as the Thouless pump, named after D.J. Thouless, who was the first to propose this phenomenon theoretically \cite{thouless_quantization_1983}. Thouless found that, in a 1D electronic system under the influence of a spatially- and temporally-periodic potential, the unit of charge transported per cycle is topologically invariant. The Thouless pump is of great interest to the fields of metrology \cite{pekola_single-electron_2013}, where topologically protected charge pumping could enable higher-accuracy quantized charge pumps, and quantum computing \cite{das_controlled_2006}, where a Thouless pump could generate and control the flow of spin-entangled quantum states with minimal decoherence. A charge Thouless pump has not yet been realized experimentally; however, it has been proposed that coupling carbon nanotubes to SAWs is an ideal system to realize topologically-protected charge pumping.
+To demonstrate this phenomenon, the authors of Ref. \cite{peng_long-range_2022} generated interlayer excitons in bilayer WSe\textsubscript{2} using laser excitation. They can determine the location of the exciton at the time of recombination by measuring the photoluminescence (PL) generated by recombining interlayer excitons. In the absence of a SAW, they observed PL only in proximity to the laser-illuminated area. However, with the SAW active, they observed additional PL at the edge of the bilayer WSe\textsubscript{2}, $\SI{30}{\micro\meter}$ away from the laser excitation spot. This is evidence that charge-neutral interlayer excitons generated at the laser spot "surf" the SAW potential to the edge of the WSe\textsubscript{2}, where they then recombine. This contact-free approach for interacting with excitons in 2D systems is exciting, as it preserves the pristine 2D system and circumvents undesired effects caused by local electrostatic gates.
 
-Talyanskii et al. proposed that a carbon nanotube coupled to a surface acoustic wave is an ideal system to create a charge Thouless pump \cite{talyanskii_quantized_2001}. Though charge pumping in carbon nanotubes using surface acoustic waves has been demonstrated previously \cite{buitelaar_adiabatic_2008}, the Thouless pumping regime has not yet been achieved. This is likely because, to achieve the Thouless pumping state, one needs to fit many spatial periods of the SAW inside an ultraclean nanotube. This is challenging because insulating surfaces, including piezoelectric insulators (on which SAWs are generated), induce considerable electrostatic disorder within electronic systems on their surface. Therefore, surface nanotubes are too disordered to use in a Thouless pump. Thus, we must turn to two demonstrated methods of creating ultraclean nanotubes: Either encapsulate the nanotube in two-dimensional hexagonal boron nitride (h-BN) \cite{huang_superior_2015}, or suspend the nanotube above the substrate \cite{senger_universal_2018}. Realizing a charge Thouless pump using a carbon nanotube was the primary motivation for the research presented in this dissertation. Therefore, I will next delve into these two approaches towards the Thouless pump and utilize them to outline this dissertation.
+%TODO: Insert something about valleytronics here from \cite{schaibley_valleytronics_2016}
+
+\begin{figure}
+    \includegraphics{IX transport fig.pdf}
+    \caption{Schematic of the experiment performed in Ref. \cite{peng_long-range_2022}. Interlayer excitons consist of bound electrons (blue) and holes (red) confined to the top and bottom layers of bilayer WSe\textsubscript{2}. Excitons generated by laser excitation "surf" the periodic SAW potential up to $\SI{30}{\micro\meter}$ before recombining to create light.}
+    \label{IX transport fig}
+\end{figure}
+
+In another work, SAWs were used as a contactless probe of measuring wave-vector dependent conductivity in ultraclean graphene \cite{fang_quantum_2023}. When SAWs interact with charge carriers in 2D materials, the SAW is attenuated and its velocity is shifted (I discuss SAW attenuation and velocity shift in Sec. \ref{SAW theory, propagating in 2D materials}). The authors of Ref. \cite{fang_quantum_2023} used this phenomenon to probe quantum Hall transport in ultraclean graphene, establishing the viability of SAWs as a contactless probe for quantum transport phenomena in 2D materials. 
+
+These studies have only scratched the surface of what is possible by interfacing SAWs with 2D materials. Many other SAW-induced phenomena in 2D materials have been theoretically predicted, but not yet achieved experimentally \cite{nie_surface_2023}. For example, [valley acoustoelectric effect] Further theoretical predictions exist for SAW-enabled phenomena in 1D materials, such as topologically-protected quantized charge transport.
+
+
+
+\subsection{Surface acoustic wave-driven topological charge pumping}
+
+\subsubsection{What makes a material "topological"?}
+
+
+
+Topological phases of matter are defined by global properties. The information that defines the properties of a topological material
+
+It is predicted that in multi-valley 2D semiconductors under the influence of a SAW, a "valley acoustoelectric Hall effect" arises, where 
+
+
+"The concept of the Berry phase [27] underlies and unifies diverse aspects of solid-state physics, drastically affecting the transport of particles and resulting in such intriguing phenomena as the anomalous [28] and quantum [29] Hall effects, emergence of topological and superconducting phases [30], charge pumping [31], and anomalous thermoelectric transport [32], among other [33]. By and large, electrons in a crystal behave similarly to free particles with just the free-electron mass replaced by an effective one due to the formation of energy bands. A nontrivial Berry phase also reveals itself in Dirac materials like graphene [34], and very recently it has come into play in other two dimensional materials [35], possessing similar symmetry properties."
+
+\cite{kalameitsev_valley_2019}
+
+
+
+% In quantum mechanics, wave-particle duality leads to probabilistic predictions about quantum particles. For example, using the particle's wavefunction $\Psi$, we can calculate the probability of finding the particle in-between points a and b to be 
+
+% \begin{equation}
+%     P_{a<x<b} = \int_{a}^{b} |\Psi|^2dx,
+% \end{equation}
+% Where $|\Psi|^2$ is the probability density of $\Psi$. The time evolution of a quantum system satisfies the time-dependent Schrödinger equation,
+
+% \begin{equation}
+%     i \hbar \derivative{t}\ket{\Psi_n} = H(t)\ket{\Psi_n}.
+% \end{equation}
+% This wave equation asserts a continuity equation, analgous to continuity equations in fluid dynamics or electromagnetism, which takes the form
+
+% \begin{equation}
+%     \pdv{|\Psi|^2}{t} -\nabla \dotproduct \vectorbold{j} = 0, \label{continuity eqn for probability}
+% \end{equation}
+
+% where $j$ is the \textit{probability flux} or \textit{probability current}, which is given by
+
+% \begin{equation}
+%     j = \frac{-i \hbar}{2 m}\left(\Psi^* \nabla \Psi - (\nabla \Psi^*)\Psi\right). 
+% \end{equation}
+% The consequences of this continuity equation can be understood similarly to that in electromagnetism or fluid dynamics. Equation \ref{continuity eqn for probability} states that the amount of probability in a volume $V$ can only change if there is a probability flux $j$ through the boundary of $V$. Thus, probability is locally conserved quantity, just like charge or mass, and tells us about the flow of the particle described by $\Psi$. In the Thouless pump, it can be shown that the amount of pumped charge depends on 
+
+Here, I briefly summarize the origin of geometric phase under an adiabatic evolution, following Ref. \cite[Ch. 5]{sakurai_modern_1985}. The time evolution of a quantum system is described by the time-dependent Schrödinger equation, which is given by
+
+\begin{equation}
+    i \hbar \derivative{t}\ket{\Psi_n} = H(t)\ket{\Psi_n}. \label{Schrodinger eqn}
+\end{equation}
+The general solutions to the time-dependent Schrödinger equation take the form
+\begin{equation}
+    {\Psi_n(t)} = \sum_n c_n(t) \exp(i \theta_n(t)) \ket{\psi_n(t)}, \label{Schr. time evolution}
+\end{equation}
+where $\ket{\psi_n(t)}$ is an eigenstate of $H(t)$ with associated eigenenergy $E_n(t)$, and 
+
+\begin{equation}
+    \theta(t) = \int_{0}^{t}E_n(t')dt'. \label{theta coefficient time evolution}
+\end{equation}
+To find the probability that the system will evolve from the state $\ket{\Psi_n(t)}$ to the state $\ket{\Psi_m(t)}$ at time $t$, we need the matrix element $\bra{\Phi_m(t)}H(t)\ket{\Phi_n(t)}$. To find this matrix element, we need the coefficient $c_m(t)$ corresponding to the time evolution of $\ket{\Psi_m(t)}$ (as in Eq. \ref{Schr. time evolution}). A differential equation for $c_m(t)$ can be found by substituting Eqs. \ref{Schr. time evolution} and \ref{theta coefficient time evolution} into Eq. \ref{Schrodinger eqn} and taking the inner product with $\bra{\Phi_m(t)}$, giving \cite[p. 347]{sakurai_modern_1985}
+
+\begin{equation}
+    \dot{c}_m(t) = - c_m(t) \bra{\Psi_m(t)}\pdv{t}\ket{\Psi_m(t)} - \sum_n c_n(t) \mathrm{e}^{i (\theta_n(t) - \theta_m(t))} \frac{\bra{\Psi_m(t)}\dot{H}(t)\ket{\Psi_n(t)}}{E_n - E_m}. \label{c-dot eqn}
+\end{equation}
+The second term of Eq. \ref{c-dot eqn} tells us that, in a system with a time-dependent Hamiltonian, states $\ket{\Psi_n}$ will evolve to states $\ket{\Psi_m}$ because of the time dependence of the Hamiltonian, and that this evolution will take place at a frequency $1/\tau$, defined as 
+
+\begin{equation}
+    \frac{1}{\tau} \equiv \frac{\bra{\Psi_m(t)}\dot{H}(t)\ket{\Psi_n(t)}}{E_n - E_m}.
+\end{equation}
+The adiabatic approximation assumes that the time-evolution of the Hamiltonian is slow compared to $\tau$. Mathematically, this means that
+\begin{equation}
+    \frac{\bra{\Psi_m(t)}\dot{H}(t)\ket{\Psi_n(t)}}{E_n - E_m} \ll - c_m(t) \bra{\Psi_m(t)}\pdv{t}\ket{\Psi_m(t)} ~ \frac{E_m}{\hbar}.
+\end{equation}
+Applying this simplification to Eq. \ref{c-dot eqn} recovers a form for $c_n(t)$ that is familiar from the time-independent Schrödinger equation,
+
+\begin{equation}
+    c_n(t) = \mathrm{e}^{i \gamma_n(t)}c_n(0)
+\end{equation}
+where 
+
+\begin{equation}
+    \gamma_n = i \int_{0}^{t} \bra{\Psi_n(t')}\pdv{t'}\ket{\Psi_n(t')} dt'. \label{geometric phase}
+\end{equation}
+Thus, if the system starts in the state $\ket{\Psi_n}$ and undergoes an adiabatic evolution, it will stay in the state $\ket{\Psi_n}$ and acquire a phase factor $\mathrm{e}^{i \gamma_n(t)} \mathrm{e}^{i \theta_n(t)}$. The term $\gamma_n(t)$ is known as the "geometric phase" or "Berry phase". But, what is geometric about it? 
+
+It can be shown that $\gamma_n(t)$ takes the form \cite[p. 349-351]{sakurai_modern_1985}
+\begin{equation}
+    \gamma_n = \int_{S} d\vectorbold{S}\dotproduct \vectorbold{\Omega},
+\end{equation}
+where $S$ is a closed surface in the parameter space (in the case of the Thouless pump, the 2D space of momentum and time), and $\vectorbold{\Omega}$ is the Berry curvature. The Berry curvature is analogous to the Gaussian curvature $K$, which measures the local curvature of a closed surface. For a 2D closed surface with Gaussian curvature $K$, 
+
+Use Gauss Bonnet to connect to Chern number
+
+Now, consider the Thouless pump system, where the Hamiltonian is varied adiabatically by a potential with temporal period $T$ and spatial period $a$. 
+
+
+
+
+
+
+From the Berry curvature, we can finally arrive at the topological invariant, the \textit{Chern number}. The Chern number 
+
+
+
+
+% \begin{equation}
+%     \gamma_n = i \oint_S
+% \end{equation}
+
+
+\subsubsection{Topological charge pumping (the Thouless pump)}
+
+
+A quantized charge pump is a device that transports electrons in precise, quantized units. Unlike conventional DC transport, where electrons flow stochastically in response to an applied voltage bias, quantized charge pumps operate at a constant frequency $f$, transporting a unit of charge $Ne$ per cycle (where $N$ is an integer), resulting in a DC current of magnitude $Nef$ that arrives in quantized packets of charge $Ne$. Such devices are of great interest to metrologists, where practical sources of highly-quantized current could help define a better standard of current \cite{scherer_singleelectron_2019}. Many designs for quantized charge pumps have been demonstrated, with the best quantum pumps today being based on controlling tunneling to- and from quantum dots. However, charge pumps based on tunneling face fundamental limits to their accuracy. A topologically-protected charge pump could overcome these fundamental limits.
+
+Topological charge pumping is the transport of charge without external magnetic or electric fields arising from a cyclic adiabatic evolution of the system's Hamiltonian. This phenomenon is often referred to as Thouless pumping, after D.J. Thouless, the first to propose such a phenomenon \cite{thouless_quantization_1983}. Thouless found that, in a 1D system under the influence of a spatially- and temporally periodic potential, the amount of charge \footnote{More accurately, Thouless's prediction was about \textit{particle transport} in general, which includes electrons.} transported per cycle is an integer, if the system begins and ends in an eigenstate of the Hamiltonian (which is a requirement of the adiabatic theorem, discussed below). Furthermore, the quantization of charge transport in the Thouless pump is a \textit{topological invariant}, which means that it only depends on the topology of the band structure of the system, and is invariant to variations in the exact cycle, like the temporal period. A topologically protected pump would be robust to perturbations from its environment, allowing extremely precise quantized current \cite{niu_towards_1990}. But, what is "topological" about the Thouless pump? It turns out that the pumped charge depends only on the geometric phase acquired by the system during one cycle, which can be shown to be a topological invariant under an adiabatic perturbation. 
+In the case of the Thouless pump, the "path" that the system traverses is a trajectory in momentum space which encircles an eigenstate of the Hamiltonian. 
+
+Thus, the charge pumped per cycle in the Thouless pump does not depend on the exact cycle, but on the topology of the band structure.
+
+
+
+
+
+\subsection{The path to a Thouless pump using carbon nanotubes and surface acoustic waves}
+
+Though the Thouless pump has been realized in ultracold atoms \cite{citro_thouless_2023}, a charge Thouless pump suitable to serve as a source of quantized current has not yet been realized experimentally. A practical source of topologically protected quantized current is of great interest to the fields of metrology \cite{pekola_single-electron_2013}, where topologically protected charge pumping could enable higher-accuracy quantized charge pumps, and quantum computing \cite{das_controlled_2006}, where a Thouless pump could generate and control the flow of spin-entangled quantum states with minimal decoherence. Talyanskii et al. proposed that a carbon nanotube coupled to a surface acoustic wave is an ideal system to create a charge Thouless pump \cite{talyanskii_quantized_2001}. 
+
+Charge pumping in carbon nanotubes using surface acoustic waves has been demonstrated previously \cite{buitelaar_adiabatic_2008}; however, the Thouless pumping regime has not yet been achieved. This is likely because, to achieve the Thouless pumping state envisioned by Ref. \cite{talyanskii_quantized_2001}, one needs to fit many spatial periods of the SAW inside an ultraclean nanotube. This is challenging because insulating surfaces, including piezoelectric insulators (on which SAWs are generated), induce considerable electrostatic disorder within electronic systems on their surface. Therefore, surface nanotubes are too disordered to use in a Thouless pump. Thus, we must turn to demonstrated methods of creating ultraclean nanotubes: Either encapsulate the nanotube in two-dimensional hexagonal boron nitride (h-BN) \cite{huang_superior_2015}, or suspend the nanotube above the substrate \cite{senger_universal_2018}. Realizing a charge Thouless pump using a carbon nanotube was the primary motivation for the research presented in this dissertation. Therefore, I will next delve into these two approaches towards the Thouless pump and utilize them to outline this dissertation.
 
 On its face, marrying a surface acoustic wave and suspended carbon nanotube does not seem too challenging. It is possible to create \SI{3}{\micro\meter}-long ultraclean suspended nanotubes \cite{senger_universal_2018}, and \SI{60}{\nano\meter} SAWs have been coupled to quantum materials before \cite{kukushkin_collective_2011}. However, growing carbon nanotubes and generating SAWs have competing fabrication requirements. To combine the two, we would need to fabricate the two chips separately, and bring them into extremely close contact to couple the SAW to the nanotube. A technique called "flip-chip construction" has emerged in recent years, in which one chip is "flipped" onto the other.  In Chapter \ref{flip-chip chapter}, I present a method of flip-chip construction that allows the air gap between the two chips to be precisely measured, which could be used to couple SAWs to a suspended carbon nanotube. I discovered that, admittedly, this does present a significant challenge\dots how about encapsulating a carbon nanotube in h-BN?
 
 In Ref. \cite{huang_superior_2015}, they encapsulate a nanotube in h-BN using a similar dry transfer technique to the one that I outline in Sec. \ref{transfer methods section}. In Ch. \ref{AE charge pumping paper}, I encapsulate graphene in h-BN and transfer it onto LiNbO\textsubscript{3}, then generate SAWs to pump charge through the graphene. To create the Thouless pump, a carbon nanotube could similarly be encapsulated in h-BN and transferred onto a LiNbO\textsubscript{3}. Then, one-dimensional contacts (as in Ref. \cite{huang_superior_2015}) could be made to the nanotube. One concern for this process is residues contaminating the nanotube during the transfer process. To clean the encapsulated nanotube, AFM cleaning (which I describe in Sec. \ref{AFM cleaning main section}) could be used to "squeegee" out any contaminants stuck between the h-BN, as in Refs. \cite{goossens_mechanical_2012,chen_tip-based_2021}. 
 
 
-
 \chapter{Theory}
 
-\section{The electronic properties of graphene}
-In this section, I delve into the linear band structure of graphene and derive its density of states. Using the density of states, I calculate the thermally excited electron and hole densities in graphene. We use this calculation in Ch. \ref{AE charge pumping paper} to compare the carrier density in our graphene samples with the lowest achievable carrier density at room temperature.
+\section{The electronic properties of graphene} \label{the electronic properties of graphene}
+In this section, I present the linear band structure of graphene and use it to derive and expression for the density of states near the Dirac points. Using the density of states, I calculate the thermally excited electron and hole densities in ultraclean, undoped graphene. We use this calculation in Ch. \ref{AE charge pumping paper} to compare the carrier density in our graphene samples with the lowest achievable carrier density at room temperature.
 
 \subsection{Graphene's unique band structure}
 
@@ -110,6 +280,7 @@ Graphene consists of a single layer of carbon atoms in a hexagonal lattice. The 
 \end{equation}
 where $k = (k_x, k_y)$ is the momentum vector of electrons in the graphene, $t = 2.8 \; eV$ is the nearest-neighbor hopping energy, and $a = 1.42 \;\SIUnitSymbolAngstrom$ is the distance between the two nearest neighbor atoms. Figure \ref{graphene dispersion plot} (a) shows a plot of the band structure given by Eq. \ref{graphene dispersion}.
 
+%TODO: Shade (b) grey to match (a)
 \begin{figure}
     \includegraphics[width = 1\textwidth]{Graphene band structure 3D.pdf}
     \caption{(a) A plot of graphene's dispersion relation given by Eq. \ref{graphene dispersion}. (b) Near the Dirac points, the energy of electronic states in graphene is approximately linear with respect to momentum. (c) The momentum-space lattice of graphene, with Dirac points labelled.}
@@ -124,7 +295,7 @@ In charge-neutral graphene, the Fermi energy $E_F$ (the energy of the highest fi
 \end{equation}
 where $\hbar$ is the reduced Planck's constant and $v_f = 3ta/2  \approx \SI{e6}{\meter/\second}$ is the Fermi velocity. Figure \ref{graphene dispersion plot} (b) offers a magnified view of graphene's band structure near a Dirac point, showing its characteristic shape commonly referred to as the "Dirac cone". In conventional semiconductors and metals, we expect a parabolic energy-momentum relation of $E(k) = k^2/2m$, which gives a velocity of $v = \sqrt{2E/m}$. However, in the case of graphene, electrons near a Dirac point move at a velocity $v_F$ which is independent of both energy and momentum, leading to many unique electronic properties \cite{castro_neto_electronic_2009}. For example, electrons and holes in graphene behave almost identically, in contrast to other materials \cite{novoselov_electronic_2007,castro_neto_electronic_2009}. In the context of this dissertation, electron-hole symmetry is the most pertinent consequence of graphene’s unique band structure.
 
-In graphene, we can tune the Fermi energy using an electric field, which in turn tunes the charge carrier density.\footnote{The term "charge carrier" is commonly used to refer to both electrons and holes, and I use it in this context throughout this dissertation.} Figure \ref{graphene bands at 0 T} illustrates graphene's band structure at zero temperature for $E_F < 0$, $E_F = 0$, and $E_F < 0$. When $E_F$ lies above the Dirac point ($E_F > 0$), states in the conduction band are filled with electrons up to $E_F$ (Fig. \ref{graphene bands at 0 T} (a)). Conversely, when $E_F < 0$, the valence band is depleted of electrons down to $E_F$ (Fig. \ref{graphene bands at 0 T} (c)). These vacant electronic states, referred to as "holes", act as positively-charged quasiparticles. Similar to electrons in the conduction band, holes in the valence band are free from the graphene lattice and can move in response to an electric field. In the case of charge neutral graphene ($E_F$ = 0) at zero temperature, the conduction band is entirely empty, and the valence band is completely occupied, so no charge carriers should be present to conduct current (Fig. \ref{graphene bands at 0 T} (b)). However, in real graphene samples, charge carriers can still be present when $E_F = 0$, leading to finite conductivity when $E_F$ is tuned to the charge neutrality point.
+In graphene, we can tune the Fermi energy using an electric field, which in turn tunes the charge carrier density.\footnote{The term "charge carrier" or "carrier" is commonly used to refer to both electrons and holes, and I use it in this context throughout this dissertation.} Figure \ref{graphene bands at 0 T} illustrates graphene's band structure at zero temperature for $E_F < 0$, $E_F = 0$, and $E_F < 0$. When $E_F$ lies above the Dirac point ($E_F > 0$), states in the conduction band are filled with electrons up to $E_F$ (Fig. \ref{graphene bands at 0 T} (a)). Conversely, when $E_F < 0$, the valence band is depleted of electrons down to $E_F$ (Fig. \ref{graphene bands at 0 T} (c)). These vacant electronic states, referred to as "holes", act as positively-charged quasiparticles. Similar to electrons in the conduction band, holes in the valence band are free from the graphene lattice and can move in response to an electric field. In the case of charge neutral graphene ($E_F$ = 0) at zero temperature, the conduction band is entirely empty, and the valence band is completely occupied, so no charge carriers should be present to conduct current (Fig. \ref{graphene bands at 0 T} (b)). However, in real graphene samples, charge carriers can still be present when $E_F = 0$, leading to finite conductivity when $E_F$ is tuned to the charge neutrality point.
 
 Extrinsic sources of charge, referred to as electrostatic disorder, can be present in real graphene samples. For instance, substrates like SiO\textsubscript{2} contain charge traps which induce spatially-varying charge carrier concentrations in graphene \cite{martin_observation_2008}. This substrate-induced disorder can be minimized by encapsulating graphene in hexagonal boron nitride (h-BN) \cite{dean_boron_2010}. However, even the most pristine encapsulated graphene samples exhibit some DC conductivity at the charge neutrality point \cite{xin_giant_2023} due to thermally-excited electrons and holes. To quantify the densities of these thermally excited electrons and holes, I will proceed to derive the density of states in graphene.
 
@@ -197,7 +368,7 @@ Equations \ref{n integral} and \ref{p integral} can be solved analytically as fo
         = \frac{2(k_B T)^2}{\pi\hbar^2 v_F^2} \frac{\pi^2}{12}, \label{p density}
     \end{split}
 \end{equation}
-where I use the substitution $x = E/(k_B T)$ to evaluate the integral. Both $n$ and $p$ yield identical expressions, which is consistent with the symmetry of graphene's band structure above and below $E = 0$ near the Dirac point. From Eqs. \ref{n density} and \ref{p density}, I calculate the minimum achievable carrier densities at $T = $ \SI{300}{\kelvin} to be $n = p = $\SI{0.08e12}{\centi\meter^{-2}}. Therefore, the total free carrier density in graphene at $T = $ \SI{300}{\kelvin} is \SI{0.16e12}{\centi\meter^{-2}}. This result is used in Ch. \ref{AE charge pumping paper} to quantify the minimum carrier density achievable in our graphene sample, and is integral to understanding the behavior of our graphene device at the charge neutrality point.
+where I use the substitution $x = E/(k_B T)$ to evaluate the integral, and an extra negative sign arises in $p$ from $|E|$. Both $n$ and $p$ yield identical expressions, which is consistent with the symmetry of graphene's band structure above and below $E = 0$ near the Dirac point. From Eqs. \ref{n density} and \ref{p density}, I calculate the minimum achievable carrier densities at $T = $ \SI{300}{\kelvin} to be $n = p = $\SI{0.08e12}{\centi\meter^{-2}}. Therefore, the total free carrier density in graphene at $T = $ \SI{300}{\kelvin} is \SI{0.16e12}{\centi\meter^{-2}}. This result is used in Ch. \ref{AE charge pumping paper} to quantify the minimum carrier density achievable in our graphene sample, and is integral to understanding the behavior of our graphene device at the charge neutrality point.
 
 Electrons and holes have equal and opposite charge, and thus move in opposite directions under a DC electric field (for example, when an external voltage bias is applied). Whether graphene is populated by electrons or holes, conventional current will flow in the same direction under an applied DC electric field (the sign of conventional current is the same whether an electron is moving left or a hole is moving right). Therefore, thermally excited electrons and holes cause a nonzero current to flow in a graphene device at the charge neutrality point (see *AE CHARGE PUMPING PAPER DC RESULTS*). However, the same is not true for acoustoelectric current. In an acoustoelectric device, the sign of current reverses between electron transport and hole transport (see AE CHARGE PUMPING PAPER AE RESULT). 
 
@@ -374,10 +545,10 @@ Figure \ref{gamma_and_v} shows Eqs. \ref{v_bulk} and \ref{gamma_bulk} plotted wi
 \end{figure}
 Equations \ref{v_bulk} and \ref{gamma_bulk} are known as the "classical relaxation model" for the acoustoelectric effect. Equation \ref{v_bulk} describes relaxation dispersion, which is common in other acoustic systems \cite{hutson_elastic_1962, rudenko_dispersive_2022} and can be understood as follows: First, the SAW strains the piezoelectric, perturbing the material from its equilibrium state. Then, the piezoelectric relaxes to equilibrium, returning energy to the SAW after a time $1/\omega_c$. However, depending on the time delay between stimulus ($1/\omega$) and response ($1/\omega_c$), this energy returns to the SAW with a phase delay, leading to dispersion and attenuation. In our case, the relaxation time (and thus, $\omega_c$) depends on the conductivity of the piezoelectric semiconductor. 
 
-\subsection{SAWs propagating in 2D materials}
+\subsection{SAWs propagating in 2D materials} \label{SAW theory, propagating in 2D materials}
 
 Equation 2.28 is fundamental to our investigations into acoustoelectric charge pumping
-(Ch. \ref{AE charge pumping paper}). However, Eqs. \ref{v_bulk} and \ref{gamma_bulk} describe a bulk piezoelectric material. How do these relations change when the conductivity is located in a thin film on an insulating piezoelectric material? Figure \ref{SAW in thin film} (a) shows the bulk case described by Eqs. \ref{gamma_bulk} and \ref{v_bulk}, in which the SAW's energy and the induced current is contained within a depth $1/k$ of the surface. Therefore, the conductance of the region of the bulk material in which the SAW is propagating is $\sigma' = \sigma/k$. Fig. \ref{SAW in thin film} (b) illustrates a SAW propagating in a material with permittivity $\epsilon$ which is capped by a 2D material of thickness $d$. 
+(Ch. \ref{AE charge pumping paper}). However, Eqs. \ref{v_bulk} and \ref{gamma_bulk} describe a bulk piezoelectric material. How do these relations change when the conductivity is located in a thin film on an insulating piezoelectric material? Figure \ref{SAW in thin film} (a) shows the bulk case described by Eqs. \ref{gamma_bulk} and \ref{v_bulk}, in which the SAW's energy and the induced current is contained within a depth $1/k$ of the surface. Therefore, a thin film with sheet conductivity $\sigma_{2D}$ on an insulating piezoelectric (Fig. \ref{SAW in thin film} (b)) can be modelled as a semiconducting piezoelectric with conductivity $\sigma_{2D}k$.
 
 \begin{figure}
     \includegraphics[width = 0.75\textwidth]{SAW in thin film.pdf}
@@ -385,12 +556,17 @@ Equation 2.28 is fundamental to our investigations into acoustoelectric charge p
     \label{SAW in thin film}
 \end{figure}
 
-This can be imagined as compressing the current-carrying region from thickness $1/k$ into a thin layer of thickness $d$ and sheet conductivity $\sigma_{2D} = \sigma d$, where $d \ll 1/k$. Reducing the thickness of the current-carrying region from $1/k$ to $d$ reduces its conductance by a factor of $1/kd$. Hence, in the 2D case, the dielectric relaxation frequency is also reduced by a factor of $1/kd$, giving $\omega_c = \sigma_{2D}k/\epsilon$. Then, we have
- 
+Consider the scenario where the current-carrying region, initially having a thickness of $1/k$, is compressed into a thin layer of thickness $d$. This thin layer has a sheet conductivity $\sigma_{2D} = \sigma d$ (here, I assume that $d \ll 1/k$). When the thickness of the current-carrying region is reduced from $1/k$ to $d$, its conductance decreases by a factor of $1/kd$. Consequently, in the 2D case, the dielectric relaxation frequency is also reduced by a factor of $1/kd$. This results in a new expression for the dielectric relaxation frequency, 
+
+\begin{equation}
+    \omega_c = \sigma_{2D}k/\epsilon
+\end{equation}. 
+Next, the ratio $\omega_c/\omega$ becomes
+
 \begin{equation}
     \frac{\omega_c}{\omega} = \frac{k\sigma_{2D}}{\epsilon}\frac{1}{\omega} = \sigma_{2D}\frac{k}{\omega \epsilon} = \frac{\sigma_{2D}}{\sigma_M}, \label{omega_c div omega}
 \end{equation}
-where $\sigma_M = v \epsilon$ is defined as the "characteristic conductivity" of the dielectric environment around the 2D material. Finally, Eqs. \ref{v_bulk} and \ref{gamma_bulk} become
+where $\sigma_M = v \epsilon$ is defined as the "characteristic conductivity" of the dielectric environment surrounding the 2D material. Finally, Eqs. \ref{v_bulk} and \ref{gamma_bulk} can be modified using Eq. \ref{omega_c div omega}, resulting in 
 
 \begin{equation}
     \frac{\Delta v}{v_0} = \frac{K^2}{2}\frac{1}{1+(\sigma_{2D}/\sigma_M)^2} \label{v_2D}
@@ -399,7 +575,7 @@ and
 \begin{equation}
     \Gamma = K^2 \frac{\pi}{\lambda}\left(\frac{(\sigma_{2D}/\sigma_M)}{1+(\sigma_{2D}/\sigma_M)^2}\right). \label{gamma_2D}
 \end{equation}
-Similarly to the bulk case (Eqs. \ref{v_bulk} and \ref{gamma_bulk}), the SAW is dispersing and losing energy as it interacts with this conductive 2D material. However, the attenuation and dispersion is frequency-independent, and depends only on the ratio $\sigma_{2D}/\sigma_M$. This leads to an important question: Where does the lost SAW energy go? 
+Similarly to the bulk case, in the thin film scenario, the SAW is dispersing and losing energy as it interacts with the conductive thin film. However, the attenuation and dispersion are frequency-independent, and depend only on the ratio $\sigma_{2D}/\sigma_M$. This raises a significant question: Where does the lost SAW energy go? 
 
 
 \subsection{The 2D acoustoelectric charge pumping effect}
@@ -410,63 +586,68 @@ Similarly to the bulk case (Eqs. \ref{v_bulk} and \ref{gamma_bulk}), the SAW is 
 %     \label{AE current toy model}
 % \end{figure}
 
-Fal'ko and Iordanskii found that the oscillating electric field that co-propagates with the SAW imparts an effective force on charge carriers. When this electric field passes through a thin film, it drives a DC sheet current that is proportional to the attenuation $\Gamma$ \cite{falko_acoustoelectric_1993}. In this section, I present the sketch of Fal'ko and Iordanskii's model given in Ref. \cite{esslinger_ultrasonic_1994}, which is more accessible than the original derivation in Ref. \cite{falko_acoustoelectric_1993}. As previously discussed, a SAW is accompanied by a co-propagating piezoelectric field of the form \footnote{Note that when a quantity such as $E(x,t)$ or $j(x,t)$ is complex, the physical observable is given by the real part.}
+Fal'ko and Iordanskii found that the oscillating electric field that co-propagates with the SAW imparts an effective force on charge carriers. When this electric field passes through a thin film, it drives a DC sheet current that is proportional to the attenuation $\Gamma$ \cite{falko_acoustoelectric_1993}. In this section, I present the sketch of Fal'ko and Iordanskii's model given in Ref. \cite{esslinger_ultrasonic_1994}, which is more accessible than the original derivation (Ref. \cite{falko_acoustoelectric_1993}). As previously discussed, a SAW is accompanied by a co-propagating piezoelectric field of the form \footnote{Note that when a quantity such as $E(x,t)$ or $j(x,t)$ is complex, the physical observable is given by the real part.}
 
 \begin{equation}
     E_p(x, t) = E_0 \mathrm{e}^{i(kx - \omega t)}. \label{SAW plane wave}
 \end{equation}
-The mobile carriers in the thin film screen this field based on the local conductivity $\sigma$, resulting in an effective field
+The mobile electrons in the thin film screen this field based on the local conductivity $\sigma$, resulting in an effective field
 
 \begin{equation}
-    E_{eff}(x,t) = E_p(x,t) + E_{ind}(x,t) = \frac{E_p(x,t)}{1+i(\sigma_{2D}/\sigma_M)}, \label{E eff}
+    E(x,t) = E_p(x,t) + E_{ind}(x,t) = \frac{E_p(x,t)}{1+i(\sigma_{2D}/\sigma_M)}, \label{E eff}
 \end{equation}
 where $E_{ind}$ is the induced screening field, and $E_{ind}$ is phase-shifted with respect to $E_p(x,t)$ by $\phi = \mathrm{arctan}(\sigma_{2D}/\sigma_M)$.
-
 This effective electric field creates a local oscillating current density
 
 \begin{equation}
     j(x,t) = \sigma_{2D} E(x,t), \label{2D AE ohm's law}
 \end{equation}
-where $\sigma_{2D}$ is the sheet conductivity of the thin film, and $j(x,t)$ is a sheet current with dimensions of current/length. Assuming that the amplitude of the perturbation in carrier density caused by the SAW (denoted by $\Delta n$) is much smaller than the average carrier density in the thin film (denoted by $n_0$), the periodic carrier density in the SAW takes the form \footnote{If $\Delta n \geq n_0$, the perturbation in $n$ can not be approximated as local, leading to the nonlinear acoustoelectric effect. I discuss this further in Sec. \ref{nonlinear acoustoelectric effect}.}
+where $\sigma_{2D}$ is the sheet conductivity of the thin film, and $j(x,t)$ is a sheet current with dimensions of current/length. Assuming that the amplitude of the perturbation in electron density caused by the SAW (denoted by $\Delta n$) is much smaller than the average electron density in the thin film (denoted by $n_0$), the periodic electron density in the SAW takes the form \footnote{If $\Delta n \geq n_0$, the perturbation in $n$ can not be approximated as local, leading to the nonlinear acoustoelectric effect. I discuss this further in Sec. \ref{nonlinear acoustoelectric effect}.}
 
-%TODO: change above to electron density
+
 \begin{equation}
     n(x,t) = n_0 + \Delta n(x,t). 
 \end{equation}
 Using the continuity equation $\pdv*{J}{x} = q \pdv*{n}{t}$, $\Delta n$ can be written in terms of $E(x,t)$, giving
 
 \begin{equation}
-    \Delta n(x,t) = -\frac{\sigma_{2D}}{q} \frac{k}{\omega} E_{eff}(x,t) = -\frac{\sigma_{2D}}{q} \frac{1}{v}E(x,t). \label{delta n modified}
+    \Delta n(x,t) = -\frac{\sigma_{2D}}{q} \frac{k}{\omega} E(x,t) = -\frac{\sigma_{2D}}{q} \frac{1}{v}E(x,t). \label{delta n modified}
 \end{equation}
-At this point, from Eqs. \ref{delta n modified} and \ref{E eff}, we can predict how the pumped acoustoelectric current will depend on the ratio $\sigma_{2D}/\sigma_M$. Figure \ref{piezoelectric field and delta n} shows $n(x,0)$, $E_p(x,0)$ for different values of $\sigma_{2D}/\sigma_M$. If $\sigma_{2D} \gg \sigma_M$ (the film is a perfect conductor), $E_{ind}(x,t)$ = $-E_p(x,t)$, giving $E_{eff}(x,t)$ = 0. This makes sense, as a perfect conductor can completely screen out the piezoelectric fields $E_p(x,t)$. If $\sigma_{2D} \ll \sigma_M$
+
+At this point, from Eqs. \ref{delta n modified} and \ref{E eff}, we can predict how the pumped acoustoelectric current will depend on the ratio $\sigma_{2D}/\sigma_M$. Figure \ref{piezoelectric field and delta n} shows $n(x,0)$ and $E_p(x,0)$ for different limiting cases of $\sigma_{2D}/\sigma_M$. If $\sigma_{2D} \gg \sigma_M$ (the film is a perfect conductor), $E_{ind}(x,t)$ = $-E_p(x,t)$, giving an effective field $E(x,t)$ = 0, and $n(x,t) = n_0$ (Eq. \ref{delta n modified}). This makes sense, as a perfect conductor can completely screen out the piezoelectric fields $E_p(x,t)$. If $\sigma_{2D} \ll \sigma_M$, $E(x,t)$ is perfectly in phase with $n(x,t)$. Thus, the piezoelectric field $E_p(x,t)$ pushes equal magnitudes of charge in either direction, and there can be no net current. Finally, if $\sigma_{2D} = \sigma_M$, $E_p(x,t)$ and $n(x,t)$ are out of phase such that the maximal charge density always lies on the front edge of the co-propagating SAW electric field. Therefore, $E_p(x,t)$ will always push a higher magnitude of charge in the direction of the SAW, resulting in a net current.
+
+
+%TODO: Add SAW direction of travel to this figure
 
 \begin{figure}
     \includegraphics{piezoelectric field and delta n edited.pdf}
-    \caption{$E_p$ (left axis) and $\Delta n$ (right axis) plotted for the case of (a) $\sigma_{2D} \gg \sigma_M$ (very high sheet conductivity), (b) $\sigma_{2D} = \sigma_M$, and (c) $\sigma_{2D} \ll \sigma_M$ (very low sheet conductivity).}
+    \caption{Real part of $E_p$ (left axis) and $\Delta n$ (right axis) plotted for the case of (a) $\sigma_{2D} \gg \sigma_M$ (very high sheet conductivity), (b) $\sigma_{2D} = \sigma_M$, and (c) $\sigma_{2D} \ll \sigma_M$ (very low sheet conductivity).}
     \label{piezoelectric field and delta n}
 \end{figure}
-This oscillating local carrier density will modulate the sheet conductivity. With $\Delta n \ll n_0$, and remembering that $\sigma_{2D} = q n \mu$, we can find the time-varying  sheet conductivity $\sigma(x,t)$ in terms of $\Delta_n$, which takes the form
+
+To find an expression for the acoustoelectric current density, we can determine how $n(x,t)$ varies with $\sigma_{2D}$ and plug that relation into Eq. \ref{2D AE ohm's law}. With $\Delta n \ll n_0$, and remembering that $\sigma_{2D} = q n \mu$, the time-varying sheet conductivity $\sigma(x,t)$ takes the form
 
 \begin{equation}
     \begin{split}
         \sigma(x,t) = \sigma_0 + \pdv{\sigma_{2D}}{n} \Delta n(x,t) = \sigma_0 + (q \mu)(\frac{-\sigma_{2D}}{q} \frac{1}{v}E(x,t)) \\
-        = \sigma_0 - \frac{\mu \sigma_{2D}}{v}E(x,t).
+        = \sigma_0 - \frac{\mu \sigma_{2D}}{v}E(x,t),
     \end{split}
     \label{sigma modified}
 \end{equation}
-Now, we can find the DC acoustoelectric current by plugging Eqs. \ref{sigma modified} and \ref{delta n modified} into \ref{2D AE ohm's law} and taking the time average, giving
+where $\sigma_0$ is the average sheet conductivity caused by an electron density $n_0$. Now, we can find the DC acoustoelectric current by plugging Eqs. \ref{sigma modified} and \ref{delta n modified} into \ref{2D AE ohm's law} and taking the time average, giving
 
 \begin{equation}
     \begin{split}
-        j(x) = \left\langle j(x,t) \right\rangle = \left\langle \sigma(x,t) E_{eff}(x,t) \right\rangle \\
-        = \left\langle \left( \sigma_0 - \frac{\mu \sigma_{2D}}{v}E_{eff}(x,t) \right) E_{eff}(x,t)  \right\rangle \\
+        j(x) = \left\langle j(x,t) \right\rangle = \left\langle \sigma(x,t) E(x,t) \right\rangle \\
+        = \left\langle \left( \sigma_0 - \frac{\mu \sigma_{2D}}{v}E(x,t) \right) E(x,t)  \right\rangle \\
         = - \frac{\mu}{v}\left\langle\sigma_{2D} E(x,t)^2\right\rangle. 
     \end{split}
     \label{j time averaged}
 \end{equation}
-One might initially consider the notion of an oscillating $E$-field creating a DC current to be counter-intuitive. However, we can now see that, though $\left\langle E_{eff}(x,t) \right\rangle = 0$, a DC current arises from the cross-term $\left\langle \sigma E_{eff}(x,t) ^2 \right\rangle$, which corresponds to the time-averaged Ohmic power dissipated by the charge carriers in the thin film. So far, this model considers a local perturbation in $n$ from the SAW; therefore, this cross-term can be thought of as the local dissipation of SAW power by charge carriers in response to the co-propagating electric field. 
+One might initially consider the notion of an oscillating $E$-field creating a DC current to be counter-intuitive. However, we can now see that, though $\left\langle E(x,t) \right\rangle = 0$, a DC current arises from the cross-term $\left\langle \sigma E(x,t) ^2 \right\rangle$, which corresponds to the time-averaged Ohmic power dissipated by the charge carriers in the thin film. So far, this model considers a local perturbation in $n$ from the SAW; therefore, this cross-term can be thought of as the local dissipation of SAW power by charge carriers in response to the co-propagating electric field. 
 %TODO: Make subscripts which are not variables not italics
-Finally, we need to relate Eq. \ref{j time averaged} to $\Gamma$. Remembering that $\Gamma$ describes the loss in SAW intensity per unit length, the SAW intensity $I$ can be written in the form
+
+Finally, we can relate Eq. \ref{j time averaged} to $\Gamma$ to get $j$ in terms of $\sigma_{2D}/\sigma_M$. Remembering that $\Gamma$ describes the loss in SAW intensity per unit length, the SAW intensity $I$ can be written in the form
 
 \begin{equation}
     I(x) = I_0 \mathrm{e}^{(-\Gamma x)}.
@@ -484,7 +665,7 @@ Then, combining Eqs. \ref{j time averaged} and \ref{gamma time averaged}, the DC
     \end{split}
     \label{DC AEC electron case}
 \end{equation}
-If the charge carrier is a hole instead of an electron, the continuity equation is instead $\pdv*{J}{x} = -q \pdv*{n}{t}$. Thus, the sign of Eq. \ref{delta n modified} is reversed, giving
+The above derivation assumes that the thin film is populated only by electrons. If the thin film is populated by holes, the continuity equation is instead $\pdv*{J}{x} = -q \pdv*{n}{t}$. Thus, the sign of Eq. \ref{delta n modified} is reversed, giving
 
 \begin{equation}
     \Delta p(x,t) = \frac{\sigma_{2D}}{q} \frac{1}{v}E(x,t)
@@ -499,18 +680,18 @@ for the time-varying sheet conductivity in the hole-transport case. Finally, the
 \begin{equation}
     j = \frac{\mu I}{v} \frac{K^2}{2\lambda}(\frac{(\sigma_{2D}/\sigma_M)}{1+(\sigma_{2D}/\sigma_M)}). \label{DC AEC hole case}
 \end{equation}
-Comparing Eqs. \ref{DC AEC electron case} and \ref{DC AEC hole case}, they are identical, but have opposite sign. Therefore, the SAW pushes both electrons and holes in the same direction. This is in stark contrast to ordinary DC current, where electrons and holes move in opposite directions under a DC electric field, resulting in the same sign of conventional current for electron and hole transport.
+Comparing Eqs. \ref{DC AEC electron case} and \ref{DC AEC hole case}, they are identical, but have opposite sign. A right-moving hole and right-moving electron produce the same magnitude of conventional current, but with the opposite sign. Therefore, the SAW pushes both electrons and holes in the same direction. This is in stark contrast to ordinary DC current, where electrons and holes move in opposite directions under a DC electric field, resulting in the same sign of conventional current for electron and hole transport.
 
-Equations \ref{v_2D}, \ref{gamma_2D}, and \ref{DC AEC hole case} are central to interactions between SAWs and quantum materials. In Sec. \ref{AE paper discussion}, we modify this classical relaxation model, which assumes charge carriers of a single type, to describe mixed-carrier transport in graphene.
+Equations \ref{v_2D}, \ref{gamma_2D}, \ref{DC AEC hole case}, and \ref{DC AEC hole case} are central to interactions between SAWs and quantum materials. However, they do not consider mixed-carrier transport, where both electrons and holes are present; for example, in graphene near the charge neutrality point. In Sec. \ref{AE paper discussion}, we modify this classical relaxation model, which assumes charge carriers of a single type, to describe mixed-carrier transport in graphene.
 
 
 \section{Surface acoustic wave device design} \label{SAW device design}
 
 So far, I have described the propagation of surface acoustic waves, and how they interact with charge carriers in thin films; however, I have not discussed how they are generated. In this section, I briefly discuss the equations for the frequency response and impedance of a SAW device, derived from the point source and equivalent circuit models. These are the equations which inform the design of the SAW devices used in Ch. \ref{AE charge pumping paper}. The discussion in this section follows that of Chapters 3 and 4 of Ref. \cite{campbell_surface_1989}. I also found Ref. \cite{lane_integrating_2021} immensely helpful in my initial stages of learning about SAW device design.
 
-SAWs are generated by interdigitated transducers, or IDTs. IDTs consist of pairs of interdigitated electrodes, or "fingers", which convert an RF signal into surface acoustic waves, or surface acoustic waves into an RF signal. Figure \ref{SAW diagram} shows a schematic of an IDT. An RF signal is applied such that adjacent fingers have opposite polarity. The wavelength $lambda$ of the generated SAW spans two fingers of the IDT. Because of this, one of the defining parameters of an IDT is the number of finger pairs $N_p$. 
+SAWs are generated by interdigitated transducers, or IDTs. IDTs consist of pairs of interdigitated electrodes, or "fingers", which convert an RF signal into surface acoustic waves, or surface acoustic waves into an RF signal. Figure \ref{SAW diagram} (a) shows a schematic of an IDT. An RF signal is applied such that adjacent fingers have opposite polarity. The wavelength $\lambda$ of the generated SAW spans two fingers of the IDT. Because of this, one of the defining parameters of an IDT is the number of finger pairs $N_p$. 
 
-The electrical response of an IDT can be approximated by assuming that each IDT finger is an infinitely thin point source, spaced by $\lambda/2$. This is known as the "point source model" or "delta function model". The frequency response, or transfer function, of a single IDT in the delta function model can be approximated as 
+The electrical response of an IDT can be approximated by assuming that each IDT finger is an infinitely thin point source separated from the adjacent finger by $\lambda/2$. This is known as the "point source model" or "delta function model". The frequency response, or transfer function, of a single IDT in the delta function model can be approximated as 
 
 \begin{equation}
     \begin{split}
@@ -518,7 +699,7 @@ The electrical response of an IDT can be approximated by assuming that each IDT 
     \end{split}
     \label{Response of IDT}
 \end{equation}
-where $V_{in} = \sqrt{P_{RF}}$ is the amplitude of the input RF signal, $V_out = \sqrt{P_{SAW}}$ is the amplitude of the output SAW and $f_0 = v/\lambda$ (where $v$ is the SAW velocity) is the center frequency of the IDT. Figure \ref{SAW diagram} (b) shows Eq. \ref{Response of IDT} for various values of $N_p$. From this, we can glean some important features of IDT response: The maximum conversion of input RF power to SAW power will be at the center frequency $f_0$, and as $N_p$ increases, a higher proportion of input RF power is converted to SAW power, but the central bandwidth of the IDT decreases.
+where $V_{in} = \sqrt{P_{RF}}$ is the amplitude of the input RF signal, $V_{out} = \sqrt{P_{SAW}}$ is the amplitude of the output SAW and $f_0 = v/\lambda$ (where $v$ is the SAW velocity) is the center frequency of the IDT. Figure \ref{SAW diagram} (b) shows Eq. \ref{Response of IDT} for various values of $N_p$. From this, we can glean some important features of IDT response: The maximum conversion of input RF power to SAW power will be at the center frequency $f_0$, and as $N_p$ increases, a higher proportion of input RF power is converted to SAW power, but the central bandwidth of the IDT decreases. Figure \ref{SAW diagram} (b) shows $H(f)$ for $N_p = 5$ and $N_p$ = 10.
 
 \begin{figure}
     \includegraphics{SAW diagram.pdf}
@@ -526,12 +707,11 @@ where $V_{in} = \sqrt{P_{RF}}$ is the amplitude of the input RF signal, $V_out =
     \label{SAW diagram}
 \end{figure}
 
-It is desirable to minimize the loss between applied RF power and output SAW power. For example, in the experiments described in Ch. \ref{AE charge pumping paper}, a higher output SAW power results in a larger acoustoelectric signal. Most RF signal generators are designed with \SI{50}{\ohm} input impedance. If I power my IDT of impedance $Z_{IDT}$, the ratio of input RF power $P_{RF}$ to resultant SAW power $P_{SAW}$ (or, transmission coefficient) is
+It is desirable to minimize the loss between applied RF power and output SAW power. In the experiments described in Ch. \ref{AE charge pumping paper}, a higher output SAW power results in a larger acoustoelectric signal. Most RF signal generators are designed with \SI{50}{\ohm} input impedance. If I power an IDT of impedance $Z_{IDT}$, the ratio of input RF power $P_{RF}$ to resultant SAW power $P_{SAW}$ (or, transmission coefficient) is
 
 \begin{equation}
     \frac{P_{RF}}{P_{SAW}} = \frac{2 (\SI{50}{\ohm})}{Z_{IDT} + \SI{50}{\ohm}} \label{transmission coefficient}
 \end{equation}
-
 The impedance of an IDT depends on its geometry, and must be found numerically. This problem has been considered by numerous other authors (for example, Ref. \cite{smith_analysis_1969}), and is beyond the scope of this dissertation. The relevant results are as follows: An IDT can be modelled as an equivalent circuit with capacitance $C_{IDT}$, real conductance $G$, and complex conductance $B$. The total IDT admittance $Y = 1/Z_{IDT}$ is given by 
 
 
@@ -551,9 +731,9 @@ and $G_0$ is the admittance at the center frequency, given by
 \begin{equation}
     G_0 \approx 8 K^2 N_p^2 f_0 W C_s,
 \end{equation}
-where $C_s$ is the capacitance per unit length per finger pair, and $K^2$ is the piezoelectric coupling coefficient (see Sec. \ref{waves in bulk piezoelectric materials}).
+where $C_s$ is the capacitance per unit length per finger pair, and $K^2$ is the piezoelectric coupling coefficient (see Sec. \ref{waves in bulk piezoelectric materials}). I use Eq. \ref{IDT admittance} to estimate the impedance of my IDTs in Sec. \ref{IDT methods}.
 
-This model does not consider reflections. In real IDTs, each finger not only absorbs SAWs, but also reflects them. The reflection coefficient of a single IDT finger is $\approx 0.1-2\%$, so Eq. \ref{IDT admittance} is still useful for estimating the impedance of an IDT. For a more accurate model that considers reflections from each IDT finger, coupling of modes analysis must be used (see Refs. \cite[p. 140-149]{lane_integrating_2021} and \cite[Ch. 4]{campbell_surface_1989}). I use Eq. \ref{IDT admittance} to estimate the impedance of my IDTs in Sec. \ref{IDT methods}.
+This model does not consider reflections. In real IDTs, each finger not only absorbs SAWs, but also reflects them. The reflection coefficient of a single IDT finger is $\approx 0.1-2\%$, so Eq. \ref{IDT admittance} is still useful for estimating the impedance of an IDT. For a more accurate model that considers reflections from each IDT finger, coupling of modes analysis must be used (see Refs. \cite[p. 140-149]{lane_integrating_2021} and \cite[Ch. 4]{campbell_surface_1989}). 
 
 
 
@@ -656,7 +836,7 @@ To prepare the slide that composes the base of the stamp, I use a leather punch 
 Next, I use a leather punch with diameter $\approx  \SI{4}{\milli\meter}$ to make a hole in a piece of scotch tape. Then, I put this scotch tape down onto the dried PC film, ensuring that the area in the tape hole is clean and uniform (Fig. \ref{stamp diagram} (c)). I cut the PC on the edge of the scotch tape using a razor blade and pick up the PC film. Lastly, I place the PC film onto the prepared slide base, aligning the hole in the scotch tape with the hole in the Kapton tape, and press the edges of the hole to ensure good adhesion between the scotch and Kapton tapes. Figure \ref{stamp diagram} (d) shows a completed viscoelastic stamp. Before using a stamp to transfer 2D flakes, I inspect it in an optical microscope to ensure that no dust came between the PC and PDMS layers. If there is dust trapped between the layers, it can cause the two layers to de-laminate from each other. Also, 2D flakes can not be picked up near dust, as the large dust prohibits the stamp from making good contact to the 2D material. Then, I anneal the stamp at \SI{90}{C} for 5 minutes to ensure good contact between the PC and PDMS. Finally, I put the stamp in the transfer station and lower it onto a bare SiO\textsubscript{2} substrate to check the location in which it first touches the surface. This determines the initial touch-down point of the stamp in the next step.
 
 
-\subsubsection{The hot pickup process}
+\subsubsection{The hot pickup process} \label{the hot pickup proces}
 Figure \ref{hot pickup diagram} outlines the hot pickup process that I use for building 2D heterostructures. First, I select 2D flakes of interest using optical microscopy. Ideal flakes have a large area of a single thickness, and are free of residue (see inset of Fig. \ref{hot pickup diagram} (a)). I also take AFM images of flakes before I use them in a heterostructure to confirm their thickness and check for residue. 
 
 I begin the transfer process by lowering the viscoelastic stamp until it touches the surface. Then, I heat up the stage to at least \SI{40}{\celsius}. The conventional wisdom is that higher temperature makes the stamp more sticky. However, high temperature also increases the likelihood of the PC and PDMS layers de-laminating (peeling away from each other), so I prefer to start at a lower temperature. For the same reason, I don't heat the stage above \SI{90}{\celsius} during the transfer process. 
@@ -696,18 +876,18 @@ Exfoliation is not a deterministic process, and pristine, single-thickness areas
 \end{figure}
 
 \subsection{Polycaprolactone (PCL) stamp for removing unwanted 2D flakes}
-In this section, I describe the use of a highly-adhesive stamp to clean unwanted flakes from the substrate and tear exfoliated flakes into single-thickness regions. As shown in the inset of Fig. \ref{exfoliation diagram} (d), thin regions of exfoliated 2D crystal often come next to thicker regions. When attempting to pick up a flake with the hot pickup method (Sec. \ref{transfer methods section}), a thick region will prevent good contact with an adjacent thinner region. If transfer is successful, adjacent flakes are often also picked up with the target flake. For the devices described in Ch. \ref{AE charge pumping paper}, an unwanted graphene flake could short-circuit the interdigitated transducer, rendering it inoperable. Therefore, this method of cleaning was necessary to successfully create the devices described in Ch. \ref{AE charge pumping paper}.
+In this section, I describe the use of a highly-adhesive stamp to clean unwanted 2D flakes from the substrate and tear exfoliated flakes into single-thickness regions. As shown in the inset of Fig. \ref{exfoliation diagram} (d), thin regions of exfoliated 2D crystal often come next to thicker regions. When attempting to pick up a flake with the hot pickup method (Sec. \ref{transfer methods section}), a thick region will prevent good contact with an adjacent thinner region. If transfer is successful, adjacent flakes are often also picked up with the target flake. For the devices described in Ch. \ref{AE charge pumping paper}, an unwanted graphene flake could short-circuit the interdigitated transducer, rendering it inoperable. Therefore, this method of cleaning was necessary to successfully create the devices described in Ch. \ref{AE charge pumping paper}. The use of a polycaprolactone (PCL) stamp was first demonstrated in Ref. \cite{son_strongly_2020}, where the authors used PCL to create heterostructures with NbSe\textsubscript{2} and CrPs\textsubscript{4}. These materials have poor adhesion with hBN and are difficult to pick up using the standard hot pick-up technique (Sec. \ref{the hot pickup proces}). I learned this method of PCL cleaning from the Yankowitz group at University of Washington.
 
 \subsubsection{Preparing the PCL stamp}
 
 
-Figure \ref{PCL stamp making diagram} illustrates the process for making a polycaprolactone (PCL) stamp. The process for making a PCL stamp is very similar to the PC stamp-making process described in Sec. \ref{making the PC stamp section}, with two distinct differences. First, the PCL stamp has a PCL film instead of PC film. Second, the PDMS used is not a flat gel-pak sheet, but a round "dome PDMS". 
+Figure \ref{PCL stamp making diagram} illustrates the process for making a polycaprolactone (PCL) stamp. The process for making a PCL stamp is very similar to the PC stamp-making process described in Sec. \ref{making the PC stamp section}, with two distinct differences. First, the PCL stamp uses a PCL film instead of a PC film. Second, the PDMS used is not a flat gel-pak sheet, but a round "dome PDMS". 
 
-Figure \ref{PCL stamp making diagram} (a) illustrates how to make dome PDMS. First, I mix SYLGARD™ 184 Silicone Elastomer solution (PDMS solution) at a 10:1 ratio with curing agent (as per manufacturer recipe) in a plastic petri dish with a flat bottom. I make enough curing agent to fill the dish with an $\approx \SI{2}{\milli\meter}$ layer of PDMS solution (the thickness of this layer determines the height of the dome PDMS). I then place the uncured PDMS into a vacuum chamber for 30 minutes to remove air bubbles from the PDMS solution. Then, I cure the solution on a hotplate at \SI{40}{\celsius} overnight. Next, I use a biopsy punch with diameter \SI{2.5}{\milli\meter} to punch a small, circular piece of cured PDMS out of the plastic dish and place it in a fresh plastic dish (Fig. \ref{PCL stamp making diagram} (a) (1)). Then, I prepare another batch of PDMS solution, and before it cures, I pipette one drop of PDMS solution onto the prepared cured PDMS piece (Fig. \ref{PCL stamp making diagram} (a) (2)). Due to surface tension, this droplet stays rounded on top, which defines the dome. Lastly, I cure the dome PDMS on a hot plate at \SI{40}{\celsius} overnight. Figure \ref{PCL stamp making diagram} (a) (3) shows a photo of completed dome PDMS.
+Figure \ref{PCL stamp making diagram} (a) illustrates how to make dome PDMS. First, I mix SYLGARD™ 184 Silicone Elastomer solution (PDMS solution) at a 10:1 ratio with curing agent (as per manufacturer recipe) in a plastic petri dish with a flat bottom. I make enough curing agent to fill the dish with a $\approx \SI{2}{\milli\meter}$ layer of PDMS solution (the thickness of this layer determines the height of the dome PDMS). I then place the uncured PDMS into a vacuum chamber for 30 minutes to remove air bubbles from the PDMS solution. Then, I cure the solution on a hotplate at \SI{40}{\celsius} overnight. Next, I use a biopsy punch with diameter \SI{2.5}{\milli\meter} to punch a small, circular piece of cured PDMS out of the plastic dish and place it in a fresh plastic dish (Fig. \ref{PCL stamp making diagram} (a) (1)). Then, I prepare another batch of PDMS solution, and before it cures, I pipette one drop of PDMS solution onto the prepared cured PDMS piece (Fig. \ref{PCL stamp making diagram} (a) (2)). Due to surface tension, this droplet stays rounded on top, which defines the dome. Lastly, I cure the dome PDMS on a hot plate at \SI{40}{\celsius} overnight. Figure \ref{PCL stamp making diagram} (a) (3) shows a photo of completed dome PDMS.
 
-To create the PCL film, I first prepare a solution of $15 \%$ polycaprolactone (PCL) in tetrahydrofuran (THF) (mass percent). I mix this solution on a stir plate at medium speed for 24-48 hours, until the PCL is fully dissolved. Then, I mount a clean glass slide on a spin-coater, and pipette $\approx \SI{2}{\milli\liter}$ onto the center of the slide. I then spin the solution at 2000 RPM for 1 minute. At this point, the PCL film will appear rough. Next, I melt the PCL film on a hotplate at \SI{90}{\celsius} for 1 minute, or until the PCL film becomes transparent. I then let the PCL film cool fully (until it becomes opaque again) before proceeding.
+To create the PCL film, I first prepare a solution of $15 \%$ polycaprolactone (PCL) in tetrahydrofuran (THF) (mass percent). I mix this solution on a stir plate at medium speed for 24-48 hours, until the PCL is fully dissolved. Then, I mount a clean glass slide on a spin-coater, and pipette $\approx \SI{2}{\milli\liter}$ of PCL solution onto the center of the slide. I then spin the solution at 2000 RPM for 1 minute. At this point, the PCL film will appear rough. Next, I melt the PCL film on a hotplate at \SI{90}{\celsius} for 1 minute, or until the PCL film becomes transparent. I then let the PCL film cool fully (until it becomes opaque again) before proceeding.
 
-After the dome PDMS and PCL film are prepared, the stamp is constructed identically to the process described at the end of Sec. \ref{making the PC stamp section}, using the dome PDMS and PCL film. In brief: I use scotch tape to transfer the PC film onto the dome PDMS, which is mounted on a glass slide (Fig. \ref{PCL stamp making diagram} (c) and (d)). Figure \ref{PCL stamp making diagram} shows a schematic of a completed PCL stamp.
+After the dome PDMS and PCL film are prepared, I construct the PCL stamp identically to the process described at the end of Sec. \ref{making the PC stamp section} (in this case, with dome PDMS and PCL film instead of gel-pak PDMS and PC film). In brief: I use scotch tape to transfer the PC film onto the dome PDMS, which is mounted on a glass slide (Fig. \ref{PCL stamp making diagram} (c) and (d)). Figure \ref{PCL stamp making diagram} shows a schematic of a completed PCL stamp.
 
 \begin{figure}
     \includegraphics{PCL stamp making diagram.pdf}
@@ -716,19 +896,21 @@ After the dome PDMS and PCL film are prepared, the stamp is constructed identica
 \end{figure}
 
 \subsubsection{Using the PCL stamp}
-Figure \ref{PCL cleaning process} illustrates the process of picking up unwanted flakes or tearing sections from desired flakes using a PCL stamp. First, I mount the PCL stamp onto the transfer stage (Fig. \ref{transfer stage image}) with the temperature set to \SI{30}{\celsius}. Then, I lower the PCL stamp onto a clean SiO\textsubscript{2} substrate until it contacts the surface in a circle of radius $\approx \SI{500}{\micro\meter}$. Next, I raise the stage temperature to \SI{60}{\celsius} to melt the PCL that is contacting the surface. The PCL is opaque when solid and transparent when melted. At this point, if the PCL contact area expands more than desired, I slowly raise the z-stage to stop the expansion and/or cool the stage by \SI{5}{\celsius}. Then, I cool the stage to \SI{30}{\celsius} to solidify the PCL. To pick up or tear a flake, I lower the stamp until it is lightly contacting the substrate, then heat the stage to \SI{60}{\celsius}. Ideally, the PCL contact area will stop expanding at the edge created in the previous step. Then, I cool the stage back to \SI{30}{\celsius}. When melted, the PCL conforms well to the 2D flake, then when cooled, the flake is strongly adhered to the PCL. Lastly, once the PCL is opaque (around 2 mins at \SI{30}{\celsius}), I raise the stamp off of the substrate, picking up any 2D flake (or part of a flake) that is inside the PCL contact area.
+Figure \ref{PCL cleaning process} illustrates the process of picking up unwanted flakes or tearing sections from desired flakes using a PCL stamp. First, I mount the PCL stamp onto the transfer stage (Fig. \ref{transfer stage image}) with the stage temperature set to \SI{30}{\celsius}. Then, I lower the PCL stamp onto a clean SiO\textsubscript{2} substrate until it contacts the surface in a circle of radius $\approx \SI{500}{\micro\meter}$. Next, I raise the stage temperature to \SI{60}{\celsius} to melt the PCL that is contacting the surface. The PCL is opaque when solid and transparent when melted. At this point, if the PCL contact area expands more than desired, I slowly raise the z-stage to stop the expansion. If the PCL is melting completely during this step, I recommend cooling the stage by \SI{5}{\celsius}. Then, I cool the stage to \SI{30}{\celsius} to solidify the PCL. To pick up or tear a flake, I lower the stamp until it is lightly contacting the substrate, then heat the stage to \SI{60}{\celsius}. Ideally, the PCL contact area will stop expanding at the edge created in the previous step. Then, I cool the stage back to \SI{30}{\celsius}. When melted, the PCL conforms well to the 2D flake, then when cooled, the flake is strongly adhered to the PCL. Lastly, once the PCL is opaque (around 2 minutes at \SI{30}{\celsius}), I raise the stamp off of the substrate, picking up any 2D flake (or part of a flake) that is inside the PCL contact area.
 
-%TODO: Fix this section and restate how you use this at the end
-
-
+%TODO: Review this section and restate how you use this at the end
+%PCL cleaning figure: Make figure b melt/cool cycle, and c showing PCL off surface holding its shape
+%Caption the below figs.
 \begin{figure}
     \includegraphics{PCL cleaning process.pdf}
-    \caption{}
+    \caption{Scale bars = \SI{100}{\micro\meter}}
     \label{PCL cleaning process}
 \end{figure}
 
-
-
+\begin{figure}
+    \includegraphics{PCL before-after.pdf}
+    \caption{Scale bar = \SI{50}{\micro\meter}}
+\end{figure}
 
 
 
@@ -740,7 +922,7 @@ Figure \ref{PCL cleaning process} illustrates the process of picking up unwanted
 
 In this section, I discuss methods for fabricating 2D devices on piezoelectric substrates using photolithography. One might ask: Why not use electron-beam lithography (EBL)? EBL can achieve higher lithographic resolution than photolithography and allows for custom circuit designs to match bespoke 2D heterostructures. For these reasons, EBL is an excellent choice for fabricating 2D devices on SiO\textsubscript{2} (Sec. \ref{electron-beam lithography}). When performing EBL on a thin ($< \SI{0.5}{\micro\meter}$) layer of insulating SiO2 on conductive Si, the charge buildup from the electron beam can readily dissipate through the thin SiO2. However, piezoelectric substrates like quartz or LiNbO\textsubscript{3} are insulating throughout, leading to charge buildup which deflects the incident electrons and distorts lithographic patterns. To dissipate the charge on insulating substrates, one can either deposit a thin charge dissipation layer on top of the EBL resist with thermal evaporation (often 10-20 nm of Al or Au), which is etched away after exposing the resist, or spin a conductive polymer on the EBL resist which is water-soluble \cite{noauthor_nanolithography_nodate}. These anti-charging layers complicate the fabrication process. Depositing a thin metal charge dissipation layer requires time-consuming thermal evaporation, and removing the metal requires a wet chemical etch. This needs to be repeated for every lithography step. Conductive polymers solve these issues but are prohibitively expensive.\footnote{The most common conductive polymer is ESpacer, which costs \$30,000 per 1 L bottle and expires after 6 months. Recently, an alternative conductive resist has been made available which is available in smaller quantities \cite{lopez_charge_2019}.}  
 
-With the photolithography tools available to me, I can fabricate structures down to \SI{3}{\micro\meter} with photolithography. Unless a device absolutely necessitates smaller feature sizes, it is in my best interest to simplify fabrication and reduce the number of processing steps. However, the motivation for reducing processing steps goes beyond just reducing cost and complexity. In my experience, 2D device fabrication is most likely to fail during liftoff. For example, Fig. \ref{fig:h-BN lifted} shows a 40 nm flake of h-BN transferred onto LiNbO\textsubscript{3} (top panel) which separated from the surface during liftoff (bottom panel), taking 50 nm of metal with it. For these reasons, I use photolithography to fabricate 2D devices on piezoelectric substrates. My process involves first creating pre-patterned metal contacts which are then cleaned using AFM (refer to Section \ref{AFM cleaning main section}) prior to transferring a 2D material onto them.
+With the tools available to me, I can fabricate structures down to \SI{3}{\micro\meter} with photolithography. Unless a device absolutely necessitates smaller feature sizes, it is in my best interest to simplify fabrication and reduce the number of processing steps. However, the motivation for reducing processing steps goes beyond just reducing cost and complexity. In my experience, 2D device fabrication is most likely to fail during liftoff. For example, Fig. \ref{fig:h-BN lifted} shows a 40 nm flake of h-BN transferred onto LiNbO\textsubscript{3} (top panel) which separated from the surface during liftoff (bottom panel), taking 50 nm of metal with it. For these reasons, I use photolithography to fabricate 2D devices on piezoelectric substrates. My process involves first creating pre-patterned metal contacts which are then cleaned using AFM (refer to Section \ref{AFM cleaning main section}) prior to transferring a 2D material onto them.
 \begin{figure}
     \includegraphics[width = 0.5\textwidth]{hBN lifted off.pdf}
     \caption{h-BN flake transferred onto LiNbO\textsubscript{3} before (top) and after (bottom) photolithography process to deposit metal electrodes on top of the h-BN. The h-BN lifted off with the deposited metal. Scale bar = \SI{40}{\micro\meter}.}
@@ -780,13 +962,9 @@ For this process, I use Tap150AL AFM probes (Budget Sensors) and an MFP-3D AFM. 
 \end{figure}
 
 
-\subsection{Electron-beam lithography} \label{electron-beam lithography}
-Electron-beam lithography uses the electron beam of a scanning electron microscope (SEM) to expose a polymer resist in a desired pattern. The electron beam breaks the bonds of the polymer, allowing it to be washed away with a chemical developer. 
-
-
 \section{Interdigitated transducers} \label{IDT methods}
 
-Before using an interdigitated transducer to pump charge in graphene (Ch. \ref{AE charge pumping paper}), I need to verify its performance. In Sec. \ref{SAW device design}, I outline the expected frequency response and impedance of an IDT based on its geometry. In this section, I discuss my methods for measuring the frequency response and impedance of IDTs to verify their performance, and compare my measurements to theory. 
+Before using an interdigitated transducer to pump charge in graphene (Ch. \ref{AE charge pumping paper}), I need to verify its performance. In Sec. \ref{SAW device design}, I outline the expected frequency response and impedance of an IDT based on its geometry. In this section, I discuss my methods for measuring the frequency response and impedance of IDTs to verify their performance, and compare my measurements to the theory presented in Sec. \ref{IDT} 
 
 Figure \ref{SAW device optical image with measurements} shows an optical microscope image of a pair of IDTs that I fabricated on LiNbO\textsubscript{3} using photolithography (see App. \ref{photolithography recipe}) and metallization of $5/\SI{25}{\nano\meter}$ Al using electron-beam evaporation.
 
@@ -803,20 +981,18 @@ To benchmark the performance of the IDT pair, I use an Agilent E5071C-280 vector
 
 \begin{figure}
     \includegraphics[width = 1\textwidth]{S-parameters.pdf}
-    \caption{(a) Definition of S-parameters for a two-port network. (b) $S_{11}$ and $S_{22}$ for IDT 1 and IDT 2. A drop in reflected power is seen near the center frequency $f_0 = v/\lambda = \SI{174.4}{\mega\hertz} $. }
+    \caption{(a) Definition of S-parameters for a two-port network. (b) $S_{11}$ and $S_{22}$ for IDT 1 and IDT 2 shown in Fig. \ref{SAW device optical image with measurements}. A drop in $S_{11}$ ($S_{22}$) is seen near the center frequency $f_0 = v/\lambda = \SI{174.4}{\mega\hertz}$, corresponding to the increase in $S_{21}$ ($S_{12})$.}
     \label{S-parameters}
 \end{figure}
-The S-parameter data shown in Fig. \ref{S-parameters} (b) and (c) are in good agreement with the model discussed in Sec. \ref{SAW device design}. First, there is a drop in reflected power at $\approx \SI{170}{\mega\hertz}$, close to $f_0$, (Fig. \ref{S-parameters} (b)), which corresponds to the increase in transmitted power (Fig. \ref{S-parameters} (c)). It is normal for the IDT center frequency to be slightly lower than expected due to mass-loading effects, depending on the density and thickness of the metal used. This effect is less pronounced for IDTs in the MHz range. As $f_0$ increases, using low-density, thin metal becomes more important to minimize the mass-loading-driven shift in $f_0$ \cite{chen_ultrahigh-frequency_2020}. Away from $f_0$, secondary resonance peaks of decreasing magnitude can be seen in the S21 and S12 data. This is in agreement with the frequency response predicted by Eq. \ref{Response of IDT}. Lastly, the frequency response curves of the two IDTs are nearly indistinguishable, showing that the geometry of each IDT is identical. Therefore, the lithography is of high quality. 
-
+The S-parameter data shown in Fig. \ref{S-parameters} (b) and (c) are in good agreement with the model discussed in Sec. \ref{SAW device design}. First, there is a drop in reflected power at $f \approx \SI{170}{\mega\hertz}$, close to $f_0$, (Fig. \ref{S-parameters} (b)), which corresponds to the increase in transmitted power (Fig. \ref{S-parameters} (c)). It is normal for the IDT center frequency to be slightly lower than expected due to mass-loading effects, depending on the density and thickness of the metal used. As $f_0$ increases, using low-density, thin metal becomes more important to minimize the mass-loading-driven shift in $f_0$ \cite{chen_ultrahigh-frequency_2020}. This effect is less pronounced for IDTs in the MHz range. Away from $f_0$, secondary resonance peaks of decreasing magnitude can be seen in the $S_{21}$ and $S_{12}$ data. This is in agreement with the frequency response predicted by Eq. \ref{Response of IDT}. Lastly, the frequency response curves of the two IDTs are nearly indistinguishable, showing that the geometry of each IDT is identical. 
 
 Figure \ref{Z11 plot} shows the measured real part of the admittance ($\mathrm{Re}(Y)$) of IDT 1 in comparison to the model given by Eq. \ref{IDT admittance}. The measured admittance at $f_0$ is $\SI{6.5}{\milli\siemens} = (\SI{154}{\ohm})^{-1}$, while the model predicts an admittance of $\SI{5.9}{\milli\siemens} = (\SI{170}{\ohm})^{-1}$ (a difference of $10\%$). Also, the width of the peak in $Re(Y)$ is wider than predicted by the model. This discrepancy is most likely because the model given by Eq. \ref{IDT admittance} does not consider reflections from each IDT finger. This IDT has $N_p = 20$, and each finger reflects around $0.1-2 \%$ of the IDT signal \cite[p. 140]{lane_integrating_2021}.
 
-From Eq. \ref{transmission coefficient} and an input impedance of $\SI{50}{\ohm}$ $\approx 70\%$ of the input RF power is reflected back from the IDT. This could be improved; however, this IDT has similar $S{21/12}$ performance to prior IDTs used in charge pumping experiments \cite{buitelaar_charge_2006}, so I deemed the performance of these IDTs good enough to proceed with the experiment. I use this IDT design for the devices described in Ch. \ref{AE charge pumping paper}.
-
+From Eq. \ref{transmission coefficient} and an input impedance of $\SI{50}{\ohm}$ $\approx 70\%$ of the input RF power is reflected back from the IDT. This could be improved; however, this IDT has similar $S_{21}/S_{12}$ performance to prior IDTs used in charge pumping experiments \cite{buitelaar_charge_2006}, so I deemed the performance of these IDTs good enough to proceed with the experiment. I use this IDT design for the devices described in Ch. \ref{AE charge pumping paper}.
 
 \begin{figure}
     \includegraphics[width = 0.75\textwidth]{Z11_plot_.pdf}
-    \caption{Measured real part of $Y_{11}$ for IDT 1 compared to the model given by Eq. \ref{IDT admittance}. The center frequency of the model has been shifted to match the measured center frequency.}
+    \caption{Measured real part of the admittance $Y_{11}$ of IDT 1 compared to the model given by Eq. \ref{IDT admittance}. The center frequency of the model has been shifted to match the measured center frequency.}
     \label{Z11 plot}
 \end{figure}
 
@@ -994,7 +1170,9 @@ In this section, I built a flip-chip capacitor by sandwiching patterned quartz a
 
 
 \chapter{Conclusion}
+Surface acoustic waves prove to be a powerful method of probing phenomena in quantum materials. 
 
+In this dissertation, I developed methods for interfacing surface acoustic waves with 2D materials that can be applied to the wider family of 2D and 1D quantum materials. 
 
 \pagebreak
 
@@ -1005,9 +1183,13 @@ In this section, I built a flip-chip capacitor by sandwiching patterned quartz a
 
 \appendix
 
+\chapter{Electron-beam lithography} \label{electron-beam lithography} 
+Electron-beam lithography uses the electron beam of a scanning electron microscope (SEM) to expose a polymer resist in a desired pattern. The electron beam breaks the bonds of the polymer, allowing it to be washed away with a chemical developer. 
 \chapter{Additional data}
 
 \section{Additional Surface acoustic wave device data}
+Al vs Au IDTs?
+
 
 
 
