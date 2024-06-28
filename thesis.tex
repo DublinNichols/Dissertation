@@ -63,16 +63,14 @@ communities of researchers working on
 a variety of problems at the frontiers of
 physics, materials science and engineering." \cite{noauthor_rise_2016}
 \end{quote}
-Or, put more simply, quantum materials are those "whose electronic properties cannot be understood with concepts from contemporary condensed-matter textbooks" \cite{orenstein_ultrafast_2012}. 
-
-The phrase "quantum materials" isn't meant to be precise. It links together researchers who are developing quantum computers, to those exploring topological states of matter in ultracold atoms, to researchers like me who seek to harness the properties of 2D materials to explore new and exciting physics and promising applications. The development of the transistor never would have been possible without first developing a deep understanding of the basic physics of quantum mechanics. Now, as we stand on the precipice of the second quantum revolution, we must confront these challenges directly, and strive to deepen our understanding of physics. Though we work on distinct challenges, we can unite under the moniker "quantum materials". 
+Or, put more simply, quantum materials are those "whose electronic properties cannot be understood with concepts from contemporary condensed-matter textbooks" \cite{orenstein_ultrafast_2012}. The phrase "quantum materials" isn't meant to be precise. It links together researchers who are developing quantum computers, to those exploring topological states of matter in ultracold atoms, to researchers like me who seek to harness the properties of 2D materials to explore new and exciting physics and promising applications. The development of the transistor never would have been possible without first developing a deep understanding of the basic physics of quantum mechanics. Now, as we stand on the precipice of the second quantum revolution, we must confront these challenges directly, and strive to deepen our understanding of physics. Though we work on distinct challenges, we can unite under the moniker "quantum materials". 
 
 
 
 \section{Why low-dimensional materials?}
-In this dissertation, I primarily focus on the subset of quantum materials known as "low-dimensional materials". Low-dimensional materials have at least one dimension at the nanoscale, such that electrons are confined to two, one, or zero dimensions. This low dimensionality leads to unique electronic properties that can be harnessed for next-generation electronics, such as the valley degree of freedom.\footnote{In this dissertation, I focus mostly on graphene (a 2D material) with some discussion on carbon nanotubes (a 1D material). I will not discuss 0D materials, such as quantum dots. I also use "low-dimensional materials" to refer solely to 2D and 1D materials.}
+In this dissertation, I primarily focus on the subset of quantum materials known as "low-dimensional materials". Low-dimensional materials have at least one dimension at the nanoscale, such that electrons are confined to two, one, or zero dimensions. This low dimensionality leads to unique electronic properties that can be harnessed for next-generation electronics. One such property is the valley degree of freedom.\footnote{In this dissertation, I focus mostly on graphene (a 2D material) with some discussion on carbon nanotubes (a 1D material). I will not discuss 0D materials, such as quantum dots. I also use "low-dimensional materials" to refer solely to 2D and 1D materials.}
 
-The electronic properties of a crystalline solid are predominantly determined by its band structure, which describes the relationship between the permissible energy and momentum of electrons. Within the band structure of a material, a local minimum in the conduction band or a local maximum in the valence band is referred to as a “valley”. Manipulating the shape of an electronic valley has been explored in conventional semiconductors. For example, strain has been used in the semiconductor industry to tune the shape of a valley to increase carrier mobility \cite{thompson_90-nm_2004}. However, the usefulness of valleys goes further. In addition to the well-known charge and spin degrees of freedom, electrons also possess a valley degree of freedom determined by the valley they occupy. In materials with multiple, symmetrical valleys in their band structure, this valley degree of freedom acts like a “pseudospin”. For example, graphene has pairs of inequivalent valleys near the edges of its brillouin zone at the $K$ and $K'$ symmetry points (Fig. \ref{graphene dispersion plot intro}). Electrons in the $K$ valley can be labelled as "pseudospin up", and electrons in the $K'$ valley can be labelled as "pseudospin down". These pseudospins have possible applications in "valleytronics" devices, which use the pseudospin to store information \cite{schaibley_valleytronics_2016}. Valleys in low-dimensional materials are fundamentally different than those in bulk materials. The reduced dimensionality of 2D and 1D materials brings forward a new family of valley-dependent physical phenomena. One example is the valley Hall effect in graphene, where electrons in the $K$ and $K'$ valleys were observed to drift in opposite directions under an applied electric field \cite{gorbachev_detecting_2014}. However, 1D materials also exhibit interesting valley-dependent physics.
+The electronic properties of a crystalline solid are predominantly determined by its band structure, which describes the relationship between the permissible energy and momentum of electrons. Within the band structure of a material, a local minimum in the conduction band or a local maximum in the valence band is referred to as a “valley”. Manipulating the shape of an electronic valley has been explored in conventional semiconductors. For example, strain has been used in the semiconductor industry to tune the shape of a valley to increase carrier mobility \cite{thompson_90-nm_2004}. However, the usefulness of valleys goes further. In addition to the well-known charge and spin degrees of freedom, electrons also possess a valley degree of freedom determined by the valley they occupy. In materials with multiple, symmetrical valleys in their band structure, this valley degree of freedom acts like a “pseudospin”. For example, graphene has pairs of inequivalent valleys near the edges of its brillouin zone at the $K$ and $K'$ symmetry points (Fig. \ref{graphene dispersion plot intro}). Electrons in the $K$ valley can be labelled as "pseudospin up", and electrons in the $K'$ valley can be labelled as "pseudospin down". These pseudospins have possible applications in "valleytronics" devices, which use the pseudospin to store information \cite{schaibley_valleytronics_2016}. Valleys in low-dimensional materials are fundamentally different than those in bulk materials. The reduced dimensionality of 2D and 1D materials brings forward a new family of valley-dependent physical phenomena. One example is the valley Hall effect in graphene, where electrons in the $K$ and $K'$ valleys were observed to drift in opposite directions under an applied electric field \cite{gorbachev_detecting_2014}. However, 1D materials such as carbon nanotubes also exhibit interesting valley-dependent physics.
 
 
 %TODO: Shade (b) grey to match (a)
@@ -82,24 +80,16 @@ The electronic properties of a crystalline solid are predominantly determined by
     \label{graphene dispersion plot intro}
 \end{figure}
 
-Carbon nanotubes (CNTs) are essentially rolled-up sheets of graphene, forming a 1D tube-like structure. Similar to graphene, CNTs also exhibit a valley degree of freedom. However, the physics of valleys in CNTs is even more intriguing due to their 1D nature. Depending on how the sheet of graphene is rolled up, nanotubes can have widely different properties. The confinement of electrons resulting in discrete subbands in the band structure. Each subband corresponds to a different “valley”, and the valley index can be used as a pseudospin, similar to the case of graphene.
-
-Senger 2018 paper talking about subbands and valley
+Carbon nanotubes (CNTs) are essentially rolled-up sheets of graphene. Perpendicular to the CNT axis, electrons are confined to one dimension, causing their momentum to take discrete values. When a graphene sheet is rolled into a CNT, the graphene band structure is intersected at these discrete values of momentum, known as "cutting lines", which overlap to create subbands. Depending on how the sheet of graphene is rolled up, the conduction and valence bands may touch at the Fermi energy, resulting in a metallic CNT, or may have a band gap between them, resulting in a semiconducting CNT. Figure \ref{CNT intro fig} (a) shows graphene's band structure with cutting lines that intersect the $K$ and $K'$ points, creating a metallic nanotube. However, unlike the $K$ and $K'$ valleys in graphene, the $K$ and $K'$ subbands in a CNT are not identical. Figure \ref{CNT intro fig} (b) illustrates the slight difference between the dispersion of electrons in the $K$ and $K'$ subbands. The slight differences in momenta for $K$ and $K'$ electrons traveling through a CNT (Fig. \ref{CNT intro fig} (c)) leads to an inter-valley interference which can be tuned by varying the Fermi energy of the CNT. Though this inter-valley interference was predicted previously \cite{refael_sagnac_2007}, it was only able to be measured in ultraclean, ultra-long CNTs which are free from electrostatic disorder \cite{lotfizadeh_quantum_2021}. Figure \ref{CNT intro fig} (d) shows oscillations in the conductance of a metallic CNT arising from interference between $K$ and $K'$ electrons in a suspended CNT. 
 
 
+\begin{figure}
+    \caption{(a) Will be graphene band structure with cutting lines, and (b) will be band structure with differences between right-moving and left-moving electrons. (c) Will have CNT with K and K' travelling electrons, and (d) Will be the data.}
+    \label{CNT intro fig}
+\end{figure}
+These ultraclean suspended CNTs were grown by the Minot Group and measured at low temperature by our collaborators at University of Utah. I took over the nanotube growth in 2019 from prior group member Mitchell Senger. Our ultraclean CNTs continue to give new insight into quantum phenomena, such as gate-voltage controlled hybridization of the $K$ and $K'$ electrons, which could enable future valleytronics devices based on CNTs \cite{berg_vernier_2023}. To access novel phenomena in quantum materials, ultraclean devices like these suspended CNTs are a necessity. Much like the need for a clear night sky in astronomy, electrostatic disorder introduces a level of "cloudiness" that obscures our ability to view quantum phenomena. When we minimize electrostatic disorder, it’s as if the clouds part, allowing us to resolve the subtleties of these quantum systems.
 
-
-
-
-
-
-
-
-The 2D materials revolution was launched when Novoselov et al. published their electronic measurements on atomically-thin carbon films known as graphene, which would later win them the Nobel Prize \cite{novoselov_electric_2004}. Since then, the family of 2D materials has expanded to include a plethora of 2D semiconductors and magnets. 
-
-
-
-The greatest strength of 2D materials lies in their tunability. By stacking atomically-thin 2D materials into heterostructures, we can harness their tunability for next-generation electronics. For example, 2D semiconductor heterostructures are of prime interest to overcome the fundamental limits of silicon-based transistors, enhancing transistor density while simultaneously paving the way for more energy-efficient computing \cite{liu_two-dimensional_2020,obrien_process_2023}. 2D ferromagnets challenge established theories of magnetism, provide unprecedented electronic control over magnetism, and enable applications in sensing and data storage \cite{huang_layer-dependent_2017,kajale_two-dimensional_2024}. The tunability of 2D materials allows us to tune their electronic properties and control these quantum phenomena to explore both exciting new physics and promising applications.
+So far, I've discussed quantum phenomena accessible with traditional transport techniques, where DC voltage and current is used as a signal. Surface acoustic waves provide a novel way to detect quantum phenomena which are not accessible with traditional transport techniques.
 
 
 \section{Background and Motivation}
@@ -120,7 +110,7 @@ Figure \ref{IX transport fig} illustrates the experiment performed in Ref. \cite
 \end{equation}
 As the SAW propagates through the bilayer WSe\textsubscript{2}, this electric field modulates the energy of the conduction band ($E_C$) and valence band ($E_V$) by $\Delta U = \pm \vectorbold{p} \dotproduct E$, where $\vectorbold{p}$ is the dipole moment of the IX. This creates potential wells in which charge-neutral excitons can become trapped, "surfing" the SAW potential at the acoustic velocity.
 
-To demonstrate this phenomenon, the authors of Ref. \cite{peng_long-range_2022} generated interlayer excitons in bilayer WSe\textsubscript{2} using laser excitation. They can determine the location of the exciton at the time of recombination by measuring the photoluminescence (PL) generated by recombining interlayer excitons. In the absence of a SAW, they observed PL only in proximity to the laser-illuminated area. However, with the SAW active, they observed additional PL at the edge of the bilayer WSe\textsubscript{2}, $\SI{30}{\micro\meter}$ away from the laser excitation spot. This is evidence that charge-neutral interlayer excitons generated at the laser spot "surf" the SAW potential to the edge of the WSe\textsubscript{2}, where they then recombine. This contact-free approach for interacting with excitons in 2D systems is exciting, as it preserves the pristine 2D system and circumvents undesired effects caused by local electrostatic gates.
+To demonstrate this phenomenon, the authors of Ref. \cite{peng_long-range_2022} generated interlayer excitons in bilayer WSe\textsubscript{2} using laser excitation. They can determine the location of the exciton at the time of recombination by measuring the photoluminescence (PL) generated by recombination of interlayer excitons. In the absence of a SAW, they observed PL only in proximity to the laser-illuminated area. However, with the SAW active, they observed additional PL at the edge of the bilayer WSe\textsubscript{2}, $\SI{30}{\micro\meter}$ away from the laser excitation spot. This is evidence that charge-neutral interlayer excitons generated at the laser spot "surf" the SAW potential to the edge of the WSe\textsubscript{2}, where they then recombine. This contact-free approach for interacting with excitons in 2D systems is exciting, as it preserves the pristine 2D system and circumvents undesired effects caused by local electrostatic gates.
 
 %TODO: Insert something about valleytronics here from \cite{schaibley_valleytronics_2016}
 
@@ -132,25 +122,97 @@ To demonstrate this phenomenon, the authors of Ref. \cite{peng_long-range_2022} 
 
 In another work, SAWs were used as a contactless probe of measuring wave-vector dependent conductivity in ultraclean graphene \cite{fang_quantum_2023}. When SAWs interact with charge carriers in 2D materials, the SAW is attenuated and its velocity is shifted (I discuss SAW attenuation and velocity shift in Sec. \ref{SAW theory, propagating in 2D materials}). The authors of Ref. \cite{fang_quantum_2023} used this phenomenon to probe quantum Hall transport in ultraclean graphene, establishing the viability of SAWs as a contactless probe for quantum transport phenomena in 2D materials. 
 
-These studies have only scratched the surface of what is possible by interfacing SAWs with 2D materials. Many other SAW-induced phenomena in 2D materials have been theoretically predicted, but not yet achieved experimentally \cite{nie_surface_2023}. For example, [valley acoustoelectric effect] Further theoretical predictions exist for SAW-enabled phenomena in 1D materials, such as topologically-protected quantized charge transport.
-
-
+These studies have only scratched the surface of what is possible by interfacing SAWs with 2D materials. Many other SAW-induced phenomena in 2D materials have been theoretically predicted, but not yet achieved experimentally \cite{nie_surface_2023}. Further theoretical predictions exist for SAW-enabled phenomena in 1D materials, such as topologically-protected quantized charge transport.
 
 \subsection{Surface acoustic wave-driven topological charge pumping}
 
 \subsubsection{What makes a material "topological"?}
 
+Topological phases of matter are defined by global properties which are insensitive to local perturbations. Global topological properties of quantum materials give rise to topological quantum numbers which correspond to physical observables. For example, in the integer quantum hall effect, strong magnetic fields and quantized Landau levels lead to a non-trivial topology, in which the resistivity of a 2D electron gas depends is quantized as $\sigma = C e^2/h$, where $C$ is an integer. 
 
+The quantity that underlies topological phenomena in quantum materials is the Berry phase, or geometric phase. Michael Berry studied the cyclic, adiabatic evolution of an eigenstate through momentum space and found that, though the beginning and ending state of the system are identical, the state gains a phase difference which depends on its path, but not the rate at which the path is traversed \cite{berry_quantal_1984}. Since then, researchers have realized that the Berry phase of a quantum state drastically affects the physical properties of a system \cite{xiao_berry_2010}. The Berry phase gives rise to many novel quantum phenomena such as the integer, anomalous, spin, and valley Hall effects, and many more which have been predicted but not yet realized experimentally, including topological SAW-driven phenomena. For example, the nontrivial topology of the $K$ and $K'$ valleys in MoS\textsubscript{2} is predicted to lead to $K$ and $K'$ electrons acquiring opposite signs of Berry phase when transported by a SAW, causing them to drift in opposite directions (the "Valley acoustoelectric effect") \cite{kalameitsev_valley_2019}. SAW-driven topological phenomena are also predicted to arise in 1D materials, such as topologically-protected quantized charge pumping.
 
-Topological phases of matter are defined by global properties. The information that defines the properties of a topological material
+Talyanskii et al. proposed that a carbon nanotube (CNT) coupled to a surface acoustic wave (SAW) is an ideal system to study topological charge pumping \cite{talyanskii_quantized_2001}. To introduce this topic, I first briefly summarize the origin of Berry phase under an adiabatic evolution, following Ref. \cite[Ch. 5]{sakurai_modern_1985}. This sets a foundation for the origin of topological charge pumping.
 
-It is predicted that in multi-valley 2D semiconductors under the influence of a SAW, a "valley acoustoelectric Hall effect" arises, where 
+The time evolution of a quantum system is described by the time-dependent Schrödinger equation, which is given by
 
+\begin{equation}
+    i \hbar \derivative{t}\ket{\Psi_n} = H(t)\ket{\Psi_n}. \label{Schrodinger eqn}
+\end{equation}
+The general solutions to the time-dependent Schrödinger equation take the form
+\begin{equation}
+    {\Psi_n(t)} = \sum_n c_n(t) \exp(i \theta_n(t)) \ket{\psi_n(t)}, \label{Schr. time evolution}
+\end{equation}
+where $\ket{\psi_n(t)}$ is an eigenstate of $H(t)$ with associated eigenenergy $E_n(t)$, and 
 
-"The concept of the Berry phase [27] underlies and unifies diverse aspects of solid-state physics, drastically affecting the transport of particles and resulting in such intriguing phenomena as the anomalous [28] and quantum [29] Hall effects, emergence of topological and superconducting phases [30], charge pumping [31], and anomalous thermoelectric transport [32], among other [33]. By and large, electrons in a crystal behave similarly to free particles with just the free-electron mass replaced by an effective one due to the formation of energy bands. A nontrivial Berry phase also reveals itself in Dirac materials like graphene [34], and very recently it has come into play in other two dimensional materials [35], possessing similar symmetry properties."
+\begin{equation}
+    \theta(t) = \int_{0}^{t}E_n(t')dt'. \label{theta coefficient time evolution}
+\end{equation}
+To find the probability that the system will evolve from the state $\ket{\Psi_n(t)}$ to the state $\ket{\Psi_m(t)}$ at time $t$, we need the matrix element $\bra{\Phi_m(t)}H(t)\ket{\Phi_n(t)}$. To find this matrix element, we need the coefficient $c_m(t)$ corresponding to the time evolution of $\ket{\Psi_m(t)}$ (as in Eq. \ref{Schr. time evolution}). A differential equation for $c_m(t)$ can be found by substituting Eqs. \ref{Schr. time evolution} and \ref{theta coefficient time evolution} into Eq. \ref{Schrodinger eqn} and taking the inner product with $\bra{\Phi_m(t)}$, giving \cite[p. 347]{sakurai_modern_1985}
 
-\cite{kalameitsev_valley_2019}
+\begin{equation}
+    \dot{c}_m(t) = - c_m(t) \bra{\Psi_m(t)}\pdv{t}\ket{\Psi_m(t)} - \sum_n c_n(t) \mathrm{e}^{i (\theta_n(t) - \theta_m(t))} \frac{\bra{\Psi_m(t)}\dot{H}(t)\ket{\Psi_n(t)}}{E_n - E_m}. \label{c-dot eqn}
+\end{equation}
+The second term of Eq. \ref{c-dot eqn} tells us that, in a system with a time-dependent Hamiltonian, states $\ket{\Psi_n}$ will evolve to states $\ket{\Psi_m}$ because of this time dependence, and that this evolution will take place at a frequency $1/\tau$, defined as 
 
+\begin{equation}
+    \frac{1}{\tau} \equiv \frac{\bra{\Psi_m(t)}\dot{H}(t)\ket{\Psi_n(t)}}{E_n - E_m}.
+\end{equation}
+The adiabatic approximation assumes that the time-evolution of the Hamiltonian is slow compared to $\tau$. Mathematically, this means that
+\begin{equation}
+    \frac{\bra{\Psi_m(t)}\dot{H}(t)\ket{\Psi_n(t)}}{E_n - E_m} \ll - c_m(t) \bra{\Psi_m(t)}\pdv{t}\ket{\Psi_m(t)} ~ \frac{E_m}{\hbar}.
+\end{equation}
+Applying this simplification to Eq. \ref{c-dot eqn} recovers a form for $c_n(t)$ that is familiar from the time-independent Schrödinger equation,
+
+\begin{equation}
+    c_n(t) = \mathrm{e}^{i \gamma_n(t)}c_n(0)
+\end{equation}
+where 
+
+\begin{equation}
+    \gamma_n = i \int_{0}^{t} \bra{\Psi_n(t')}\pdv{t'}\ket{\Psi_n(t')} dt'. \label{geometric phase}
+\end{equation}
+Thus, if the system starts in the state $\ket{\Psi_n}$ and undergoes an adiabatic evolution, it will stay in the state $\ket{\Psi_n}$ and acquire a phase factor $\mathrm{e}^{i \gamma_n(t)} \mathrm{e}^{i \theta_n(t)}$. The term $\gamma_n(t)$ is known as the "geometric phase" or "Berry phase". But, what is geometric about it? 
+
+It can be shown that $\gamma_n(t)$ takes the form \cite[p. 349-351]{sakurai_modern_1985}
+\begin{equation}
+    \gamma_n = \int_{S} d\vectorbold{S}\dotproduct \vectorbold{\Omega},
+\end{equation}
+
+where $S$ is a closed surface in the parameter space (for now, an abstract two-dimensional parameter space), and $\vectorbold{\Omega}$ is the Berry curvature. The Berry curvature is analogous to the Gaussian curvature $K$, which measures the local curvature of a surface. For a 2D closed surface with Gaussian curvature $K$, the integral of the Gaussian curvature defines a \textit{topological invariant} called the Euler characteristic $\chi$. The Gauss-Bonnet theorem defines $\chi$ as
+
+\begin{equation}
+    \chi = \frac{1}{2\pi}\iint_S K dA,
+\end{equation}
+where $S$ is a closed surface. $\chi$ is a topological invariant because it is insensitive to deformations of the surface $S$. Figure \ref{surfaces} shows surfaces that all have $\chi = 2$.
+
+\begin{figure}
+    \label{surfaces}
+\end{figure}
+
+In the same way, the Berry curvature $\vectorbold{\Omega}$ defines a topological invariant called the Chern number. The Chern number is invariant under perturbations such as defects, physical wrinkles, or electrostatic disorder. This topological protection of the quantum state is promising for devices which harness these topological quantum phenomena. For example, in topologically-protected charge pumping, the Chern number corresponds to the integer unit of charge transported per cycle. This topological protection would make a topological charge pump robust to perturbations from its environment, enabling applications in metrology and quantum computing \cite{niu_towards_1990}.
+
+\subsubsection{Topological charge pumping (the Thouless pump)}
+
+A quantized charge pump is a device that transports electrons in precise, quantized units. Unlike conventional DC transport, where electrons flow stochastically in response to an applied voltage bias, quantized charge pumps operate at a constant frequency $f$, transporting a unit of charge $Ne$ per cycle (where $N$ is an integer), resulting in a DC current of magnitude $Nef$ that arrives in quantized packets of charge $Ne$. Such devices are of great interest to the field of metrology, where practical sources of highly-quantized current could help define a better standard of current \cite{pekola_single-electron_2013,scherer_singleelectron_2019}, and quantum computing \cite{das_controlled_2006}, where charge pumps could generate and control the flow of spin-entangled quantum states with minimal decoherence. Many designs for quantized charge pumps have been demonstrated, with the best quantum pumps today being based on controlling tunneling to- and from quantum dots \cite{scherer_singleelectron_2019}. However, charge pumps based on tunneling face fundamental limits to their accuracy. A topologically-protected charge pump could overcome these fundamental limits.
+
+Topologically-protected charge pumping is often referred to as Thouless pumping, after D.J. Thouless, the first to propose such a phenomenon \cite{thouless_quantization_1983}. In a Thouless pump, a cyclic adiabatic evolution of the system's Hamiltonian under a spatially- and temporally periodic gives rise to a nonzero Berry phase (Eq. \ref{geometric phase}). Thouless found that, though the system begins and ends in the same state, an integer quantity of \footnote{More accurately, Thouless's prediction was about \textit{particle transport} in general. In this case, the particle being transported is an electron.} charge is transported, corresponding to the Chern number of the system. But, how does a periodic potential have curvature?  
+
+A Thouless pump is periodic in space and time. Figure \ref{thouless pump torus} (a) plots a potential which is periodic in space, with wavelength $\lambda$, and time, with period $T$. If we take the time axis and the space axis and roll them up, connecting $t = 0$ with $t = T$, and $x = 0$ with $x = \lambda$
+
+Bloch's theorem connects periodicity in real space with quantization in momentum space.
+
+Another shape which is periodic in two dimensions is a torus. 
+
+\begin{figure}
+    \caption{(a) shows the Thouless potential being periodic in k and t. (b) shows a torus with k and t axes labelled.)}
+    \label{thouless pump torus}
+\end{figure}
+
+, which means that it only depends on the topology of the band structure of the system, and is invariant to variations in the exact cycle, like the temporal period. . But, what is "topological" about the Thouless pump? It turns out that the pumped charge depends only on the geometric phase acquired by the system during one cycle, which can be shown to be a topological invariant under an adiabatic perturbation. 
+In the case of the Thouless pump, the "path" that the system traverses is a trajectory in momentum space which encircles an eigenstate of the Hamiltonian. 
+
+Thus, the charge pumped per cycle in the Thouless pump does not depend on the exact cycle, but on the topology of the band structure.
 
 
 % In quantum mechanics, wave-particle duality leads to probabilistic predictions about quantum particles. For example, using the particle's wavefunction $\Psi$, we can calculate the probability of finding the particle in-between points a and b to be 
@@ -176,88 +238,13 @@ It is predicted that in multi-valley 2D semiconductors under the influence of a 
 % \end{equation}
 % The consequences of this continuity equation can be understood similarly to that in electromagnetism or fluid dynamics. Equation \ref{continuity eqn for probability} states that the amount of probability in a volume $V$ can only change if there is a probability flux $j$ through the boundary of $V$. Thus, probability is locally conserved quantity, just like charge or mass, and tells us about the flow of the particle described by $\Psi$. In the Thouless pump, it can be shown that the amount of pumped charge depends on 
 
-Here, I briefly summarize the origin of geometric phase under an adiabatic evolution, following Ref. \cite[Ch. 5]{sakurai_modern_1985}. The time evolution of a quantum system is described by the time-dependent Schrödinger equation, which is given by
-
-\begin{equation}
-    i \hbar \derivative{t}\ket{\Psi_n} = H(t)\ket{\Psi_n}. \label{Schrodinger eqn}
-\end{equation}
-The general solutions to the time-dependent Schrödinger equation take the form
-\begin{equation}
-    {\Psi_n(t)} = \sum_n c_n(t) \exp(i \theta_n(t)) \ket{\psi_n(t)}, \label{Schr. time evolution}
-\end{equation}
-where $\ket{\psi_n(t)}$ is an eigenstate of $H(t)$ with associated eigenenergy $E_n(t)$, and 
-
-\begin{equation}
-    \theta(t) = \int_{0}^{t}E_n(t')dt'. \label{theta coefficient time evolution}
-\end{equation}
-To find the probability that the system will evolve from the state $\ket{\Psi_n(t)}$ to the state $\ket{\Psi_m(t)}$ at time $t$, we need the matrix element $\bra{\Phi_m(t)}H(t)\ket{\Phi_n(t)}$. To find this matrix element, we need the coefficient $c_m(t)$ corresponding to the time evolution of $\ket{\Psi_m(t)}$ (as in Eq. \ref{Schr. time evolution}). A differential equation for $c_m(t)$ can be found by substituting Eqs. \ref{Schr. time evolution} and \ref{theta coefficient time evolution} into Eq. \ref{Schrodinger eqn} and taking the inner product with $\bra{\Phi_m(t)}$, giving \cite[p. 347]{sakurai_modern_1985}
-
-\begin{equation}
-    \dot{c}_m(t) = - c_m(t) \bra{\Psi_m(t)}\pdv{t}\ket{\Psi_m(t)} - \sum_n c_n(t) \mathrm{e}^{i (\theta_n(t) - \theta_m(t))} \frac{\bra{\Psi_m(t)}\dot{H}(t)\ket{\Psi_n(t)}}{E_n - E_m}. \label{c-dot eqn}
-\end{equation}
-The second term of Eq. \ref{c-dot eqn} tells us that, in a system with a time-dependent Hamiltonian, states $\ket{\Psi_n}$ will evolve to states $\ket{\Psi_m}$ because of the time dependence of the Hamiltonian, and that this evolution will take place at a frequency $1/\tau$, defined as 
-
-\begin{equation}
-    \frac{1}{\tau} \equiv \frac{\bra{\Psi_m(t)}\dot{H}(t)\ket{\Psi_n(t)}}{E_n - E_m}.
-\end{equation}
-The adiabatic approximation assumes that the time-evolution of the Hamiltonian is slow compared to $\tau$. Mathematically, this means that
-\begin{equation}
-    \frac{\bra{\Psi_m(t)}\dot{H}(t)\ket{\Psi_n(t)}}{E_n - E_m} \ll - c_m(t) \bra{\Psi_m(t)}\pdv{t}\ket{\Psi_m(t)} ~ \frac{E_m}{\hbar}.
-\end{equation}
-Applying this simplification to Eq. \ref{c-dot eqn} recovers a form for $c_n(t)$ that is familiar from the time-independent Schrödinger equation,
-
-\begin{equation}
-    c_n(t) = \mathrm{e}^{i \gamma_n(t)}c_n(0)
-\end{equation}
-where 
-
-\begin{equation}
-    \gamma_n = i \int_{0}^{t} \bra{\Psi_n(t')}\pdv{t'}\ket{\Psi_n(t')} dt'. \label{geometric phase}
-\end{equation}
-Thus, if the system starts in the state $\ket{\Psi_n}$ and undergoes an adiabatic evolution, it will stay in the state $\ket{\Psi_n}$ and acquire a phase factor $\mathrm{e}^{i \gamma_n(t)} \mathrm{e}^{i \theta_n(t)}$. The term $\gamma_n(t)$ is known as the "geometric phase" or "Berry phase". But, what is geometric about it? 
-
-It can be shown that $\gamma_n(t)$ takes the form \cite[p. 349-351]{sakurai_modern_1985}
-\begin{equation}
-    \gamma_n = \int_{S} d\vectorbold{S}\dotproduct \vectorbold{\Omega},
-\end{equation}
-where $S$ is a closed surface in the parameter space (in the case of the Thouless pump, the 2D space of momentum and time), and $\vectorbold{\Omega}$ is the Berry curvature. The Berry curvature is analogous to the Gaussian curvature $K$, which measures the local curvature of a closed surface. For a 2D closed surface with Gaussian curvature $K$, 
-
-Use Gauss Bonnet to connect to Chern number
-
-Now, consider the Thouless pump system, where the Hamiltonian is varied adiabatically by a potential with temporal period $T$ and spatial period $a$. 
-
-
-
-
-
-
-From the Berry curvature, we can finally arrive at the topological invariant, the \textit{Chern number}. The Chern number 
-
-
-
-
-% \begin{equation}
-%     \gamma_n = i \oint_S
-% \end{equation}
-
-
-\subsubsection{Topological charge pumping (the Thouless pump)}
-
-
-A quantized charge pump is a device that transports electrons in precise, quantized units. Unlike conventional DC transport, where electrons flow stochastically in response to an applied voltage bias, quantized charge pumps operate at a constant frequency $f$, transporting a unit of charge $Ne$ per cycle (where $N$ is an integer), resulting in a DC current of magnitude $Nef$ that arrives in quantized packets of charge $Ne$. Such devices are of great interest to metrologists, where practical sources of highly-quantized current could help define a better standard of current \cite{scherer_singleelectron_2019}. Many designs for quantized charge pumps have been demonstrated, with the best quantum pumps today being based on controlling tunneling to- and from quantum dots. However, charge pumps based on tunneling face fundamental limits to their accuracy. A topologically-protected charge pump could overcome these fundamental limits.
-
-Topological charge pumping is the transport of charge without external magnetic or electric fields arising from a cyclic adiabatic evolution of the system's Hamiltonian. This phenomenon is often referred to as Thouless pumping, after D.J. Thouless, the first to propose such a phenomenon \cite{thouless_quantization_1983}. Thouless found that, in a 1D system under the influence of a spatially- and temporally periodic potential, the amount of charge \footnote{More accurately, Thouless's prediction was about \textit{particle transport} in general, which includes electrons.} transported per cycle is an integer, if the system begins and ends in an eigenstate of the Hamiltonian (which is a requirement of the adiabatic theorem, discussed below). Furthermore, the quantization of charge transport in the Thouless pump is a \textit{topological invariant}, which means that it only depends on the topology of the band structure of the system, and is invariant to variations in the exact cycle, like the temporal period. A topologically protected pump would be robust to perturbations from its environment, allowing extremely precise quantized current \cite{niu_towards_1990}. But, what is "topological" about the Thouless pump? It turns out that the pumped charge depends only on the geometric phase acquired by the system during one cycle, which can be shown to be a topological invariant under an adiabatic perturbation. 
-In the case of the Thouless pump, the "path" that the system traverses is a trajectory in momentum space which encircles an eigenstate of the Hamiltonian. 
-
-Thus, the charge pumped per cycle in the Thouless pump does not depend on the exact cycle, but on the topology of the band structure.
-
 
 
 
 
 \subsection{The path to a Thouless pump using carbon nanotubes and surface acoustic waves}
 
-Though the Thouless pump has been realized in ultracold atoms \cite{citro_thouless_2023}, a charge Thouless pump suitable to serve as a source of quantized current has not yet been realized experimentally. A practical source of topologically protected quantized current is of great interest to the fields of metrology \cite{pekola_single-electron_2013}, where topologically protected charge pumping could enable higher-accuracy quantized charge pumps, and quantum computing \cite{das_controlled_2006}, where a Thouless pump could generate and control the flow of spin-entangled quantum states with minimal decoherence. Talyanskii et al. proposed that a carbon nanotube coupled to a surface acoustic wave is an ideal system to create a charge Thouless pump \cite{talyanskii_quantized_2001}. 
+Though the Thouless pump has been realized in ultracold atoms \cite{citro_thouless_2023}, a charge Thouless pump suitable to serve as a source of quantized current has not yet been realized experimentally. Talyanskii et al. proposed that a carbon nanotube coupled to a surface acoustic wave is an ideal system to create a charge Thouless pump \cite{talyanskii_quantized_2001}. 
 
 Charge pumping in carbon nanotubes using surface acoustic waves has been demonstrated previously \cite{buitelaar_adiabatic_2008}; however, the Thouless pumping regime has not yet been achieved. This is likely because, to achieve the Thouless pumping state envisioned by Ref. \cite{talyanskii_quantized_2001}, one needs to fit many spatial periods of the SAW inside an ultraclean nanotube. This is challenging because insulating surfaces, including piezoelectric insulators (on which SAWs are generated), induce considerable electrostatic disorder within electronic systems on their surface. Therefore, surface nanotubes are too disordered to use in a Thouless pump. Thus, we must turn to demonstrated methods of creating ultraclean nanotubes: Either encapsulate the nanotube in two-dimensional hexagonal boron nitride (h-BN) \cite{huang_superior_2015}, or suspend the nanotube above the substrate \cite{senger_universal_2018}. Realizing a charge Thouless pump using a carbon nanotube was the primary motivation for the research presented in this dissertation. Therefore, I will next delve into these two approaches towards the Thouless pump and utilize them to outline this dissertation.
 
@@ -813,7 +800,7 @@ The ability to isolate single layers of 2D crystals with mechanical exfoliation 
 Figure \ref{hot pickup diagram} shows a generalized version of the dry transfer process that I use to build the devices in this dissertation, A sticky polymer stamp is mounted onto a micromanipulator stage (Fig. \ref{transfer stage image}) underneath a long-focal length microscope. The stamp is brought into contact with a chip containing exfoliated 2D flakes. The temperature of the stage is increased to make the polymer stamp stickier. Then, the contact area of the stamp on the chip is increased by lowering the stamp. Once the entire 2D flake is covered with polymer, the stage is slowly retracted to pick up the 2D flake. This process is repeated to build the desired heterostructure top-down, using the previous layer to pick up the next. Finally, the stamp is melted at a high temperature and dissolved in a solvent. This method of heating up a polymer stamp to build 2D heterostructures is called the "hot pick up technique" \cite{pizzocchero_hot_2016}.
 
 \begin{figure}
-    \includegraphics{transfer stage image.pdf}
+    \includegraphics[width = 0.5\textwidth]{transfer stage image.pdf}
     \label{transfer stage image}
 \end{figure}
 
@@ -943,7 +930,7 @@ The development rate of the LOR can be tuned by varying the bake temperature. A 
 
 The drawback of transferring metal onto pre-patterned contacts is that the contacts need to be cleaned to minimize contamination of the 2D material. In the next section, I detail a method for cleaning metal contacts with contact-mode AFM.
 
-
+%TODO: Fix text position
 \begin{figure}
     \includegraphics[width = 0.5\textwidth]{LOR cross section.png}
     \caption{Cross-sectional SEM image showing bilayer resist process with undercut length $\approx \SI{0.4}{\micro\meter}$. Scale bar = \SI{3}{\micro\meter}}

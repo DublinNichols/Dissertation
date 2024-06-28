@@ -28,30 +28,32 @@ Joseph Orenstein.
 \newblock Ultrafast spectroscopy of quantum materials.
 \newblock {\em Physics Today}, 65(9):44--50, September 2012.
 
-\bibitem{novoselov_electric_2004}
-K.~S. Novoselov, A.~K. Geim, S.~V. Morozov, D.~Jiang, Y.~Zhang, S.~V. Dubonos, I.~V. Grigorieva, and A.~A. Firsov.
-\newblock Electric {Field} {Effect} in {Atomically} {Thin} {Carbon} {Films}.
-\newblock {\em Science}, 306(5696):666--669, October 2004.
+\bibitem{thompson_90-nm_2004}
+Scott Thompson, Mark Armstrong, C.~Auth, Mohsen Alavi, Mark Buehler, Ronnie Chau, Steve Cea, T.~Ghani, Glenn Glass, Thomas Hoffman, Chiragh Jan, Chis Kenyon, Jason Klaus, Kelly Kuhn, Zhiyong Ma, Brian Mcintyre, Kaizad Mistry, Anand Murthy, Borna Obradovic, and Youssef El-Mansy.
+\newblock A 90-nm {Logic} {Technology} {Featuring} {Strained}-{Silicon}.
+\newblock {\em Electron Devices, IEEE Transactions on}, 51:1790--1797, December 2004.
 
-\bibitem{liu_two-dimensional_2020}
-Chunsen Liu, Huawei Chen, Shuiyuan Wang, Qi~Liu, Yu-Gang Jiang, David~Wei Zhang, Ming Liu, and Peng Zhou.
-\newblock Two-dimensional materials for next-generation computing technologies.
-\newblock {\em Nature Nanotechnology}, 15(7):545--557, July 2020.
+\bibitem{schaibley_valleytronics_2016}
+John~R. Schaibley, Hongyi Yu, Genevieve Clark, Pasqual Rivera, Jason~S. Ross, Kyle~L. Seyler, Wang Yao, and Xiaodong Xu.
+\newblock Valleytronics in {2D} materials.
+\newblock {\em Nature Reviews Materials}, 1(11):16055, August 2016.
 
-\bibitem{obrien_process_2023}
-Kevin~P. O’Brien, Carl~H. Naylor, Chelsey Dorow, Kirby Maxey, Ashish~Verma Penumatcha, Andrey Vyatskikh, Ting Zhong, Ande Kitamura, Sudarat Lee, Carly Rogan, Wouter Mortelmans, Mahmut~Sami Kavrik, Rachel Steinhardt, Pratyush Buragohain, Sourav Dutta, Tristan Tronic, Scott Clendenning, Paul Fischer, Ernisse~S. Putna, Marko Radosavljevic, Matt Metz, and Uygar Avci.
-\newblock Process integration and future outlook of {2D} transistors.
-\newblock {\em Nature Communications}, 14(1):6400, October 2023.
+\bibitem{gorbachev_detecting_2014}
+R.~V. Gorbachev, J.~C.~W. Song, G.~L. Yu, A.~V. Kretinin, F.~Withers, Y.~Cao, A.~Mishchenko, I.~V. Grigorieva, K.~S. Novoselov, L.~S. Levitov, and A.~K. Geim.
+\newblock Detecting topological currents in graphene superlattices.
+\newblock {\em Science}, 346(6208):448--451, October 2014.
+\newblock Publisher: American Association for the Advancement of Science.
 
-\bibitem{huang_layer-dependent_2017}
-Bevin Huang, Genevieve Clark, Efrén Navarro-Moratalla, Dahlia~R. Klein, Ran Cheng, Kyle~L. Seyler, Ding Zhong, Emma Schmidgall, Michael~A. McGuire, David~H. Cobden, Wang Yao, Di~Xiao, Pablo Jarillo-Herrero, and Xiaodong Xu.
-\newblock Layer-dependent ferromagnetism in a van der {Waals} crystal down to the monolayer limit.
-\newblock {\em Nature}, 546(7657):270--273, June 2017.
+\bibitem{refael_sagnac_2007}
+Gil Refael, Jinseong Heo, and Marc Bockrath.
+\newblock Sagnac {Interference} in {Carbon} {Nanotube} {Loops}.
+\newblock {\em Physical Review Letters}, 98(24):246803, June 2007.
+\newblock Publisher: American Physical Society.
 
-\bibitem{kajale_two-dimensional_2024}
-Shivam~N. Kajale, Jad Hanna, Kyuho Jang, and Deblina Sarkar.
-\newblock Two-dimensional magnetic materials for spintronic applications.
-\newblock {\em Nano Research}, 17(2):743--762, February 2024.
+\bibitem{lotfizadeh_quantum_2021}
+Neda Lotfizadeh, Mitchell~J. Senger, Daniel~R. McCulley, Ethan~D. Minot, and Vikram~V. Deshpande.
+\newblock Quantum {Interferences} in {Ultraclean} {Carbon} {Nanotubes}.
+\newblock {\em Physical Review Letters}, 126(21):216802, May 2021.
 
 \bibitem{rayleigh_waves_1885}
 Lord Rayleigh.
@@ -114,6 +116,12 @@ Jialei Miao, Xiaowei Zhang, Ye~Tian, and Yuda Zhao.
 \newblock Recent {Progress} in {Contact} {Engineering} of {Field}-{Effect} {Transistor} {Based} on {Two}-{Dimensional} {Materials}.
 \newblock {\em Nanomaterials}, 12(21):3845, October 2022.
 
+\bibitem{rivera_interlayer_2018}
+Pasqual Rivera, Hongyi Yu, Kyle~L. Seyler, Nathan~P. Wilson, Wang Yao, and Xiaodong Xu.
+\newblock Interlayer valley excitons in heterobilayers of transition metal dichalcogenides.
+\newblock {\em Nature Nanotechnology}, 13(11):1004--1015, November 2018.
+\newblock Publisher: Nature Publishing Group.
+
 \bibitem{tran_evidence_2019}
 Kha Tran, Galan Moody, Fengcheng Wu, Xiaobo Lu, Junho Choi, Kyounghwan Kim, Amritesh Rai, Daniel~A. Sanchez, Jiamin Quan, Akshay Singh, Jacob Embley, André Zepeda, Marshall Campbell, Travis Autry, Takashi Taniguchi, Kenji Watanabe, Nanshu Lu, Sanjay~K. Banerjee, Kevin~L. Silverman, Suenne Kim, Emanuel Tutuc, Li~Yang, Allan~H. MacDonald, and Xiaoqin Li.
 \newblock Evidence for moiré excitons in van der {Waals} heterostructures.
@@ -141,15 +149,41 @@ Dmitrii Unuchek, Alberto Ciarrocchi, Ahmet Avsar, Kenji Watanabe, Takashi Tanigu
 \newblock {\em Nature}, 560(7718):340--344, August 2018.
 
 \bibitem{fang_quantum_2023}
-Yawen Fang, Yang Xu, Kaifei Kang, Benyamin Davaji, Kenji Watanabe, Takashi Taniguchi, Amit Lal, Kin~Fai Mak, Jie Shan, and B.~J. Ramshaw.
-\newblock Quantum {Transport} in {Graphene} {Using} {Surface} {Acoustic} {Wave} {Resonators}.
+Yawen Fang, Yang Xu, Kaifei Kang, Benyamin Davaji, Kenji Watanabe, Takashi Taniguchi, Amit Lal, Kin~Fai Mak, Jie Shan, and B. J. Ramshaw.
+\newblock Quantum {Oscillations} in {Graphene} {Using} {Surface} {Acoustic} {Wave} {Resonators}.
 \newblock {\em Physical Review Letters}, 130(24):246201, June 2023.
-\newblock arXiv:2302.01492 [cond-mat].
 
 \bibitem{nie_surface_2023}
 Xuchen Nie, Xiaoyue Wu, Yang Wang, Siyuan Ban, Zhihao Lei, Jiabao Yi, Ying Liu, and Yanpeng Liu.
 \newblock Surface acoustic wave induced phenomena in two-dimensional materials.
 \newblock {\em Nanoscale Horizons}, 8(2):158--175, 2023.
+
+\bibitem{berry_quantal_1984}
+Michael Berry.
+\newblock Quantal phase factors accompanying adiabatic changes.
+\newblock {\em Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences}, March 1984.
+\newblock Publisher: The Royal SocietyLondon.
+
+\bibitem{xiao_berry_2010}
+Di~Xiao, Ming-Che Chang, and Qian Niu.
+\newblock Berry phase effects on electronic properties.
+\newblock {\em Reviews of Modern Physics}, 82(3):1959--2007, July 2010.
+\newblock Publisher: American Physical Society.
+
+\bibitem{kalameitsev_valley_2019}
+A. V. Kalameitsev, V. M. Kovalev, and I. G. Savenko.
+\newblock Valley {Acoustoelectric} {Effect}.
+\newblock {\em Physical Review Letters}, 122(25):256801, June 2019.
+
+\bibitem{talyanskii_quantized_2001}
+V.~I. Talyanskii, D.~S. Novikov, B.~D. Simons, and L.~S. Levitov.
+\newblock Quantized {Adiabatic} {Charge} {Transport} in a {Carbon} {Nanotube}.
+\newblock {\em Physical Review Letters}, 87(27):276802, December 2001.
+
+\bibitem{sakurai_modern_1985}
+J.J. Sakurai and Jim Napolitano.
+\newblock {\em Modern {Quantum} {Mechanics}}.
+\newblock 1985.
 
 \bibitem{scherer_singleelectron_2019}
 Hansjörg Scherer and Hans~Werner Schumacher.
@@ -166,16 +200,11 @@ Q.~Niu.
 \newblock Towards a quantum pump of electric charges.
 \newblock {\em Physical Review Letters}, 64(15):1812--1815, April 1990.
 
-\bibitem{sakurai_modern_1985}
-J.J. Sakurai and Jim Napolitano.
-\newblock {\em Modern {Quantum} {Mechanics}}.
-\newblock 1985.
-
 \bibitem{citro_thouless_2023}
 Roberta Citro and Monika Aidelsburger.
 \newblock Thouless pumping and topology.
-\newblock {\em Nature Reviews Physics}, 5(2):87--101, January 2023.
-\newblock arXiv:2210.02050 [cond-mat].
+\newblock {\em Nature Reviews Physics}, 5(2):87--101, February 2023.
+\newblock Publisher: Nature Publishing Group.
 
 \bibitem{pekola_single-electron_2013}
 Jukka~P. Pekola, Olli-Pentti Saira, Ville~F. Maisi, Antti Kemppinen, Mikko Möttönen, Yuri~A. Pashkin, and Dmitri~V. Averin.
@@ -187,11 +216,6 @@ Kunal~K. Das, Sungjun Kim, and Ari Mizel.
 \newblock Controlled {Flow} of {Spin}-{Entangled} {Electrons} via {Adiabatic} {Quantum} {Pumping}.
 \newblock {\em Physical Review Letters}, 97(9):096602, August 2006.
 \newblock Publisher: American Physical Society.
-
-\bibitem{talyanskii_quantized_2001}
-V.~I. Talyanskii, D.~S. Novikov, B.~D. Simons, and L.~S. Levitov.
-\newblock Quantized {Adiabatic} {Charge} {Transport} in a {Carbon} {Nanotube}.
-\newblock {\em Physical Review Letters}, 87(27):276802, December 2001.
 
 \bibitem{buitelaar_adiabatic_2008}
 M.~R. Buitelaar, V.~Kashcheyevs, P.~J. Leek, V.~I. Talyanskii, C.~G. Smith, D.~Anderson, G.~A.~C. Jones, J.~Wei, and D.~H. Cobden.
@@ -303,6 +327,11 @@ Justin~R Lane.
 W.R. Smith, H.M. Gerard, J.H. Collins, T.M. Reeder, and H.J. Shaw.
 \newblock Analysis of {Interdigital} {Surface} {Wave} {Transducers} by {Use} of an {Equivalent} {Circuit} {Model}.
 \newblock {\em IEEE Transactions on Microwave Theory and Techniques}, 17(11):856--864, November 1969.
+
+\bibitem{novoselov_electric_2004}
+K.~S. Novoselov, A.~K. Geim, S.~V. Morozov, D.~Jiang, Y.~Zhang, S.~V. Dubonos, I.~V. Grigorieva, and A.~A. Firsov.
+\newblock Electric {Field} {Effect} in {Atomically} {Thin} {Carbon} {Films}.
+\newblock {\em Science}, 306(5696):666--669, October 2004.
 
 \bibitem{quellmalz_large-area_2021}
 Arne Quellmalz, Xiaojing Wang, Simon Sawallich, Burkay Uzlu, Martin Otto, Stefan Wagner, Zhenxing Wang, Maximilian Prechtl, Oliver Hartwig, Siwei Luo, Georg~S. Duesberg, Max~C. Lemme, Kristinn~B. Gylfason, Niclas Roxhed, Göran Stemme, and Frank Niklaus.

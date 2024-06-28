@@ -3,50 +3,51 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 The style file: unsrt.bst
 Database file #1: thesis.bib
+Warning--I didn't find a database entry for "berg_vernier_2023"
 Warning--I didn't find a database entry for "lane_integrating_nodate"
 Warning--empty author in noauthor_rise_2016
 Warning--empty publisher in sakurai_modern_1985
 Warning--empty publisher in pozar_microwave_2012
 Warning--empty journal in lane_integrating_2021
-You've used 76 entries,
+You've used 81 entries,
             1791 wiz_defined-function locations,
-            896 strings with 21407 characters,
-and the built_in function-call counts, 21649 in all, are:
-= -- 1621
-> -- 1598
+            922 strings with 22000 characters,
+and the built_in function-call counts, 22815 in all, are:
+= -- 1728
+> -- 1643
 < -- 1
-+ -- 562
-- -- 486
-* -- 2168
-:= -- 3691
-add.period$ -- 232
-call.type$ -- 76
-change.case$ -- 74
++ -- 579
+- -- 498
+* -- 2265
+:= -- 3881
+add.period$ -- 251
+call.type$ -- 81
+change.case$ -- 79
 chr.to.int$ -- 0
-cite$ -- 80
-duplicate$ -- 686
-empty$ -- 1763
-format.name$ -- 486
-if$ -- 4417
+cite$ -- 85
+duplicate$ -- 730
+empty$ -- 1876
+format.name$ -- 498
+if$ -- 4668
 int.to.chr$ -- 0
-int.to.str$ -- 76
-missing$ -- 77
-newline$ -- 386
-num.names$ -- 75
-pop$ -- 107
+int.to.str$ -- 81
+missing$ -- 82
+newline$ -- 415
+num.names$ -- 80
+pop$ -- 110
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 246
+skip$ -- 261
 stack$ -- 0
-substring$ -- 1552
-swap$ -- 80
+substring$ -- 1652
+swap$ -- 85
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 189
-width$ -- 78
-write$ -- 836
-(There were 5 warnings)
+while$ -- 199
+width$ -- 83
+write$ -- 898
+(There were 6 warnings)
