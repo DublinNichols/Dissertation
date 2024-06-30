@@ -44,6 +44,11 @@ R.~V. Gorbachev, J.~C.~W. Song, G.~L. Yu, A.~V. Kretinin, F.~Withers, Y.~Cao, A.
 \newblock {\em Science}, 346(6208):448--451, October 2014.
 \newblock Publisher: American Association for the Advancement of Science.
 
+\bibitem{senger_optoelectronics_2021}
+Mitchell Senger.
+\newblock {\em Optoelectronics and {Quantum} {Transport} in {Ultra}-{Clean} {Chirally} {Identified} {Carbon} {Nanotubes}}.
+\newblock PhD thesis, Oregon State University, 2021.
+
 \bibitem{refael_sagnac_2007}
 Gil Refael, Jinseong Heo, and Marc Bockrath.
 \newblock Sagnac {Interference} in {Carbon} {Nanotube} {Loops}.
@@ -54,6 +59,11 @@ Gil Refael, Jinseong Heo, and Marc Bockrath.
 Neda Lotfizadeh, Mitchell~J. Senger, Daniel~R. McCulley, Ethan~D. Minot, and Vikram~V. Deshpande.
 \newblock Quantum {Interferences} in {Ultraclean} {Carbon} {Nanotubes}.
 \newblock {\em Physical Review Letters}, 126(21):216802, May 2021.
+
+\bibitem{berg_vernier_2024}
+Jameson Berg, Neda Lotfizadeh, Dublin Nichols, Mitchell~J. Senger, Wade De~Gottardi, Ethan~D. Minot, and Vikram~V. Deshpande.
+\newblock Vernier {Spectrum} and {Isospin} {State} {Control} in {Carbon} {Nanotube} {Quantum} {Dots}, 2024.
+\newblock arXiv:2311.12332 [cond-mat].
 
 \bibitem{rayleigh_waves_1885}
 Lord Rayleigh.
@@ -185,37 +195,37 @@ J.J. Sakurai and Jim Napolitano.
 \newblock {\em Modern {Quantum} {Mechanics}}.
 \newblock 1985.
 
-\bibitem{scherer_singleelectron_2019}
-Hansjörg Scherer and Hans~Werner Schumacher.
-\newblock Single‐{Electron} {Pumps} and {Quantum} {Current} {Metrology} in the {Revised} {SI}.
-\newblock {\em Annalen der Physik}, 531(5):1800371, May 2019.
-
-\bibitem{thouless_quantization_1983}
-D.~J. Thouless.
-\newblock Quantization of particle transport.
-\newblock {\em Physical Review B}, 27(10):6083--6087, May 1983.
-
-\bibitem{niu_towards_1990}
-Q.~Niu.
-\newblock Towards a quantum pump of electric charges.
-\newblock {\em Physical Review Letters}, 64(15):1812--1815, April 1990.
-
-\bibitem{citro_thouless_2023}
-Roberta Citro and Monika Aidelsburger.
-\newblock Thouless pumping and topology.
-\newblock {\em Nature Reviews Physics}, 5(2):87--101, February 2023.
-\newblock Publisher: Nature Publishing Group.
-
 \bibitem{pekola_single-electron_2013}
 Jukka~P. Pekola, Olli-Pentti Saira, Ville~F. Maisi, Antti Kemppinen, Mikko Möttönen, Yuri~A. Pashkin, and Dmitri~V. Averin.
 \newblock Single-electron current sources: {Toward} a refined definition of the ampere.
 \newblock {\em Reviews of Modern Physics}, 85(4):1421--1472, October 2013.
+
+\bibitem{scherer_singleelectron_2019}
+Hansjörg Scherer and Hans~Werner Schumacher.
+\newblock Single‐{Electron} {Pumps} and {Quantum} {Current} {Metrology} in the {Revised} {SI}.
+\newblock {\em Annalen der Physik}, 531(5):1800371, May 2019.
 
 \bibitem{das_controlled_2006}
 Kunal~K. Das, Sungjun Kim, and Ari Mizel.
 \newblock Controlled {Flow} of {Spin}-{Entangled} {Electrons} via {Adiabatic} {Quantum} {Pumping}.
 \newblock {\em Physical Review Letters}, 97(9):096602, August 2006.
 \newblock Publisher: American Physical Society.
+
+\bibitem{niu_towards_1990}
+Q.~Niu.
+\newblock Towards a quantum pump of electric charges.
+\newblock {\em Physical Review Letters}, 64(15):1812--1815, April 1990.
+
+\bibitem{thouless_quantization_1983}
+D.~J. Thouless.
+\newblock Quantization of particle transport.
+\newblock {\em Physical Review B}, 27(10):6083--6087, May 1983.
+
+\bibitem{citro_thouless_2023}
+Roberta Citro and Monika Aidelsburger.
+\newblock Thouless pumping and topology.
+\newblock {\em Nature Reviews Physics}, 5(2):87--101, February 2023.
+\newblock Publisher: Nature Publishing Group.
 
 \bibitem{buitelaar_adiabatic_2008}
 M.~R. Buitelaar, V.~Kashcheyevs, P.~J. Leek, V.~I. Talyanskii, C.~G. Smith, D.~Anderson, G.~A.~C. Jones, J.~Wei, and D.~H. Cobden.

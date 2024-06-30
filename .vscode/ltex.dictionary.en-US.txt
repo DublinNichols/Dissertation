@@ -68,3 +68,5 @@ subbands
 CNTs
 photoluminescence
 Senger
+observables
+eigenenergy

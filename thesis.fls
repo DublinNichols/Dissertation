@@ -162,6 +162,10 @@ INPUT ./Figures/Graphene band structure 3D.pdf
 INPUT ./Figures/Graphene band structure 3D.pdf
 INPUT ./Figures/Graphene band structure 3D.pdf
 INPUT ./Figures/Graphene band structure 3D.pdf
+INPUT ./Figures/CNT intro fig.pdf
+INPUT ./Figures/CNT intro fig.pdf
+INPUT ./Figures/CNT intro fig.pdf
+INPUT ./Figures/CNT intro fig.pdf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
@@ -179,6 +183,10 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT ./Figures/Thouless pump fig.png
+INPUT ./Figures/Thouless pump fig.png
+INPUT ./Figures/Thouless pump fig.png
+INPUT ./Figures/Thouless pump fig.png
 INPUT ./Figures/Graphene band structure 3D.pdf
 INPUT ./Figures/Graphene band structure 3D.pdf
 INPUT ./Figures/Graphene band structure 3D.pdf
@@ -353,6 +361,7 @@ INPUT ./Figures/exciton dynamics summary.pdf
 INPUT thesis.aux
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
