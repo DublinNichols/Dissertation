@@ -15,19 +15,10 @@
    viewBox="0 0 204.45833 155.51042"
    version="1.1"
    id="svg871"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="FCCap during alignment.svg">
   <defs
      id="defs865">
-    <clipPath
-       id="clip0">
-      <rect
-         id="rect1416"
-         height="5534025"
-         width="7296150"
-         y="0"
-         x="0" />
-    </clipPath>
     <image
        id="img1"
        preserveAspectRatio="none"
@@ -50,9 +41,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-37.907776"
-     inkscape:cy="168.16366"
+     inkscape:zoom="0.7"
+     inkscape:cx="231.96644"
+     inkscape:cy="201.0709"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -73,7 +64,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -83,64 +74,64 @@
      id="layer1"
      transform="translate(6.9791629,-37.816222)">
     <g
-       id="g1443"
-       transform="matrix(0.26458333,0,0,0.26458333,-81.491662,33.418305)">
+       clip-path="none"
+       transform="matrix(2.777781e-5,0,0,2.777781e-5,-6.085413,38.709972)"
+       id="g1429">
       <g
-         id="g1429"
-         transform="matrix(1.04987e-4,0,0,1.04987e-4,285,20)"
-         clip-path="url(#clip0)">
-        <g
-           id="g1427"
-           transform="matrix(1.00076,0,0,1,-2431888,-1323418)"
-           clip-path="url(#clip2)">
-          <use
-             id="use1425"
-             transform="scale(6349.48)"
-             xlink:href="#img1"
-             height="100%"
-             width="100%"
-             x="0"
-             y="0" />
-        </g>
+         clip-path="url(#clip2)"
+         transform="matrix(1.00076,0,0,1,-2431888,-1323418)"
+         id="g1427">
+        <use
+           y="0"
+           x="0"
+           width="100%"
+           height="100%"
+           xlink:href="#img1"
+           transform="scale(6349.48)"
+           id="use1425" />
       </g>
-      <path
-         id="path1431"
-         stroke-miterlimit="10"
-         d="m 283.5,18.5 h 769 v 584 h -769 z"
-         inkscape:connector-curvature="0"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10" />
-      <rect
-         id="rect1433"
-         stroke-miterlimit="8"
-         height="12"
-         width="100"
-         y="540"
-         x="350"
-         style="fill:#ffffff;stroke:#000000;stroke-width:2;stroke-miterlimit:8" />
-      <text
-         id="text1435"
-         transform="translate(342.237,528)"
-         font-size="32"
-         font-weight="400"
-         style="font-weight:400;font-size:32px;font-family:'Cambria Math', 'Cambria Math_MSFontService', sans-serif;fill:#ffffff">350</text>
-      <text
-         id="text1437"
-         transform="translate(395.237,528)"
-         font-size="32"
-         font-weight="400"
-         style="font-weight:400;font-size:32px;font-family:'Cambria Math', 'Cambria Math_MSFontService', sans-serif;fill:#ffffff"></text>
-      <text
-         id="text1439"
-         transform="translate(402.237,528)"
-         font-size="32"
-         font-weight="400"
-         style="font-weight:400;font-size:32px;font-family:'Cambria Math', 'Cambria Math_MSFontService', sans-serif;fill:#ffffff">μ</text>
-      <text
-         id="text1441"
-         transform="translate(419.737,528)"
-         font-size="32"
-         font-weight="400"
-         style="font-weight:400;font-size:32px;font-family:'Cambria Math', 'Cambria Math_MSFontService', sans-serif;fill:#ffffff">m</text>
     </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.79374999;stroke-linejoin:round;stroke-miterlimit:10"
+       inkscape:connector-curvature="0"
+       d="M -6.4822879,38.313097 H 196.98229 V 192.82976 H -6.4822879 Z"
+       stroke-miterlimit="10"
+       id="path1431" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.52916664;stroke-miterlimit:8"
+       x="11.112503"
+       y="176.2933"
+       width="26.458332"
+       height="3.175"
+       stroke-miterlimit="8"
+       id="rect1433" />
+    <text
+       style="font-weight:400;font-size:8.46666622px;font-family:'Cambria Math', 'Cambria Math_MSFontService', sans-serif;fill:#ffffff;stroke-width:0.26458332"
+       font-weight="400"
+       font-size="32"
+       id="text1435"
+       x="9.0585432"
+       y="173.1183">350</text>
+    <text
+       style="font-weight:400;font-size:8.46666622px;font-family:'Cambria Math', 'Cambria Math_MSFontService', sans-serif;fill:#ffffff;stroke-width:0.26458332"
+       font-weight="400"
+       font-size="32"
+       id="text1437"
+       x="23.081461"
+       y="173.1183" />
+    <text
+       style="font-weight:400;font-size:8.46666622px;font-family:'Cambria Math', 'Cambria Math_MSFontService', sans-serif;fill:#ffffff;stroke-width:0.26458332"
+       font-weight="400"
+       font-size="32"
+       id="text1439"
+       x="24.933542"
+       y="173.1183">μ</text>
+    <text
+       style="font-weight:400;font-size:8.46666622px;font-family:'Cambria Math', 'Cambria Math_MSFontService', sans-serif;fill:#ffffff;stroke-width:0.26458332"
+       font-weight="400"
+       font-size="32"
+       id="text1441"
+       x="29.563751"
+       y="173.1183">m</text>
   </g>
 </svg>
