@@ -459,7 +459,7 @@
       \vspace{3em}
       \fi
       \hrulefill \\
-      Dean of the Graduate School \\
+      Vice Provost and Dean of the Graduate School \\
       \vfill
       I understand that my \MakeLowercase{\@doctype} will become part of the
       permanent collection of Oregon State University libraries. My signature
@@ -524,7 +524,7 @@
   \pagenumbering{roman}
   
   % Mandatory pages
-  \flyleaf           % A. Flyleaf
+  % \flyleaf           % A. Flyleaf
   \abspage           % B. Abstract
   \copyrightpage     % C. Copyright page
   \titlepage         % D. Title page

@@ -70,3 +70,6 @@ photoluminescence
 Senger
 observables
 eigenenergy
+Photoresist
+PMMA
+erf

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16.17683cm"
+   height="8.3254452cm"
+   viewBox="0 0 161.7683 83.254448"
+   version="1.1"
+   id="svg13438"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="vae prf nonlinear at different vg.svg">
+  <defs
+     id="defs13432">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4683">
+      <image
+         width="352.42499"
+         height="2760.3979"
+         preserveAspectRatio="none"
+         style="stroke-width:0.99999994;image-rendering:optimizeQuality"
+         xlink:href="file:///C:/Users/Dublin/Documents/withlines.png"
+         x="-322.11127"
+         y="-1231.3656"
+         sodipodi:absref="C:\Users\Dublin\Documents\withlines.png"
+         id="image4685" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4703">
+      <rect
+         inkscape:tile-y0="-1338.4956"
+         inkscape:tile-x0="-338.20322"
+         y="-988.61011"
+         x="-338.07074"
+         height="252.48808"
+         width="408.53433"
+         id="use4705"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4707">
+      <rect
+         inkscape:tile-y0="-1338.4956"
+         inkscape:tile-x0="-338.20322"
+         y="-735.85699"
+         x="-338.07074"
+         height="252.48808"
+         width="408.53433"
+         id="use4709"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4711">
+      <rect
+         inkscape:tile-y0="-1338.4956"
+         inkscape:tile-x0="-338.20322"
+         y="-483.10394"
+         x="-338.07074"
+         height="252.48808"
+         width="408.53433"
+         id="use4713"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4715">
+      <rect
+         inkscape:tile-y0="-1338.4956"
+         inkscape:tile-x0="-338.20322"
+         y="-230.35086"
+         x="-338.07074"
+         height="252.48808"
+         width="408.53433"
+         id="use4717"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4719">
+      <rect
+         inkscape:tile-y0="-1338.4956"
+         inkscape:tile-x0="-338.20322"
+         y="22.402241"
+         x="-338.07074"
+         height="252.48808"
+         width="408.53433"
+         id="use4721"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4723">
+      <rect
+         inkscape:tile-y0="-1338.4956"
+         inkscape:tile-x0="-338.20322"
+         y="275.15524"
+         x="-338.07074"
+         height="252.48808"
+         width="408.53433"
+         id="use4725"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4727">
+      <rect
+         inkscape:tile-y0="-1338.4956"
+         inkscape:tile-x0="-338.20322"
+         y="527.90833"
+         x="-338.07074"
+         height="252.48808"
+         width="408.53433"
+         id="use4729"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4731">
+      <rect
+         inkscape:tile-y0="-1338.4956"
+         inkscape:tile-x0="-338.20322"
+         y="780.66144"
+         x="-338.07074"
+         height="252.48808"
+         width="408.53433"
+         id="use4733"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4735">
+      <rect
+         inkscape:tile-y0="-1338.4956"
+         inkscape:tile-x0="-338.20322"
+         y="1033.4144"
+         x="-338.07074"
+         height="252.48808"
+         width="408.53433"
+         id="use4737"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath10308">
+      <rect
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect10310"
+         width="161.7683"
+         height="83.254456"
+         x="3.0867057"
+         y="98.78492" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="255.05167"
+     inkscape:cy="145.72367"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="cm"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata13435">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-3.0867057,-98.78492)">
+    <image
+       width="352.42499"
+       height="2760.3979"
+       preserveAspectRatio="none"
+       style="stroke-width:5.88348198;image-rendering:optimizeQuality"
+       xlink:href="file:///C:/Users/Dublin/Documents/withlines.png"
+       x="-322.1113"
+       y="-1231.3656"
+       sodipodi:absref="C:\Users\Dublin\Documents\withlines.png"
+       id="image4619"
+       clip-path="url(#clipPath4715)"
+       transform="matrix(0.16996738,0,0,0.16996738,58.231786,140.21511)" />
+    <image
+       sodipodi:absref="C:\Users\Dublin\Documents\withlines.png"
+       y="-1231.3656"
+       x="-322.1113"
+       xlink:href="file:///C:/Users/Dublin/Documents/withlines.png"
+       style="stroke-width:5.88348198;image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="2760.3979"
+       width="352.42499"
+       id="image4617"
+       clip-path="url(#clipPath4719)"
+       transform="matrix(0.16996738,0,0,0.16996738,110.93937,97.255321)" />
+    <image
+       width="352.42499"
+       height="2760.3979"
+       preserveAspectRatio="none"
+       style="stroke-width:5.88348198;image-rendering:optimizeQuality"
+       xlink:href="file:///C:/Users/Dublin/Documents/withlines.png"
+       x="-322.1113"
+       y="-1231.3656"
+       sodipodi:absref="C:\Users\Dublin\Documents\withlines.png"
+       id="image4615"
+       clip-path="url(#clipPath4723)"
+       transform="matrix(0.16996738,0,0,0.16996738,164.4262,54.295551)" />
+    <image
+       sodipodi:absref="C:\Users\Dublin\Documents\withlines.png"
+       y="-1231.3656"
+       x="-322.1113"
+       xlink:href="file:///C:/Users/Dublin/Documents/withlines.png"
+       style="stroke-width:5.88348198;image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="2760.3979"
+       width="352.42499"
+       id="image4613"
+       clip-path="url(#clipPath4727)"
+       transform="matrix(0.16996738,0,0,0.16996738,57.702619,51.604671)" />
+    <image
+       width="352.42499"
+       height="2760.3979"
+       preserveAspectRatio="none"
+       style="stroke-width:5.88348198;image-rendering:optimizeQuality"
+       xlink:href="file:///C:/Users/Dublin/Documents/withlines.png"
+       id="image4611"
+       x="-322.1113"
+       y="-1231.3656"
+       sodipodi:absref="C:\Users\Dublin\Documents\withlines.png"
+       clip-path="url(#clipPath4731)"
+       transform="matrix(0.16996738,0,0,0.16996738,110.4102,8.6448948)" />
+    <image
+       sodipodi:absref="C:\Users\Dublin\Documents\withlines.png"
+       y="-1231.3656"
+       x="-322.1113"
+       id="image820"
+       xlink:href="file:///C:/Users/Dublin/Documents/withlines.png"
+       style="stroke-width:5.88348198;image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="2760.3979"
+       width="352.42499"
+       clip-path="url(#clipPath4735)"
+       transform="matrix(0.16996738,0,0,0.16996738,163.89703,-34.314873)" />
+  </g>
+</svg>

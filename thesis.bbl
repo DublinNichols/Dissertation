@@ -1,68 +1,59 @@
-\begin{thebibliography}{10}
-
-\bibitem{senger_optoelectronics_2021}
-Mitchell Senger.
-\newblock {\em Optoelectronics and {Quantum} {Transport} in {Ultra}-{Clean} {Chirally} {Identified} {Carbon} {Nanotubes}}.
-\newblock PhD thesis, Oregon State University, 2021.
-
-\bibitem{lotfizadeh_quantum_2021}
-Neda Lotfizadeh, Mitchell~J. Senger, Daniel~R. McCulley, Ethan~D. Minot, and Vikram~V. Deshpande.
-\newblock Quantum {Interferences} in {Ultraclean} {Carbon} {Nanotubes}.
-\newblock {\em Physical Review Letters}, 126(21):216802, May 2021.
-
-\bibitem{peng_long-range_2022}
-Ruoming Peng, Adina Ripin, Yusen Ye, Jiayi Zhu, Changming Wu, Seokhyeong Lee, Huan Li, Takashi Taniguchi, Kenji Watanabe, Ting Cao, Xiaodong Xu, and Mo~Li.
-\newblock Long-range transport of {2D} excitons with acoustic waves.
-\newblock {\em Nature Communications}, 13(1):1334, March 2022.
-
-\bibitem{webb_stella_nodate}
-Robert Webb.
-\newblock Stella {Software}.
-
-\bibitem{wixforth_surface_1989}
-A.~Wixforth, J.~Scriba, M.~Wassermeier, J.~P. Kotthaus, G.~Weimann, and W.~Schlapp.
-\newblock Surface acoustic waves on {GaAs}/{AlGaAs} heterostructures.
-\newblock {\em Physical Review B}, 40(11):7874--7887, October 1989.
-
-\bibitem{noauthor_newtons_nodate}
-Newton’s rings.
+\begin{thebibliography}{100}
 
 \bibitem{noauthor_rise_2016}
 The rise of quantum materials.
 \newblock {\em Nature Physics}, 12(2):105--105, February 2016.
 \newblock Publisher: Nature Publishing Group.
+\newblock URL: \url{https://www.nature.com/articles/nphys3668}, \href {https://doi.org/10.1038/nphys3668} {\path{doi:10.1038/nphys3668}}.
 
 \bibitem{orenstein_ultrafast_2012}
 Joseph Orenstein.
 \newblock Ultrafast spectroscopy of quantum materials.
 \newblock {\em Physics Today}, 65(9):44--50, September 2012.
+\newblock \href {https://doi.org/10.1063/PT.3.1717} {\path{doi:10.1063/PT.3.1717}}.
 
 \bibitem{thompson_90-nm_2004}
 Scott Thompson, Mark Armstrong, C.~Auth, Mohsen Alavi, Mark Buehler, Ronnie Chau, Steve Cea, T.~Ghani, Glenn Glass, Thomas Hoffman, Chiragh Jan, Chis Kenyon, Jason Klaus, Kelly Kuhn, Zhiyong Ma, Brian Mcintyre, Kaizad Mistry, Anand Murthy, Borna Obradovic, and Youssef El-Mansy.
 \newblock A 90-nm {Logic} {Technology} {Featuring} {Strained}-{Silicon}.
 \newblock {\em Electron Devices, IEEE Transactions on}, 51:1790--1797, December 2004.
+\newblock \href {https://doi.org/10.1109/TED.2004.836648} {\path{doi:10.1109/TED.2004.836648}}.
 
 \bibitem{schaibley_valleytronics_2016}
 John~R. Schaibley, Hongyi Yu, Genevieve Clark, Pasqual Rivera, Jason~S. Ross, Kyle~L. Seyler, Wang Yao, and Xiaodong Xu.
 \newblock Valleytronics in {2D} materials.
 \newblock {\em Nature Reviews Materials}, 1(11):16055, August 2016.
+\newblock URL: \url{https://www.nature.com/articles/natrevmats201655}, \href {https://doi.org/10.1038/natrevmats.2016.55} {\path{doi:10.1038/natrevmats.2016.55}}.
 
 \bibitem{gorbachev_detecting_2014}
 R.~V. Gorbachev, J.~C.~W. Song, G.~L. Yu, A.~V. Kretinin, F.~Withers, Y.~Cao, A.~Mishchenko, I.~V. Grigorieva, K.~S. Novoselov, L.~S. Levitov, and A.~K. Geim.
 \newblock Detecting topological currents in graphene superlattices.
 \newblock {\em Science}, 346(6208):448--451, October 2014.
 \newblock Publisher: American Association for the Advancement of Science.
+\newblock URL: \url{https://www.science.org/doi/10.1126/science.1254966}, \href {https://doi.org/10.1126/science.1254966} {\path{doi:10.1126/science.1254966}}.
+
+\bibitem{senger_optoelectronics_2021}
+Mitchell Senger.
+\newblock {\em Optoelectronics and {Quantum} {Transport} in {Ultra}-{Clean} {Chirally} {Identified} {Carbon} {Nanotubes}}.
+\newblock PhD thesis, Oregon State University, 2021.
 
 \bibitem{refael_sagnac_2007}
 Gil Refael, Jinseong Heo, and Marc Bockrath.
 \newblock Sagnac {Interference} in {Carbon} {Nanotube} {Loops}.
 \newblock {\em Physical Review Letters}, 98(24):246803, June 2007.
 \newblock Publisher: American Physical Society.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.98.246803}, \href {https://doi.org/10.1103/PhysRevLett.98.246803} {\path{doi:10.1103/PhysRevLett.98.246803}}.
+
+\bibitem{lotfizadeh_quantum_2021}
+Neda Lotfizadeh, Mitchell~J. Senger, Daniel~R. McCulley, Ethan~D. Minot, and Vikram~V. Deshpande.
+\newblock Quantum {Interferences} in {Ultraclean} {Carbon} {Nanotubes}.
+\newblock {\em Physical Review Letters}, 126(21):216802, May 2021.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.126.216802}, \href {https://doi.org/10.1103/PhysRevLett.126.216802} {\path{doi:10.1103/PhysRevLett.126.216802}}.
 
 \bibitem{berg_vernier_2024}
-Jameson Berg, Neda Lotfizadeh, Dublin Nichols, Mitchell~J. Senger, Wade De~Gottardi, Ethan~D. Minot, and Vikram~V. Deshpande.
+Jameson Berg, Neda Lotfizadeh, Dublin~M. Nichols, Mitchell~J. Senger, Wade De~Gottardi, Ethan~D. Minot, and Vikram~V. Deshpande.
 \newblock Vernier {Spectrum} and {Isospin} {State} {Control} in {Carbon} {Nanotube} {Quantum} {Dots}, 2024.
 \newblock arXiv:2311.12332 [cond-mat].
+\newblock URL: \url{http://arxiv.org/abs/2311.12332}, \href {https://doi.org/10.48550/arXiv.2311.12332} {\path{doi:10.48550/arXiv.2311.12332}}.
 
 \bibitem{rayleigh_waves_1885}
 Lord Rayleigh.
@@ -74,228 +65,299 @@ Lord Rayleigh.
 B.~Friess, V.~Umansky, K.~Von~Klitzing, and J. H. Smet.
 \newblock Current {Flow} in the {Bubble} and {Stripe} {Phases}.
 \newblock {\em Physical Review Letters}, 120(13):137603, March 2018.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.120.137603}, \href {https://doi.org/10.1103/PhysRevLett.120.137603} {\path{doi:10.1103/PhysRevLett.120.137603}}.
 
 \bibitem{kukushkin_collective_2011}
 I.~V. Kukushkin, V.~Umansky, K.~Von~Klitzing, and J.~H. Smet.
 \newblock Collective {Modes} and the {Periodicity} of {Quantum} {Hall} {Stripes}.
 \newblock {\em Physical Review Letters}, 106(20):206804, May 2011.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.106.206804}, \href {https://doi.org/10.1103/PhysRevLett.106.206804} {\path{doi:10.1103/PhysRevLett.106.206804}}.
 
 \bibitem{wixforth_quantum_1986}
 A.~Wixforth, J.~P. Kotthaus, and G.~Weimann.
 \newblock Quantum {Oscillations} in the {Surface}-{Acoustic}-{Wave} {Attenuation} {Caused} by a {Two}-{Dimensional} {Electron} {System}.
 \newblock {\em Physical Review Letters}, 56(19):2104--2106, May 1986.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.56.2104}, \href {https://doi.org/10.1103/PhysRevLett.56.2104} {\path{doi:10.1103/PhysRevLett.56.2104}}.
 
 \bibitem{esslinger_acoustoelectric_1992}
 A.~Esslinger, A.~Wixforth, R.W. Winkler, J.P. Kotthaus, H.~Nickel, W.~Schlapp, and R.~Lösch.
 \newblock Acoustoelectric study of localized states in the quantized {Hall} effect.
 \newblock {\em Solid State Communications}, 84(10):939--942, December 1992.
+\newblock URL: \url{https://linkinghub.elsevier.com/retrieve/pii/003810989290797D}, \href {https://doi.org/10.1016/0038-1098(92)90797-D} {\path{doi:10.1016/0038-1098(92)90797-D}}.
 
 \bibitem{esslinger_ultrasonic_1994}
 A.~Esslinger, R.W. Winkler, C.~Rocke, A.~Wixforth, J.P. Kotthaus, H.~Nickel, W.~Schlapp, and R.~Lösch.
 \newblock Ultrasonic approach to the integer and fractional quantum {Hall} effect.
 \newblock {\em Surface Science}, 305(1-3):83--86, March 1994.
+\newblock URL: \url{https://linkinghub.elsevier.com/retrieve/pii/003960289490863X}, \href {https://doi.org/10.1016/0039-6028(94)90863-X} {\path{doi:10.1016/0039-6028(94)90863-X}}.
 
 \bibitem{willett_experimental_1993}
 R.~L. Willett, R.~R. Ruel, K.~W. West, and L.~N. Pfeiffer.
 \newblock Experimental demonstration of a {Fermi} surface at one-half filling of the lowest {Landau} level.
 \newblock {\em Physical Review Letters}, 71(23):3846--3849, December 1993.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.71.3846}, \href {https://doi.org/10.1103/PhysRevLett.71.3846} {\path{doi:10.1103/PhysRevLett.71.3846}}.
 
 \bibitem{paalanen_rf_1992}
 M.~A. Paalanen, R.~L. Willett, P.~B. Littlewood, R.~R. Ruel, K.~W. West, L.~N. Pfeiffer, and D.~J. Bishop.
 \newblock rf conductivity of a two-dimensional electron system at small {Landau}-level filling factors.
 \newblock {\em Physical Review B}, 45(19):11342--11345, May 1992.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevB.45.11342}, \href {https://doi.org/10.1103/PhysRevB.45.11342} {\path{doi:10.1103/PhysRevB.45.11342}}.
 
 \bibitem{cao_unconventional_2018}
 Yuan Cao, Valla Fatemi, Shiang Fang, Kenji Watanabe, Takashi Taniguchi, Efthimios Kaxiras, and Pablo Jarillo-Herrero.
 \newblock Unconventional superconductivity in magic-angle graphene superlattices.
 \newblock {\em Nature}, 556(7699):43--50, April 2018.
+\newblock URL: \url{https://www.nature.com/articles/nature26160}, \href {https://doi.org/10.1038/nature26160} {\path{doi:10.1038/nature26160}}.
 
 \bibitem{andrei_graphene_2020}
 Eva~Y. Andrei and Allan~H. MacDonald.
 \newblock Graphene bilayers with a twist.
 \newblock {\em Nature Materials}, 19(12):1265--1275, December 2020.
+\newblock URL: \url{https://www.nature.com/articles/s41563-020-00840-0}, \href {https://doi.org/10.1038/s41563-020-00840-0} {\path{doi:10.1038/s41563-020-00840-0}}.
 
 \bibitem{ciarrocchi_excitonic_2022}
 Alberto Ciarrocchi, Fedele Tagarelli, Ahmet Avsar, and Andras Kis.
 \newblock Excitonic devices with van der {Waals} heterostructures: valleytronics meets twistronics.
 \newblock {\em Nature Reviews Materials}, 7(6):449--464, January 2022.
+\newblock URL: \url{https://www.nature.com/articles/s41578-021-00408-7}, \href {https://doi.org/10.1038/s41578-021-00408-7} {\path{doi:10.1038/s41578-021-00408-7}}.
 
 \bibitem{miao_recent_2022}
 Jialei Miao, Xiaowei Zhang, Ye~Tian, and Yuda Zhao.
 \newblock Recent {Progress} in {Contact} {Engineering} of {Field}-{Effect} {Transistor} {Based} on {Two}-{Dimensional} {Materials}.
 \newblock {\em Nanomaterials}, 12(21):3845, October 2022.
+\newblock URL: \url{https://www.mdpi.com/2079-4991/12/21/3845}, \href {https://doi.org/10.3390/nano12213845} {\path{doi:10.3390/nano12213845}}.
 
 \bibitem{rivera_interlayer_2018}
 Pasqual Rivera, Hongyi Yu, Kyle~L. Seyler, Nathan~P. Wilson, Wang Yao, and Xiaodong Xu.
 \newblock Interlayer valley excitons in heterobilayers of transition metal dichalcogenides.
 \newblock {\em Nature Nanotechnology}, 13(11):1004--1015, November 2018.
 \newblock Publisher: Nature Publishing Group.
+\newblock URL: \url{https://www.nature.com/articles/s41565-018-0193-0}, \href {https://doi.org/10.1038/s41565-018-0193-0} {\path{doi:10.1038/s41565-018-0193-0}}.
 
 \bibitem{tran_evidence_2019}
 Kha Tran, Galan Moody, Fengcheng Wu, Xiaobo Lu, Junho Choi, Kyounghwan Kim, Amritesh Rai, Daniel~A. Sanchez, Jiamin Quan, Akshay Singh, Jacob Embley, André Zepeda, Marshall Campbell, Travis Autry, Takashi Taniguchi, Kenji Watanabe, Nanshu Lu, Sanjay~K. Banerjee, Kevin~L. Silverman, Suenne Kim, Emanuel Tutuc, Li~Yang, Allan~H. MacDonald, and Xiaoqin Li.
 \newblock Evidence for moiré excitons in van der {Waals} heterostructures.
 \newblock {\em Nature}, 567(7746):71--75, March 2019.
+\newblock URL: \url{https://www.nature.com/articles/s41586-019-0975-z}, \href {https://doi.org/10.1038/s41586-019-0975-z} {\path{doi:10.1038/s41586-019-0975-z}}.
 
 \bibitem{kuznetsova_all-optical_2010}
 Y.~Y. Kuznetsova, M.~Remeika, A.~A. High, A.~T. Hammack, L.~V. Butov, M.~Hanson, and A.~C. Gossard.
 \newblock All-optical excitonic transistor.
 \newblock {\em Optics Letters}, 35(10):1587, May 2010.
+\newblock URL: \url{https://opg.optica.org/abstract.cfm?URI=ol-35-10-1587}, \href {https://doi.org/10.1364/OL.35.001587} {\path{doi:10.1364/OL.35.001587}}.
 
 \bibitem{liu_electrically_2020}
 Yuanda Liu, Kévin Dini, Qinghai Tan, Timothy Liew, Kostya~S. Novoselov, and Weibo Gao.
 \newblock Electrically controllable router of interlayer excitons.
 \newblock {\em Science Advances}, 6(41):eaba1830, October 2020.
 \newblock Publisher: American Association for the Advancement of Science.
+\newblock URL: \url{https://www.science.org/doi/10.1126/sciadv.aba1830}, \href {https://doi.org/10.1126/sciadv.aba1830} {\path{doi:10.1126/sciadv.aba1830}}.
 
 \bibitem{jauregui_electrical_2019}
 Luis~A. Jauregui, Andrew~Y. Joe, Kateryna Pistunova, Dominik~S. Wild, Alexander~A. High, You Zhou, Giovanni Scuri, Kristiaan De~Greve, Andrey Sushko, Che-Hang Yu, Takashi Taniguchi, Kenji Watanabe, Daniel~J. Needleman, Mikhail~D. Lukin, Hongkun Park, and Philip Kim.
 \newblock Electrical control of interlayer exciton dynamics in atomically thin heterostructures.
 \newblock {\em Science (New York, N.Y.)}, 366(6467):870--875, November 2019.
+\newblock \href {https://doi.org/10.1126/science.aaw4194} {\path{doi:10.1126/science.aaw4194}}.
 
 \bibitem{unuchek_room-temperature_2018}
 Dmitrii Unuchek, Alberto Ciarrocchi, Ahmet Avsar, Kenji Watanabe, Takashi Taniguchi, and Andras Kis.
 \newblock Room-temperature electrical control of exciton flux in a van der {Waals} heterostructure.
 \newblock {\em Nature}, 560(7718):340--344, August 2018.
+\newblock URL: \url{https://www.nature.com/articles/s41586-018-0357-y}, \href {https://doi.org/10.1038/s41586-018-0357-y} {\path{doi:10.1038/s41586-018-0357-y}}.
+
+\bibitem{peng_long-range_2022}
+Ruoming Peng, Adina Ripin, Yusen Ye, Jiayi Zhu, Changming Wu, Seokhyeong Lee, Huan Li, Takashi Taniguchi, Kenji Watanabe, Ting Cao, Xiaodong Xu, and Mo~Li.
+\newblock Long-range transport of {2D} excitons with acoustic waves.
+\newblock {\em Nature Communications}, 13(1):1334, March 2022.
+\newblock URL: \url{https://www.nature.com/articles/s41467-022-29042-9}, \href {https://doi.org/10.1038/s41467-022-29042-9} {\path{doi:10.1038/s41467-022-29042-9}}.
 
 \bibitem{fang_quantum_2023}
 Yawen Fang, Yang Xu, Kaifei Kang, Benyamin Davaji, Kenji Watanabe, Takashi Taniguchi, Amit Lal, Kin~Fai Mak, Jie Shan, and B. J. Ramshaw.
 \newblock Quantum {Oscillations} in {Graphene} {Using} {Surface} {Acoustic} {Wave} {Resonators}.
 \newblock {\em Physical Review Letters}, 130(24):246201, June 2023.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.130.246201}, \href {https://doi.org/10.1103/PhysRevLett.130.246201} {\path{doi:10.1103/PhysRevLett.130.246201}}.
 
 \bibitem{nie_surface_2023}
 Xuchen Nie, Xiaoyue Wu, Yang Wang, Siyuan Ban, Zhihao Lei, Jiabao Yi, Ying Liu, and Yanpeng Liu.
 \newblock Surface acoustic wave induced phenomena in two-dimensional materials.
 \newblock {\em Nanoscale Horizons}, 8(2):158--175, 2023.
+\newblock URL: \url{http://xlink.rsc.org/?DOI=D2NH00458E}, \href {https://doi.org/10.1039/D2NH00458E} {\path{doi:10.1039/D2NH00458E}}.
 
 \bibitem{berry_quantal_1984}
 Michael Berry.
 \newblock Quantal phase factors accompanying adiabatic changes.
 \newblock {\em Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences}, March 1984.
 \newblock Publisher: The Royal SocietyLondon.
+\newblock URL: \url{https://royalsocietypublishing.org/doi/10.1098/rspa.1984.0023}, \href {https://doi.org/10.1098/rspa.1984.0023} {\path{doi:10.1098/rspa.1984.0023}}.
 
 \bibitem{xiao_berry_2010}
 Di~Xiao, Ming-Che Chang, and Qian Niu.
 \newblock Berry phase effects on electronic properties.
 \newblock {\em Reviews of Modern Physics}, 82(3):1959--2007, July 2010.
 \newblock Publisher: American Physical Society.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/RevModPhys.82.1959}, \href {https://doi.org/10.1103/RevModPhys.82.1959} {\path{doi:10.1103/RevModPhys.82.1959}}.
 
 \bibitem{kalameitsev_valley_2019}
 A. V. Kalameitsev, V. M. Kovalev, and I. G. Savenko.
 \newblock Valley {Acoustoelectric} {Effect}.
 \newblock {\em Physical Review Letters}, 122(25):256801, June 2019.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.122.256801}, \href {https://doi.org/10.1103/PhysRevLett.122.256801} {\path{doi:10.1103/PhysRevLett.122.256801}}.
 
 \bibitem{talyanskii_quantized_2001}
 V.~I. Talyanskii, D.~S. Novikov, B.~D. Simons, and L.~S. Levitov.
 \newblock Quantized {Adiabatic} {Charge} {Transport} in a {Carbon} {Nanotube}.
 \newblock {\em Physical Review Letters}, 87(27):276802, December 2001.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.87.276802}, \href {https://doi.org/10.1103/PhysRevLett.87.276802} {\path{doi:10.1103/PhysRevLett.87.276802}}.
 
 \bibitem{sakurai_modern_1985}
 J.J. Sakurai and Jim Napolitano.
 \newblock {\em Modern {Quantum} {Mechanics}}.
 \newblock 1985.
 
+\bibitem{webb_stella_nodate}
+Robert Webb.
+\newblock Stella {Software}.
+\newblock URL: \url{https://www.software3d.com/Stella.php}.
+
 \bibitem{pekola_single-electron_2013}
 Jukka~P. Pekola, Olli-Pentti Saira, Ville~F. Maisi, Antti Kemppinen, Mikko Möttönen, Yuri~A. Pashkin, and Dmitri~V. Averin.
 \newblock Single-electron current sources: {Toward} a refined definition of the ampere.
 \newblock {\em Reviews of Modern Physics}, 85(4):1421--1472, October 2013.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/RevModPhys.85.1421}, \href {https://doi.org/10.1103/RevModPhys.85.1421} {\path{doi:10.1103/RevModPhys.85.1421}}.
 
 \bibitem{scherer_singleelectron_2019}
 Hansjörg Scherer and Hans~Werner Schumacher.
 \newblock Single‐{Electron} {Pumps} and {Quantum} {Current} {Metrology} in the {Revised} {SI}.
 \newblock {\em Annalen der Physik}, 531(5):1800371, May 2019.
+\newblock URL: \url{https://onlinelibrary.wiley.com/doi/10.1002/andp.201800371}, \href {https://doi.org/10.1002/andp.201800371} {\path{doi:10.1002/andp.201800371}}.
 
 \bibitem{das_controlled_2006}
 Kunal~K. Das, Sungjun Kim, and Ari Mizel.
 \newblock Controlled {Flow} of {Spin}-{Entangled} {Electrons} via {Adiabatic} {Quantum} {Pumping}.
 \newblock {\em Physical Review Letters}, 97(9):096602, August 2006.
 \newblock Publisher: American Physical Society.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.97.096602}, \href {https://doi.org/10.1103/PhysRevLett.97.096602} {\path{doi:10.1103/PhysRevLett.97.096602}}.
 
 \bibitem{niu_towards_1990}
 Q.~Niu.
 \newblock Towards a quantum pump of electric charges.
 \newblock {\em Physical Review Letters}, 64(15):1812--1815, April 1990.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.64.1812}, \href {https://doi.org/10.1103/PhysRevLett.64.1812} {\path{doi:10.1103/PhysRevLett.64.1812}}.
 
 \bibitem{thouless_quantization_1983}
 D.~J. Thouless.
 \newblock Quantization of particle transport.
 \newblock {\em Physical Review B}, 27(10):6083--6087, May 1983.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevB.27.6083}, \href {https://doi.org/10.1103/PhysRevB.27.6083} {\path{doi:10.1103/PhysRevB.27.6083}}.
 
 \bibitem{novikov_devils_2005}
 Dmitry~S. Novikov.
 \newblock Devil’s {Staircase} of {Incompressible} {Electron} {States} in a {Nanotube}.
 \newblock {\em Physical Review Letters}, 95(6):066401, August 2005.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.95.066401}, \href {https://doi.org/10.1103/PhysRevLett.95.066401} {\path{doi:10.1103/PhysRevLett.95.066401}}.
 
 \bibitem{citro_thouless_2023}
 Roberta Citro and Monika Aidelsburger.
 \newblock Thouless pumping and topology.
 \newblock {\em Nature Reviews Physics}, 5(2):87--101, February 2023.
 \newblock Publisher: Nature Publishing Group.
+\newblock URL: \url{https://www.nature.com/articles/s42254-022-00545-0}, \href {https://doi.org/10.1038/s42254-022-00545-0} {\path{doi:10.1038/s42254-022-00545-0}}.
 
 \bibitem{buitelaar_adiabatic_2008}
 M.~R. Buitelaar, V.~Kashcheyevs, P.~J. Leek, V.~I. Talyanskii, C.~G. Smith, D.~Anderson, G.~A.~C. Jones, J.~Wei, and D.~H. Cobden.
 \newblock Adiabatic {Charge} {Pumping} in {Carbon} {Nanotube} {Quantum} {Dots}.
 \newblock {\em Physical Review Letters}, 101(12):126803, September 2008.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.101.126803}, \href {https://doi.org/10.1103/PhysRevLett.101.126803} {\path{doi:10.1103/PhysRevLett.101.126803}}.
 
 \bibitem{huang_superior_2015}
 Jhao-Wun Huang, Cheng Pan, Son Tran, Bin Cheng, Kenji Watanabe, Takashi Taniguchi, Chun~Ning Lau, and Marc Bockrath.
 \newblock Superior {Current} {Carrying} {Capacity} of {Boron} {Nitride} {Encapsulated} {Carbon} {Nanotubes} with {Zero}-{Dimensional} {Contacts}.
 \newblock {\em Nano Letters}, 15(10):6836--6840, October 2015.
+\newblock URL: \url{https://pubs.acs.org/doi/10.1021/acs.nanolett.5b02716}, \href {https://doi.org/10.1021/acs.nanolett.5b02716} {\path{doi:10.1021/acs.nanolett.5b02716}}.
 
 \bibitem{senger_universal_2018}
 Mitchell~J. Senger, Daniel~R. McCulley, Neda Lotfizadeh, Vikram~V. Deshpande, and Ethan~D. Minot.
 \newblock Universal interaction-driven gap in metallic carbon nanotubes.
 \newblock {\em Physical Review B}, 97(3):035445, January 2018.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevB.97.035445}, \href {https://doi.org/10.1103/PhysRevB.97.035445} {\path{doi:10.1103/PhysRevB.97.035445}}.
 
 \bibitem{goossens_mechanical_2012}
 A.~M. Goossens, V.~E. Calado, A.~Barreiro, K.~Watanabe, T.~Taniguchi, and L.~M.~K. Vandersypen.
 \newblock Mechanical cleaning of graphene.
 \newblock {\em Applied Physics Letters}, 100(7):073110, February 2012.
+\newblock URL: \url{https://pubs.aip.org/apl/article/100/7/073110/24259/Mechanical-cleaning-of-graphene}, \href {https://doi.org/10.1063/1.3685504} {\path{doi:10.1063/1.3685504}}.
 
 \bibitem{chen_tip-based_2021}
 Sihan Chen, Jangyup Son, Siyuan Huang, Kenji Watanabe, Takashi Taniguchi, Rashid Bashir, Arend~M. Van Der~Zande, and William~P. King.
 \newblock Tip-{Based} {Cleaning} and {Smoothing} {Improves} {Performance} in {Monolayer} {MoS} $_{\textrm{2}}$ {Devices}.
 \newblock {\em ACS Omega}, 6(5):4013--4021, February 2021.
+\newblock URL: \url{https://pubs.acs.org/doi/10.1021/acsomega.0c05934}, \href {https://doi.org/10.1021/acsomega.0c05934} {\path{doi:10.1021/acsomega.0c05934}}.
 
 \bibitem{wallace_band_1947}
 P.~R. Wallace.
 \newblock The {Band} {Theory} of {Graphite}.
 \newblock {\em Physical Review}, 71(9):622--634, May 1947.
 \newblock Publisher: American Physical Society.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRev.71.622}, \href {https://doi.org/10.1103/PhysRev.71.622} {\path{doi:10.1103/PhysRev.71.622}}.
 
 \bibitem{castro_neto_electronic_2009}
 A.~H. Castro~Neto, F.~Guinea, N.~M.~R. Peres, K.~S. Novoselov, and A.~K. Geim.
 \newblock The electronic properties of graphene.
 \newblock {\em Reviews of Modern Physics}, 81(1):109--162, January 2009.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/RevModPhys.81.109}, \href {https://doi.org/10.1103/RevModPhys.81.109} {\path{doi:10.1103/RevModPhys.81.109}}.
 
 \bibitem{novoselov_electronic_2007}
 K.~S. Novoselov, S.~V. Morozov, T.~M.~G. Mohinddin, L.~A. Ponomarenko, D.~C. Elias, R.~Yang, I.~I. Barbolina, P.~Blake, T.~J. Booth, D.~Jiang, J.~Giesbers, E.~W. Hill, and A.~K. Geim.
 \newblock Electronic properties of graphene.
 \newblock {\em physica status solidi (b)}, 244(11):4106--4111, November 2007.
+\newblock URL: \url{https://onlinelibrary.wiley.com/doi/10.1002/pssb.200776208}, \href {https://doi.org/10.1002/pssb.200776208} {\path{doi:10.1002/pssb.200776208}}.
 
 \bibitem{martin_observation_2008}
 J.~Martin, N.~Akerman, G.~Ulbricht, T.~Lohmann, J.~H. Smet, K.~Von~Klitzing, and A.~Yacoby.
 \newblock Observation of electron–hole puddles in graphene using a scanning single-electron transistor.
 \newblock {\em Nature Physics}, 4(2):144--148, February 2008.
+\newblock URL: \url{https://www.nature.com/articles/nphys781}, \href {https://doi.org/10.1038/nphys781} {\path{doi:10.1038/nphys781}}.
 
 \bibitem{dean_boron_2010}
 C.~R. Dean, A.~F. Young, I.~Meric, C.~Lee, L.~Wang, S.~Sorgenfrei, K.~Watanabe, T.~Taniguchi, P.~Kim, K.~L. Shepard, and J.~Hone.
 \newblock Boron nitride substrates for high-quality graphene electronics.
 \newblock {\em Nature Nanotechnology}, 5(10):722--726, October 2010.
+\newblock \href {https://doi.org/10.1038/nnano.2010.172} {\path{doi:10.1038/nnano.2010.172}}.
 
 \bibitem{xin_giant_2023}
 Na~Xin, James Lourembam, Piranavan Kumaravadivel, A.~E. Kazantsev, Zefei Wu, Ciaran Mullan, Julien Barrier, Alexandra~A. Geim, I.~V. Grigorieva, A.~Mishchenko, A.~Principi, V.~I. Fal’ko, L.~A. Ponomarenko, A.~K. Geim, and Alexey~I. Berdyugin.
 \newblock Giant magnetoresistance of {Dirac} plasma in high-mobility graphene.
 \newblock {\em Nature}, 616(7956):270--274, April 2023.
+\newblock URL: \url{https://www.nature.com/articles/s41586-023-05807-0}, \href {https://doi.org/10.1038/s41586-023-05807-0} {\path{doi:10.1038/s41586-023-05807-0}}.
+
+\bibitem{yang_gas_2017}
+Shengxue Yang, Chengbao Jiang, and Su-huai Wei.
+\newblock Gas sensing in {2D} materials.
+\newblock {\em Applied Physics Reviews}, 4(2):021304, June 2017.
+\newblock URL: \url{https://pubs.aip.org/apr/article/4/2/021304/279723/Gas-sensing-in-2D-materials}, \href {https://doi.org/10.1063/1.4983310} {\path{doi:10.1063/1.4983310}}.
+
+\bibitem{datta_surface_1986}
+Supriyo Datta.
+\newblock {\em Surface acoustic wave devices}.
+\newblock 1986.
 
 \bibitem{weinreich_acoustodynamic_1956}
 Gabriel Weinreich.
 \newblock Acoustodynamic {Effects} in {Semiconductors}.
 \newblock {\em Physical Review}, 104(2):321--324, October 1956.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRev.104.321}, \href {https://doi.org/10.1103/PhysRev.104.321} {\path{doi:10.1103/PhysRev.104.321}}.
 
 \bibitem{hutson_elastic_1962}
 A.~R. Hutson and Donald~L. White.
 \newblock Elastic {Wave} {Propagation} in {Piezoelectric} {Semiconductors}.
 \newblock {\em Journal of Applied Physics}, 33(1):40--47, January 1962.
+\newblock URL: \url{https://pubs.aip.org/jap/article/33/1/40/288127/Elastic-Wave-Propagation-in-Piezoelectric}, \href {https://doi.org/10.1063/1.1728525} {\path{doi:10.1063/1.1728525}}.
+
+\bibitem{wixforth_surface_1989}
+A.~Wixforth, J.~Scriba, M.~Wassermeier, J.~P. Kotthaus, G.~Weimann, and W.~Schlapp.
+\newblock Surface acoustic waves on {GaAs}/{AlGaAs} heterostructures.
+\newblock {\em Physical Review B}, 40(11):7874--7887, October 1989.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevB.40.7874}, \href {https://doi.org/10.1103/PhysRevB.40.7874} {\path{doi:10.1103/PhysRevB.40.7874}}.
 
 \bibitem{warner_determination_1967}
 A.~M. Warner, M.~Onoe, and G.~A. Coquin.
@@ -306,6 +368,7 @@ A.~M. Warner, M.~Onoe, and G.~A. Coquin.
 R.~Holland.
 \newblock Representation of {Dielectric}, {Elastic}, and {Piezoelectric} {Losses} by {Complex} {Coefficients}.
 \newblock {\em IEEE Transactions on Sonics and Ultrasonics}, 14(1):18--20, January 1967.
+\newblock URL: \url{http://ieeexplore.ieee.org/document/1538402/}, \href {https://doi.org/10.1109/T-SU.1967.29405} {\path{doi:10.1109/T-SU.1967.29405}}.
 
 \bibitem{pozar_microwave_2012}
 David~M. Pozar.
@@ -316,16 +379,19 @@ David~M. Pozar.
 Amador González, Álvaro García, César Benavente-Peces, and Lorena Pardo.
 \newblock Revisiting the {Characterization} of the {Losses} in {Piezoelectric} {Materials} from {Impedance} {Spectroscopy} at {Resonance}.
 \newblock {\em Materials}, 9(2):72, January 2016.
+\newblock URL: \url{http://www.mdpi.com/1996-1944/9/2/72}, \href {https://doi.org/10.3390/ma9020072} {\path{doi:10.3390/ma9020072}}.
 
 \bibitem{rudenko_dispersive_2022}
 O.V. Rudenko.
 \newblock Dispersive nonlinear acoustic waves.
 \newblock {\em Wave Motion}, 113:102990, August 2022.
+\newblock URL: \url{https://linkinghub.elsevier.com/retrieve/pii/S0165212522000658}, \href {https://doi.org/10.1016/j.wavemoti.2022.102990} {\path{doi:10.1016/j.wavemoti.2022.102990}}.
 
 \bibitem{falko_acoustoelectric_1993}
 Vladimir~I. Fal’ko, S.~V. Meshkov, and S.~V. Iordanskii.
 \newblock Acoustoelectric drag effect in the two-dimensional electron gas at strong magnetic field.
 \newblock {\em Physical Review B}, 47(15):9910--9912, April 1993.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevB.47.9910}, \href {https://doi.org/10.1103/PhysRevB.47.9910} {\path{doi:10.1103/PhysRevB.47.9910}}.
 
 \bibitem{campbell_surface_1989}
 Colin Campbell.
@@ -341,89 +407,248 @@ Justin~R Lane.
 W.R. Smith, H.M. Gerard, J.H. Collins, T.M. Reeder, and H.J. Shaw.
 \newblock Analysis of {Interdigital} {Surface} {Wave} {Transducers} by {Use} of an {Equivalent} {Circuit} {Model}.
 \newblock {\em IEEE Transactions on Microwave Theory and Techniques}, 17(11):856--864, November 1969.
+\newblock URL: \url{http://ieeexplore.ieee.org/document/1127075/}, \href {https://doi.org/10.1109/TMTT.1969.1127075} {\path{doi:10.1109/TMTT.1969.1127075}}.
 
 \bibitem{novoselov_electric_2004}
 K.~S. Novoselov, A.~K. Geim, S.~V. Morozov, D.~Jiang, Y.~Zhang, S.~V. Dubonos, I.~V. Grigorieva, and A.~A. Firsov.
 \newblock Electric {Field} {Effect} in {Atomically} {Thin} {Carbon} {Films}.
 \newblock {\em Science}, 306(5696):666--669, October 2004.
+\newblock URL: \url{https://www.science.org/doi/10.1126/science.1102896}, \href {https://doi.org/10.1126/science.1102896} {\path{doi:10.1126/science.1102896}}.
 
 \bibitem{quellmalz_large-area_2021}
 Arne Quellmalz, Xiaojing Wang, Simon Sawallich, Burkay Uzlu, Martin Otto, Stefan Wagner, Zhenxing Wang, Maximilian Prechtl, Oliver Hartwig, Siwei Luo, Georg~S. Duesberg, Max~C. Lemme, Kristinn~B. Gylfason, Niclas Roxhed, Göran Stemme, and Frank Niklaus.
 \newblock Large-area integration of two-dimensional materials and their heterostructures by wafer bonding.
 \newblock {\em Nature Communications}, 12(1):917, February 2021.
+\newblock URL: \url{https://www.nature.com/articles/s41467-021-21136-0}, \href {https://doi.org/10.1038/s41467-021-21136-0} {\path{doi:10.1038/s41467-021-21136-0}}.
 
 \bibitem{islam_exfoliation_2022}
 Md~Akibul Islam, Peter Serles, Boran Kumral, Pedro~Guerra Demingos, Tanvir Qureshi, AshokKumar Meiyazhagan, Anand~B. Puthirath, Mohammad Sayem~Bin Abdullah, Syed~Rafat Faysal, Pulickel~M. Ajayan, Daman Panesar, Chandra~Veer Singh, and Tobin Filleter.
 \newblock Exfoliation mechanisms of {2D} materials and their applications.
 \newblock {\em Applied Physics Reviews}, 9(4):041301, October 2022.
+\newblock \href {https://doi.org/10.1063/5.0090717} {\path{doi:10.1063/5.0090717}}.
 
 \bibitem{shearer_accurate_2016}
 Cameron~J Shearer, Ashley~D Slattery, Andrew~J Stapleton, Joseph~G Shapter, and Christopher~T Gibson.
 \newblock Accurate thickness measurement of graphene.
 \newblock {\em Nanotechnology}, 27(12):125704, March 2016.
+\newblock URL: \url{https://iopscience.iop.org/article/10.1088/0957-4484/27/12/125704}, \href {https://doi.org/10.1088/0957-4484/27/12/125704} {\path{doi:10.1088/0957-4484/27/12/125704}}.
 
 \bibitem{castellanos-gomez_van_2022}
 Andres Castellanos-Gomez, Xiangfeng Duan, Zhe Fei, Humberto~Rodriguez Gutierrez, Yuan Huang, Xinyu Huang, Jorge Quereda, Qi~Qian, Eli Sutter, and Peter Sutter.
 \newblock Van der {Waals} heterostructures.
 \newblock {\em Nature Reviews Methods Primers}, 2(1):1--19, July 2022.
 \newblock Publisher: Nature Publishing Group.
+\newblock URL: \url{https://www.nature.com/articles/s43586-022-00139-1}, \href {https://doi.org/10.1038/s43586-022-00139-1} {\path{doi:10.1038/s43586-022-00139-1}}.
 
 \bibitem{pizzocchero_hot_2016}
 Filippo Pizzocchero, Lene Gammelgaard, Bjarke~S. Jessen, José~M. Caridad, Lei Wang, James Hone, Peter Bøggild, and Timothy~J. Booth.
 \newblock The hot pick-up technique for batch assembly of van der {Waals} heterostructures.
 \newblock {\em Nature Communications}, 7(1):11894, June 2016.
+\newblock URL: \url{https://www.nature.com/articles/ncomms11894}, \href {https://doi.org/10.1038/ncomms11894} {\path{doi:10.1038/ncomms11894}}.
 
 \bibitem{son_strongly_2020}
 Suhan Son, Young~Jae Shin, Kaixuan Zhang, Jeacheol Shin, Sungmin Lee, Hiroshi Idzuchi, Matthew~J Coak, Hwangsun Kim, Jangwon Kim, Jae~Hoon Kim, Miyoung Kim, Dohun Kim, Philip Kim, and Je-Geun Park.
 \newblock Strongly adhesive dry transfer technique for van der {Waals} heterostructure.
 \newblock {\em 2D Materials}, 7(4):041005, September 2020.
+\newblock URL: \url{https://iopscience.iop.org/article/10.1088/2053-1583/abad0b}, \href {https://doi.org/10.1088/2053-1583/abad0b} {\path{doi:10.1088/2053-1583/abad0b}}.
 
 \bibitem{noauthor_nanolithography_nodate}
 Nanolithography / {Electron} {Beam} {Lithography}.
+\newblock URL: \url{https://nanolithography.gatech.edu/anti_charging.html}.
 
 \bibitem{lopez_charge_2019}
 Gerald Lopez, Glen De~Villafranca, Grant Shao, Meiyue Zhang, and Andrew Thompson.
 \newblock Charge dissipation by use of a novel aqueous based quaternary ammonium compound for use in electron beam lithography on non-conductive substrates.
 \newblock In Roel Gronheid and Daniel~P. Sanders, editors, {\em Advances in {Patterning} {Materials} and {Processes} {XXXVI}}, page~79, San Jose, United States, March 2019. SPIE.
+\newblock URL: \url{https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10960/2524294/Charge-dissipation-by-use-of-a-novel-aqueous-based-quaternary/10.1117/12.2524294.full}, \href {https://doi.org/10.1117/12.2524294} {\path{doi:10.1117/12.2524294}}.
 
 \bibitem{chen_ultrahigh-frequency_2020}
 Zhe Chen, Jian Zhou, Hao Tang, Yi~Liu, Yiping Shen, Xiaobo Yin, Jiangpo Zheng, Hongshuai Zhang, Jianhui Wu, Xianglong Shi, Yiqin Chen, Yongqing Fu, and Huigao Duan.
 \newblock Ultrahigh-{Frequency} {Surface} {Acoustic} {Wave} {Sensors} with {Giant} {Mass}-{Loading} {Effects} on {Electrodes}.
 \newblock {\em ACS Sensors}, 5(6):1657--1664, June 2020.
+\newblock URL: \url{https://pubs.acs.org/doi/10.1021/acssensors.0c00259}, \href {https://doi.org/10.1021/acssensors.0c00259} {\path{doi:10.1021/acssensors.0c00259}}.
 
 \bibitem{buitelaar_charge_2006}
 M~R Buitelaar, P~J Leek, V~I Talyanskii, C~G Smith, D~Anderson, G~A~C Jones, J~Wei, and D~H Cobden.
 \newblock Charge pumping and current quantization in surface acoustic-wave-driven carbon nanotube devices.
 \newblock {\em Semiconductor Science and Technology}, 21(11):S69--S77, November 2006.
+\newblock URL: \url{https://iopscience.iop.org/article/10.1088/0268-1242/21/11/S10}, \href {https://doi.org/10.1088/0268-1242/21/11/S10} {\path{doi:10.1088/0268-1242/21/11/S10}}.
+
+\bibitem{rocke_acoustically_1997}
+C.~Rocke, S.~Zimmermann, A.~Wixforth, J.~P. Kotthaus, G.~Böhm, and G.~Weimann.
+\newblock Acoustically {Driven} {Storage} of {Light} in a {Quantum} {Well}.
+\newblock {\em Physical Review Letters}, 78(21):4099--4102, May 1997.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.78.4099}, \href {https://doi.org/10.1103/PhysRevLett.78.4099} {\path{doi:10.1103/PhysRevLett.78.4099}}.
+
+\bibitem{talyanskii_single-electron_1997}
+V.~I. Talyanskii, J.~M. Shilton, M.~Pepper, C.~G. Smith, C.~J.~B. Ford, E.~H. Linfield, D.~A. Ritchie, and G.~A.~C. Jones.
+\newblock Single-electron transport in a one-dimensional channel by high-frequency surface acoustic waves.
+\newblock {\em Physical Review B}, 56(23):15180--15184, December 1997.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevB.56.15180}, \href {https://doi.org/10.1103/PhysRevB.56.15180} {\path{doi:10.1103/PhysRevB.56.15180}}.
+
+\bibitem{barnes_quantum_2000}
+C~H~W Barnes, J~M Shilton, and A~M Robinson.
+\newblock Quantum computation using electrons trapped by surface acoustic waves.
+\newblock 2000.
+
+\bibitem{gumbs_quantum_2004}
+Godfrey Gumbs and Yonatan Abranyos.
+\newblock Quantum entanglement for acoustic spintronics.
+\newblock {\em Physical Review A}, 70(5):050302, November 2004.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevA.70.050302}, \href {https://doi.org/10.1103/PhysRevA.70.050302} {\path{doi:10.1103/PhysRevA.70.050302}}.
+
+\bibitem{giavaras_quantum_2006}
+G.~Giavaras, J.~H. Jefferson, A.~Ramšak, T.~P. Spiller, and C.~J. Lambert.
+\newblock Quantum entanglement generation with surface acoustic waves.
+\newblock {\em Physical Review B}, 74(19):195341, November 2006.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevB.74.195341}, \href {https://doi.org/10.1103/PhysRevB.74.195341} {\path{doi:10.1103/PhysRevB.74.195341}}.
+
+\bibitem{andreev_electronic_2022}
+A.~V. Andreev.
+\newblock Electronic pumping of heat without charge transfer.
+\newblock {\em Physical Review B}, 105(8):L081410, February 2022.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevB.105.L081410}, \href {https://doi.org/10.1103/PhysRevB.105.L081410} {\path{doi:10.1103/PhysRevB.105.L081410}}.
+
+\bibitem{schaefer_magnetic_2020}
+Brian~T. Schaefer, Lei Wang, Alexander Jarjour, Kenji Watanabe, Takashi Taniguchi, Paul~L. McEuen, and Katja~C. Nowack.
+\newblock Magnetic field detection limits for ultraclean graphene {Hall} sensors.
+\newblock {\em Nature Communications}, 11(1):4163, August 2020.
+\newblock URL: \url{https://www.nature.com/articles/s41467-020-18007-5}, \href {https://doi.org/10.1038/s41467-020-18007-5} {\path{doi:10.1038/s41467-020-18007-5}}.
+
+\bibitem{hernandez-minguez_interaction_2018}
+A~Hernández-Mínguez, Y-T Liou, and P~V Santos.
+\newblock Interaction of surface acoustic waves with electronic excitations in graphene.
+\newblock {\em Journal of Physics D: Applied Physics}, 51(38):383001, September 2018.
+\newblock URL: \url{https://iopscience.iop.org/article/10.1088/1361-6463/aad593}, \href {https://doi.org/10.1088/1361-6463/aad593} {\path{doi:10.1088/1361-6463/aad593}}.
+
+\bibitem{rotter_giant_1998}
+M.~Rotter, A.~Wixforth, W.~Ruile, D.~Bernklau, and H.~Riechert.
+\newblock Giant acoustoelectric effect in {GaAs}/{LiNbO3} hybrids.
+\newblock {\em Applied Physics Letters}, 73(15):2128--2130, October 1998.
+\newblock URL: \url{https://pubs.aip.org/apl/article/73/15/2128/519409/Giant-acoustoelectric-effect-in-GaAs-LiNbO3}, \href {https://doi.org/10.1063/1.122400} {\path{doi:10.1063/1.122400}}.
+
+\bibitem{bandhu_macroscopic_2013}
+L.~Bandhu, L.~M. Lawton, and G.~R. Nash.
+\newblock Macroscopic acoustoelectric charge transport in graphene.
+\newblock {\em Applied Physics Letters}, 103(13):133101, September 2013.
+\newblock URL: \url{https://pubs.aip.org/apl/article/103/13/133101/130228/Macroscopic-acoustoelectric-charge-transport-in}, \href {https://doi.org/10.1063/1.4822121} {\path{doi:10.1063/1.4822121}}.
+
+\bibitem{bandhu_controlling_2016}
+Lokeshwar Bandhu and Geoffrey~R. Nash.
+\newblock Controlling the properties of surface acoustic waves using graphene.
+\newblock {\em Nano Research}, 9(3):685--691, March 2016.
+\newblock URL: \url{https://link.springer.com/10.1007/s12274-015-0947-z}, \href {https://doi.org/10.1007/s12274-015-0947-z} {\path{doi:10.1007/s12274-015-0947-z}}.
+
+\bibitem{okuda_acoustic_2016}
+Satoshi Okuda, Takashi Ikuta, Yasushi Kanai, Takao Ono, Shinpei Ogawa, Daisuke Fujisawa, Masaaki Shimatani, Koichi Inoue, Kenzo Maehashi, and Kazuhiko Matsumoto.
+\newblock Acoustic carrier transportation induced by surface acoustic waves in graphene in solution.
+\newblock {\em Applied Physics Express}, 9(4):045104, April 2016.
+\newblock URL: \url{https://iopscience.iop.org/article/10.7567/APEX.9.045104}, \href {https://doi.org/10.7567/APEX.9.045104} {\path{doi:10.7567/APEX.9.045104}}.
+
+\bibitem{tang_ultra-low_2017}
+Chiu-Chun Tang, Yung-Fu Chen, D.~C. Ling, C.~C. Chi, and Jeng-Chung Chen.
+\newblock Ultra-low acoustoelectric attenuation in graphene.
+\newblock {\em Journal of Applied Physics}, 121(12):124505, March 2017.
+\newblock URL: \url{https://pubs.aip.org/jap/article/121/12/124505/1007820/Ultra-low-acoustoelectric-attenuation-in-graphene}, \href {https://doi.org/10.1063/1.4979207} {\path{doi:10.1063/1.4979207}}.
+
+\bibitem{okuda_graphene_2018}
+Satoshi Okuda, Takao Ono, Yasushi Kanai, Takashi Ikuta, Masaaki Shimatani, Shinpei Ogawa, Kenzo Maehashi, Koichi Inoue, and Kazuhiko Matsumoto.
+\newblock Graphene {Surface} {Acoustic} {Wave} {Sensor} for {Simultaneous} {Detection} of {Charge} and {Mass}.
+\newblock {\em ACS Sensors}, 3(1):200--204, January 2018.
+\newblock URL: \url{https://pubs.acs.org/doi/10.1021/acssensors.7b00851}, \href {https://doi.org/10.1021/acssensors.7b00851} {\path{doi:10.1021/acssensors.7b00851}}.
+
+\bibitem{lane_flip-chip_2018}
+J.~R. Lane, L.~Zhang, M.~A. Khasawneh, B.~N. Zhou, E.~A. Henriksen, and J.~Pollanen.
+\newblock Flip-chip gate-tunable acoustoelectric effect in graphene.
+\newblock {\em Journal of Applied Physics}, 124(19):194302, November 2018.
+\newblock URL: \url{https://pubs.aip.org/jap/article/124/19/194302/286669/Flip-chip-gate-tunable-acoustoelectric-effect-in}, \href {https://doi.org/10.1063/1.5047211} {\path{doi:10.1063/1.5047211}}.
+
+\bibitem{wang_one-dimensional_2013}
+L.~Wang, I.~Meric, P.~Y. Huang, Q.~Gao, Y.~Gao, H.~Tran, T.~Taniguchi, K.~Watanabe, L.~M. Campos, D.~A. Muller, J.~Guo, P.~Kim, J.~Hone, K.~L. Shepard, and C.~R. Dean.
+\newblock One-{Dimensional} {Electrical} {Contact} to a {Two}-{Dimensional} {Material}.
+\newblock {\em Science}, 342(6158):614--617, November 2013.
+\newblock URL: \url{https://www.science.org/doi/10.1126/science.1244358}, \href {https://doi.org/10.1126/science.1244358} {\path{doi:10.1126/science.1244358}}.
+
+\bibitem{rotter_nonlinear_1999}
+M.~Rotter, A.~Wixforth, A.~O. Govorov, W.~Ruile, D.~Bernklau, and H.~Riechert.
+\newblock Nonlinear acoustoelectric interactions in {GaAs}/{LiNbO3} structures.
+\newblock {\em Applied Physics Letters}, 75(7):965--967, August 1999.
+\newblock URL: \url{https://pubs.aip.org/apl/article/75/7/965/110963/Nonlinear-acoustoelectric-interactions-in-GaAs}, \href {https://doi.org/10.1063/1.124568} {\path{doi:10.1063/1.124568}}.
+
+\bibitem{brown_hall_2019}
+Morgan~A. Brown, Michael~S. Crosser, Agatha~C. Ulibarri, Carly~V. Fengel, and Ethan~D. Minot.
+\newblock Hall {Effect} {Measurements} of the {Double}-{Layer} {Capacitance} of the {Graphene}–{Electrolyte} {Interface}.
+\newblock {\em The Journal of Physical Chemistry C}, 123(37):22706--22710, September 2019.
+\newblock URL: \url{https://pubs.acs.org/doi/10.1021/acs.jpcc.9b03935}, \href {https://doi.org/10.1021/acs.jpcc.9b03935} {\path{doi:10.1021/acs.jpcc.9b03935}}.
+
+\bibitem{das_sarma_electronic_2011}
+S.~Das~Sarma, Shaffique Adam, E.~H. Hwang, and Enrico Rossi.
+\newblock Electronic transport in two-dimensional graphene.
+\newblock {\em Reviews of Modern Physics}, 83(2):407--470, May 2011.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/RevModPhys.83.407}, \href {https://doi.org/10.1103/RevModPhys.83.407} {\path{doi:10.1103/RevModPhys.83.407}}.
+
+\bibitem{thiele_modeling_2010}
+S.~A. Thiele, J.~A. Schaefer, and F.~Schwierz.
+\newblock Modeling of graphene metal-oxide-semiconductor field-effect transistors with gapless large-area graphene channels.
+\newblock {\em Journal of Applied Physics}, 107(9):094505, May 2010.
+\newblock URL: \url{https://pubs.aip.org/jap/article/107/9/094505/369898/Modeling-of-graphene-metal-oxide-semiconductor}, \href {https://doi.org/10.1063/1.3357398} {\path{doi:10.1063/1.3357398}}.
+
+\bibitem{wehrfritz_hall_2014}
+Peter Wehrfritz and Thomas Seyller.
+\newblock The {Hall} coefficient: a tool for characterizing graphene field effect transistors.
+\newblock {\em 2D Materials}, 1(3):035004, November 2014.
+\newblock URL: \url{https://iopscience.iop.org/article/10.1088/2053-1583/1/3/035004}, \href {https://doi.org/10.1088/2053-1583/1/3/035004} {\path{doi:10.1088/2053-1583/1/3/035004}}.
+
+\bibitem{schaefer_improved_2020}
+Nathan Schaefer, Ramon Garcia-Cortadella, Andrea~Bonaccini Calia, Nikolaos Mavredakis, Xavi Illa, Eduard Masvidal-Codina, Jose De~La Cruz, Elena~Del Corro, Laura Rodríguez, Elisabet Prats-Alfonso, Jessica Bousquet, Javier Martínez-Aguilar, Antonio~P. Pérez-Marín, Clement Hébert, Rosa Villa, David Jiménez, Anton Guimerà-Brunet, and Jose~A. Garrido.
+\newblock Improved metal-graphene contacts for low-noise, high-density microtransistor arrays for neural sensing.
+\newblock {\em Carbon}, 161:647--655, May 2020.
+\newblock URL: \url{https://linkinghub.elsevier.com/retrieve/pii/S0008622320300737}, \href {https://doi.org/10.1016/j.carbon.2020.01.066} {\path{doi:10.1016/j.carbon.2020.01.066}}.
+
+\bibitem{rotter_charge_1999}
+M.~Rotter, A.~V. Kalameitsev, A.~O. Govorov, W.~Ruile, and A.~Wixforth.
+\newblock Charge {Conveyance} and {Nonlinear} {Acoustoelectric} {Phenomena} for {Intense} {Surface} {Acoustic} {Waves} on a {Semiconductor} {Quantum} {Well}.
+\newblock {\em Physical Review Letters}, 82(10):2171--2174, March 1999.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.82.2171}, \href {https://doi.org/10.1103/PhysRevLett.82.2171} {\path{doi:10.1103/PhysRevLett.82.2171}}.
 
 \bibitem{beukman_noninvasive_2015}
 Arjan J.~A. Beukman, Fanming Qu, Ken~W. West, Loren~N. Pfeiffer, and Leo~P. Kouwenhoven.
 \newblock A {Noninvasive} {Method} for {Nanoscale} {Electrostatic} {Gating} of {Pristine} {Materials}.
 \newblock {\em Nano Letters}, 15(10):6883--6888, October 2015.
+\newblock URL: \url{https://pubs.acs.org/doi/10.1021/acs.nanolett.5b02800}, \href {https://doi.org/10.1021/acs.nanolett.5b02800} {\path{doi:10.1021/acs.nanolett.5b02800}}.
 
 \bibitem{chu_creation_2018}
 Yiwen Chu, Prashanta Kharel, Taekwan Yoon, Luigi Frunzio, Peter~T. Rakich, and Robert~J. Schoelkopf.
 \newblock Creation and control of multi-phonon {Fock} states in a bulk acoustic-wave resonator.
 \newblock {\em Nature}, 563(7733):666--670, November 2018.
+\newblock URL: \url{https://www.nature.com/articles/s41586-018-0717-7}, \href {https://doi.org/10.1038/s41586-018-0717-7} {\path{doi:10.1038/s41586-018-0717-7}}.
 
 \bibitem{satzinger_quantum_2018}
 K.~J. Satzinger, Y.~P. Zhong, H.-S. Chang, G.~A. Peairs, A.~Bienfait, Ming-Han Chou, A.~Y. Cleland, C.~R. Conner, É. Dumur, J.~Grebel, I.~Gutierrez, B.~H. November, R.~G. Povey, S.~J. Whiteley, D.~D. Awschalom, D.~I. Schuster, and A.~N. Cleland.
 \newblock Quantum control of surface acoustic-wave phonons.
 \newblock {\em Nature}, 563(7733):661--665, November 2018.
+\newblock URL: \url{https://www.nature.com/articles/s41586-018-0719-5}, \href {https://doi.org/10.1038/s41586-018-0719-5} {\path{doi:10.1038/s41586-018-0719-5}}.
 
 \bibitem{robertson_non-invasive_2020}
 L.~D. Robertson and B.~E. Kane.
 \newblock A non-invasive gating method for probing {2D} electron systems on pristine, intrinsic {H}-{Si}(111) surfaces.
 \newblock {\em Applied Physics Letters}, 117(15):151603, October 2020.
+\newblock URL: \url{https://pubs.aip.org/apl/article/117/15/151603/39252/A-non-invasive-gating-method-for-probing-2D}, \href {https://doi.org/10.1063/5.0024842} {\path{doi:10.1063/5.0024842}}.
 
 \bibitem{bennaceur_mechanical_2015}
 Keyan Bennaceur, Benjamin~A. Schmidt, Samuel Gaucher, Dominique Laroche, Michael~P. Lilly, John~L. Reno, Ken~W. West, Loren~N. Pfeiffer, and Guillaume Gervais.
 \newblock Mechanical {Flip}-{Chip} for {Ultra}-{High} {Electron} {Mobility} {Devices}.
 \newblock {\em Scientific Reports}, 5(1):13494, September 2015.
+\newblock URL: \url{https://www.nature.com/articles/srep13494}, \href {https://doi.org/10.1038/srep13494} {\path{doi:10.1038/srep13494}}.
+
+\bibitem{noauthor_newtons_nodate}
+Newton’s rings.
+\newblock URL: \url{https://www.britannica.com/science/Newtons-rings}.
 
 \bibitem{inbar_quantum_2023}
 A.~Inbar, J.~Birkbeck, J.~Xiao, T.~Taniguchi, K.~Watanabe, B.~Yan, Y.~Oreg, Ady Stern, E.~Berg, and S.~Ilani.
 \newblock The quantum twisting microscope.
 \newblock {\em Nature}, 614(7949):682--687, February 2023.
+\newblock URL: \url{https://www.nature.com/articles/s41586-022-05685-y}, \href {https://doi.org/10.1038/s41586-022-05685-y} {\path{doi:10.1038/s41586-022-05685-y}}.
 
 \end{thebibliography}

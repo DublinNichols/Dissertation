@@ -821,6 +821,28 @@
          x="90.64254"
          y="116.17685" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4798">
+      <rect
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4800"
+         width="88.189598"
+         height="54.504166"
+         x="74.208961"
+         y="107.99895" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1148">
+      <rect
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1150"
+         width="75.678955"
+         height="46.772163"
+         x="76.520004"
+         y="114.4048" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -829,17 +851,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="487.60901"
-     inkscape:cy="140.07287"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="391.13296"
+     inkscape:cy="0.16610605"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="cm"
      inkscape:window-width="1278"
-     inkscape:window-height="1368"
-     inkscape:window-x="3193"
-     inkscape:window-y="0"
+     inkscape:window-height="1127"
+     inkscape:window-x="2066"
+     inkscape:window-y="305"
      inkscape:window-maximized="0"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="true"
@@ -853,7 +875,7 @@
      fit-margin-left="0.1"
      fit-margin-right="0.1"
      fit-margin-bottom="0.1"
-     inkscape:snap-global="true" />
+     inkscape:snap-global="false" />
   <metadata
      id="metadata13435">
     <rdf:RDF>
@@ -872,6 +894,18 @@
      id="layer1"
      transform="translate(-1.3579279,-101.64602)"
      style="stroke-linecap:butt;stroke-linejoin:round">
+    <image
+       sodipodi:absref="C:\Users\Dublin\Box\Minot Group Documents\Dublin\Documents\Dissertation\Figures\Torus 3D.png"
+       xlink:href="Torus 3D.png"
+       transform="matrix(1.2835016,0,0,1.2835016,-30.833593,-41.180601)"
+       clip-path="url(#clipPath1148)"
+       width="165.36241"
+       height="86.169319"
+       preserveAspectRatio="none"
+       style="stroke-width:25.53050041;stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality"
+       id="image1143"
+       x="31.84741"
+       y="94.126358" />
     <g
        id="patch_2"
        style="stroke-width:1.86544943;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
@@ -1407,18 +1441,6 @@
          style="font-style:italic;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round"
          x="3.9531636"
          y="136.17215">t</tspan></text>
-    <image
-       sodipodi:absref="C:\Users\Dublin\Box\Minot Group Documents\Dublin\Documents\Dissertation\Figures\Torus 3D.png"
-       xlink:href="Torus 3D.png"
-       y="100.43394"
-       x="65.75563"
-       id="image1051"
-       style="stroke-width:49.67925644;stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality"
-       preserveAspectRatio="none"
-       height="70.59417"
-       width="102.45889"
-       clip-path="url(#clipPath1060)"
-       transform="matrix(1.5594054,0,0,1.5594054,-65.442083,-76.978713)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInM)"
        d="m 80.073949,139.84553 c 0.873117,5.98524 3.993543,11.61557 8.606078,15.52836 2.765894,2.34629 6.046195,4.08292 9.541523,5.0514"
