@@ -31,11 +31,6 @@ R.~V. Gorbachev, J.~C.~W. Song, G.~L. Yu, A.~V. Kretinin, F.~Withers, Y.~Cao, A.
 \newblock Publisher: American Association for the Advancement of Science.
 \newblock URL: \url{https://www.science.org/doi/10.1126/science.1254966}, \href {https://doi.org/10.1126/science.1254966} {\path{doi:10.1126/science.1254966}}.
 
-\bibitem{senger_optoelectronics_2021}
-Mitchell Senger.
-\newblock {\em Optoelectronics and {Quantum} {Transport} in {Ultra}-{Clean} {Chirally} {Identified} {Carbon} {Nanotubes}}.
-\newblock PhD thesis, Oregon State University, 2021.
-
 \bibitem{refael_sagnac_2007}
 Gil Refael, Jinseong Heo, and Marc Bockrath.
 \newblock Sagnac {Interference} in {Carbon} {Nanotube} {Loops}.
@@ -54,6 +49,11 @@ Jameson Berg, Neda Lotfizadeh, Dublin~M. Nichols, Mitchell~J. Senger, Wade De~Go
 \newblock Vernier {Spectrum} and {Isospin} {State} {Control} in {Carbon} {Nanotube} {Quantum} {Dots}, 2024.
 \newblock arXiv:2311.12332 [cond-mat].
 \newblock URL: \url{http://arxiv.org/abs/2311.12332}, \href {https://doi.org/10.48550/arXiv.2311.12332} {\path{doi:10.48550/arXiv.2311.12332}}.
+
+\bibitem{senger_optoelectronics_2021}
+Mitchell Senger.
+\newblock {\em Optoelectronics and {Quantum} {Transport} in {Ultra}-{Clean} {Chirally} {Identified} {Carbon} {Nanotubes}}.
+\newblock PhD thesis, Oregon State University, 2021.
 
 \bibitem{rayleigh_waves_1885}
 Lord Rayleigh.
@@ -400,7 +400,7 @@ Colin Campbell.
 
 \bibitem{lane_integrating_2021}
 Justin~R Lane.
-\newblock {INTEGRATING} {SUPERCONDUCTING} {QUBITS} {WITH} {QUANTUM} {FLUIDS} {AND} {SURFACE} {ACOUSTIC} {WAVE} {DEVICES}.
+\newblock Integrating superconducting qubits with quantum fluids and surface acoustic wave devices.
 \newblock 2021.
 
 \bibitem{smith_analysis_1969}
@@ -610,6 +610,32 @@ M.~Rotter, A.~V. Kalameitsev, A.~O. Govorov, W.~Ruile, and A.~Wixforth.
 \newblock Charge {Conveyance} and {Nonlinear} {Acoustoelectric} {Phenomena} for {Intense} {Surface} {Acoustic} {Waves} on a {Semiconductor} {Quantum} {Well}.
 \newblock {\em Physical Review Letters}, 82(10):2171--2174, March 1999.
 \newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.82.2171}, \href {https://doi.org/10.1103/PhysRevLett.82.2171} {\path{doi:10.1103/PhysRevLett.82.2171}}.
+
+\bibitem{rahnejat_charge_2011}
+K.C. Rahnejat, C.A. Howard, N.E. Shuttleworth, S.R. Schofield, K.~Iwaya, C.F. Hirjibehedin, Ch. Renner, G.~Aeppli, and M.~Ellerby.
+\newblock Charge density waves in the graphene sheets of the superconductor {CaC6}.
+\newblock {\em Nature Communications}, 2(1):558, November 2011.
+\newblock URL: \url{https://www.nature.com/articles/ncomms1574}, \href {https://doi.org/10.1038/ncomms1574} {\path{doi:10.1038/ncomms1574}}.
+
+\bibitem{pasztor_multiband_2021}
+Árpád Pásztor, Alessandro Scarfato, Marcello Spera, Felix Flicker, Céline Barreteau, Enrico Giannini, Jasper~van Wezel, and Christoph Renner.
+\newblock Multiband charge density wave exposed in a transition metal dichalcogenide.
+\newblock {\em Nature Communications}, 12(1):6037, October 2021.
+\newblock Publisher: Nature Publishing Group.
+\newblock URL: \url{https://www.nature.com/articles/s41467-021-25780-4}, \href {https://doi.org/10.1038/s41467-021-25780-4} {\path{doi:10.1038/s41467-021-25780-4}}.
+
+\bibitem{fradkin_liquid-crystal_1999}
+Eduardo Fradkin and Steven~A. Kivelson.
+\newblock Liquid-crystal phases of quantum {Hall} systems.
+\newblock {\em Physical Review B}, 59(12):8065--8072, March 1999.
+\newblock Publisher: American Physical Society.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevB.59.8065}, \href {https://doi.org/10.1103/PhysRevB.59.8065} {\path{doi:10.1103/PhysRevB.59.8065}}.
+
+\bibitem{zhao_acoustically_2022}
+Pai Zhao, Chithra~H. Sharma, Renrong Liang, Christian Glasenapp, Lev Mourokh, Vadim~M. Kovalev, Patrick Huber, Marta Prada, Lars Tiemann, and Robert~H. Blick.
+\newblock Acoustically {Induced} {Giant} {Synthetic} {Hall} {Voltages} in {Graphene}.
+\newblock {\em Physical Review Letters}, 128(25):256601, June 2022.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.128.256601}, \href {https://doi.org/10.1103/PhysRevLett.128.256601} {\path{doi:10.1103/PhysRevLett.128.256601}}.
 
 \bibitem{beukman_noninvasive_2015}
 Arjan J.~A. Beukman, Fanming Qu, Ken~W. West, Loren~N. Pfeiffer, and Leo~P. Kouwenhoven.

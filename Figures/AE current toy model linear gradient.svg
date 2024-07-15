@@ -16,7 +16,7 @@
    version="1.1"
    id="svg40814"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="AE current toy model 2.svg">
+   sodipodi:docname="AE current toy model linear gradient.svg">
   <defs
      id="defs40808">
     <linearGradient
@@ -346,9 +346,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6293149"
-     inkscape:cx="27.00366"
-     inkscape:cy="41.442379"
+     inkscape:zoom="4.6083985"
+     inkscape:cx="114.64417"
+     inkscape:cy="-25.845931"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -377,7 +377,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -480,14 +480,16 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="12.045936"
-       y="-69.17675"
+       x="24.095795"
+       y="-68.201157"
        id="text81046"><tspan
          sodipodi:role="line"
          id="tspan81044"
-         x="12.045936"
-         y="-69.17675"
-         style="font-style:italic;font-size:2.82222223px;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">E</tspan></text>
+         x="24.095795"
+         y="-68.201157"
+         style="font-style:italic;font-size:2.82222223px;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">E<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan1085">p</tspan></tspan></text>
     <path
        style="fill:#ffffff;stroke:#ffffff;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInS-2-4)"
        d="m 14.445242,-69.062295 -3.061114,6.357608"

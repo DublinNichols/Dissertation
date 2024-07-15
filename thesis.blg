@@ -14,45 +14,45 @@ Warning--empty publisher in datta_surface_1986
 Warning--empty publisher in pozar_microwave_2012
 Warning--empty journal in lane_integrating_2021
 Warning--empty journal in barnes_quantum_2000
-You've used 109 entries,
+You've used 113 entries,
             2616 wiz_defined-function locations,
-            1390 strings with 36407 characters,
-and the built_in function-call counts, 49949 in all, are:
-= -- 5022
-> -- 2334
+            1416 strings with 37622 characters,
+and the built_in function-call counts, 51905 in all, are:
+= -- 5216
+> -- 2437
 < -- 1
-+ -- 751
-- -- 642
-* -- 4005
-:= -- 6761
-add.period$ -- 434
-call.type$ -- 109
-change.case$ -- 105
++ -- 784
+- -- 671
+* -- 4169
+:= -- 7033
+add.period$ -- 452
+call.type$ -- 113
+change.case$ -- 109
 chr.to.int$ -- 0
-cite$ -- 115
-duplicate$ -- 1162
-empty$ -- 4905
-format.name$ -- 642
-if$ -- 13250
+cite$ -- 119
+duplicate$ -- 1206
+empty$ -- 5089
+format.name$ -- 671
+if$ -- 13764
 int.to.chr$ -- 0
-int.to.str$ -- 109
-missing$ -- 108
-newline$ -- 654
-num.names$ -- 108
-pop$ -- 794
+int.to.str$ -- 113
+missing$ -- 112
+newline$ -- 680
+num.names$ -- 112
+pop$ -- 820
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3206
+skip$ -- 3331
 stack$ -- 0
-substring$ -- 2363
-swap$ -- 306
-text.length$ -- 195
+substring$ -- 2441
+swap$ -- 318
+text.length$ -- 203
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 260
-width$ -- 112
-write$ -- 1489
+while$ -- 269
+width$ -- 116
+write$ -- 1549
 (There were 6 warnings)
