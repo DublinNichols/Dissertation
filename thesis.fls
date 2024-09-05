@@ -142,6 +142,10 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/cite/cite.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/cite/cite.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/placeins/placeins.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/placeins/placeins.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/footmisc/footmisc.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/footmisc/footmisc.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/bigfoot/perpage.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/bigfoot/perpage.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -215,14 +219,11 @@ INPUT ./thesis.loat
 INPUT ./thesis.loat
 INPUT thesis.loat
 OUTPUT thesis.loat
+INPUT ./Figures/SAW intro fig.pdf
+INPUT ./Figures/SAW intro fig.pdf
+INPUT ./Figures/SAW intro fig.pdf
+INPUT ./Figures/SAW intro fig.pdf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT ./Figures/Graphene band structure 3D.pdf
-INPUT ./Figures/Graphene band structure 3D.pdf
-INPUT ./Figures/Graphene band structure 3D.pdf
-INPUT ./Figures/Graphene band structure 3D.pdf
 INPUT ./Figures/CNT intro fig.pdf
 INPUT ./Figures/CNT intro fig.pdf
 INPUT ./Figures/CNT intro fig.pdf
@@ -243,17 +244,25 @@ INPUT ./Figures/shapes intro fig.pdf
 INPUT ./Figures/shapes intro fig.pdf
 INPUT ./Figures/shapes intro fig.pdf
 INPUT ./Figures/shapes intro fig.pdf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./Figures/Thouless pump fig.png
 INPUT ./Figures/Thouless pump fig.png
 INPUT ./Figures/Thouless pump fig.png
 INPUT ./Figures/Thouless pump fig.png
+INPUT ./Figures/Intro thouless pump designs.pdf
+INPUT ./Figures/Intro thouless pump designs.pdf
+INPUT ./Figures/Intro thouless pump designs.pdf
+INPUT ./Figures/Intro thouless pump designs.pdf
 INPUT ./Figures/Graphene band structure 3D.pdf
 INPUT ./Figures/Graphene band structure 3D.pdf
 INPUT ./Figures/Graphene band structure 3D.pdf
+INPUT ./Figures/Graphene band structure 3D.pdf
 INPUT ./Figures/graphene theory 0.pdf
 INPUT ./Figures/graphene theory 0.pdf
 INPUT ./Figures/graphene theory 0.pdf
@@ -290,6 +299,14 @@ INPUT ./Figures/SAW diagram.pdf
 INPUT ./Figures/SAW diagram.pdf
 INPUT ./Figures/SAW diagram.pdf
 INPUT ./Figures/SAW diagram.pdf
+INPUT ./Figures/IDT signal line model.pdf
+INPUT ./Figures/IDT signal line model.pdf
+INPUT ./Figures/IDT signal line model.pdf
+INPUT ./Figures/IDT signal line model.pdf
+INPUT ./Figures/IDT capacitance toy model_3d.pdf
+INPUT ./Figures/IDT capacitance toy model_3d.pdf
+INPUT ./Figures/IDT capacitance toy model_3d.pdf
+INPUT ./Figures/IDT capacitance toy model_3d.pdf
 INPUT ./Figures/exfoliation diagram.pdf
 INPUT ./Figures/exfoliation diagram.pdf
 INPUT ./Figures/exfoliation diagram.pdf
@@ -331,10 +348,10 @@ INPUT ./Figures/liftoff AFM traces comparison.pdf
 INPUT ./Figures/liftoff AFM traces comparison.pdf
 INPUT ./Figures/liftoff AFM traces comparison.pdf
 INPUT ./Figures/liftoff AFM traces comparison.pdf
-INPUT ./Figures/LOR cross section.png
-INPUT ./Figures/LOR cross section.png
-INPUT ./Figures/LOR cross section.png
-INPUT ./Figures/LOR cross section.png
+INPUT ./Figures/LOR cross section_.png
+INPUT ./Figures/LOR cross section_.png
+INPUT ./Figures/LOR cross section_.png
+INPUT ./Figures/LOR cross section_.png
 INPUT ./Figures/AFM cleaning 1.pdf
 INPUT ./Figures/AFM cleaning 1.pdf
 INPUT ./Figures/AFM cleaning 1.pdf
@@ -383,10 +400,10 @@ INPUT ./Figures/Figure S3, AEC vs S11.png
 INPUT ./Figures/Figure S3, AEC vs S11.png
 INPUT ./Figures/Figure S3, AEC vs S11.png
 INPUT ./Figures/Figure S3, AEC vs S11.png
-INPUT ./Figures/AEV V3 power series plot.pdf
-INPUT ./Figures/AEV V3 power series plot.pdf
-INPUT ./Figures/AEV V3 power series plot.pdf
-INPUT ./Figures/AEV V3 power series plot.pdf
+INPUT ./Figures/AEV V3 power series plot_output.pdf
+INPUT ./Figures/AEV V3 power series plot_output.pdf
+INPUT ./Figures/AEV V3 power series plot_output.pdf
+INPUT ./Figures/AEV V3 power series plot_output.pdf
 INPUT ./Figures/vae prf nonlinear at different vg.pdf
 INPUT ./Figures/vae prf nonlinear at different vg.pdf
 INPUT ./Figures/vae prf nonlinear at different vg.pdf
@@ -423,10 +440,6 @@ INPUT ./Figures/interference sandwich image and spectrum.pdf
 INPUT ./Figures/interference sandwich image and spectrum.pdf
 INPUT ./Figures/interference sandwich image and spectrum.pdf
 INPUT ./Figures/interference sandwich image and spectrum.pdf
-INPUT ./Figures/FCCap during alignment.pdf
-INPUT ./Figures/FCCap during alignment.pdf
-INPUT ./Figures/FCCap during alignment.pdf
-INPUT ./Figures/FCCap during alignment.pdf
 INPUT ./Figures/Two-tier etch.pdf
 INPUT ./Figures/Two-tier etch.pdf
 INPUT ./Figures/Two-tier etch.pdf
@@ -459,22 +472,6 @@ INPUT ./Figures/photoresist flip-chips.png
 INPUT ./Figures/photoresist flip-chips.png
 INPUT ./Figures/photoresist flip-chips.png
 INPUT ./Figures/photoresist flip-chips.png
-INPUT ./Figures/PL before-after contact.pdf
-INPUT ./Figures/PL before-after contact.pdf
-INPUT ./Figures/PL before-after contact.pdf
-INPUT ./Figures/PL before-after contact.pdf
-INPUT ./Figures/First Vg PL sweeps.pdf
-INPUT ./Figures/First Vg PL sweeps.pdf
-INPUT ./Figures/First Vg PL sweeps.pdf
-INPUT ./Figures/First Vg PL sweeps.pdf
-INPUT ./Figures/Second Vg sweep.pdf
-INPUT ./Figures/Second Vg sweep.pdf
-INPUT ./Figures/Second Vg sweep.pdf
-INPUT ./Figures/Second Vg sweep.pdf
-INPUT ./Figures/exciton dynamics summary.pdf
-INPUT ./Figures/exciton dynamics summary.pdf
-INPUT ./Figures/exciton dynamics summary.pdf
-INPUT ./Figures/exciton dynamics summary.pdf
 INPUT thesis.aux
 INPUT ./thesis.out
 INPUT ./thesis.out
@@ -495,6 +492,7 @@ INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb

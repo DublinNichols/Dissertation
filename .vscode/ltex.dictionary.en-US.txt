@@ -73,3 +73,13 @@ eigenenergy
 Photoresist
 PMMA
 erf
+dissipationless
+IDTs
+cryostats
+valleytronic
+SAWs can
+inhomogeneity
+nonadiabatic
+exfoliations
+Appx.
+h-BN-encapsulated

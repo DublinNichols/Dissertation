@@ -8,51 +8,51 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: thesis.bib
-Warning--empty author in noauthor_rise_2016
+Warning--empty institution in broholm_basic_2016
 Warning--empty publisher in sakurai_modern_1985
 Warning--empty publisher in datta_surface_1986
 Warning--empty publisher in pozar_microwave_2012
 Warning--empty journal in lane_integrating_2021
 Warning--empty journal in barnes_quantum_2000
-You've used 113 entries,
+You've used 119 entries,
             2616 wiz_defined-function locations,
-            1416 strings with 37622 characters,
-and the built_in function-call counts, 51905 in all, are:
-= -- 5216
-> -- 2437
-< -- 1
-+ -- 784
-- -- 671
-* -- 4169
-:= -- 7033
-add.period$ -- 452
-call.type$ -- 113
-change.case$ -- 109
+            1460 strings with 40017 characters,
+and the built_in function-call counts, 54773 in all, are:
+= -- 5474
+> -- 2629
+< -- 2
++ -- 847
+- -- 728
+* -- 4401
+:= -- 7444
+add.period$ -- 473
+call.type$ -- 119
+change.case$ -- 115
 chr.to.int$ -- 0
-cite$ -- 119
-duplicate$ -- 1206
-empty$ -- 5089
-format.name$ -- 671
-if$ -- 13764
+cite$ -- 125
+duplicate$ -- 1267
+empty$ -- 5349
+format.name$ -- 728
+if$ -- 14502
 int.to.chr$ -- 0
-int.to.str$ -- 113
-missing$ -- 112
-newline$ -- 680
-num.names$ -- 112
-pop$ -- 820
+int.to.str$ -- 119
+missing$ -- 117
+newline$ -- 713
+num.names$ -- 118
+pop$ -- 873
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3331
+skip$ -- 3496
 stack$ -- 0
-substring$ -- 2441
-swap$ -- 318
-text.length$ -- 203
+substring$ -- 2555
+swap$ -- 332
+text.length$ -- 212
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 269
-width$ -- 116
-write$ -- 1549
+while$ -- 282
+width$ -- 122
+write$ -- 1624
 (There were 6 warnings)
