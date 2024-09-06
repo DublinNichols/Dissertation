@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="15.770585cm"
-   height="7.0382094cm"
-   viewBox="0 0 157.70585 70.382091"
+   width="16.157335cm"
+   height="7.4249597cm"
+   viewBox="0 0 161.57334 74.249593"
    version="1.1"
    id="svg13438"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -823,7 +823,8 @@
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath4798">
+       id="clipPath4798"
+       style="stroke-linecap:butt;stroke-linejoin:round">
       <rect
          style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect4800"
@@ -834,7 +835,8 @@
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath1148">
+       id="clipPath1148"
+       style="stroke-linecap:butt;stroke-linejoin:round">
       <rect
          style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect1150"
@@ -851,18 +853,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="391.13296"
-     inkscape:cy="0.16610605"
+     inkscape:zoom="1"
+     inkscape:cx="333.58018"
+     inkscape:cy="-8.0505563"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="cm"
-     inkscape:window-width="1278"
-     inkscape:window-height="1127"
-     inkscape:window-x="2066"
-     inkscape:window-y="305"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="-8"
+     inkscape:window-y="224"
+     inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="true"
      inkscape:snap-bbox-edge-midpoints="true"
@@ -875,7 +877,8 @@
      fit-margin-left="0.1"
      fit-margin-right="0.1"
      fit-margin-bottom="0.1"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="true"
+     inkscape:snap-page="true" />
   <metadata
      id="metadata13435">
     <rdf:RDF>
@@ -884,7 +887,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -892,20 +895,29 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-1.3579279,-101.64602)"
+     transform="translate(0.50957227,-99.646019)"
      style="stroke-linecap:butt;stroke-linejoin:round">
+    <rect
+       y="99.778526"
+       x="-0.37707227"
+       height="73.984596"
+       width="161.30836"
+       id="rect1090"
+       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
     <image
        sodipodi:absref="C:\Users\Dublin\Box\Minot Group Documents\Dublin\Documents\Dissertation\Figures\Torus 3D.png"
        xlink:href="Torus 3D.png"
-       transform="matrix(1.2835016,0,0,1.2835016,-30.833593,-41.180601)"
-       clip-path="url(#clipPath1148)"
-       width="165.36241"
-       height="86.169319"
-       preserveAspectRatio="none"
-       style="stroke-width:25.53050041;stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality"
-       id="image1143"
+       y="94.126358"
        x="31.84741"
-       y="94.126358" />
+       id="image1143"
+       style="stroke-width:25.53050041;stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="86.169319"
+       width="165.36241"
+       clip-path="url(#clipPath1148)"
+       transform="matrix(1.2835016,0,0,1.2835016,-30.833593,-41.180601)" />
     <g
        id="patch_2"
        style="stroke-width:1.86544943;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
