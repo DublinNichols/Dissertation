@@ -17,3 +17,4 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIf there is dust trapped between the layers, it can cause the two layers to de-laminate from each other.\\E$"}
 {"rule":"COPYRIGHT","sentence":"^\\Q(c) The z-stage is slowly raised, peeling the 2D flake from the substrate.\\E$"}
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qh-BN crystals are often thick, and need to be pressed flat to ensure good contact with the tape.\\E$"}
+{"rule":"SENTENCE_WHITESPACE","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}

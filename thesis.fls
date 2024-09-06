@@ -146,6 +146,14 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/footmisc/footmisc.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/footmisc/footmisc.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/bigfoot/perpage.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/bigfoot/perpage.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/microtype/microtype.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/microtype/microtype.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/microtype/microtype.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/microtype/microtype.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -177,6 +185,9 @@ OUTPUT thesis.pdf
 INPUT ./thesis.out
 INPUT ./thesis.out
 OUTPUT thesis.out
+INPUT c:/texlive/2024/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -245,11 +256,10 @@ INPUT ./Figures/shapes intro fig.pdf
 INPUT ./Figures/shapes intro fig.pdf
 INPUT ./Figures/shapes intro fig.pdf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./Figures/Thouless pump fig.png
 INPUT ./Figures/Thouless pump fig.png
@@ -488,11 +498,11 @@ INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb

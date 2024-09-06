@@ -9,50 +9,47 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: thesis.bib
 Warning--empty institution in broholm_basic_2016
-Warning--empty publisher in sakurai_modern_1985
-Warning--empty publisher in datta_surface_1986
 Warning--empty publisher in pozar_microwave_2012
-Warning--empty journal in lane_integrating_2021
 Warning--empty journal in barnes_quantum_2000
 You've used 119 entries,
             2616 wiz_defined-function locations,
-            1460 strings with 40017 characters,
-and the built_in function-call counts, 54773 in all, are:
-= -- 5474
-> -- 2629
+            1464 strings with 40099 characters,
+and the built_in function-call counts, 54797 in all, are:
+= -- 5486
+> -- 2628
 < -- 2
 + -- 847
 - -- 728
-* -- 4401
-:= -- 7444
+* -- 4398
+:= -- 7452
 add.period$ -- 473
 call.type$ -- 119
 change.case$ -- 115
 chr.to.int$ -- 0
-cite$ -- 125
-duplicate$ -- 1267
-empty$ -- 5349
+cite$ -- 122
+duplicate$ -- 1266
+empty$ -- 5350
 format.name$ -- 728
-if$ -- 14502
+if$ -- 14512
 int.to.chr$ -- 0
 int.to.str$ -- 119
-missing$ -- 117
+missing$ -- 116
 newline$ -- 713
 num.names$ -- 118
-pop$ -- 873
+pop$ -- 869
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3496
+skip$ -- 3500
 stack$ -- 0
 substring$ -- 2555
-swap$ -- 332
+swap$ -- 333
 text.length$ -- 212
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
+warning$ -- 3
 while$ -- 282
 width$ -- 122
-write$ -- 1624
-(There were 6 warnings)
+write$ -- 1628
+(There were 3 warnings)

@@ -83,3 +83,14 @@ nonadiabatic
 exfoliations
 Appx.
 h-BN-encapsulated
+Chern
+eigenstates
+undoped
+Fal'ko
+Fal
+ko
+Iordanskii
+LOR
+Appx
+permittivities
+pyroelectric
