@@ -70,7 +70,7 @@
 % more than five appendices. It is not set by default.
 % -------------------------------------------------------------------------------
 
-\LoadClass[b5paper, openright, twoside, 11pt]{memoir}
+\LoadClass[executivepaper, openright, twoside, 11pt]{memoir}
 
 
 % -------------------------------------------------------------------------------
@@ -95,30 +95,30 @@
 % Authors: use \appendix before you begin the appendix to generate the appendix
 % page and to set up some relevant variables.
 
-\newif\if@appendix
+% \newif\if@appendix
 
-\renewcommand{\ext@toc}{toc}
+% \renewcommand{\ext@toc}{toc}
 
-\renewcommand\appendix{%
-  \cleardoublepage%
-  \@appendixtrue%
-  \setcounter{chapter}{0}%
-  \setcounter{section}{0}%
-  \gdef\@chapapp{\appendixname}%
-  \gdef\thechapter{\@Alph\c@chapter}%
-  \renewcommand{\ext@figure}{loaf}%
-  \renewcommand{\ext@table}{loat}%
-  \if@seploa\def\ext@toc{loap}\fi%
-  \addcontentsline{toc}{chapter}{Appendices}%
-  \appendixpage%
-}
+% \renewcommand\appendix{%
+%   \cleardoublepage%
+%   \@appendixtrue%
+%   \setcounter{chapter}{0}%
+%   \setcounter{section}{0}%
+%   \gdef\@chapapp{\appendixname}%
+%   \gdef\thechapter{\@Alph\c@chapter}%
+%   \renewcommand{\ext@figure}{loaf}%
+%   \renewcommand{\ext@table}{loat}%
+%   \if@seploa\def\ext@toc{loap}\fi%
+%   \addcontentsline{toc}{chapter}{Appendices}%
+%   \appendixpage%
+% }
 
-% T.G. : An appendix page is required before the appendices.
-\renewcommand{\appendixpage}{%
-  \vspace*{0.3\textheight}
-  \begin{center}{\heading APPENDICES}\end{center}%
-  \clearpage%
-}
+% % T.G. : An appendix page is required before the appendices.
+% \renewcommand{\appendixpage}{%
+%   \vspace*{0.3\textheight}
+%   \begin{center}{\heading APPENDICES}\end{center}%
+%   \clearpage%
+% }
 
 % % Redefine \@chapter, so that appendices are added in .loap file if [seploa] is
 % % set. Also, I commented out the lines adding space between figures/tables of
@@ -159,7 +159,7 @@
   \if@filesw
     \immediate\write\@auxout{\string\bibdata{#1}}%
   \fi
-  \addcontentsline{toc}{chapter}{Bibliography}
+  % \addcontentsline{toc}{chapter}{Bibliography}
   \begin{singlespacing}
   \@input@{\jobname.bbl}
   \end{singlespacing}
@@ -237,12 +237,12 @@
 
 % Abstract page
 \newcommand{\abspage}{
-  \pagestyle{simple}
+  \thispagestyle{simple}
   \chapter*{Abstract}
   \addcontentsline{toc}{chapter}{Abstract}
   \@abstract
   \clearpage
-  \pagestyle{headings}
+  
 }
 
 % % Abstract page
@@ -443,21 +443,25 @@
   \copyrightpage
   % \approvalpage      % E. Approval page
 
+  \cleartorecto
   % Optional pages
-  \ackpage           % F. Acknowledgments
+  \ackpage    
+  \cleartorecto       % F. Acknowledgments
   \contripage        % G. Contribution of authors
 
   % Listings
   
+  \cleartorecto
   \pagestyle{simple}
   \tableofcontents*
+  \cleartorecto
   \listoffigures*
   % \addcontentsline{toc}{chapter}{List of Figures}
-  \pagestyle{headings}
-  
+  % \pagestyle{headings}
+  \cleartorecto
   \abspage
   % \listoftables           % J
-
+ 
 	% % Algorithm listing
 	% \ifthenelse{\isundefined{\listofalgorithms}}{}{
   % \expandafter\newcommand\csname ps@loaa\endcsname{
@@ -491,7 +495,7 @@
 \renewcommand{\maketitle}{\if\@nopretext \else\pretext\fi}
 
 % T.G. : A flyleaf is needed at the end of the thesis.
-\AtEndDocument{\clearpage \flyleaf}
+% \AtEndDocument{\clearpage \flyleaf}
 
 % % Chapter heading. T.G. : all title must be the same size (14 or normal).
 % \renewcommand{\@makechapterhead}[1]{%

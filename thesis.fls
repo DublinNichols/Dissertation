@@ -261,20 +261,20 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr8c.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplr8c.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm
 INPUT ./thesis.toc
 INPUT ./thesis.toc
 INPUT thesis.toc
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 OUTPUT thesis.toc
 INPUT ./thesis.lof
 INPUT ./thesis.lof
 INPUT thesis.lof
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -286,6 +286,12 @@ INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplr8c.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 OUTPUT thesis.lof
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
@@ -296,9 +302,6 @@ INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplro7t.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplro7t.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplro8r.tfm
 INPUT ./Figures/SAW intro fig.pdf
 INPUT ./Figures/SAW intro fig.pdf
 INPUT ./Figures/SAW intro fig.pdf
@@ -324,10 +327,6 @@ INPUT ./Figures/IX transport fig.pdf
 INPUT ./Figures/IX transport fig.pdf
 INPUT ./Figures/IX transport fig.pdf
 INPUT ./Figures/IX transport fig.pdf
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/mathpazo/zplmb7t.vf
@@ -379,8 +378,6 @@ INPUT ./Figures/Thouless pump fig.png
 INPUT ./Figures/Thouless pump fig.png
 INPUT ./Figures/Thouless pump fig.png
 INPUT ./Figures/Thouless pump fig.png
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
@@ -391,6 +388,231 @@ INPUT ./Figures/Intro thouless pump designs.pdf
 INPUT ./Figures/Intro thouless pump designs.pdf
 INPUT ./Figures/Intro thouless pump designs.pdf
 INPUT ./Figures/Intro thouless pump designs.pdf
+INPUT ./Figures/Graphene band structure 3D.pdf
+INPUT ./Figures/Graphene band structure 3D.pdf
+INPUT ./Figures/Graphene band structure 3D.pdf
+INPUT ./Figures/Graphene band structure 3D.pdf
+INPUT ./Figures/graphene theory 0.pdf
+INPUT ./Figures/graphene theory 0.pdf
+INPUT ./Figures/graphene theory 0.pdf
+INPUT ./Figures/graphene theory 0.pdf
+INPUT ./Figures/density of states graphic.pdf
+INPUT ./Figures/density of states graphic.pdf
+INPUT ./Figures/density of states graphic.pdf
+INPUT ./Figures/density of states graphic.pdf
+INPUT ./Figures/graphene theory 3.pdf
+INPUT ./Figures/graphene theory 3.pdf
+INPUT ./Figures/graphene theory 3.pdf
+INPUT ./Figures/graphene theory 3.pdf
+INPUT ./Figures/displacement field.pdf
+INPUT ./Figures/displacement field.pdf
+INPUT ./Figures/displacement field.pdf
+INPUT ./Figures/displacement field.pdf
+INPUT ./Figures/SAW in bulk semi.pdf
+INPUT ./Figures/SAW in bulk semi.pdf
+INPUT ./Figures/SAW in bulk semi.pdf
+INPUT ./Figures/SAW in bulk semi.pdf
+INPUT ./Figures/gamma_and_v.pdf
+INPUT ./Figures/gamma_and_v.pdf
+INPUT ./Figures/gamma_and_v.pdf
+INPUT ./Figures/gamma_and_v.pdf
+INPUT ./Figures/SAW in thin film.pdf
+INPUT ./Figures/SAW in thin film.pdf
+INPUT ./Figures/SAW in thin film.pdf
+INPUT ./Figures/SAW in thin film.pdf
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
+INPUT ./Figures/piezoelectric field and delta n edited.pdf
+INPUT ./Figures/piezoelectric field and delta n edited.pdf
+INPUT ./Figures/piezoelectric field and delta n edited.pdf
+INPUT ./Figures/piezoelectric field and delta n edited.pdf
+INPUT ./Figures/SAW diagram.pdf
+INPUT ./Figures/SAW diagram.pdf
+INPUT ./Figures/SAW diagram.pdf
+INPUT ./Figures/SAW diagram.pdf
+INPUT ./Figures/IDT signal line model.pdf
+INPUT ./Figures/IDT signal line model.pdf
+INPUT ./Figures/IDT signal line model.pdf
+INPUT ./Figures/IDT signal line model.pdf
+INPUT ./Figures/IDT capacitance toy model_3d.pdf
+INPUT ./Figures/IDT capacitance toy model_3d.pdf
+INPUT ./Figures/IDT capacitance toy model_3d.pdf
+INPUT ./Figures/IDT capacitance toy model_3d.pdf
+INPUT ./Figures/exfoliation diagram.pdf
+INPUT ./Figures/exfoliation diagram.pdf
+INPUT ./Figures/exfoliation diagram.pdf
+INPUT ./Figures/exfoliation diagram.pdf
+INPUT ./Figures/graphene layer comparison.pdf
+INPUT ./Figures/graphene layer comparison.pdf
+INPUT ./Figures/graphene layer comparison.pdf
+INPUT ./Figures/graphene layer comparison.pdf
+INPUT ./Figures/transfer stage image.pdf
+INPUT ./Figures/transfer stage image.pdf
+INPUT ./Figures/transfer stage image.pdf
+INPUT ./Figures/transfer stage image.pdf
+INPUT ./Figures/stamp making diagram.pdf
+INPUT ./Figures/stamp making diagram.pdf
+INPUT ./Figures/stamp making diagram.pdf
+INPUT ./Figures/stamp making diagram.pdf
+INPUT ./Figures/hot pickup diagram.pdf
+INPUT ./Figures/hot pickup diagram.pdf
+INPUT ./Figures/hot pickup diagram.pdf
+INPUT ./Figures/hot pickup diagram.pdf
+INPUT ./Figures/PCL stamp making diagram.pdf
+INPUT ./Figures/PCL stamp making diagram.pdf
+INPUT ./Figures/PCL stamp making diagram.pdf
+INPUT ./Figures/PCL stamp making diagram.pdf
+INPUT ./Figures/PCL cleaning process.pdf
+INPUT ./Figures/PCL cleaning process.pdf
+INPUT ./Figures/PCL cleaning process.pdf
+INPUT ./Figures/PCL cleaning process.pdf
+INPUT ./Figures/PCL before-after.pdf
+INPUT ./Figures/PCL before-after.pdf
+INPUT ./Figures/PCL before-after.pdf
+INPUT ./Figures/PCL before-after.pdf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr8c.tfm
+INPUT ./Figures/hBN lifted off.pdf
+INPUT ./Figures/hBN lifted off.pdf
+INPUT ./Figures/hBN lifted off.pdf
+INPUT ./Figures/hBN lifted off.pdf
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplr8c.vf
+INPUT ./Figures/liftoff AFM traces comparison.pdf
+INPUT ./Figures/liftoff AFM traces comparison.pdf
+INPUT ./Figures/liftoff AFM traces comparison.pdf
+INPUT ./Figures/liftoff AFM traces comparison.pdf
+INPUT ./Figures/LOR cross section_.png
+INPUT ./Figures/LOR cross section_.png
+INPUT ./Figures/LOR cross section_.png
+INPUT ./Figures/LOR cross section_.png
+INPUT ./Figures/AFM cleaning 1.pdf
+INPUT ./Figures/AFM cleaning 1.pdf
+INPUT ./Figures/AFM cleaning 1.pdf
+INPUT ./Figures/AFM cleaning 1.pdf
+INPUT ./Figures/SAW device optical image 1.pdf
+INPUT ./Figures/SAW device optical image 1.pdf
+INPUT ./Figures/SAW device optical image 1.pdf
+INPUT ./Figures/SAW device optical image 1.pdf
+INPUT ./Figures/S-parameters.pdf
+INPUT ./Figures/S-parameters.pdf
+INPUT ./Figures/S-parameters.pdf
+INPUT ./Figures/S-parameters.pdf
+INPUT ./Figures/Z11_plot_.pdf
+INPUT ./Figures/Z11_plot_.pdf
+INPUT ./Figures/Z11_plot_.pdf
+INPUT ./Figures/Z11_plot_.pdf
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+INPUT ./Figures/Highlight figure final v2.jpg
+INPUT ./Figures/Highlight figure final v2.jpg
+INPUT ./Figures/Highlight figure final v2.jpg
+INPUT ./Figures/Highlight figure final v2.jpg
+INPUT ./Figures/Figure 1 overview.png
+INPUT ./Figures/Figure 1 overview.png
+INPUT ./Figures/Figure 1 overview.png
+INPUT ./Figures/Figure 1 overview.png
+INPUT ./Figures/Figure 2, both devices AE and DC transport data.png
+INPUT ./Figures/Figure 2, both devices AE and DC transport data.png
+INPUT ./Figures/Figure 2, both devices AE and DC transport data.png
+INPUT ./Figures/Figure 2, both devices AE and DC transport data.png
+INPUT ./Figures/Figure 3 n and p_corrected.png
+INPUT ./Figures/Figure 3 n and p_corrected.png
+INPUT ./Figures/Figure 3 n and p_corrected.png
+INPUT ./Figures/Figure 3 n and p_corrected.png
+INPUT ./Figures/Figure 4, Both devices Fit_corrected.png
+INPUT ./Figures/Figure 4, Both devices Fit_corrected.png
+INPUT ./Figures/Figure 4, Both devices Fit_corrected.png
+INPUT ./Figures/Figure 4, Both devices Fit_corrected.png
+INPUT ./Figures/Figure S1, device images.png
+INPUT ./Figures/Figure S1, device images.png
+INPUT ./Figures/Figure S1, device images.png
+INPUT ./Figures/Figure S1, device images.png
+INPUT ./Figures/Figure S2, V_offset.png
+INPUT ./Figures/Figure S2, V_offset.png
+INPUT ./Figures/Figure S2, V_offset.png
+INPUT ./Figures/Figure S2, V_offset.png
+INPUT ./Figures/Figure S3, AEC vs S11.png
+INPUT ./Figures/Figure S3, AEC vs S11.png
+INPUT ./Figures/Figure S3, AEC vs S11.png
+INPUT ./Figures/Figure S3, AEC vs S11.png
+INPUT ./Figures/AEV V3 power series plot_output.pdf
+INPUT ./Figures/AEV V3 power series plot_output.pdf
+INPUT ./Figures/AEV V3 power series plot_output.pdf
+INPUT ./Figures/AEV V3 power series plot_output.pdf
+INPUT ./Figures/vae prf nonlinear at different vg.pdf
+INPUT ./Figures/vae prf nonlinear at different vg.pdf
+INPUT ./Figures/vae prf nonlinear at different vg.pdf
+INPUT ./Figures/vae prf nonlinear at different vg.pdf
+INPUT ./Figures/Vg at which vae is max or min.png
+INPUT ./Figures/Vg at which vae is max or min.png
+INPUT ./Figures/Vg at which vae is max or min.png
+INPUT ./Figures/Vg at which vae is max or min.png
+INPUT ./Figures/IDT damaged.pdf
+INPUT ./Figures/IDT damaged.pdf
+INPUT ./Figures/IDT damaged.pdf
+INPUT ./Figures/IDT damaged.pdf
+INPUT ./Figures/Flip-chip intro figure.png
+INPUT ./Figures/Flip-chip intro figure.png
+INPUT ./Figures/Flip-chip intro figure.png
+INPUT ./Figures/Flip-chip intro figure.png
+INPUT ./Figures/Interference spectroscopy.pdf
+INPUT ./Figures/Interference spectroscopy.pdf
+INPUT ./Figures/Interference spectroscopy.pdf
+INPUT ./Figures/Interference spectroscopy.pdf
+INPUT ./Figures/qzPMMAsi stack spec.PNG
+INPUT ./Figures/qzPMMAsi stack spec.PNG
+INPUT ./Figures/qzPMMAsi stack spec.PNG
+INPUT ./Figures/qzPMMAsi stack spec.PNG
+INPUT ./Figures/Flip-chip diagram.pdf
+INPUT ./Figures/Flip-chip diagram.pdf
+INPUT ./Figures/Flip-chip diagram.pdf
+INPUT ./Figures/Flip-chip diagram.pdf
+INPUT ./Figures/newtonsrings.png
+INPUT ./Figures/newtonsrings.png
+INPUT ./Figures/newtonsrings.png
+INPUT ./Figures/newtonsrings.png
+INPUT ./Figures/interference sandwich image and spectrum.pdf
+INPUT ./Figures/interference sandwich image and spectrum.pdf
+INPUT ./Figures/interference sandwich image and spectrum.pdf
+INPUT ./Figures/interference sandwich image and spectrum.pdf
+INPUT ./Figures/Two-tier etch.pdf
+INPUT ./Figures/Two-tier etch.pdf
+INPUT ./Figures/Two-tier etch.pdf
+INPUT ./Figures/Two-tier etch.pdf
+INPUT ./Figures/Flip-chip capacitor reflectance summary.pdf
+INPUT ./Figures/Flip-chip capacitor reflectance summary.pdf
+INPUT ./Figures/Flip-chip capacitor reflectance summary.pdf
+INPUT ./Figures/Flip-chip capacitor reflectance summary.pdf
+INPUT ./Figures/flipping chips.pdf
+INPUT ./Figures/flipping chips.pdf
+INPUT ./Figures/flipping chips.pdf
+INPUT ./Figures/flipping chips.pdf
+INPUT ./Figures/FC capacitance measurement.pdf
+INPUT ./Figures/FC capacitance measurement.pdf
+INPUT ./Figures/FC capacitance measurement.pdf
+INPUT ./Figures/FC capacitance measurement.pdf
+INPUT ./Figures/quartz bending.pdf
+INPUT ./Figures/quartz bending.pdf
+INPUT ./Figures/quartz bending.pdf
+INPUT ./Figures/quartz bending.pdf
+INPUT ./thesis.bbl
+INPUT ./thesis.bbl
+INPUT thesis.bbl
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT ./Figures/force curve.pdf
+INPUT ./Figures/force curve.pdf
+INPUT ./Figures/force curve.pdf
+INPUT ./Figures/force curve.pdf
+INPUT ./Figures/photoresist flip-chips.png
+INPUT ./Figures/photoresist flip-chips.png
+INPUT ./Figures/photoresist flip-chips.png
+INPUT ./Figures/photoresist flip-chips.png
 INPUT thesis.aux
 INPUT ./thesis.out
 INPUT ./thesis.out
@@ -399,9 +621,10 @@ INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/mathpazo/fplmb.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb
